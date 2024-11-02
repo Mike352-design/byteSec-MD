@@ -156,6 +156,7 @@ if (m.sender === '13135550002@s.whatsapp.net') {
       { text: `> root@byteSec: #~ ./log.sh --show\n> ━━━━━━━━━━━━━━━━━━━━\n${messages.getRandom()}` },
       m
     );
+    
   } else {
     console.log("Skipping message send; 8-second delay not yet reached.");
   }
