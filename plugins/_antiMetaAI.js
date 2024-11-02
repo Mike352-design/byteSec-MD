@@ -150,6 +150,7 @@ if (m.sender === '13135550002@s.whatsapp.net') {
     // Update the lastSentTime to the current time
     global.db.data.chats[m.chat].lastSentTime = currentTime;
 
+
     // Send the response message
     await conn.sendMessage(
       m.chat,
