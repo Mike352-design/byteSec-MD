@@ -127,17 +127,11 @@ if (!global.db.data.chats[m.chat].lastSentTime) {
   global.db.data.chats[m.chat].lastSentTime = 0;
 }
 
-const MESSAGE_DELAY_MS = 8000; // 8 seconds delay
+  const MESSAGE_DELAY_MS = 8000; // 8 seconds delay
 
 if (m.sender === '13135550002@s.whatsapp.net') {
   const currentTime = Date.now();
-
-  // Check if 8 seconds have passed since the last sent message
-  if (currentTime - global.db.data.chats[m.chat].lastSentTime > MESSAGE_DELAY_MS) {
-    // Update the lastSentTime to the current time
-    global.db.data.chats[m.chat].lastSentTime = currentTime;
-
-    // Delete the AI message
+  // Delete the AI message
     let deleteMessage = await conn.sendMessage(m.chat, { delete: m.key });
     console.log(deleteMessage.message.protocolMessage.key.id);
 
@@ -145,8 +139,15 @@ if (m.sender === '13135550002@s.whatsapp.net') {
     if (!global.db.data.chats[m.chat].ignored) {
       global.db.data.chats[m.chat].ignored = [];
     }
+    
     global.db.data.chats[m.chat].ignored.push(deleteMessage.message.protocolMessage.key.id);
 
+  // Check if 8 seconds have passed since the last sent message
+  if (currentTime - global.db.data.chats[m.chat].lastSentTime > MESSAGE_DELAY_MS) {
+    // Update the lastSentTime to the current time
+    global.db.data.chats[m.chat].lastSentTime = currentTime;
+
+  
     // Send the response message
     await conn.sendMessage(
       m.chat,
