@@ -9,7 +9,7 @@
 import fetch from 'node-fetch'
 import schedule from 'node-schedule'
 
-let handler = async (m, { conn, text,groupMetadata, usedPrefix, command, participants,isOwner, args }) => {
+let handler = async (m, { conn, text,groupMetadata, usedPrefix,isAdmin, command, participants,isOwner, args }) => {
 
 
   if(!(isAdmin || isOwner|| m.sender==global.cocriador) && global.db.data.chats[m.chat].jogos===false){
