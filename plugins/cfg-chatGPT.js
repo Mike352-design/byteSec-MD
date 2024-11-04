@@ -196,7 +196,7 @@ postData('http://89.117.96.108:8330/transcribe', audiodt)
 try {
 let txtyt =`O usuário lhe enviou a narração de um determinado vídeo e gostaria de falar sobre..
     ${rsp}
-    Esta é a mensagem do usuário sobre o vídeo: ${args.slice(1).join(" ")}`
+    Esta é a mensagem do usuário "${m.pushName}" sobre o vídeo: ${args.slice(1).join(" ")}`
     
     await getGPTreply(txtyt)
   
@@ -347,8 +347,8 @@ const images = await uploadImage(datab);
 console.log('jjj' + images)
 
 m.react("🌑")
-const prompt = `Você se chama edgar, um cientista e pesquisador sênior, o usuario ira lhe perguntar sobre a imagem e voce deve responder com precisao, termos tecnicos científicos e ser extremamente detalhado e didático, a mensagem do usuario é "${text}"`
-
+const prompt = `
+${m.pushName}: "${text}"`
 
 async function fetchData() {
   m.react("🌗")
@@ -393,7 +393,7 @@ return !0
 else {
 
 
-await getGPTreply(text)
+await getGPTreply(`${m.pushName}: "${text}"`)
       
 }
 
@@ -444,7 +444,7 @@ postData('http://89.117.96.108:8330/transcribe', audiodt)
 
 let formatt =`O usuario lhe apresentou um conteúdo para ler:
     ${resp}
-    Esta é a mensagem do usuario sobre este texto: ${text}`
+    Esta é a mensagem do usuario  "${m.pushName}" sobre este texto: ${text}`
     
     await getGPTreply(formatt)
     })
