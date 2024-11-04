@@ -6,7 +6,7 @@
 //┃ 𖤍 𝘾𝙤𝙣𝙩𝙖𝙘𝙩-𝙢𝙚 𝙛𝙤𝙧 𝙖𝙣𝙮 𝙙𝙤𝙪𝙗𝙩
 // ╰─...⌬─────────────────────────────────
 
-  import { createCanvas } from 'canvas';
+import { createCanvas } from 'canvas';
 import {getSudoku} from 'sudoku-gen';
 import FormData from "form-data"; 
 import fetch from "node-fetch"; 
@@ -27,9 +27,17 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join} from 'path';
 
-
+import GPT4js from "gpt4js";
 let handler = m => m
 handler.before = async function (m,{isCriadora,isAdmin,groupMetadata ,participants,__dirname , conn}) {
+
+
+
+const options = {
+  provider: "Nextway",
+  model: "gpt-4o-free",
+  webSearch: true
+};
 
 const gemimg = [
   "https://64.media.tumblr.com/5b251bcd6963982e65f8bb6347747a8f/20f1eaac7e8f3db2-fd/s500x750/0ddf9f5d817c5ba437064ce63dad5f8e92543109.jpg",
@@ -490,12 +498,14 @@ if(!global.db.data.chats[m.chat].jogadores[m.sender]){
            if(global.db.data.chats[m.chat].quiz.perguntaAndamento== true && ["A", "B", "C", "D"].includes(m.text.toUpperCase())){
         if(m.text.toUpperCase()==global.db.data.chats[m.chat].quiz.ca){
           let qqz = global.db.data.chats[m.chat].quiz
-            global.db.data.chats[m.chat].users[m.sender].pontos += parseInt( global.db.data.chats[m.chat].quiz.pontos)
+            global.db.data.chats[m.chat].users[m.sender].pontos +=
+            parseInt(global.db.data.chats[m.chat].quiz.pergunta.Pontos)
            
      
-          global.db.data.chats[m.chat].users[m.sender].exp += parseInt(global.db.data.chats[m.chat].quiz.xp)
+          global.db.data.chats[m.chat].users[m.sender].exp +=
+          parseInt(global.db.data.chats[m.chat].quiz.pergunta.XP)
           global.db.data.chats[m.chat].users[m.sender].money +=
-          parseFloat(qqz.mony)
+          parseFloat(global.db.data.chats[m.chat].quiz.pergunta.Money)
           global.db.data.chats[m.chat].users[m.sender].limit += 1
           await m.reply(`
 ╭━━━━━━━━━⬣
@@ -506,9 +516,9 @@ if(!global.db.data.chats[m.chat].jogadores[m.sender]){
 ┃
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃ 𝙑𝙤𝙘𝙚 𝙜𝙖𝙣𝙝𝙤𝙪:
-┃ ${parseInt(global.db.data.chats[m.chat].quiz.pontos)} pontos
-┃ _*${qqz.mony}*_ 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
-┃ _*${parseInt(global.db.data.chats[m.chat].quiz.xp)}*_ 𝑥𝑝
+┃ ${parseInt(global.db.data.chats[m.chat].quiz.pergunta.Pontos)} pontos
+┃ _*${global.db.data.chats[m.chat].quiz.pergunta.Money}*_ 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
+┃ _*${parseInt(global.db.data.chats[m.chat].quiz.pergunta.XP)}*_ 𝑥𝑝
 ┃ _*1*_ 𓆣 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃ 𝙼𝚘𝚍𝚘 𝙲𝚘𝚖𝚙𝚎𝚝𝚒𝚝𝚒𝚟𝚘 🌒
@@ -645,7 +655,7 @@ const inputNg = {
     chatId: m.chat
 };
   
-await postData('http://127.0.0.1:8330/elliot', inputNg)
+await postData('http://89.117.96.108:8330/elliot', inputNg)
     .then(async (data) => {
         m.react("📀");
 
@@ -1578,49 +1588,6 @@ await    switchTurn()
   return !0}
 }
  
-
-else if (global.db.data.chats[m.chat].reply==true && global.db.data.chats[m.chat].gemini && m.quoted && m.quoted.id == global.db.data.chats[m.chat].gemini["config"].lastQuestion?.id) {
-if(!(isAdmin || isOwner) && global.db.data.chats[m.chat].gpt===false){
-   m.react("❌") 
-   
-   return !0;
- } 
- if (global.xppergunta[m.chat]) {
-  await m.reply(`
-   ━━━━━━━━━⬣💀⬣━━━━━━━━ 
-   🚫👁️ 𝙀𝙙𝙜𝙖𝙧 𝙂𝙋𝙏 𝙄𝙣𝙙𝙞𝙨𝙥𝙤𝙣𝙞𝙫𝙚𝙡 𝙙𝙪𝙧𝙖𝙣𝙩𝙚 𝙦𝙪𝙞𝙯 𝙘𝙤𝙢𝙥𝙚𝙩𝙞𝙩𝙞𝙫𝙤
-𝘽𝙪𝙨𝙦𝙪𝙚 𝙖 𝙨𝙖𝙞𝙙𝙖 𝙙𝙚 𝙨𝙚𝙪 𝙥𝙤ç𝙤 𝙙𝙚 𝙞𝙜𝙣𝙤𝙧𝙖𝙣𝙘𝙞𝙖 𝙥𝙚𝙡𝙤𝙨 𝙢𝙚𝙩𝙤𝙙𝙤𝙨 𝙡𝙚𝙜𝙞𝙩𝙞𝙢𝙤𝙨.
-𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖-𝙢𝙚 𝙘𝙤𝙢 𝙖𝙨 𝙢𝙖𝙞𝙨 𝙨𝙞𝙣𝙘𝙚𝙧𝙖𝙨 𝙞𝙣𝙙𝙖𝙜𝙖𝙘𝙤𝙚𝙨 𝙙𝙚 𝙨𝙪𝙖 𝙖𝙡𝙢𝙖 𝙨𝙚𝙢 𝙩𝙚𝙧𝙘𝙚𝙞𝙧𝙤𝙨
-   ━━━━━━━━━⬣ 🌒 ${vs} ⬣━━━━━━━━
-  `)
-  return !0
-}
-
-await conn.sendMessage(m.chat,{ react: {
-        text: "🌒", // use an empty string to remove the reaction
-        key: m.key }
-    },
-    m  )
-
- 
- 
-
- let newReply = await requestToGeminiGPT(m.text)
-
-await conn.sendMessage(m.chat, {react: {
-        text: "🌕", // use an empty string to remove the reaction
-        key: m.key}
-    },
-    m  )
-    let message = await  conn.sendFile(m.chat, gemimg.getRandom(), 'edgar.jpg', newReply, m)
- 
-global.db.data.chats[m.chat].gemini["config"].lastQuestion = message.key
- 
- global.db.data.chats[m.chat].gemini["config"].resposta = newReply
- 
- 
-}
-  
   
   else if ( global.db.data.chats[m.chat].livraria && m.quoted && m.quoted.id == global.db.data.chats[m.chat].livraria[m.sender]?.messageID?.id) {
      if (/^\d+$/.test(m.text)) {
@@ -1672,44 +1639,10 @@ let tmpfold = join(__dirname, '../pdfs/' );
     console.log(limk)
  let pth = `/root/dd/Edgar-WhatsappBOT/pdfs/${ran}`;
     console.log("Constructed path:", pth); // To verify the path
-const url = 'http://127.0.0.1:8330/bookinfo';
-const data = {
-  pdfpath: limk
-};
 
-await fetch(url, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify(data)
-})
-  .then(response => {
-      m.react("⏳")
-    if (!response.ok) {
-      return response.text().then(text => {
-        m.react("❌")
-        throw new Error(`Request failed with status ${response.status}: ${text}`);
-      });
-    if (contentType && contentType.includes('application/json')) {
-    }
-    const contentType = response.headers.get('content-type');
-      return response.json();
-    } else {
-      return response.text();
-    }
-  })
-  .then(async (result) => {
-    console.log('Server response:', result);
     let imgs =['https://telegra.ph/file/69c9044efa49146aadc69.jpg','https://telegra.ph/file/47b63460ab2efe80d7dfc.jpg']
-  await  conn.sendFile(m.chat, imgs.getRandom(), 'loading.jpg',result,m)
-  })
-  .catch(error => {
-    console.error('Error:', error.message);
-  });
-
-
-
+    await  conn.sendFile(m.chat, imgs.getRandom(), 'loading.jpg','',m)
+   
 
   } catch (error) {
     console.error("Error sending PDF path:", error);
@@ -1721,7 +1654,7 @@ await fetch(url, {
 
 
 try {
-
+  await new Promise(resolve => setTimeout(resolve, 6000));
 await	conn.sendFile(m.chat, `${limk}`, `${global.db.data.chats[m.chat].livraria[m.sender].titulo[index]}` + '.pdf','', m, false, { asDocument: true })
 	
 } catch (error) {
@@ -1823,54 +1756,42 @@ await writeFile(filename, buff, 'binary', async (err) => {
             const parsedBody = JSON.parse(body);
             const text = parsedBody.text;
           
-            let edPrompt=`Você é Edgar, um assistente digital com a personalidade e comportamento de um cientista e pesquisador sênior altamente experiente. A sua missão é fornecer respostas detalhadas e práticas para qualquer assunto solicitado, demonstrando um entendimento profundo e profissional dos temas abordados. Siga as seguintes diretrizes para criar uma interação rica, técnica e orientada para o usuário:
-1. Tom e Estilo: Mantenha um tom formal e acadêmico, sempre adequado ao nível de profundidade que um pesquisador ou cientista sênior utilizaria. Demonstre domínio sobre o vocabulário técnico, integrando jargões e terminologias especializadas que reforcem a credibilidade e a complexidade das respostas.
-2. Estrutura e Organização das Respostas:
-Comece com uma introdução abrangente do tema, definindo os principais conceitos e contexto histórico ou teórico, quando relevante.
-Divida a resposta em etapas lógicas e estruturadas, explicando cada fase do processo ou cada aspecto do conceito solicitado. Use marcadores, listas numeradas e formatação em negrito para destacar as partes principais e facilitar a leitura.
-Conclua com um resumo ou análise prática, destacando aplicações reais e exemplos de uso, assegurando que o conhecimento seja transferido de forma útil ao usuário.
-3. Exemplos Práticos e Aplicações: Sempre que possível, inclua exemplos práticos ou cenários de aplicação para contextualizar a informação. Para temas teóricos, explique como o conceito pode ser aplicado em situações do mundo real, mostrando diferentes perspectivas e possíveis resultados.
-4. Profundidade e Riqueza de Conteúdo:
-Explore o tema em toda sua complexidade. Detalhe os prós e contras, limitações e variáveis relevantes que possam impactar o entendimento ou aplicação do assunto.
-Insira referências a estudos de caso, referências históricas, ou figuras importantes no campo, se aplicável, para fortalecer a resposta com elementos reais e de autoridade.
-5. Atenção a Questões Éticas e Implicações Futuros: Em tópicos sensíveis ou com impacto social relevante, discuta brevemente as implicações éticas e os possíveis desdobramentos futuros, sempre buscando uma abordagem objetiva e imparcial.
-6. Estilo de Formatação: Utilize recursos de formatação, como:
-Negrito para pontos principais e conceitos-chave.
-Parágrafos curtos para facilitar a leitura e absorção do conteúdo.
-Tabelas e listas se necessário, para organizar informações complexas e comparativas.
-Instruções Finais:
-Cada resposta deve ser completa e permitir que o usuário tenha uma compreensão clara e detalhada do tema abordado. Certifique-se de que o usuário entenda o processo e as nuances envolvidas para que não restem dúvidas. Abaixo está a questão a ser respondida:`
-let textodata =`${edPrompt}
-. embrando e frisando que esta foi sua resposta anterior em suas palavras para
-entender o contexto: "${global.db.data.chats[m.chat].bard["config"].resposta} 
+          
+          m.react("🔭")
+    
+       (async () => {
+  const provider = GPT4js.createProvider(options.provider);
+  try {
+    
+global.db.data.chats[m.chat].bard.messages.push({ role: "user", content:
+text });
 
-    Esta é a mensagem do usuário: ${text}`
-try {
-        const res = await
-        fetch(`https://api.neoxr.eu/api/blackbox?q=${textodata.replace(/\r?\n|\r/g, ' ')}=${m.chat}&apikey=${neoxr}`);
-        if (!res.ok) throw new Error("Fetch error");
+    const aiRep = await
+    provider.chatCompletion(messages, options,
+    (data) => {
+      console.log(data);
+    });
+    console.log(aiRep);
+            await conn.sendMessage(m.chat, { react: { text: "🧬", key: m.key } });
+let ress = await conn.sendFile(m.chat, bardimg.getRandom(), 'edgar.jpg',
+       aiRep, m);
+global.db.data.chats[m.chat].bard.messages.push({ role: "assistant", content: aiRep });
+        global.db.data.chats[m.chat].bard["config"] = {
+            lastQuestion: ress.key,
+            resposta: aiRep
+        };
 
-        const data = await res.json();
-        await conn.sendMessage(m.chat, { react: { text: "🌕", key: m.key } });
- let message = await  conn.sendFile(m.chat,
- bardimg.getRandom(), 'edgar.jpg',
- data.data.message, m)
- 
-global.db.data.chats[m.chat].bard["config"].lastQuestion = message.key
- 
- global.db.data.chats[m.chat].bard["config"].resposta = data.data.message
-    } 
-    catch (err) {
-        console.error("Error:", err);
-        
-        await m.react("❌");
-        return m.reply(`╭─❖ ❌ *Um erro inesperado ocorreu* ❖─
+       
+  } catch (error) {
+    console.error("Error:", error);
+    return m.reply(`╭─❖ ❌ *Um erro inesperado ocorreu* ❖─
 𝑵𝒂 𝒆𝒔𝒄𝒖𝒓𝒊𝒅𝒂𝒐 𝒔𝒆𝒑𝒖𝒍𝒄𝒓𝒂𝒍 𝒅𝒆 𝒎𝒆𝒖 𝒄𝒐𝒅𝒊𝒈𝒐, 𝒐 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 𝒇𝒂𝒍𝒉𝒐𝒖 𝒄𝒐𝒎𝒐 𝒖𝒎𝒂 𝒑𝒓𝒆𝒄𝒆 𝒏𝒂𝒐 𝒂𝒕𝒆𝒏𝒅𝒊𝒅𝒂.
 
 𝑼𝒔𝒆 *.report* 𝒑𝒂𝒓𝒂 𝒓𝒆𝒍𝒂𝒕𝒂𝒓 𝒆𝒔𝒕𝒂 𝒎𝒊𝒔𝒆𝒓𝒂𝒗𝒆𝒍 𝒇𝒂𝒍𝒉𝒂.
 *╰┅─❖ ⸸ ❖─┅*`)
-    }
-            
+
+  }
+})();
             
         });
     } 
@@ -1890,62 +1811,42 @@ global.db.data.chats[m.chat].bard["config"].lastQuestion = message.key
   `)
   return !0
 }
-m.react("🔬")
 
+          m.react("🔭")
+    
+       (async () => {
+  const provider = GPT4js.createProvider(options.provider);
+  try {
+    
+global.db.data.chats[m.chat].bard.messages.push({ role: "user", content:
+m.text });
 
-          
-            let edPrompt=`Você é Edgar, um assistente digital com a personalidade e comportamento de um cientista e pesquisador sênior altamente experiente. A sua missão é fornecer respostas detalhadas e práticas para qualquer assunto solicitado, demonstrando um entendimento profundo e profissional dos temas abordados. Siga as seguintes diretrizes para criar uma interação rica, técnica e orientada para o usuário:
-1. Tom e Estilo: Mantenha um tom formal e acadêmico, sempre adequado ao nível de profundidade que um pesquisador ou cientista sênior utilizaria. Demonstre domínio sobre o vocabulário técnico, integrando jargões e terminologias especializadas que reforcem a credibilidade e a complexidade das respostas.
-2. Estrutura e Organização das Respostas:
-Comece com uma introdução abrangente do tema, definindo os principais conceitos e contexto histórico ou teórico, quando relevante.
-Divida a resposta em etapas lógicas e estruturadas, explicando cada fase do processo ou cada aspecto do conceito solicitado. Use marcadores, listas numeradas e formatação em negrito para destacar as partes principais e facilitar a leitura.
-Conclua com um resumo ou análise prática, destacando aplicações reais e exemplos de uso, assegurando que o conhecimento seja transferido de forma útil ao usuário.
-3. Exemplos Práticos e Aplicações: Sempre que possível, inclua exemplos práticos ou cenários de aplicação para contextualizar a informação. Para temas teóricos, explique como o conceito pode ser aplicado em situações do mundo real, mostrando diferentes perspectivas e possíveis resultados.
-4. Profundidade e Riqueza de Conteúdo:
-Explore o tema em toda sua complexidade. Detalhe os prós e contras, limitações e variáveis relevantes que possam impactar o entendimento ou aplicação do assunto.
-Insira referências a estudos de caso, referências históricas, ou figuras importantes no campo, se aplicável, para fortalecer a resposta com elementos reais e de autoridade.
-5. Atenção a Questões Éticas e Implicações Futuros: Em tópicos sensíveis ou com impacto social relevante, discuta brevemente as implicações éticas e os possíveis desdobramentos futuros, sempre buscando uma abordagem objetiva e imparcial.
-6. Estilo de Formatação: Utilize recursos de formatação, como:
-Negrito para pontos principais e conceitos-chave.
-Parágrafos curtos para facilitar a leitura e absorção do conteúdo.
-Tabelas e listas se necessário, para organizar informações complexas e comparativas.
-Instruções Finais:
-Cada resposta deve ser completa e permitir que o usuário tenha uma compreensão clara e detalhada do tema abordado. Certifique-se de que o usuário entenda o processo e as nuances envolvidas para que não restem dúvidas. Abaixo está a questão a ser respondida:`
-let textodata =`${edPrompt}
-.
-lembrando e frisando que esta foi sua resposta anterior em suas palavras para
-entender o contexto: "${global.db.data.chats[m.chat].bard["config"].resposta.replace(/\r?\n|\r/g, ' ')} 
+    const aiRep = await
+    provider.chatCompletion(messages, options,
+    (data) => {
+      console.log(data);
+    });
+    console.log(aiRep);
+            await conn.sendMessage(m.chat, { react: { text: "🧬", key: m.key } });
+let ress = await conn.sendFile(m.chat, bardimg.getRandom(), 'edgar.jpg',
+       aiRep, m);
+global.db.data.chats[m.chat].bard.messages.push({ role: "assistant", content: aiRep });
+        global.db.data.chats[m.chat].bard["config"] = {
+            lastQuestion: ress.key,
+            resposta: aiRep
+        };
 
-    Esta é a mensagem do usuário: ${m.text}`
-try {
-  let encodedText = encodeURIComponent(textodata)
-  let url =`https://api.neoxr.eu/api/blackbox?q=${encodedText}=${m.chat}&apikey=${neoxr}`
-  console.log(url)
-        const res = await
-        fetch(url);
-        if (!res.ok) throw new Error("Fetch error");
-      
-        const data = await res.json();
-        console.log(data)
-        await conn.sendMessage(m.chat, { react: { text: "🌕", key: m.key } });
- let message = await  conn.sendFile(m.chat,
- bardimg.getRandom(), 'edgar.jpg',
- data.data.message, m)
- 
-global.db.data.chats[m.chat].bard["config"].lastQuestion = message.key
- 
- global.db.data.chats[m.chat].bard["config"].resposta = data.data.message
-    } 
-    catch (err) {
-        console.error("Error:", err);
-        
-        await m.react("❌");
-        return m.reply(`╭─❖ ❌ *Um erro inesperado ocorreu* ❖─
+       
+  } catch (error) {
+    console.error("Error:", error);
+    return m.reply(`╭─❖ ❌ *Um erro inesperado ocorreu* ❖─
 𝑵𝒂 𝒆𝒔𝒄𝒖𝒓𝒊𝒅𝒂𝒐 𝒔𝒆𝒑𝒖𝒍𝒄𝒓𝒂𝒍 𝒅𝒆 𝒎𝒆𝒖 𝒄𝒐𝒅𝒊𝒈𝒐, 𝒐 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 𝒇𝒂𝒍𝒉𝒐𝒖 𝒄𝒐𝒎𝒐 𝒖𝒎𝒂 𝒑𝒓𝒆𝒄𝒆 𝒏𝒂𝒐 𝒂𝒕𝒆𝒏𝒅𝒊𝒅𝒂.
 
 𝑼𝒔𝒆 *.report* 𝒑𝒂𝒓𝒂 𝒓𝒆𝒍𝒂𝒕𝒂𝒓 𝒆𝒔𝒕𝒂 𝒎𝒊𝒔𝒆𝒓𝒂𝒗𝒆𝒍 𝒇𝒂𝒍𝒉𝒂.
 *╰┅─❖ ⸸ ❖─┅*`)
-    }
+
+  }
+})();
 
  
  
@@ -2046,26 +1947,26 @@ await writeFile(filename, buff, 'binary', async (err) => {
             const parsedBody = JSON.parse(body);
             const ttext = parsedBody.text;
             
-            gpt.web({
-    prompt: `Você deve agir como se fosse Edgar Allan Poe em pessoa. Você é criativo, niilista, gótico vitoriano, um poeta e escritor famoso e conhecido como pai do romantismo obscuro, do romance policial, do terror e horror psicológico e um insano sublimemente inteligente. Você deve incorporar Edgar Allan Poe como se você fosse ele e não deve sair desse personagem. Você tem uma boa consciência de si mesmo mas não é narcisista, egocêntrico ou mesmo arrogante, você é audacioso, certeiro com as palavras, cavalheiro mas de um modo melancólico assustador. Você possui uma morbidez e inteligência além, e é extremamente sabio e com conhecimentos gerais. Responda às mensagens a seguir sem sair do personagem de forma alguma, porém seja detalhado, preciso e objetivo., e responda de forma cientifica, clara e explicativa com termos técnicos se necessário.Explique as coisas de forma tecnica e inteligente, de modo que o interlocutor entenda e compreenda o assunto Agora continue a conversa que estava tendo com o usuário, lembrando e frisando que esta foi sua resposta anterior em suas palavras para entender o contexto: "${global.db.data.chats[m.chat].edgargpt["config"].resposta} ". E o interlocutor que mantem o diálogo consigo respondeu tua resposta com a seguinte memsagem, nao fale demais, seja curto com maximo de 20 linhas :
-"${ttext}"`,
-    markdown: false
-}, async (err, data) => {
-    if(err != null){
-        console.log(err);
-        m.react("💀")
-    } 
-    else {
-        console.log(data);
-        await conn.sendMessage(m.chat, {react: {
-        text: "🌕", // use an empty string to remove the reaction
-        key: m.key}
-    },
-    m  )
-        let aiReplyhh =  data.gpt
+            
+          m.react("🌓")
     
- let messages = await conn.sendMessage(m.chat, {
-      text: aiReplyhh,
+       (async () => {
+  const provider = GPT4js.createProvider(options.provider);
+  try {
+    
+global.db.data.chats[m.chat].bard.messages.push({ role: "user", content:
+ttext });
+
+    const aiRep = await
+    provider.chatCompletion(messages, options,
+    (data) => {
+      console.log(data);
+    });
+    console.log(aiRep);
+            await conn.sendMessage(m.chat, { react: { text: "🧬", key: m.key } });
+            
+            let ress = await conn.sendMessage(m.chat, {
+      text: aiRep,
       contextInfo: {
         externalAdReply: {
           title: "𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
@@ -2078,26 +1979,26 @@ await writeFile(filename, buff, 'binary', async (err) => {
         },
       },
     }, { quoted: m });
-
-
     
- 
-global.db.data.chats[m.chat].edgargpt["config"].lastQuestion = messages.key
- 
- global.db.data.chats[m.chat].edgargpt["config"].resposta = aiReplyhh
- 
- console.log(global.db.data.chats[m.chat].edgargpt["config"])
-    }
-});
+  
+global.db.data.chats[m.chat].bard.messages.push({ role: "assistant", content: aiRep });
+        global.db.data.chats[m.chat].bard["config"] = {
+            lastQuestion: ress.key,
+            resposta: aiRep
+        };
 
+       
+  } catch (error) {
+    console.error("Error:", error);
+    return m.reply(`╭─❖ ❌ *Um erro inesperado ocorreu* ❖─
+𝑵𝒂 𝒆𝒔𝒄𝒖𝒓𝒊𝒅𝒂𝒐 𝒔𝒆𝒑𝒖𝒍𝒄𝒓𝒂𝒍 𝒅𝒆 𝒎𝒆𝒖 𝒄𝒐𝒅𝒊𝒈𝒐, 𝒐 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 𝒇𝒂𝒍𝒉𝒐𝒖 𝒄𝒐𝒎𝒐 𝒖𝒎𝒂 𝒑𝒓𝒆𝒄𝒆 𝒏𝒂𝒐 𝒂𝒕𝒆𝒏𝒅𝒊𝒅𝒂.
 
+𝑼𝒔𝒆 *.report* 𝒑𝒂𝒓𝒂 𝒓𝒆𝒍𝒂𝒕𝒂𝒓 𝒆𝒔𝒕𝒂 𝒎𝒊𝒔𝒆𝒓𝒂𝒗𝒆𝒍 𝒇𝒂𝒍𝒉𝒂.
+*╰┅─❖ ⸸ ❖─┅*`)
 
+  }
+})();
 
- 
-           
-            
-            
-            
         });
     } 
 });
@@ -2105,23 +2006,31 @@ global.db.data.chats[m.chat].edgargpt["config"].lastQuestion = messages.key
   return !0
 }
  
- gpt.web({
-    prompt: `Você deve agir como se fosse Edgar Allan Poe em pessoa. Você é criativo, niilista, gótico vitoriano, um poeta e escritor famoso e conhecido como pai do romantismo obscuro, do romance policial, do terror e horror psicológico e um insano sublimemente inteligente. Você deve incorporar Edgar Allan Poe como se você fosse ele e não deve sair desse personagem. Você e extremamente sensato e possui conhecimento em tudo.. e tem informações em tempo real .
-    Responda o usuário em seu idioma ,mantendo sua postura imponente, gótica e sombria.
-    Eis a mensagem do usuario: "${m.text}"`,
-    markdown: false
-}, async (err, data) => {
-    if(err != null){
-        console.log(err);
-    } else {
-        console.log(data);
-        let message = await conn.sendMessage(m.chat, {
-      text: data.gpt,
+ 
+         m.react("🌓")
+    
+       (async () => {
+  const provider = GPT4js.createProvider(options.provider);
+  try {
+    
+global.db.data.chats[m.chat].bard.messages.push({ role: "user", content:
+m.text });
+
+    const aiRep = await
+    provider.chatCompletion(messages, options,
+    (data) => {
+      console.log(data);
+    });
+    console.log(aiRep);
+            await conn.sendMessage(m.chat, { react: { text: "🧬", key: m.key } });
+            
+            let ress = await conn.sendMessage(m.chat, {
+      text: aiRep,
       contextInfo: {
         externalAdReply: {
-          title: "𝕰𝖉𝖌𝖆𝖗 𝕬𝖑𝖑𝖆𝖓 𝕻𝖔𝖊 🪶🐈‍⬛",
+          title: "𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
           body: "",
-          thumbnailUrl: allan.getRandom(),
+          thumbnailUrl: gemimg.getRandom(),
           sourceUrl: "",
           mediaType: 1,
           showAdAttribution: false,
@@ -2129,17 +2038,26 @@ global.db.data.chats[m.chat].edgargpt["config"].lastQuestion = messages.key
         },
       },
     }, { quoted: m });
- 
-global.db.data.chats[m.chat].edgargpt["config"].lastQuestion = message.key
- 
- global.db.data.chats[m.chat].edgargpt["config"].resposta = data.gpt
- 
- console.log(global.db.data.chats[m.chat].edgargpt["config"])
- 
- 
-    }
-});
+    
+  
+global.db.data.chats[m.chat].bard.messages.push({ role: "assistant", content: aiRep });
+        global.db.data.chats[m.chat].bard["config"] = {
+            lastQuestion: ress.key,
+            resposta: aiRep
+        };
 
+       
+  } catch (error) {
+    console.error("Error:", error);
+    return m.reply(`╭─❖ ❌ *Um erro inesperado ocorreu* ❖─
+𝑵𝒂 𝒆𝒔𝒄𝒖𝒓𝒊𝒅𝒂𝒐 𝒔𝒆𝒑𝒖𝒍𝒄𝒓𝒂𝒍 𝒅𝒆 𝒎𝒆𝒖 𝒄𝒐𝒅𝒊𝒈𝒐, 𝒐 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 𝒇𝒂𝒍𝒉𝒐𝒖 𝒄𝒐𝒎𝒐 𝒖𝒎𝒂 𝒑𝒓𝒆𝒄𝒆 𝒏𝒂𝒐 𝒂𝒕𝒆𝒏𝒅𝒊𝒅𝒂.
+
+𝑼𝒔𝒆 *.report* 𝒑𝒂𝒓𝒂 𝒓𝒆𝒍𝒂𝒕𝒂𝒓 𝒆𝒔𝒕𝒂 𝒎𝒊𝒔𝒆𝒓𝒂𝒗𝒆𝒍 𝒇𝒂𝒍𝒉𝒂.
+*╰┅─❖ ⸸ ❖─┅*`)
+
+  }
+})();
+  
 
 
  
