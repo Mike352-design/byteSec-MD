@@ -84,7 +84,7 @@ ${usedPrefix + command} um gato preto deitado sob uma caveira
 
 ╰━━━━━━━━━━━━━━━━━━⬣`
   m.react("🌒")
-  const url = 'http://127.0.0.1:8330/imagine'
+  const url = 'http://89.117.96.108:8330/imagine'
   
   if(global.db.data.chats[m.chat].autolevelup && global.db.data.chats[m.chat].users[m.sender].money<495){
     return m.reply( `*╭─┅──┅❖ 𖤐 ❖─┅──┅*
