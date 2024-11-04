@@ -27,7 +27,7 @@ en: {}
 }
 
 
-}
+
 
 }
 export default handler
