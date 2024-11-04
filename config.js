@@ -72,11 +72,11 @@ global.Key360 = ["964f-0c75-7afc"]
 
 //Add the language you want 
 
-//  es = Español         id = Bahasa Indonesia
-//  en = English         pt = Português 
-//  ar = عرب             hi = Hindi Language
 
-global.lenguajeGB = pt //Bot language, Example: es | en | pt...
+//  en = English         pt = Português 
+
+
+global.idioma = 'pt'
 
 //━━━━━━━━━━━━━━━━━━━━⏣
 global.openaiKey = process.env.OPENAI_API_KEY 
@@ -142,17 +142,17 @@ global.mail = 'henry.arcangello@gmail.com' //SET YOUR EMAIL
 global.desc = '' //description 
 global.desc2 = '' // Longer description 
 global.country = 'PT' //Your country 
-global.author = "Criado por:  ⸸ Ｈｅｎｒｙ ░ Λｒｃａｎｇｅｌｏ" // sticker description
-global.packname = "𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿"
+global.author = "ΒYƬΣSΞC-MĐ 𖠑" // sticker description
+global.packname = "👓 MЯ.ЯӨBӨƬ "
 
 //⊱ ━━━━━.⋅ Version | Name | Links ⋅.━━━━ ⊰
 
-global.vs = "2.8.5"
-global.vsJB = "2.8.5 "
+global.vs = "1.1.0"
+global.vsJB = global.vs
 global.yt = "https://www.instagram.com/henryy.xn"
-global.gt = "𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 🐈‍⬛"
+global.gt = "ΒYƬΣSΞC-MĐ 𖠑"
 global.ig = "https://www.instagram.com/henryy.xn"
-global.md = "https://github.com/ARCANGEL0/EdgarBOT-MD"
+global.md = "https://github.com/ARCANGEL0/ByteSec-MD"
 
 
 global.fb = "https://www.facebook.com/profile.php?id=100089128511446"
@@ -179,7 +179,7 @@ global.asistencia = 'Wa.me/351927285125'
 
 //⊱ ━━━━━━━━━━━━━.⋅ Data ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ | 𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | ⊱✅⊱╮\n\n'
+global.rg = '\n\n'
 global.resultado = rg
 
 global.ag = '╰⊱⚠️⊱ | 𝘼𝙑𝙄𝙎𝙊 | ⊱⚠️⊱╮\n\n'
@@ -202,12 +202,12 @@ global.exito = eg
 
 
 
-global.wm = "𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓟𝓸𝓮 𝓜𝓾𝓵𝓽𝓲𝓭𝓮𝓿𝓲𝓬𝓮 𝓑𝓞𝓣 🐈‍⬛"
-global.igfg = "𝓔𝓭𝓰𝓪𝓻 𝓑𝓞𝓣 🐈‍⬛ "
-global.wait = "*⌛ _Carregando..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*⌛ Carregando..._ ▬▬▭▭▭*"
-global.waittt = "*⌛ Carregando..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ Carregando..._ ▬▬▬▬▬▬▭*"
+global.wm = "ΒYƬΣSΞC-MĐ 𖠑"
+global.igfg = "👓 MЯ.ЯӨBӨƬ"
+global.wait = "*[25%] |███▒▒▒▒▒▒▒▒▒▒|*"
+global.waitt = "*[50%] |██████▒▒▒▒▒▒▒▒|*"
+global.waittt = "[75%] |███████████▒▒▒▒|*"
+global.waitttt = "*[100%]|████████████████|*"
 global.nomorown = "351927285125"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
