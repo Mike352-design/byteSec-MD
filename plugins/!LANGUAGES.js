@@ -53,6 +53,43 @@ else if (languageConfig === 'en') {
 
 
 global.notAdmin = notAdminMg
+let notOwnerMg;
+
+if (languageConfig === 'pt') {
+    notOwnerMg = `
+> robot@bytesec: #/groups/ access_denied.log
+> ---------------------------------------
+
+[!] ERRO 0x1F4A: COMANDO BLOQUEADO
+────────────────────────────────
+> Acesso negado: usuário sem privilégios ByteSec.
+> Código de erro: 0x00AF3D
+> COMANDO ESTRITAMENTE EXCLUSIVO PARA A EQUIPE BYTESEC.
+
+> ⚠ 0xA45F: "Permissão não concedida."
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    notOwnerMg = `
+> robot@bytesec: #/groups/ access_denied.log
+> ---------------------------------------
+
+[!] ERROR 0x1F4A: COMMAND BLOCKED
+────────────────────────────────
+> Access denied: user lacks ByteSec privileges.
+> Error code: 0x00AF3D
+> COMMAND STRICTLY EXCLUSIVE TO BYTESEC CREW.
+
+> ⚠ 0xA45F: "Permission not granted."
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
+
+global.notOwner = notOwnerMg;
 
 
 
