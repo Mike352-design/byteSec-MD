@@ -13,17 +13,42 @@
 let handler = m => m 
 handler.before = async function (m, { text, args, usedPrefix, command, conn } ) {
 
-global.db.data.languages = {
-pt: {
 
+    let notAdmin;
 
+if (languageConfig === 'pt') {
+    notAdmin = `
+> robot@bytesec: #/groups/ warning.log
+> ---------------------------------------
 
+[!] ATENÇÃO: Acesso Negado
 
-    
-},
-en: {}
+────────────────────────────────
+> Usuário não está no arquivo sudoers.
+> Esta ação é estritamente proibida.
 
+> Hey, eu não sou um administrador aqui, garoto!
 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+}
+
+else if (languageConfig === 'en') {
+    notAdmin = `
+> robot@bytesec: #/groups/ warning.log
+> ---------------------------------------
+
+[!] WARNING: Access Denied
+────────────────────────────────
+> User is not in the sudoers file.
+> This action is strictly prohibited.
+
+> Hey, I'm not an administrator here, kid!
+
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
 }
 
 
