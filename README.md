@@ -72,8 +72,8 @@ Are you re?ady to dive deep into the shadows, di#mantle the facade, and uncover 
   [0x1010] - SUPPORT                   
 └─────────────────────────────────┘
 ```
-> root@bytesec: #~ cat shortcuts0.bin
-> ━━━━━━━━━━━━━━━━━━━━━━━
+> root@bytesec: #~ cat shortcuts0.bin <br>
+> ━━━━━━━━━━━━━━━━━━━━━━━ <br>
 [0x0001](#0x0001-project-overview) <br>
 [0x0010](#0x0010-bytesec) <br>
 [0x0011](#0x0011-tools) <br>
@@ -388,8 +388,5 @@ Operates under the AGPL-3.0 license. For full terms, see the LICENSE file. Contr
 </p>
 
 
-
-
-<img src="https://starchart.cc/ARCANGEL0/byteSec-MD.svg" alt="">
 
 
