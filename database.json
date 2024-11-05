@@ -4084,7 +4084,33 @@
       }
     },
     "5521973949337@s.whatsapp.net,5521999763840@s.whatsapp.net": {},
-    "5521980401333@s.whatsapp.net,5521983793257@s.whatsapp.net": {}
+    "5521980401333@s.whatsapp.net,5521983793257@s.whatsapp.net": {},
+    "175656109375603@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363218430350898@g.us": {
+          "afkTime": -2,
+          "number": "175656109375603@lid",
+          "afkReason": ""
+        }
+      }
+    }
   },
   "chats": {
     "351927285125@s.whatsapp.net": {
@@ -5411,7 +5437,8 @@
           "cocriador": false,
           "lastMessageTime": 1730797926598,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "usuariosRoubados": []
         },
         "558175001504@s.whatsapp.net": {
           "exp": 28,
@@ -5449,7 +5476,7 @@
           "messageCount": 1,
           "pontos": 0,
           "almas": 0,
-          "acaoTimer": "2024-11-05T11:52:59.892Z",
+          "acaoTimer": "2024-11-05T17:25:56.386Z",
           "usuariosRoubados": [],
           "rouboTimestamp": "2024-11-05T11:52:59.898Z",
           "mortoDemonio": false,
@@ -5793,7 +5820,7 @@
       "reaction": true,
       "viewonce": true,
       "modoadmin": false,
-      "antitoxic": true,
+      "antitoxic": false,
       "simi": false,
       "antiTraba": false,
       "autolevelup": false,
@@ -6682,6 +6709,24 @@
           "lastMessageTime": 1730798942556,
           "messageCount": 1,
           "pontos": 0
+        },
+        "175656109375603@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1730827609058,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -6729,162 +6774,10 @@
       "except": false,
       "lastSentTime": 0,
       "name": "Cabeçudos 🫱🏻‍🫲🏿",
-      "totalMembros": 44,
+      "totalMembros": 45,
       "membros": [
         {
-          "id": "554796646044@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "189768935694364@lid",
-          "admin": null
-        },
-        {
-          "id": "175656109375603@lid",
-          "admin": null
-        },
-        {
-          "id": "150049212366927@lid",
-          "admin": null
-        },
-        {
-          "id": "25095997227098@lid",
-          "admin": null
-        },
-        {
-          "id": "191809061921022@lid",
-          "admin": null
-        },
-        {
-          "id": "58514785435703@lid",
-          "admin": null
-        },
-        {
-          "id": "93158092333190@lid",
-          "admin": null
-        },
-        {
-          "id": "554598527531@s.whatsapp.net",
-          "admin": "superadmin"
-        },
-        {
-          "id": "10020645261459@lid",
-          "admin": null
-        },
-        {
           "id": "197229310685308@lid",
-          "admin": null
-        },
-        {
-          "id": "195399704965241@lid",
-          "admin": null
-        },
-        {
-          "id": "23756034601125@lid",
-          "admin": null
-        },
-        {
-          "id": "6185004609563@lid",
-          "admin": null
-        },
-        {
-          "id": "28810808451234@lid",
-          "admin": null
-        },
-        {
-          "id": "143345070424279@lid",
-          "admin": null
-        },
-        {
-          "id": "110561249501415@lid",
-          "admin": null
-        },
-        {
-          "id": "257010893373499@lid",
-          "admin": null
-        },
-        {
-          "id": "96959088091321@lid",
-          "admin": null
-        },
-        {
-          "id": "218807276666881@lid",
-          "admin": null
-        },
-        {
-          "id": "120319415161010@lid",
-          "admin": null
-        },
-        {
-          "id": "127071036674102@lid",
-          "admin": null
-        },
-        {
-          "id": "154095138656344@lid",
-          "admin": null
-        },
-        {
-          "id": "88626935410882@lid",
-          "admin": null
-        },
-        {
-          "id": "149697377337387@lid",
-          "admin": null
-        },
-        {
-          "id": "75613050294368@lid",
-          "admin": null
-        },
-        {
-          "id": "230618822656003@lid",
-          "admin": null
-        },
-        {
-          "id": "92148657594616@lid",
-          "admin": null
-        },
-        {
-          "id": "58429137801334@lid",
-          "admin": null
-        },
-        {
-          "id": "87729119482087@lid",
-          "admin": null
-        },
-        {
-          "id": "257238996353132@lid",
-          "admin": null
-        },
-        {
-          "id": "26968133234833@lid",
-          "admin": null
-        },
-        {
-          "id": "166919978131498@lid",
-          "admin": null
-        },
-        {
-          "id": "99080701214902@lid",
-          "admin": null
-        },
-        {
-          "id": "68638040137792@lid",
-          "admin": null
-        },
-        {
-          "id": "94111491203213@lid",
-          "admin": null
-        },
-        {
-          "id": "172494476587077@lid",
-          "admin": null
-        },
-        {
-          "id": "273872985280661@lid",
-          "admin": null
-        },
-        {
-          "id": "151294954205225@lid",
           "admin": null
         },
         {
@@ -6892,7 +6785,67 @@
           "admin": null
         },
         {
-          "id": "149378979377312@lid",
+          "id": "58514785435703@lid",
+          "admin": null
+        },
+        {
+          "id": "257010893373499@lid",
+          "admin": null
+        },
+        {
+          "id": "273872985280661@lid",
+          "admin": null
+        },
+        {
+          "id": "143345070424279@lid",
+          "admin": null
+        },
+        {
+          "id": "150049212366927@lid",
+          "admin": null
+        },
+        {
+          "id": "10020645261459@lid",
+          "admin": null
+        },
+        {
+          "id": "120319415161010@lid",
+          "admin": null
+        },
+        {
+          "id": "93158092333190@lid",
+          "admin": null
+        },
+        {
+          "id": "25095997227098@lid",
+          "admin": null
+        },
+        {
+          "id": "75613050294368@lid",
+          "admin": null
+        },
+        {
+          "id": "554796646044@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "149697377337387@lid",
+          "admin": null
+        },
+        {
+          "id": "92148657594616@lid",
+          "admin": null
+        },
+        {
+          "id": "85573431734416@lid",
+          "admin": null
+        },
+        {
+          "id": "88626935410882@lid",
+          "admin": null
+        },
+        {
+          "id": "172494476587077@lid",
           "admin": null
         },
         {
@@ -6900,11 +6853,107 @@
           "admin": null
         },
         {
+          "id": "99080701214902@lid",
+          "admin": null
+        },
+        {
+          "id": "149378979377312@lid",
+          "admin": null
+        },
+        {
+          "id": "230618822656003@lid",
+          "admin": null
+        },
+        {
+          "id": "195399704965241@lid",
+          "admin": null
+        },
+        {
+          "id": "259257396101238@lid",
+          "admin": null
+        },
+        {
+          "id": "94111491203213@lid",
+          "admin": null
+        },
+        {
+          "id": "151294954205225@lid",
+          "admin": null
+        },
+        {
+          "id": "189768935694364@lid",
+          "admin": null
+        },
+        {
+          "id": "191809061921022@lid",
+          "admin": null
+        },
+        {
+          "id": "68638040137792@lid",
+          "admin": null
+        },
+        {
+          "id": "87729119482087@lid",
+          "admin": null
+        },
+        {
+          "id": "110561249501415@lid",
+          "admin": null
+        },
+        {
+          "id": "26968133234833@lid",
+          "admin": null
+        },
+        {
+          "id": "175656109375603@lid",
+          "admin": null
+        },
+        {
+          "id": "166919978131498@lid",
+          "admin": null
+        },
+        {
+          "id": "154095138656344@lid",
+          "admin": null
+        },
+        {
+          "id": "6185004609563@lid",
+          "admin": null
+        },
+        {
+          "id": "127071036674102@lid",
+          "admin": null
+        },
+        {
+          "id": "28810808451234@lid",
+          "admin": null
+        },
+        {
+          "id": "554598527531@s.whatsapp.net",
+          "admin": "superadmin"
+        },
+        {
+          "id": "23756034601125@lid",
+          "admin": null
+        },
+        {
+          "id": "58429137801334@lid",
+          "admin": null
+        },
+        {
+          "id": "257238996353132@lid",
+          "admin": null
+        },
+        {
           "id": "61851874394333@lid",
           "admin": null
         },
         {
-          "id": "85573431734416@lid",
+          "id": "218807276666881@lid",
+          "admin": null
+        },
+        {
+          "id": "96959088091321@lid",
           "admin": null
         }
       ],
@@ -6923,7 +6972,8 @@
           "resposta": ""
         },
         "351927285125@s.whatsapp.net": [],
-        "120363218430350898@g.us": []
+        "120363218430350898@g.us": [],
+        "175656109375603@lid": []
       },
       "firstTime": true,
       "antiCallGp": true,
@@ -12145,10 +12195,10 @@
       "lastSuccess": 1730752053492
     },
     "config-on y off.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1730807439039,
-      "lastSuccess": 1730807439039
+      "total": 13,
+      "success": 13,
+      "last": 1730827677508,
+      "lastSuccess": 1730827677508
     },
     "dono-unbanchat.js": {
       "total": 4,
@@ -12283,10 +12333,10 @@
       "lastSuccess": 1730675581824
     },
     "funAcoes7.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1730821068936,
-      "lastSuccess": 1730821068936
+      "total": 27,
+      "success": 27,
+      "last": 1730827581766,
+      "lastSuccess": 1730827581766
     },
     "dl-ig.js": {
       "total": 2,
