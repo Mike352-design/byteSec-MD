@@ -77,7 +77,7 @@ global.Key360 = ["964f-0c75-7afc"]
 
 
 global.lenguajeGB = en
-
+global.languageConfig = 'en'
 //━━━━━━━━━━━━━━━━━━━━⏣
 global.openaiKey = process.env.OPENAI_API_KEY 
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"]
