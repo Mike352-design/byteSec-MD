@@ -890,6 +890,18 @@ let TwBAN;
 await conn.reply(m.chat, TwBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advTw = 0 
+
+
+let igDetected 
+if(languageConfig === 'en') {
+  igDetected= 'Twitter link detected! Anti-Link protocol activated.'
+}
+else if (languageConfig === 'pt') {    
+  
+igDetected= 'Link do Twitter detectado! Protocolo Anti-Link aplicado.'
+}
+
+
 await tempBanimento()
 }
     
