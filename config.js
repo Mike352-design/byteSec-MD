@@ -76,7 +76,7 @@ global.Key360 = ["964f-0c75-7afc"]
 //  en = English         pt = Português 
 
 
-global.idioma = 'pt'
+global.lenguajeGB = en
 
 //━━━━━━━━━━━━━━━━━━━━⏣
 global.openaiKey = process.env.OPENAI_API_KEY 
