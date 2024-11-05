@@ -156,7 +156,7 @@
       "spammer": 0,
       "lbars": "[▒▒▒▒▒▒▒▒▒]",
       "usuariosRoubados": [],
-      "name": "",
+      "name": "Åńōnymøü_3301 🖖👽",
       "afkInfo": {
         "120363178125353378@g.us": {
           "afkTime": -2,
@@ -345,7 +345,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Dante",
+      "name": "",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -446,7 +446,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1730744276712
+      "lastmiming": 1730821182997
     },
     "555194556035@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -731,7 +731,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Julia",
+      "name": "versani?",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -746,6 +746,11 @@
       "warn": 0,
       "afkInfo": {
         "120363178125353378@g.us": {
+          "afkTime": -2,
+          "number": "5518996556848@s.whatsapp.net",
+          "afkReason": ""
+        },
+        "120363202217134158@g.us": {
           "afkTime": -2,
           "number": "5518996556848@s.whatsapp.net",
           "afkReason": ""
@@ -1659,8 +1664,18 @@
           "afkTime": -2,
           "number": "553496426551@s.whatsapp.net",
           "afkReason": ""
+        },
+        "120363202217134158@g.us": {
+          "afkTime": -2,
+          "number": "553496426551@s.whatsapp.net",
+          "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "249224553865464@lid": {
       "counterPrivate": 0,
@@ -4042,7 +4057,34 @@
           "afkReason": ""
         }
       }
-    }
+    },
+    "5521980401333@s.whatsapp.net": {
+      "exp": 0,
+      "money": 150,
+      "limit": 2,
+      "counterPrivate": 0,
+      "afk": -1,
+      "reporte": 0,
+      "role": "𝘼𝙥𝙧𝙚𝙣𝙙𝙞𝙯 🕯️",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "level": 0,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "usuariosRoubados": [],
+      "warn": 0,
+      "name": "밀레나",
+      "afkInfo": {
+        "120363202217134158@g.us": {
+          "afkTime": -2,
+          "number": "5521980401333@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "5521973949337@s.whatsapp.net,5521999763840@s.whatsapp.net": {},
+    "5521980401333@s.whatsapp.net,5521983793257@s.whatsapp.net": {}
   },
   "chats": {
     "351927285125@s.whatsapp.net": {
@@ -5344,7 +5386,7 @@
           "messageCount": 1,
           "pontos": 0,
           "usuariosRoubados": [],
-          "acaoTimer": "2024-11-05T14:59:38.166Z",
+          "acaoTimer": "2024-11-05T15:37:48.935Z",
           "almas": 0,
           "rouboTimestamp": "2024-11-04T15:54:40.922Z",
           "mortoDemonio": false,
@@ -5535,7 +5577,9 @@
           "cocriador": false,
           "lastMessageTime": 1730750702262,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "usuariosRoubados": [],
+          "shields": 0
         },
         "554299228842@s.whatsapp.net": {
           "exp": 0,
@@ -5664,6 +5708,54 @@
           "lastMessageTime": 1730804818047,
           "messageCount": 1,
           "pontos": 0
+        },
+        "5521980401333@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0
+        },
+        "553496426551@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0
+        },
+        "5518996556848@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0
         }
       },
       "isBanned": false,
@@ -5711,10 +5803,14 @@
       "except": false,
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
-      "totalMembros": 25,
+      "totalMembros": 26,
       "membros": [
         {
           "id": "5516993161616@s.whatsapp.net",
+          "admin": null
+        },
+        {
+          "id": "5518996556848@s.whatsapp.net",
           "admin": null
         },
         {
@@ -5742,7 +5838,7 @@
           "admin": null
         },
         {
-          "id": "553591191269@s.whatsapp.net",
+          "id": "553496426551@s.whatsapp.net",
           "admin": null
         },
         {
@@ -5898,7 +5994,10 @@
         "559991168209@s.whatsapp.net": [],
         "555194556035@s.whatsapp.net": [],
         "553591290379@s.whatsapp.net": [],
-        "5521983793257@s.whatsapp.net": []
+        "5521983793257@s.whatsapp.net": [],
+        "5521980401333@s.whatsapp.net": [],
+        "553496426551@s.whatsapp.net": [],
+        "5518996556848@s.whatsapp.net": []
       },
       "lastSentTime": 0,
       "quiz": {
@@ -12070,10 +12169,10 @@
       "lastSuccess": 1730606020856
     },
     "dl-spotify.js": {
-      "total": 22,
-      "success": 22,
-      "last": 1730773410742,
-      "lastSuccess": 1730773410742
+      "total": 23,
+      "success": 23,
+      "last": 1730820562373,
+      "lastSuccess": 1730820562373
     },
     "dl-yt_play.js": {
       "total": 6,
@@ -12106,10 +12205,10 @@
       "lastSuccess": 1730510385135
     },
     "sticker-sticker.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1730744276712,
-      "lastSuccess": 1730744276712
+      "total": 14,
+      "success": 14,
+      "last": 1730821182997,
+      "lastSuccess": 1730821182997
     },
     "grupo-tagall.js": {
       "total": 2,
@@ -12184,10 +12283,10 @@
       "lastSuccess": 1730675581824
     },
     "funAcoes7.js": {
-      "total": 24,
-      "success": 24,
-      "last": 1730818778170,
-      "lastSuccess": 1730818778170
+      "total": 25,
+      "success": 25,
+      "last": 1730821068936,
+      "lastSuccess": 1730821068936
     },
     "dl-ig.js": {
       "total": 2,
@@ -12220,10 +12319,10 @@
       "lastSuccess": 1730685616998
     },
     "conversor-tts.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1730711883187,
-      "lastSuccess": 1730711883187
+      "total": 3,
+      "success": 3,
+      "last": 1730820792057,
+      "lastSuccess": 1730820792057
     },
     "grupo-advertencia.js": {
       "total": 2,
@@ -12272,18 +12371,18 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9985547098495667,
-    "cotacaoOntem": 1.0036185219188418,
+    "cotacao": 0.9921581690531571,
+    "cotacaoOntem": 0.9985547098495667,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024963867746239167
+      "rendimento": 0.000024803954226328927
     },
-    "cotacaoPercentual": -0.5045554619292464,
-    "ultimaAtualizacao": "2024-11-04T15:16:31.418Z"
+    "cotacaoPercentual": -0.640579903466006,
+    "ultimaAtualizacao": "2024-11-05T15:11:17.971Z"
   },
   "languages": {
     "pt": {},
