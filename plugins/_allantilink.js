@@ -128,7 +128,7 @@ if (languageConfig === 'pt') {
 >>> REASON FOR EXILE
 ────────────────────────────────
 > ${motivo}
-
+> ‎ 
 > # Operation conducted by ByteSec.
 > # Under continuous surveillance.
 ────────────────────────────────
@@ -182,41 +182,31 @@ let warn;
 
 if (languageConfig === 'pt') {
     warn = `
-> robot@bytesec: #/groups/ warning.log
+> robot@bytesec: #~ journalctl
 > ---------------------------------------
 
-[!] ATENÇÃO: Violação de Regras
-────────────────────────────────
-> Protocolo         : ${generateRandomCode()}
-> Data              : ${getDataAtual()}
-
->>> ALERTA DE CONDUTA
+[!] 0x8007000E: Violação de Regras
 ────────────────────────────────
 > Não mande links de TikTok neste grupo. 
 > Isso é estritamente proibido pelas regras.
 > Qualquer desafio a esta ordem resultará em 
 > consequências imediatas.
-
+> ‎ 
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
 } else if (languageConfig === 'en') {
     warn = `
-> robot@bytesec: #/groups/ warning.log
+> robot@bytesec: #~ journalctl
 > ---------------------------------------
 
 [!] WARNING: Rule Violation
-────────────────────────────────
-> Protocol          : ${generateRandomCode()}
-> Date              : ${getDataAtual()}
-
->>> CONDUCT ALERT
 ────────────────────────────────
 > Do not send TikTok links in this group.
 > It is strictly banned by defined rules.
 > Any challenge to this order will result in 
 > immediate consequences.
-
+> ‎ 
 > # Active monitoring by ByteSec.
 ────────────────────────────────
     `;
@@ -229,18 +219,64 @@ if (languageConfig === 'pt') {
     
   }
   
-  if(global.db.data.chats[m.chat].users[m.sender].advTik == 2) {
+  let tikDetected 
+  if(languageConfig === 'en') {
+    tikDetected= 'Tiktok link detected! Anti-Link protocol activated.'
+  }
+  else if (languageConfig === 'pt') {    
+    
+tikDetected= 'Link Tiktok detectado! Protocolo Anti-Link aplicado.'
+  }
 
-await conn.reply(m.chat, `${lenguajeGB['smsEnlaceTik']()}`, null, { mentions: [aa] }
+
+  if(global.db.data.chats[m.chat].users[m.sender].advTik == 2) {
+    let tikTokBAN;
+
+    if (languageConfig === 'pt') {
+        tikTokBAN = `
+    > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+    > ---------------------------------------
+    
+    >>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+    ────────────────────────────────
+    > [+] Você achou que poderia ignorar minhas instruções?
+    > [+] Links de TikTok não são permitidos aqui.
+    > [+] Agora, você decidiu se arriscar. A consequência? 
+    > [+] Você será removido do sistema. 
+    
+    > Adeus, ${global.db.data.users[m.sender].name}. 
+    > # Monitoração ativa por ByteSec. 
+    ────────────────────────────────
+        `;
+    }
+    else if (languageConfig === 'en') {
+      tikTokBAN = `
+  > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+  > ---------------------------------------
+  
+  [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+  ────────────────────────────────
+  > [+] You thought you could just ignore my orders?
+  > [+] TikTok links are strictly forbidden here.
+  > [+] You chose to take a risk. The consequence? 
+  > [+] You’re getting erased from the system. 
+  
+  > Goodbye, ${global.db.data.users[m.sender].name}. 
+  > # Active monitoring by ByteSec. 
+  ────────────────────────────────
+      `;
+  }
+  
+await conn.reply(m.chat, tikTokBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advTik = 0 
-await tempBanimento('Detectado um link de tiktok!')
+await tempBanimento(tikDetected)
 }
     
   } else if (!isBotAdmin) {
-return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
+return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+return m.reply(global.notOwner)
 }}
     
 if (chat.antiYoutube && isAntiLinkYt) {
@@ -265,13 +301,42 @@ if(!global.db.data.chats[m.chat].ignored)
 }
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
 
+let warnYt;
+
+if (languageConfig === 'pt') {
+    warnYt = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] 0x8007000E: Violação de Regras
+────────────────────────────────
+> Não mande links do Youtube neste grupo. 
+> Isso é estritamente proibido pelas regras.
+> Qualquer desafio a esta ordem resultará em 
+> consequências imediatas.
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    warnYt = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] WARNING: Rule Violation
+────────────────────────────────
+> Do not send Youtube links in this group.
+> It is strictly banned by defined rules.
+> Any challenge to this order will result in 
+> immediate consequences.
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
+    
    
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+ await conn.sendMessage(m.chat, {text: warnYt, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advYt++ 
  
  return !0
@@ -279,18 +344,63 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
   }
   
   if(global.db.data.chats[m.chat].users[m.sender].advYt == 2) {
+    let YtBAN;
 
-await conn.reply(m.chat, `${lenguajeGB['smsEnlaceYt']()}`, null, { mentions: [aa] }
+    if (languageConfig === 'pt') {
+        YtBAN = `
+    > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+    > ---------------------------------------
+    
+    >>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+    ────────────────────────────────
+    > [+] Você achou que poderia ignorar minhas instruções?
+    > [+] Links do Youtube não são permitidos aqui.
+    > [+] Agora, você decidiu se arriscar. A consequência? 
+    > [+] Você será removido do sistema. 
+    
+    > Adeus, ${global.db.data.users[m.sender].name}. 
+    > # Monitoração ativa por ByteSec. 
+    ────────────────────────────────
+        `;
+    }
+    else if (languageConfig === 'en') {
+      YtBAN = `
+  > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+  > ---------------------------------------
+  
+  [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+  ────────────────────────────────
+  > [+] You thought you could just ignore my orders?
+  > [+] Youtube links are strictly forbidden here.
+  > [+] You chose to take a risk. The consequence? 
+  > [+] You’re getting erased from the system. 
+  
+  > Goodbye, ${global.db.data.users[m.sender].name}. 
+  > # Active monitoring by ByteSec. 
+  ────────────────────────────────
+      `;
+  }
+
+await conn.reply(m.chat, YtBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advYt = 0 
-await tempBanimento('Detectado um link de instagram!')
+let ytDetected 
+if(languageConfig === 'en') {
+  ytDetected= 'Youtube link detected! Anti-Link protocol activated.'
+}
+else if (languageConfig === 'pt') {    
+  
+ytDetected= 'Link do Youtube detectado! Protocolo Anti-Link aplicado.'
+}
+
+await tempBanimento(ytDetected)
 }
     
     
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
+return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+return m.reply(global.notOwner)
 }}  
     
 if (chat.antiTelegram && isAntiLinkTel) {
@@ -317,12 +427,43 @@ if(!global.db.data.chats[m.chat].ignored)
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
 
 
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+let warnTg;
+
+if (languageConfig === 'pt') {
+    warnTg = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] 0x8007000E: Violação de Regras
+────────────────────────────────
+> Não mande links do Telegram neste grupo. 
+> Isso é estritamente proibido pelas regras.
+> Qualquer desafio a esta ordem resultará em 
+> consequências imediatas.
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    warnTg = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] WARNING: Rule Violation
+────────────────────────────────
+> Do not send Telegram links in this group.
+> It is strictly banned by defined rules.
+> Any challenge to this order will result in 
+> immediate consequences.
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
+ 
+
+
+ await conn.sendMessage(m.chat, {text: warnTg, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advTel++ 
  
  return !0
@@ -331,18 +472,65 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
   
   if(global.db.data.chats[m.chat].users[m.sender].advTel == 2) {
 
-await conn.reply(m.chat, `${lenguajeGB['smsEnlaceTel']()}`, null, { mentions: [aa] }
+    let TgBAN;
+
+    if (languageConfig === 'pt') {
+        TgBAN = `
+    > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+    > ---------------------------------------
+    
+    >>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+    ────────────────────────────────
+    > [+] Você achou que poderia ignorar minhas instruções?
+    > [+] Links do Telegram não são permitidos aqui.
+    > [+] Agora, você decidiu se arriscar. A consequência? 
+    > [+] Você será removido do sistema. 
+    
+    > Adeus, ${global.db.data.users[m.sender].name}. 
+    > # Monitoração ativa por ByteSec. 
+    ────────────────────────────────
+        `;
+    }
+    else if (languageConfig === 'en') {
+      TgBAN = `
+  > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+  > ---------------------------------------
+  
+  [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+  ────────────────────────────────
+  > [+] You thought you could just ignore my orders?
+  > [+] Telegram links are strictly forbidden here.
+  > [+] You chose to take a risk. The consequence? 
+  > [+] You’re getting erased from the system. 
+  
+  > Goodbye, ${global.db.data.users[m.sender].name}. 
+  > # Active monitoring by ByteSec. 
+  ────────────────────────────────
+      `;
+  }
+
+await conn.reply(m.chat, TgBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advTel = 0 
-await tempBanimento('Detectado um link de telegram!')
+
+let tgDetected 
+if(languageConfig === 'en') {
+  tgDetected= 'Telegram link detected! Anti-Link protocol activated.'
+}
+else if (languageConfig === 'pt') {    
+  
+tgDetected= 'Link Telegram detectado! Protocolo Anti-Link aplicado.'
+}
+
+await tempBanimento(tgDetected)
 }
     
     
     
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
+return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+return m.reply(global.notOwner)
 }}    
     
 if (chat.antiFacebook && isAntiLinkFb) {
@@ -369,14 +557,42 @@ if(!global.db.data.chats[m.chat].ignored)
 }
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
 
+let warnFb;
 
+if (languageConfig === 'pt') {
+    warnFb = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] 0x8007000E: Violação de Regras
+────────────────────────────────
+> Não mande links do Facebook neste grupo. 
+> Isso é estritamente proibido pelas regras.
+> Qualquer desafio a esta ordem resultará em 
+> consequências imediatas.
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    warnFb = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] WARNING: Rule Violation
+────────────────────────────────
+> Do not send Facebook links in this group.
+> It is strictly banned by defined rules.
+> Any challenge to this order will result in 
+> immediate consequences.
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
+ 
     
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+ await conn.sendMessage(m.chat, {text: warnFb, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advFb++ 
  
  return !0
@@ -384,19 +600,64 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
   }
   
   if(global.db.data.chats[m.chat].users[m.sender].advFb == 2) {
+    let FbBAN;
 
-await conn.reply(m.chat, `${lenguajeGB['smsEnlaceFb']()}`, null, { mentions: [aa] }
+    if (languageConfig === 'pt') {
+        FbBAN = `
+    > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+    > ---------------------------------------
+    
+    >>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+    ────────────────────────────────
+    > [+] Você achou que poderia ignorar minhas instruções?
+    > [+] Links do Facebook não são permitidos aqui.
+    > [+] Agora, você decidiu se arriscar. A consequência? 
+    > [+] Você será removido do sistema. 
+    
+    > Adeus, ${global.db.data.users[m.sender].name}. 
+    > # Monitoração ativa por ByteSec. 
+    ────────────────────────────────
+        `;
+    }
+    else if (languageConfig === 'en') {
+      FbBAN = `
+  > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+  > ---------------------------------------
+  
+  [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+  ────────────────────────────────
+  > [+] You thought you could just ignore my orders?
+  > [+] Facebook links are strictly forbidden here.
+  > [+] You chose to take a risk. The consequence? 
+  > [+] You’re getting erased from the system. 
+  
+  > Goodbye, ${global.db.data.users[m.sender].name}. 
+  > # Active monitoring by ByteSec. 
+  ────────────────────────────────
+      `;
+  }
+await conn.reply(m.chat, FbBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advFb = 0 
-await tempBanimento('Detectado um link de facebook!')
+
+let fbDetected 
+if(languageConfig === 'en') {
+  fbDetected= 'Facebook link detected! Anti-Link protocol activated.'
+}
+else if (languageConfig === 'pt') {    
+  
+fbDetected= 'Link de Facebook detectado! Protocolo Anti-Link aplicado.'
+}
+
+await tempBanimento(fbDetected)
 }
     
     
     
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
+return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+return m.reply(global.notOwner)
 }}  
     
 if (chat.antiInstagram && isAntiLinkIg) {
@@ -420,13 +681,43 @@ if(!global.db.data.chats[m.chat].ignored)
 }
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
 
+
+let warnIg;
+
+if (languageConfig === 'pt') {
+    warnIg = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] 0x8007000E: Violação de Regras
+────────────────────────────────
+> Não mande links do Instagram neste grupo. 
+> Isso é estritamente proibido pelas regras.
+> Qualquer desafio a esta ordem resultará em 
+> consequências imediatas.
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    warnIg = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] WARNING: Rule Violation
+────────────────────────────────
+> Do not send Instagram links in this group.
+> It is strictly banned by defined rules.
+> Any challenge to this order will result in 
+> immediate consequences.
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
+ 
    
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝐼𝑛𝑠𝑡𝑎𝑔𝑟𝑎𝑚 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+ await conn.sendMessage(m.chat, {text:warnIg, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advIg++ 
  
  return !0
@@ -438,16 +729,26 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 await conn.reply(m.chat, `${lenguajeGB['smsEnlaceIg']()}`, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advIg = 0 
-await tempBanimento('Detectado um link de instagram!')
+
+let igDetected 
+if(languageConfig === 'en') {
+  igDetected= 'Instagram link detected! Anti-Link protocol activated.'
+}
+else if (languageConfig === 'pt') {    
+  
+igDetected= 'Link de Instagram detectado! Protocolo Anti-Link aplicado.'
+}
+
+await tempBanimento(igDetected)
 }
     
     
     
     
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
+return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+return m.reply(global.notOwner)
 }}
     
 if (chat.antiTwitter && isAntiLinkTw) {
@@ -498,9 +799,9 @@ await tempBanimento('Detectado um link de twitter!')
     
     
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
+return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+return m.reply(global.notOwner)
 }}
 return !0
 }

@@ -18,13 +18,12 @@ handler.before = async function (m, { text, args, usedPrefix, command, conn } ) 
 
 if (languageConfig === 'pt') {
     notAdminMg = `
-> robot@bytesec: #/groups/ warning.log
+> robot@bytesec: #/groups/ cat warning.log
 > ---------------------------------------
 
 [!] ATENÇÃO: Acesso Negado
-
 ────────────────────────────────
-> Usuário não está no arquivo sudoers.
+> [+] 𝘶𝘴𝘦𝘳 𝘯𝘰𝘵 𝘪𝘯 𝘵𝘩𝘦 𝘴𝘶𝘥𝘰𝘦𝘳𝘴 𝘧𝘪𝘭𝘦!
 > Esta ação é estritamente proibida.
 > ‎ 
 > Hey, eu não sou um administrador aqui, garoto!
@@ -36,12 +35,12 @@ if (languageConfig === 'pt') {
 
 else if (languageConfig === 'en') {
     notAdminMg = `
-> robot@bytesec: #/groups/ warning.log
+> robot@bytesec: #/groups/ cat warning.log
 > ---------------------------------------
 
 [!] WARNING: Access Denied
 ────────────────────────────────
-> User is not in the sudoers file.
+> [+] 𝘶𝘴𝘦𝘳 𝘯𝘰𝘵 𝘪𝘯 𝘵𝘩𝘦 𝘴𝘶𝘥𝘰𝘦𝘳𝘴 𝘧𝘪𝘭𝘦!
 > This action is strictly prohibited.
 > ‎ 
 > Hey, I'm not an administrator here, kid!
@@ -53,36 +52,37 @@ else if (languageConfig === 'en') {
 
 
 global.notAdmin = notAdminMg
+
+
+
 let notOwnerMg;
 
 if (languageConfig === 'pt') {
     notOwnerMg = `
-> robot@bytesec: #/groups/ access_denied.log
+> robot@bytesec: #/groups/ cat access_denied.log
 > ---------------------------------------
 
-[!] ERRO 0x1F4A: COMANDO BLOQUEADO
+[!] ERROR_ACCESS_DENIED: COMANDO BLOQUEADO
 ────────────────────────────────
-> Acesso negado: usuário sem privilégios ByteSec.
-> Código de erro: 0x00AF3D
 > COMANDO ESTRITAMENTE EXCLUSIVO PARA A EQUIPE BYTESEC.
-
-> ⚠ 0xA45F: "Permissão não concedida."
+> ‎ 
+> ⚠ 0x00000005: *𝒫𝑅𝒪𝐼𝐵𝐼𝒟𝒪*
 > ‎ 
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
 } else if (languageConfig === 'en') {
     notOwnerMg = `
-> robot@bytesec: #/groups/ access_denied.log
+> robot@bytesec: #/groups/ cat access_denied.log
 > ---------------------------------------
 
-[!] ERROR 0x1F4A: COMMAND BLOCKED
+[!] ERROR_ACCESS_DENIED: COMMAND BLOCKED
 ────────────────────────────────
 > Access denied: user lacks ByteSec privileges.
 > Error code: 0x00AF3D
 > COMMAND STRICTLY EXCLUSIVE TO BYTESEC CREW.
-
-> ⚠ 0xA45F: "Permission not granted."
+> ‎ 
+> ⚠ 0x00000005: *𝐹𝒪𝑅𝐵𝐼𝒟𝒟𝐸𝒩*
 > ‎ 
 > # Active monitoring by ByteSec.
 ────────────────────────────────
