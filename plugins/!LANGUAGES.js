@@ -14,10 +14,10 @@ let handler = m => m
 handler.before = async function (m, { text, args, usedPrefix, command, conn } ) {
 
 
-    let notAdmin;
+    let notAdminMg;
 
 if (languageConfig === 'pt') {
-    notAdmin = `
+    notAdminMg = `
 > robot@bytesec: #/groups/ warning.log
 > ---------------------------------------
 
@@ -26,16 +26,16 @@ if (languageConfig === 'pt') {
 ────────────────────────────────
 > Usuário não está no arquivo sudoers.
 > Esta ação é estritamente proibida.
-
+> ‎ 
 > Hey, eu não sou um administrador aqui, garoto!
-
+> ‎ 
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
 }
 
 else if (languageConfig === 'en') {
-    notAdmin = `
+    notAdminMg = `
 > robot@bytesec: #/groups/ warning.log
 > ---------------------------------------
 
@@ -43,14 +43,16 @@ else if (languageConfig === 'en') {
 ────────────────────────────────
 > User is not in the sudoers file.
 > This action is strictly prohibited.
-
+> ‎ 
 > Hey, I'm not an administrator here, kid!
-
+> ‎ 
 > # Active monitoring by ByteSec.
 ────────────────────────────────
     `;
 }
 
+
+global.notAdmin = notAdminMg
 
 
 
