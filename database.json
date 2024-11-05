@@ -156,7 +156,7 @@
       "spammer": 0,
       "lbars": "[▒▒▒▒▒▒▒▒▒]",
       "usuariosRoubados": [],
-      "name": "Åńōnymøü_3301 🖖👽",
+      "name": "",
       "afkInfo": {
         "120363178125353378@g.us": {
           "afkTime": -2,
@@ -4016,6 +4016,32 @@
           "afkReason": ""
         }
       }
+    },
+    "214735547027689@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "214735547027689@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -5318,7 +5344,7 @@
           "messageCount": 1,
           "pontos": 0,
           "usuariosRoubados": [],
-          "acaoTimer": "2024-11-04T15:54:40.914Z",
+          "acaoTimer": "2024-11-05T14:59:38.166Z",
           "almas": 0,
           "rouboTimestamp": "2024-11-04T15:54:40.922Z",
           "mortoDemonio": false,
@@ -5387,7 +5413,9 @@
           "mortoDemonio": false,
           "steals": 1,
           "lastAttemptTimestamp": "2024-11-04T13:35:14.032Z",
-          "shields": 0
+          "shields": 0,
+          "slots": 0,
+          "lastslot": "2024-11-05T14:20:33.341Z"
         },
         "554598527531@s.whatsapp.net": {
           "exp": 898,
@@ -5579,7 +5607,9 @@
           "cocriador": false,
           "lastMessageTime": 1730778300564,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "usuariosRoubados": [],
+          "shields": 0
         },
         "555194556035@s.whatsapp.net": {
           "exp": 0,
@@ -8743,6 +8773,24 @@
           "lastMessageTime": 1730810821638,
           "messageCount": null,
           "pontos": 0
+        },
+        "214735547027689@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1730818275657,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -11366,7 +11414,8 @@
         "130326554746950@lid": [],
         "264763812659386@lid": [],
         "237941456654520@lid": [],
-        "221671852105778@lid": []
+        "221671852105778@lid": [],
+        "214735547027689@lid": []
       },
       "firstTime": true,
       "antiCallGp": true,
@@ -12081,10 +12130,10 @@
       "lastSuccess": 1730675713458
     },
     "grupo-perfil.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1730674717048,
-      "lastSuccess": 1730674717048
+      "total": 10,
+      "success": 10,
+      "last": 1730816411230,
+      "lastSuccess": 1730816411230
     },
     "ia-fSociety.js": {
       "total": 2,
@@ -12135,10 +12184,10 @@
       "lastSuccess": 1730675581824
     },
     "funAcoes7.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1730807579899,
-      "lastSuccess": 1730807579899
+      "total": 24,
+      "success": 24,
+      "last": 1730818778170,
+      "lastSuccess": 1730818778170
     },
     "dl-ig.js": {
       "total": 2,
@@ -12199,6 +12248,12 @@
       "success": 3,
       "last": 1730807174274,
       "lastSuccess": 1730807174274
+    },
+    "fun-slot.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1730816433343,
+      "lastSuccess": 1730816433343
     }
   },
   "msgs": {},
