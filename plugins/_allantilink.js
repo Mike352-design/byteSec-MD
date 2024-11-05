@@ -725,8 +725,43 @@ if (languageConfig === 'pt') {
   }
   
   if(global.db.data.chats[m.chat].users[m.sender].advIg == 2) {
+let IgBAN;
 
-await conn.reply(m.chat, `${lenguajeGB['smsEnlaceIg']()}`, null, { mentions: [aa] }
+    if (languageConfig === 'pt') {
+        IgBAN = `
+    > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+    > ---------------------------------------
+    
+    >>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+    ────────────────────────────────
+    > [+] Você achou que poderia ignorar minhas instruções?
+    > [+] Links do Instagram não são permitidos aqui.
+    > [+] Agora, você decidiu se arriscar. A consequência? 
+    > [+] Você será removido do sistema. 
+    
+    > Adeus, ${global.db.data.users[m.sender].name}. 
+    > # Monitoração ativa por ByteSec. 
+    ────────────────────────────────
+        `;
+    }
+    else if (languageConfig === 'en') {
+      IgBAN = `
+  > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+  > ---------------------------------------
+  
+  [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+  ────────────────────────────────
+  > [+] You thought you could just ignore my orders?
+  > [+] Instagram links are strictly forbidden here.
+  > [+] You chose to take a risk. The consequence? 
+  > [+] You’re getting erased from the system. 
+  
+  > Goodbye, ${global.db.data.users[m.sender].name}. 
+  > # Active monitoring by ByteSec. 
+  ────────────────────────────────
+      `;
+  }
+await conn.reply(m.chat, IgBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advIg = 0 
 
@@ -773,13 +808,41 @@ if(!global.db.data.chats[m.chat].ignored)
 }
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
 
+let warnTw;
+
+if (languageConfig === 'pt') {
+    warnTw = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] 0x8007000E: Violação de Regras
+────────────────────────────────
+> Não mande links do Twitter/X neste grupo. 
+> Isso é estritamente proibido pelas regras.
+> Qualquer desafio a esta ordem resultará em 
+> consequências imediatas.
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    warnTw = `
+> robot@bytesec: #~ journalctl
+> ---------------------------------------
+
+[!] WARNING: Rule Violation
+────────────────────────────────
+> Do not send Twitter/X links in this group.
+> It is strictly banned by defined rules.
+> Any challenge to this order will result in 
+> immediate consequences.
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
     
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝑇𝑤𝑖𝑡𝑡𝑒𝑟 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+ await conn.sendMessage(m.chat, {text: warnTw, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advTw++ 
  
  return !0
@@ -788,10 +851,46 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
   
   if(global.db.data.chats[m.chat].users[m.sender].advTw == 2) {
 
-await conn.reply(m.chat, `${lenguajeGB['smsEnlaceIg']()}`, null, { mentions: [aa] }
+let TwBAN;
+
+    if (languageConfig === 'pt') {
+        TwBAN = `
+    > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+    > ---------------------------------------
+    
+    >>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+    ────────────────────────────────
+    > [+] Você achou que poderia ignorar minhas instruções?
+    > [+] Links do Twitter/X não são permitidos aqui.
+    > [+] Agora, você decidiu se arriscar. A consequência? 
+    > [+] Você será removido do sistema. 
+    
+    > Adeus, ${global.db.data.users[m.sender].name}. 
+    > # Monitoração ativa por ByteSec. 
+    ────────────────────────────────
+        `;
+    }
+    else if (languageConfig === 'en') {
+      TwBAN = `
+  > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+  > ---------------------------------------
+  
+  [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+  ────────────────────────────────
+  > [+] You thought you could just ignore my orders?
+  > [+] Twitter/X links are strictly forbidden here.
+  > [+] You chose to take a risk. The consequence? 
+  > [+] You’re getting erased from the system. 
+  
+  > Goodbye, ${global.db.data.users[m.sender].name}. 
+  > # Active monitoring by ByteSec. 
+  ────────────────────────────────
+      `;
+  }
+await conn.reply(m.chat, TwBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advTw = 0 
-await tempBanimento('Detectado um link de twitter!')
+await tempBanimento()
 }
     
     
