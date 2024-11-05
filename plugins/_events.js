@@ -6,7 +6,7 @@
 //┃ 𖤍 𝘾𝙤𝙣𝙩𝙖𝙘𝙩-𝙢𝙚 𝙛𝙤𝙧 𝙖𝙣𝙮 𝙙𝙤𝙪𝙗𝙩
 // ╰─...⌬─────────────────────────────────
 
-import { createCanvas } from 'canvas';
+  import { createCanvas } from 'canvas';
 import {getSudoku} from 'sudoku-gen';
 import FormData from "form-data"; 
 import fetch from "node-fetch"; 
@@ -2962,9 +2962,14 @@ function generateBankDetails() {
         walletAddress
     };
 }
-
-
+if(global.db.data.chats[m.chat].users[m.sender].money < 100){
+return m.reply(`> ☛ 𝑉𝑜𝑐𝑒̂ 𝑛𝑎̃𝑜 𝑡𝑒𝑚 𝐷𝑎𝑟𝑘𝑐𝑜𝑖𝑛𝑠 𝑠𝑢𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒𝑠!`)
+}
+ global.db.data.chats[m.chat].users[m.sender].money -= 100
     const details = generateBankDetails();
+
+
+
 
 
      let imgnk =[
@@ -2998,11 +3003,11 @@ _Carteira Digital:_ ${details.walletAddress}
    conta: details.accountNumber,
    sepa: details.sepaCode,
    wallet: details.walletAddress,
-   saldo: 100
  }
+   global.db.data.settings.banco.clientes[m.sender].saldo = 100
  console.log('bank created')
   delete global.db.data.chats[m.chat].users[m.sender].bankRegister
-  global.db.data.chats[m.chat].users[m.sender].money -= 100
+ 
 
   
  
