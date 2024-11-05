@@ -83,23 +83,57 @@ let destino = global.db.data.chats[m.chat].reportchat || adminAleatorio
 
    console.log('3🌙')
 
-  
-let teks = `─┅──┅❖𓌜❖─┅──┅
-𝖀𝖘𝖚á𝖗𝖎𝖔 𝕭𝖆𝖓𝖎𝖉𝖔!
+  let teks;
 
-*№ Protocolo: ${generateRandomCode()}*
-*Data: ${getDataAtual()}*
+if (languageConfig === 'pt') {
+    teks = `
+> robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+> ---------------------------------------
 
-_*Usuário:*_
-Nome: ${m.name}
-Contato: @${m.sender.split`@`[0]}
+[!] ALERTA: Usuário Banido
+────────────────────────────────
+> Protocolo: ${generateRandomCode()}
+> Data: ${getDataAtual()}
 
-*Grupo:* ${groupMetadata.subject}
-⎔⎓──────────────
-_*Motivo do exílio:*_
-${motivo}
+>>> DETALHES DO USUÁRIO
+────────────────────────────────
+> [+] Nome: ${m.name}
+> [+] Contato: @${m.sender.split`@`[0]}
+> [+] Grupo: ${groupMetadata.subject}
 
-─┅──┅❖ ❖─┅──┅`
+>>> MOTIVO DO EXÍLIO
+────────────────────────────────
+> ${motivo}
+
+> # Operação realizada pela ByteSec. 
+> # Monitoramento constante.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    teks = `
+> robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+> ---------------------------------------
+
+[!] ALERT: User Banned
+────────────────────────────────
+> Protocol: ${generateRandomCode()}
+> Date: ${getDataAtual()}
+
+>>> USER DETAILS
+────────────────────────────────
+> [+] Name: ${m.name}
+> [+] Contact: @${m.sender.split`@`[0]}
+> [+] Group: ${groupMetadata.subject}
+
+>>> REASON FOR EXILE
+────────────────────────────────
+> ${motivo}
+
+> # Operation conducted by ByteSec.
+> # Under continuous surveillance.
+────────────────────────────────
+    `;
+}
    
    m.reply(teks,destino)
 
@@ -144,14 +178,51 @@ if(!global.db.data.chats[m.chat].ignored)
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
 
 
+let warn;
 
+if (languageConfig === 'pt') {
+    warn = `
+> robot@bytesec: #/groups/ warning.log
+> ---------------------------------------
+
+[!] ATENÇÃO: Violação de Regras
+────────────────────────────────
+> Protocolo         : ${generateRandomCode()}
+> Data              : ${getDataAtual()}
+
+>>> ALERTA DE CONDUTA
+────────────────────────────────
+> Não mande links de TikTok neste grupo. 
+> Isso é estritamente proibido pelas regras.
+> Qualquer desafio a esta ordem resultará em 
+> consequências imediatas.
+
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (languageConfig === 'en') {
+    warn = `
+> robot@bytesec: #/groups/ warning.log
+> ---------------------------------------
+
+[!] WARNING: Rule Violation
+────────────────────────────────
+> Protocol          : ${generateRandomCode()}
+> Date              : ${getDataAtual()}
+
+>>> CONDUCT ALERT
+────────────────────────────────
+> Do not send TikTok links in this group.
+> It is strictly banned by defined rules.
+> Any challenge to this order will result in 
+> immediate consequences.
+
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
     
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝑇𝑖𝑘𝑇𝑜𝑘 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+ await conn.sendMessage(m.chat, {text: warn, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advTik++ 
  
  return !0
