@@ -12137,7 +12137,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 121,
+          "exp": 128,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -12457,6 +12457,12 @@
       "success": 2,
       "last": 1730816433343,
       "lastSuccess": 1730816433343
+    },
+    "conversor-tourl.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1730852341869,
+      "lastSuccess": 1730852341869
     }
   },
   "msgs": {},
