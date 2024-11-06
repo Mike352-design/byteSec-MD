@@ -141,19 +141,40 @@ let neww = performance.now()
   let speed = neww - old
   
   
-  const header =`╭━━[ *𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽   v${vs} 𓄿* ]━━⬣
-┃                      *「 Status 」*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈        
-┃  ⛦ *Bonjour..* ${global.db.data.users[m.sender].name}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ `
+  const header =` > 𝗿𝗼𝗯𝗼𝘁@𝗯𝘆𝘁𝗲𝘀𝗲𝗰: #~ lscpu
+`
+let botStatus 
 
+if(global.db.data.chats[m.chat].isBanned && languageConfig == 'pt') {
+  botStatus = '⚠︎ Ｂｌｏｑｕｅａｄｏ'
+}
+else if(global.db.data.chats[m.chat].isBanned && languageConfig == 'en') {
+  botStatus = '⚠︎ Ｂｌｏｃｋｅｄ'
+}
+// inactive
+else if(global.db.data.chats[m.chat].desativado && languageConfig == 'pt') {
+  botStatus = '⚠︎ Ｄｅｓａｔｉｖａｄｏ'
+}
+else if(global.db.data.chats[m.chat].desativado && languageConfig == 'en') {
+  botStatus = '⚠︎ Ｄｅａｃｔｉｖａｔｅｄ'
+}
+//admin
+else if(global.db.data.chats[m.chat].modoadmin && languageConfig == 'pt') {
+  botStatus = '⚠︎ Ａｐｅｎａｓ ａｄｍｉｎ'
+}
+else if(global.db.data.chats[m.chat].modoadmin && languageConfig == 'en') {
+  botStatus = '⚠︎ Ａｄｍｉｎ ｏｎｌｙ'
+}
+else {
+  botStatus = `ΒYƬΣSΞC-MĐ 𖠑 v${vs}`
+}
 
-const header2 = `${global.db.data.chats[m.chat].isBanned ? '┃ ❌  𝙱𝚘𝚝 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘!' : ''} ${global.db.data.settings[conn.user.jid].desativado ? '\n┃ 🔏  𝙱𝚘𝚝 𝚒𝚗𝚊𝚝𝚒𝚟𝚘' : ''} ${global.db.data.chats[m.chat].modoadmin ? '\n┃✒️ 𝙱𝚘𝚝 𝚜𝚘𝚖𝚎𝚗𝚝𝚎 𝚙𝚊𝚛𝚊 𝚊𝚍𝚖𝚒𝚗𝚜' : ''}
-┃━━━━━━━━━⬣
-┃ 𒌐 _*C r i a d o r*_
-┃ ⸸ Ｈｅｎｒｙ ░ Λｒｃａｎｇｅｌｏ
-┃━━━━━━━━━⬣
-┃ 𖤐 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
+const header2 = `> -------------------------------------
+> ${botStatus}
+> CPU Info
+> ------------------------------------- 
+
+┃ ♨︎ 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
 ┃ ${uptime}`
 
 const grupo = `┃━━━━━━━━━⬣
@@ -205,7 +226,7 @@ const grupo = `┃━━━━━━━━━⬣
   switch (command){
     
     case 'status':
-      conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/d06560e908d8a4bd8d87d.jpg" }, caption: `${header}
+      conn.sendMessage(m.chat, { image: { url: picture }, caption: `${header}
 ${header2}
 ${grupo}
 ${chtds}
