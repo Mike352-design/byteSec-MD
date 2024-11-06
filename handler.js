@@ -158,6 +158,7 @@ if (!('sWelcome' in chat)) chat.sWelcome = ''
 if (!('sBye' in chat)) chat.sBye = ''                    
 if (!('sPromote' in chat)) chat.sPromote = ''                    
 if (!('sDemote' in chat)) chat.sDemote = '' 
+if (!('language' in chat)) chat.language = 'en' 
 if (!('delete' in chat))
 chat.delete = true                    
 if (!('modohorny' in chat)) chat.modohorny = true                    
@@ -199,6 +200,7 @@ global.db.data.chats[m.chat] = {
 isBanned: false,
 welcome: true,
 detect: false,
+language: 'en',
 sWelcome: '',
 sBye: '',
 sPromote: '',
@@ -239,6 +241,9 @@ edgar: true,
 reply: true,
 expired: 0,
 }
+
+(!global.db.data.chats[m.chat].language) global.db.data.chats[m.chat].language = 'en'
+global.languageConfig = global.db.data.chats[m.chat].language
 
 if(!global.db.data.chats[m.chat].expira)
 {
