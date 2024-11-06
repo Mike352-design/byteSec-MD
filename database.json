@@ -12137,7 +12137,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 128,
+          "exp": 202,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -12243,10 +12243,10 @@
   },
   "stats": {
     "cpu.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1730752053492,
-      "lastSuccess": 1730752053492
+      "total": 4,
+      "success": 4,
+      "last": 1730852379786,
+      "lastSuccess": 1730852379786
     },
     "config-on y off.js": {
       "total": 13,
@@ -12291,10 +12291,10 @@
       "lastSuccess": 1730378674613
     },
     "dono-update.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1730811421890,
-      "lastSuccess": 1730811421890
+      "total": 15,
+      "success": 15,
+      "last": 1730852376884,
+      "lastSuccess": 1730852376884
     },
     "dono-exec.js": {
       "total": 9,
