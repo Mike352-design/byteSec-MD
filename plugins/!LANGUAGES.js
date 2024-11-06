@@ -14,6 +14,22 @@ let handler = m => m
 handler.before = async function (m, { text, args, usedPrefix, command, conn } ) {
 
 
+if(m.quoted &&
+global.db.data.chats[m.chat].langChangeID &&
+m.quoted.id == global.db.data.chats[m.chat].langChangeID )
+{
+    if(m.text ==1) {
+        global.db.data.chats[m.chat].language = 'pt'
+    }
+
+
+    if(m.text ==2) {
+        global.db.data.chats[m.chat].language = 'en'
+    }
+}
+
+
+
     let notAdminMg;
 
 if (languageConfig === 'pt') {
