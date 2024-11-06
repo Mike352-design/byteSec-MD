@@ -167,32 +167,38 @@ else if(global.db.data.chats[m.chat].modoadmin && languageConfig == 'en') {
 else {
   botStatus = `ΒYƬΣSΞC-MĐ 𖠑 v${vs}`
 }
-const header =` > -------------------------------------
+const header =`
+> -------------------------------------
 > ${botStatus}
 > [+] 𝚂𝚝𝚊𝚝𝚞𝚜
 > ------------------------------------- 
 `
 const header2 = `
 robot@bytesec:#~ uptime
-> ${uptime}`
+> ${uptime}
+`
 
 
-const grupo = `robot@bytesec:#~ groupstat *${groupMetadata.subject}*
+const grupo = `
+robot@bytesec:#~ groupstat *${groupMetadata.subject}*
 > Users: *${participants.length}* | Silenced: � *${silenciados}* | Warned:
-*${avisados}* | Exiled: *${banidos}*`
+*${avisados}* | Exiled: *${banidos}*
+`
 
 
 
-        const chtds = `robot@bytesec:#~ chatstat -a
+        const chtds = `
+robot@bytesec:#~ chatstat -a
 > Total Chats: *${chats.length}* | Users:
 *${Object.keys(global.db.data.users).length}* | Private Chats: *${chats.length - groupsIn.length}
 > Banned Chats: *${Object.entries(global.db.data.chats).filter(chat =>
 chat[1].isBanned).length}* 𝙲𝚑𝚊𝚝𝚜 𝚋𝚊𝚗𝚒𝚍𝚘𝚜}* | Blocked Users: *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*
 `;
 
-        const system = `robot@bytesec:#~ lscpu
+        const system = `
+robot@bytesec:#~ lscpu
 > *⫹⫺ S Y S T E M   I N F O R M A T I O N*
-  *OS:* ${osPlatform}
+> *OS:* ${osPlatform}
 > *Hostname:* EdgarAMD16x.sh
 >  *Arquitetura:* ${osInfo.arch}
 >  *Distro:* ${osInfo.distro}
