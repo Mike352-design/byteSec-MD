@@ -181,18 +181,14 @@ ${uptime}
 
 const grupo = `
 robot@bytesec:#~ groupstat *${groupMetadata.subject}*
-> Users: *${participants.length}* | Silenced: � *${silenciados}* | Warned:
-*${avisados}* | Exiled: *${banidos}*
+> Users: *${participants.length}* | Silenced: *${silenciados}* | Warned: *${avisados}* | Exiled: *${banidos}*
 `
 
 
 
         const chtds = `
-robot@bytesec:#~ chatstat -a
-> Total Chats: *${chats.length}* | Users:
-*${Object.keys(global.db.data.users).length}* | Private Chats: *${chats.length - groupsIn.length}
-> Banned Chats: *${Object.entries(global.db.data.chats).filter(chat =>
-chat[1].isBanned).length}* 𝙲𝚑𝚊𝚝𝚜 𝚋𝚊𝚗𝚒𝚍𝚘𝚜}* | Blocked Users: *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*
+robot@bytesec:~# chatstat -a
+> Total Chats: ${chats.length} | Users: ${Object.keys(global.db.data.users).length} | Private Chats: ${chats.length - groupsIn.length} | Banned Chats: ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} | Blocked Users: ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 `;
 
         const system = `
@@ -200,20 +196,20 @@ robot@bytesec:#~ lscpu
 > *⫹⫺ S Y S T E M   I N F O R M A T I O N*
 > *OS:* ${osPlatform}
 > *Hostname:* EdgarAMD16x.sh
->  *Arquitetura:* ${osInfo.arch}
->  *Distro:* ${osInfo.distro}
->  *Kernel:* ${osInfo.kernel}
->  *OS Release:* ${osRelease}
->  *Modelo CPU::* ${cpuModel}
->  *CPU Cores:* ${cpuCore}
->  *Uso do CPU:* ${cpuPer}%
->  *RAM Total:* ${formatBytes(memData.total)}
->  *RAM Livre:* ${formatBytes(memData.free)}
->  *Uso da RAM:* ${Math.round(memData.used / memData.total * 100)}%
->  *Espaço total:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))}
->  *Espaço usado:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))}
->  *Uso de disco:* ${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}%
->  *Load de sistema:* ${systemLoadPercentage}%
+> *Arquitetura:* ${osInfo.arch}
+> *Distro:* ${osInfo.distro}
+> *Kernel:* ${osInfo.kernel}
+> *OS Release:* ${osRelease}
+> *Modelo CPU::* ${cpuModel}
+> *CPU Cores:* ${cpuCore}
+> *Uso do CPU:* ${cpuPer}%
+> *RAM Total:* ${formatBytes(memData.total)}
+> *RAM Livre:* ${formatBytes(memData.free)}
+> *Uso da RAM:* ${Math.round(memData.used / memData.total * 100)}%
+> *Espaço total:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))}
+> *Espaço usado:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))}
+> *Uso de disco:* ${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}%
+> *Load de sistema:* ${systemLoadPercentage}%
 `;
 
   const footer = `> # Maintained by ByteSec`
