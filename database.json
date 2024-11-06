@@ -204,7 +204,7 @@
       "website": "",
       "links": "https://open.spotify.com/playlist/4CzeHjOIeq8hnHqDtZ6Iff?si=7Jld2KzXQbaayjleDAYEBw&pi=hxb5IVcERRqPR",
       "biografia": "Gosto de chuva, bolo de cenoura, jogos clássicos e café com pinga. As vezes desenho, danço, leio ou escrevo algumas baboseiras. Costumo refletir bastante e me perder em meus pensamentos. Não gosto de atrasos, de cochichos e nem de poodles. Sou teimosa, impaciente, criativa, bem estilosa e muito vaidosa. Costumo beber para me sentir sóbria",
-      "lastmiming": 1730694054739
+      "lastmiming": 1730907609929
     },
     "558175001504@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -4279,6 +4279,66 @@
           "afkReason": ""
         }
       }
+    },
+    "54121319104566@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "R M.",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "54121319104566@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "259257278705716@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "🖤 Gêh 🖤",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "259257278705716@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -5540,7 +5600,7 @@
           "exp": 1081,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
-          "money": 144,
+          "money": 110,
           "level": 1,
           "adm": false,
           "legendary": false,
@@ -5567,26 +5627,28 @@
           "exp": 3,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
-          "money": 175,
+          "money": 125,
           "level": 0,
           "adm": false,
           "legendary": false,
           "banned": false,
           "adv": 0,
-          "tentativasRoubo": 0,
+          "tentativasRoubo": 4,
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
           "lastMessageTime": 1730799987650,
           "messageCount": 1,
           "pontos": 0,
-          "usuariosRoubados": [],
-          "acaoTimer": "2024-11-05T15:37:48.935Z",
+          "usuariosRoubados": [
+            "558488916581@s.whatsapp.net"
+          ],
+          "acaoTimer": "2024-11-06T16:07:04.703Z",
           "almas": 0,
-          "rouboTimestamp": "2024-11-04T15:54:40.922Z",
+          "rouboTimestamp": "2024-11-06T16:07:04.712Z",
           "mortoDemonio": false,
-          "steals": 2,
-          "lastAttemptTimestamp": "2024-11-04T14:22:17.793Z",
+          "steals": 3,
+          "lastAttemptTimestamp": "2024-11-06T16:07:04.712Z",
           "shields": 0,
           "shadowAtivo": false
         },
@@ -5625,19 +5687,22 @@
           "cocriador": false,
           "lastMessageTime": 1730797186078,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "almas": 0,
+          "usuariosRoubados": [],
+          "shields": 0
         },
         "59167154580@s.whatsapp.net": {
           "exp": 14,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
-          "money": 101,
+          "money": 80,
           "level": 0,
           "adm": false,
           "legendary": false,
           "banned": false,
           "adv": 0,
-          "tentativasRoubo": 3,
+          "tentativasRoubo": 1,
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
@@ -5645,12 +5710,12 @@
           "messageCount": 1,
           "pontos": 0,
           "almas": 0,
-          "acaoTimer": "2024-11-05T17:25:56.386Z",
+          "acaoTimer": "2024-11-06T16:43:52.753Z",
           "usuariosRoubados": [],
-          "rouboTimestamp": "2024-11-05T11:52:59.898Z",
+          "rouboTimestamp": "2024-11-06T16:43:52.756Z",
           "mortoDemonio": false,
           "steals": 1,
-          "lastAttemptTimestamp": "2024-11-04T13:35:14.032Z",
+          "lastAttemptTimestamp": "2024-11-06T15:50:36.211Z",
           "shields": 0,
           "slots": 0,
           "lastslot": "2024-11-05T14:20:33.341Z"
@@ -7212,7 +7277,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1730900008090,
+          "lastMessageTime": 1730911122528,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8988,8 +9053,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1730899039320,
-          "messageCount": 3,
+          "lastMessageTime": 1730911142471,
+          "messageCount": 1,
           "pontos": 0
         },
         "59902009585876@lid": {
@@ -9225,6 +9290,42 @@
           "lastMessageTime": 1730896406036,
           "messageCount": null,
           "pontos": 0
+        },
+        "54121319104566@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1730907435563,
+          "messageCount": 2,
+          "pontos": 0
+        },
+        "259257278705716@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1730910267418,
+          "messageCount": 3,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -9273,7 +9374,7 @@
       "lastSentTime": 0,
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
-      "totalMembros": 609,
+      "totalMembros": 610,
       "membros": [
         {
           "id": "80303087481020@lid",
@@ -11004,6 +11105,10 @@
           "admin": null
         },
         {
+          "id": "233826777329836@lid",
+          "admin": null
+        },
+        {
           "id": "272992433127618@lid",
           "admin": null
         },
@@ -11839,7 +11944,9 @@
         "262358177947855@lid": [],
         "245891223027945@lid": [],
         "270183960686594@lid": [],
-        "112816426107092@lid": []
+        "112816426107092@lid": [],
+        "54121319104566@lid": [],
+        "259257278705716@lid": []
       },
       "firstTime": true,
       "antiCallGp": true,
@@ -12542,10 +12649,10 @@
       "lastSuccess": 1730510385135
     },
     "sticker-sticker.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1730904706478,
-      "lastSuccess": 1730904706478
+      "total": 18,
+      "success": 18,
+      "last": 1730907609929,
+      "lastSuccess": 1730907609929
     },
     "grupo-tagall.js": {
       "total": 2,
@@ -12566,10 +12673,10 @@
       "lastSuccess": 1730675713458
     },
     "grupo-perfil.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1730816411230,
-      "lastSuccess": 1730816411230
+      "total": 11,
+      "success": 11,
+      "last": 1730910763086,
+      "lastSuccess": 1730910763086
     },
     "ia-fSociety.js": {
       "total": 4,
@@ -12620,10 +12727,10 @@
       "lastSuccess": 1730675581824
     },
     "funAcoes7.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1730827581766,
-      "lastSuccess": 1730827581766
+      "total": 32,
+      "success": 32,
+      "last": 1730911432756,
+      "lastSuccess": 1730911432756
     },
     "dl-ig.js": {
       "total": 4,
@@ -12714,18 +12821,18 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9921581690531571,
-    "cotacaoOntem": 0.9985547098495667,
+    "cotacao": 0.9934291547727357,
+    "cotacaoOntem": 0.9921581690531571,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024803954226328927
+      "rendimento": 0.000024835728869318394
     },
-    "cotacaoPercentual": -0.640579903466006,
-    "ultimaAtualizacao": "2024-11-05T15:11:17.971Z"
+    "cotacaoPercentual": 0.12810313508697474,
+    "ultimaAtualizacao": "2024-11-06T15:25:35.879Z"
   },
   "languages": {
     "pt": {},
