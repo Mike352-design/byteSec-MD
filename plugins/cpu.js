@@ -248,17 +248,17 @@ ${system}
 ${footer}  ` }, { quoted: m }, { mentions: [m.sender] });
       break
     case 'neofetch': case 'cpu':
-      conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/d06560e908d8a4bd8d87d.jpg" }, caption: `${header}
+      conn.sendMessage(m.chat, { image: { url:picture }, caption: `${header}
 ${system}
 ${footer}  ` }, { quoted: m }, { mentions: [m.sender] });
       break
     case 'infochats':
-      conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/d06560e908d8a4bd8d87d.jpg" }, caption: `${header}
+      conn.sendMessage(m.chat, { image: { url:picture }, caption: `${header}
 ${chtds}
 ${footer}  ` }, { quoted: m }, { mentions: [m.sender] });
       break
     case 'infogrupo':
-      conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/d06560e908d8a4bd8d87d.jpg" }, caption: `${header}
+      conn.sendMessage(m.chat, { image: { url:picture }, caption: `${header}
 ${header2}
 ${grupo}
 ${footer}  ` }, { quoted: m }, { mentions: [m.sender] });
