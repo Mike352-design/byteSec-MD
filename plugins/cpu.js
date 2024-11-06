@@ -208,7 +208,7 @@ ${
   languageConfig === 'pt'
     ? `> INFORMAÇÕES DO SISTEMA
 > SO             : ${osPlatform}
-> Nome do Host   : EdgarAMD16x.sh
+> Nome do Host   : robot
 > Arquitetura    : ${osInfo.arch}
 > Distro         : ${osInfo.distro}
 > Kernel         : ${osInfo.kernel} (Versão: ${osRelease})
@@ -220,7 +220,7 @@ ${
 > Carga do Sistema : ${systemLoadPercentage}%`
     : `> SYSTEM INFORMATION
 > OS            : ${osPlatform}
-> Hostname      : EdgarAMD16x.sh
+> Hostname      : robot
 > Architecture  : ${osInfo.arch}
 > Distro        : ${osInfo.distro}
 > Kernel        : ${osInfo.kernel} (Release: ${osRelease})
@@ -234,7 +234,8 @@ ${
 
 console.log(systemInfo);
 
-  const footer = `> # Maintained by ByteSec`
+  const footer = `> ‎ 
+> # Maintained by ByteSec`
   
   switch (command){
     
