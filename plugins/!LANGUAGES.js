@@ -20,11 +20,36 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
 {
     if(m.text ==1) {
         global.db.data.chats[m.chat].language = 'pt'
+  m.react("✅")
+
+        await conn.sendMessage(m.chat, {
+            text: `robot@bytesec:~# lang-config
+╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [+] LANG CONFIG
+> -----------------------
+> ‎ 
+> 𝙸𝚍𝚒𝚘𝚖𝚊 𝚊𝚕𝚝𝚎𝚛𝚊𝚍𝚘 𝚙𝚊𝚛𝚊 𝐏𝐨𝐫𝐭𝐮𝐠𝐮𝐞̂𝐬  
+> ‎ 
+╰─────────`,
+            edit: global.db.data.chats[m.chat].langChangeId
+        });
     }
 
 
     if(m.text ==2) {
         global.db.data.chats[m.chat].language = 'en'
+  m.react("✅")
+        await conn.sendMessage(m.chat, {
+            text: `robot@bytesec:~# lang-config
+╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [+] LANG CONFIG
+> -----------------------
+> ‎ 
+> 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 𝚌𝚑𝚊𝚗𝚐𝚎𝚍 𝚝𝚘 𝐄𝐧𝐠𝐥𝐢𝐬𝐡
+> ‎ 
+╰─────────`,
+            edit: global.db.data.chats[m.chat].langChangeId
+        });
     }
 }
 
