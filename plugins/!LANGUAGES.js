@@ -22,7 +22,8 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
         global.db.data.chats[m.chat].language = 'pt'
   m.react("✅")
 
-        await conn.sendMessage(m.chat, {
+        await conn.sendMessage(m.chat,
+        {
             text: `robot@bytesec:~# lang-config
 ╭ . . . . . . . . . . . . . . . . . . . . . . .
 > [+] LANG CONFIG
@@ -30,9 +31,10 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
 > ‎ 
 > 𝙸𝚍𝚒𝚘𝚖𝚊 𝚊𝚕𝚝𝚎𝚛𝚊𝚍𝚘 𝚙𝚊𝚛𝚊 𝐏𝐨𝐫𝐭𝐮𝐠𝐮𝐞̂𝐬  
 > ‎ 
-╰─────────`,
-            edit: global.db.data.chats[m.chat].langChangeID
-        });
+╰─────────`
+    
+        }
+        ,m)
     }
 
 
@@ -47,9 +49,9 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
 > ‎ 
 > 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 𝚌𝚑𝚊𝚗𝚐𝚎𝚍 𝚝𝚘 𝐄𝐧𝐠𝐥𝐢𝐬𝐡
 > ‎ 
-╰─────────`,
-            edit: global.db.data.chats[m.chat].langChangeID
-        });
+╰─────────`
+       
+        },m);
     }
 }
 
