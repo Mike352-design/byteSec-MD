@@ -242,7 +242,7 @@ reply: true,
 expired: 0,
 }
 
-(!global.db.data.chats[m.chat].language) global.db.data.chats[m.chat].language = 'en'
+if(!global.db.data.chats[m.chat].language) global.db.data.chats[m.chat].language = 'en'
 
 
 if(!global.db.data.chats[m.chat].expira)
