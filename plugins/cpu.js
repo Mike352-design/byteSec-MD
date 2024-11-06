@@ -141,8 +141,7 @@ let neww = performance.now()
   let speed = neww - old
   
   
-  const header =` > 𝗿𝗼𝗯𝗼𝘁@𝗯𝘆𝘁𝗲𝘀𝗲𝗰: #~ lscpu
-`
+  
 let botStatus 
 
 if(global.db.data.chats[m.chat].isBanned && languageConfig == 'pt') {
@@ -168,60 +167,50 @@ else if(global.db.data.chats[m.chat].modoadmin && languageConfig == 'en') {
 else {
   botStatus = `ΒYƬΣSΞC-MĐ 𖠑 v${vs}`
 }
-
-const header2 = `> -------------------------------------
+const header =` > -------------------------------------
 > ${botStatus}
-> CPU Info
+> [+] 𝚂𝚝𝚊𝚝𝚞𝚜
 > ------------------------------------- 
+`
+const header2 = `
+robot@bytesec:#~ uptime
+> ${uptime}`
 
-┃ ♨︎ 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
-┃ ${uptime}`
 
-const grupo = `┃━━━━━━━━━⬣
-┃ 
-┃ *┅❖ G R U P O*
-┃ *${groupMetadata.subject}*
-┃ִ𖤐 *${participants.length}* 𝚄𝚜𝚞𝚊𝚛𝚒𝚘𝚜
-┃ִ𖤐 *${silenciados}* 𝚂𝚒𝚕𝚎𝚗𝚌𝚒𝚊𝚍𝚘𝚜
-┃ִ𖤐 *${avisados}* 𝙰𝚍𝚟𝚎𝚛𝚝𝚒𝚍𝚘𝚜
-┃ִ𖤐 *${banidos}* 𝙴𝚡𝚒𝚕𝚊𝚍𝚘𝚜
-┃ `
+const grupo = `robot@bytesec:#~ groupstat *${groupMetadata.subject}*
+> Users: *${participants.length}* | Silenced: � *${silenciados}* | Warned:
+*${avisados}* | Exiled: *${banidos}*`
 
 
 
-        const chtds = `
-┃━━━━━━━━━⬣
-┃ 
-┃ *⫹⫺ C H A T S*
-┃⌬ *${chats.length}* 𝚃𝚘𝚝𝚊𝚕 𝚌𝚑𝚊𝚝𝚜
-┃⌬ *${Object.keys(global.db.data.users).length}* 𝚃𝚘𝚝𝚊𝚕 𝚞𝚜𝚞á𝚛𝚒𝚘𝚜
-┃⌬ *${chats.length - groupsIn.length}* 𝙲𝚑𝚊𝚝𝚜 𝚙𝚛𝚒𝚟𝚊𝚍𝚘𝚜
-┃⌬ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* 𝙲𝚑𝚊𝚝𝚜 𝚋𝚊𝚗𝚒𝚍𝚘𝚜
-┃⌬ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* 𝚄𝚜𝚞𝚊𝚛𝚒𝚘𝚜 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘𝚜
-┃
-┃`;
-
-        const system = `
-┃ *⫹⫺ S Y S T E M   I N F O R M A T I O N*
-┃⌬ *OS:* ${osPlatform}
-┃⌬ *Hostname:* EdgarAMD16x.sh
-┃⌬ *Arquitetura:* ${osInfo.arch}
-┃⌬ *Distro:* ${osInfo.distro}
-┃⌬ *Kernel:* ${osInfo.kernel}
-┃⌬ *OS Release:* ${osRelease}
-┃⌬ *Modelo CPU::* ${cpuModel}
-┃⌬ *CPU Cores:* ${cpuCore}
-┃⌬ *Uso do CPU:* ${cpuPer}%
-┃⌬ *RAM Total:* ${formatBytes(memData.total)}
-┃⌬ *RAM Livre:* ${formatBytes(memData.free)}
-┃⌬ *Uso da RAM:* ${Math.round(memData.used / memData.total * 100)}%
-┃⌬ *Espaço total:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))}
-┃⌬ *Espaço usado:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))}
-┃⌬ *Uso de disco:* ${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}%
-┃⌬ *Load de sistema:* ${systemLoadPercentage}%
+        const chtds = `robot@bytesec:#~ chatstat -a
+> Total Chats: *${chats.length}* | Users:
+*${Object.keys(global.db.data.users).length}* | Private Chats: *${chats.length - groupsIn.length}
+> Banned Chats: *${Object.entries(global.db.data.chats).filter(chat =>
+chat[1].isBanned).length}* 𝙲𝚑𝚊𝚝𝚜 𝚋𝚊𝚗𝚒𝚍𝚘𝚜}* | Blocked Users: *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*
 `;
 
-  const footer = `╰━━━[ 𝙄𝙣𝙛𝙤 ]━━⬣`
+        const system = `robot@bytesec:#~ lscpu
+> *⫹⫺ S Y S T E M   I N F O R M A T I O N*
+  *OS:* ${osPlatform}
+> *Hostname:* EdgarAMD16x.sh
+>  *Arquitetura:* ${osInfo.arch}
+>  *Distro:* ${osInfo.distro}
+>  *Kernel:* ${osInfo.kernel}
+>  *OS Release:* ${osRelease}
+>  *Modelo CPU::* ${cpuModel}
+>  *CPU Cores:* ${cpuCore}
+>  *Uso do CPU:* ${cpuPer}%
+>  *RAM Total:* ${formatBytes(memData.total)}
+>  *RAM Livre:* ${formatBytes(memData.free)}
+>  *Uso da RAM:* ${Math.round(memData.used / memData.total * 100)}%
+>  *Espaço total:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))}
+>  *Espaço usado:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))}
+>  *Uso de disco:* ${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}%
+>  *Load de sistema:* ${systemLoadPercentage}%
+`;
+
+  const footer = `> # Maintained by ByteSec
   
   switch (command){
     
