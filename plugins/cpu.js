@@ -178,39 +178,61 @@ robot@bytesec:#~ uptime
 ${uptime}
 `
 
-
 const grupo = `
-robot@bytesec:#~ groupstat *${groupMetadata.subject}*
-> Users: *${participants.length}* | Silenced: *${silenciados}* | Warned: *${avisados}* | Exiled: *${banidos}*
-`
+robot@bytesec:~# groupstat *${groupMetadata.subject}*
+${
+  languageConfig === 'pt'
+    ? `> Usuários: *${participants.length}* | Silenciados: *${silenciados}* | Advertidos: *${avisados}* | Exilados: *${banidos}*`
+    : `> Users: *${participants.length}* | Silenced: *${silenciados}* | Warned: *${avisados}* | Exiled: *${banidos}*`
+}
+`;
 
+console.log(grupo);
 
 
         const chtds = `
 robot@bytesec:~# chatstat -a
-> Total Chats: ${chats.length} | Users: ${Object.keys(global.db.data.users).length} | Private Chats: ${chats.length - groupsIn.length} | Banned Chats: ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} | Blocked Users: ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
+${
+  languageConfig === 'pt'
+    ? `> Total de Chats: ${chats.length} | Usuários: ${Object.keys(global.db.data.users).length} | Chats Privados: ${chats.length - groupsIn.length} | Chats Banidos: ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} | Usuários Bloqueados: ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}`
+    : `> Total Chats: ${chats.length} | Users: ${Object.keys(global.db.data.users).length} | Private Chats: ${chats.length - groupsIn.length} | Banned Chats: ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} | Blocked Users: ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}`
+}
 `;
 
+console.log(chtds);
+
+
         const system = `
-robot@bytesec:#~ lscpu
-> *⫹⫺ S Y S T E M   I N F O R M A T I O N*
-> *OS:* ${osPlatform}
-> *Hostname:* EdgarAMD16x.sh
-> *Arquitetura:* ${osInfo.arch}
-> *Distro:* ${osInfo.distro}
-> *Kernel:* ${osInfo.kernel}
-> *OS Release:* ${osRelease}
-> *Modelo CPU::* ${cpuModel}
-> *CPU Cores:* ${cpuCore}
-> *Uso do CPU:* ${cpuPer}%
-> *RAM Total:* ${formatBytes(memData.total)}
-> *RAM Livre:* ${formatBytes(memData.free)}
-> *Uso da RAM:* ${Math.round(memData.used / memData.total * 100)}%
-> *Espaço total:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))}
-> *Espaço usado:* ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))}
-> *Uso de disco:* ${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}%
-> *Load de sistema:* ${systemLoadPercentage}%
-`;
+robot@bytesec:~# lscpu
+${
+  languageConfig === 'pt'
+    ? `> INFORMAÇÕES DO SISTEMA
+> SO             : ${osPlatform}
+> Nome do Host   : EdgarAMD16x.sh
+> Arquitetura    : ${osInfo.arch}
+> Distro         : ${osInfo.distro}
+> Kernel         : ${osInfo.kernel} (Versão: ${osRelease})
+> Modelo de CPU  : ${cpuModel}
+> Núcleos de CPU : ${cpuCore}
+> Uso de CPU     : ${cpuPer}%
+> RAM            : ${formatBytes(memData.total)} total, ${formatBytes(memData.free)} livre (${Math.round(memData.used / memData.total * 100)}% em uso)
+> Espaço em Disco: ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))} total, ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))} usado (${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}% em uso)
+> Carga do Sistema : ${systemLoadPercentage}%`
+    : `> SYSTEM INFORMATION
+> OS            : ${osPlatform}
+> Hostname      : EdgarAMD16x.sh
+> Architecture  : ${osInfo.arch}
+> Distro        : ${osInfo.distro}
+> Kernel        : ${osInfo.kernel} (Release: ${osRelease})
+> CPU Model     : ${cpuModel}
+> CPU Cores     : ${cpuCore}
+> CPU Usage     : ${cpuPer}%
+> RAM           : ${formatBytes(memData.total)} total, ${formatBytes(memData.free)} free (${Math.round(memData.used / memData.total * 100)}% used)
+> Disk Space    : ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.size, 0))} total, ${formatBytes(fsSize.reduce((acc, curr) => acc + curr.used, 0))} used (${Math.round(fsSize.reduce((acc, curr) => acc + curr.used, 0) / fsSize.reduce((acc, curr) => acc + curr.size, 0) * 100)}% used)
+> System Load   : ${systemLoadPercentage}%`
+}`
+
+console.log(systemInfo);
 
   const footer = `> # Maintained by ByteSec`
   
@@ -260,9 +282,13 @@ function clockString(ms) {
     let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-    return [d, ' *Dias* ', h, ' *Horas,* ', m, ' *Minutos* *e* ', s, ' *Segundos* '].map(v => v.toString().padStart(2, 0)).join('');
+
+    if (languageConfig === 'pt') {
+        return [d, ' *Dias* ', h, ' *Horas,* ', m, ' *Minutos* *e* ', s, ' *Segundos* ']
+            .map(v => v.toString().padStart(2, '0')).join('');
+    } else {
+        return [d, ' *Days* ', h, ' *Hours,* ', m, ' *Minutes* *and* ', s, ' *Seconds* ']
+            .map(v => v.toString().padStart(2, '0')).join('');
+    }
 }
-
-
-
       
