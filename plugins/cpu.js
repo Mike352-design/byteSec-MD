@@ -38,7 +38,7 @@ let _muptime
 if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
-let uptime = clockString(_uptime)
+let uptime = '> ' + clockString(_uptime)
     try {
       
   //await m.reply('_Realizando test_')
@@ -175,7 +175,7 @@ const header =`
 `
 const header2 = `
 robot@bytesec:#~ uptime
-> ${uptime}
+${uptime}
 `
 
 
