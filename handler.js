@@ -243,7 +243,7 @@ expired: 0,
 }
 
 (!global.db.data.chats[m.chat].language) global.db.data.chats[m.chat].language = 'en'
-global.languageConfig = global.db.data.chats[m.chat].language
+
 
 if(!global.db.data.chats[m.chat].expira)
 {

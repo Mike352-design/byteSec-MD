@@ -144,24 +144,24 @@ let neww = performance.now()
   
 let botStatus 
 
-if(global.db.data.chats[m.chat].isBanned && languageConfig == 'pt') {
+if(global.db.data.chats[m.chat].isBanned && global.db.data.chats[m.chat].language == 'pt') {
   botStatus = '⚠︎ Ｂｌｏｑｕｅａｄｏ'
 }
-else if(global.db.data.chats[m.chat].isBanned && languageConfig == 'en') {
+else if(global.db.data.chats[m.chat].isBanned && global.db.data.chats[m.chat].language == 'en') {
   botStatus = '⚠︎ Ｂｌｏｃｋｅｄ'
 }
 // inactive
-else if(global.db.data.chats[m.chat].desativado && languageConfig == 'pt') {
+else if(global.db.data.chats[m.chat].desativado && global.db.data.chats[m.chat].language == 'pt') {
   botStatus = '⚠︎ Ｄｅｓａｔｉｖａｄｏ'
 }
-else if(global.db.data.chats[m.chat].desativado && languageConfig == 'en') {
+else if(global.db.data.chats[m.chat].desativado && global.db.data.chats[m.chat].language == 'en') {
   botStatus = '⚠︎ Ｄｅａｃｔｉｖａｔｅｄ'
 }
 //admin
-else if(global.db.data.chats[m.chat].modoadmin && languageConfig == 'pt') {
+else if(global.db.data.chats[m.chat].modoadmin && global.db.data.chats[m.chat].language == 'pt') {
   botStatus = '⚠︎ Ａｐｅｎａｓ ａｄｍｉｎ'
 }
-else if(global.db.data.chats[m.chat].modoadmin && languageConfig == 'en') {
+else if(global.db.data.chats[m.chat].modoadmin && global.db.data.chats[m.chat].language == 'en') {
   botStatus = '⚠︎ Ａｄｍｉｎ ｏｎｌｙ'
 }
 else {
@@ -181,7 +181,7 @@ ${uptime}
 const grupo = `
 robot@bytesec:~# groupstat *${groupMetadata.subject}*
 ${
-  languageConfig === 'pt'
+  global.db.data.chats[m.chat].language === 'pt'
     ? `> Usuários: *${participants.length}* | Silenciados: *${silenciados}* | Advertidos: *${avisados}* | Exilados: *${banidos}*`
     : `> Users: *${participants.length}* | Silenced: *${silenciados}* | Warned: *${avisados}* | Exiled: *${banidos}*`
 }
@@ -193,7 +193,7 @@ console.log(grupo);
         const chtds = `
 robot@bytesec:~# chatstat -a
 ${
-  languageConfig === 'pt'
+  global.db.data.chats[m.chat].language === 'pt'
     ? `> Total de Chats: ${chats.length} | Usuários: ${Object.keys(global.db.data.users).length} | Chats Privados: ${chats.length - groupsIn.length} | Chats Banidos: ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} | Usuários Bloqueados: ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}`
     : `> Total Chats: ${chats.length} | Users: ${Object.keys(global.db.data.users).length} | Private Chats: ${chats.length - groupsIn.length} | Banned Chats: ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} | Blocked Users: ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}`
 }
@@ -205,7 +205,7 @@ console.log(chtds);
         const system = `
 robot@bytesec:~# lscpu
 ${
-  languageConfig === 'pt'
+  global.db.data.chats[m.chat].language === 'pt'
     ? `> INFORMAÇÕES DO SISTEMA
 > SO             : ${osPlatform}
 > Nome do Host   : robot
@@ -284,7 +284,7 @@ function clockString(ms) {
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         return [d, ' *Dias* ', h, ' *Horas,* ', m, ' *Minutos* *e* ', s, ' *Segundos* ']
             .map(v => v.toString().padStart(2, '0')).join('');
     } else {

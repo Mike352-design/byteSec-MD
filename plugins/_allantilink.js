@@ -85,7 +85,7 @@ let destino = global.db.data.chats[m.chat].reportchat || adminAleatorio
 
   let teks;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     teks = `
 > robot@bytesec: #/users/ cat ${generateRandomCode()}.log
 > ---------------------------------------
@@ -109,7 +109,7 @@ if (languageConfig === 'pt') {
 > # Monitoramento constante.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     teks = `
 > robot@bytesec: #/users/ cat ${generateRandomCode()}.log
 > ---------------------------------------
@@ -180,7 +180,7 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 
 let warn;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     warn = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -195,7 +195,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     warn = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -220,10 +220,10 @@ if (languageConfig === 'pt') {
   }
   
   let tikDetected 
-  if(languageConfig === 'en') {
+  if(global.db.data.chats[m.chat].language === 'en') {
     tikDetected= 'Tiktok link detected! Anti-Link protocol activated.'
   }
-  else if (languageConfig === 'pt') {    
+  else if (global.db.data.chats[m.chat].language === 'pt') {    
     
 tikDetected= 'Link Tiktok detectado! Protocolo Anti-Link aplicado.'
   }
@@ -232,7 +232,7 @@ tikDetected= 'Link Tiktok detectado! Protocolo Anti-Link aplicado.'
   if(global.db.data.chats[m.chat].users[m.sender].advTik == 2) {
     let tikTokBAN;
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         tikTokBAN = `
     > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
     > ---------------------------------------
@@ -249,7 +249,7 @@ tikDetected= 'Link Tiktok detectado! Protocolo Anti-Link aplicado.'
     ────────────────────────────────
         `;
     }
-    else if (languageConfig === 'en') {
+    else if (global.db.data.chats[m.chat].language === 'en') {
       tikTokBAN = `
   > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
   > ---------------------------------------
@@ -303,7 +303,7 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 
 let warnYt;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     warnYt = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -318,7 +318,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     warnYt = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -346,7 +346,7 @@ if (languageConfig === 'pt') {
   if(global.db.data.chats[m.chat].users[m.sender].advYt == 2) {
     let YtBAN;
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         YtBAN = `
     > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
     > ---------------------------------------
@@ -363,7 +363,7 @@ if (languageConfig === 'pt') {
     ────────────────────────────────
         `;
     }
-    else if (languageConfig === 'en') {
+    else if (global.db.data.chats[m.chat].language === 'en') {
       YtBAN = `
   > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
   > ---------------------------------------
@@ -385,10 +385,10 @@ await conn.reply(m.chat, YtBAN, null, { mentions: [aa] }
 )
 global.db.data.chats[m.chat].users[m.sender].advYt = 0 
 let ytDetected 
-if(languageConfig === 'en') {
+if(global.db.data.chats[m.chat].language === 'en') {
   ytDetected= 'Youtube link detected! Anti-Link protocol activated.'
 }
-else if (languageConfig === 'pt') {    
+else if (global.db.data.chats[m.chat].language === 'pt') {    
   
 ytDetected= 'Link do Youtube detectado! Protocolo Anti-Link aplicado.'
 }
@@ -429,7 +429,7 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 
 let warnTg;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     warnTg = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -444,7 +444,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     warnTg = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -474,7 +474,7 @@ if (languageConfig === 'pt') {
 
     let TgBAN;
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         TgBAN = `
     > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
     > ---------------------------------------
@@ -491,7 +491,7 @@ if (languageConfig === 'pt') {
     ────────────────────────────────
         `;
     }
-    else if (languageConfig === 'en') {
+    else if (global.db.data.chats[m.chat].language === 'en') {
       TgBAN = `
   > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
   > ---------------------------------------
@@ -514,10 +514,10 @@ await conn.reply(m.chat, TgBAN, null, { mentions: [aa] }
 global.db.data.chats[m.chat].users[m.sender].advTel = 0 
 
 let tgDetected 
-if(languageConfig === 'en') {
+if(global.db.data.chats[m.chat].language === 'en') {
   tgDetected= 'Telegram link detected! Anti-Link protocol activated.'
 }
-else if (languageConfig === 'pt') {    
+else if (global.db.data.chats[m.chat].language === 'pt') {    
   
 tgDetected= 'Link Telegram detectado! Protocolo Anti-Link aplicado.'
 }
@@ -559,7 +559,7 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 
 let warnFb;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     warnFb = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -574,7 +574,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     warnFb = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -602,7 +602,7 @@ if (languageConfig === 'pt') {
   if(global.db.data.chats[m.chat].users[m.sender].advFb == 2) {
     let FbBAN;
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         FbBAN = `
     > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
     > ---------------------------------------
@@ -619,7 +619,7 @@ if (languageConfig === 'pt') {
     ────────────────────────────────
         `;
     }
-    else if (languageConfig === 'en') {
+    else if (global.db.data.chats[m.chat].language === 'en') {
       FbBAN = `
   > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
   > ---------------------------------------
@@ -641,10 +641,10 @@ await conn.reply(m.chat, FbBAN, null, { mentions: [aa] }
 global.db.data.chats[m.chat].users[m.sender].advFb = 0 
 
 let fbDetected 
-if(languageConfig === 'en') {
+if(global.db.data.chats[m.chat].language === 'en') {
   fbDetected= 'Facebook link detected! Anti-Link protocol activated.'
 }
-else if (languageConfig === 'pt') {    
+else if (global.db.data.chats[m.chat].language === 'pt') {    
   
 fbDetected= 'Link de Facebook detectado! Protocolo Anti-Link aplicado.'
 }
@@ -684,7 +684,7 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 
 let warnIg;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     warnIg = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -699,7 +699,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     warnIg = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -727,7 +727,7 @@ if (languageConfig === 'pt') {
   if(global.db.data.chats[m.chat].users[m.sender].advIg == 2) {
 let IgBAN;
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         IgBAN = `
     > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
     > ---------------------------------------
@@ -744,7 +744,7 @@ let IgBAN;
     ────────────────────────────────
         `;
     }
-    else if (languageConfig === 'en') {
+    else if (global.db.data.chats[m.chat].language === 'en') {
       IgBAN = `
   > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
   > ---------------------------------------
@@ -766,10 +766,10 @@ await conn.reply(m.chat, IgBAN, null, { mentions: [aa] }
 global.db.data.chats[m.chat].users[m.sender].advIg = 0 
 
 let igDetected 
-if(languageConfig === 'en') {
+if(global.db.data.chats[m.chat].language === 'en') {
   igDetected= 'Instagram link detected! Anti-Link protocol activated.'
 }
-else if (languageConfig === 'pt') {    
+else if (global.db.data.chats[m.chat].language === 'pt') {    
   
 igDetected= 'Link de Instagram detectado! Protocolo Anti-Link aplicado.'
 }
@@ -810,7 +810,7 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
 
 let warnTw;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     warnTw = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -825,7 +825,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     warnTw = `
 > robot@bytesec: #~ journalctl
 > ---------------------------------------
@@ -851,9 +851,9 @@ if (languageConfig === 'pt') {
   
   if(global.db.data.chats[m.chat].users[m.sender].advTw == 2) {
 
-let TwBAN;
+let TwBAN; 
 
-    if (languageConfig === 'pt') {
+    if (global.db.data.chats[m.chat].language === 'pt') {
         TwBAN = `
     > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
     > ---------------------------------------
@@ -870,7 +870,7 @@ let TwBAN;
     ────────────────────────────────
         `;
     }
-    else if (languageConfig === 'en') {
+    else if (global.db.data.chats[m.chat].language === 'en') {
       TwBAN = `
   > robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
   > ---------------------------------------
@@ -893,10 +893,10 @@ global.db.data.chats[m.chat].users[m.sender].advTw = 0
 
 
 let igDetected 
-if(languageConfig === 'en') {
+if(global.db.data.chats[m.chat].language === 'en') {
   igDetected= 'Twitter link detected! Anti-Link protocol activated.'
 }
-else if (languageConfig === 'pt') {    
+else if (global.db.data.chats[m.chat].language === 'pt') {    
   
 igDetected= 'Link do Twitter detectado! Protocolo Anti-Link aplicado.'
 }

@@ -28,11 +28,11 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
     }
 }
 
-
+ 
 
     let notAdminMg;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     notAdminMg = `
 > robot@bytesec: #/groups/ cat warning.log
 > ---------------------------------------
@@ -49,7 +49,7 @@ if (languageConfig === 'pt') {
     `;
 }
 
-else if (languageConfig === 'en') {
+else if (global.db.data.chats[m.chat].language === 'en') {
     notAdminMg = `
 > robot@bytesec: #/groups/ cat warning.log
 > ---------------------------------------
@@ -73,7 +73,7 @@ global.notAdmin = notAdminMg
 
 let notOwnerMg;
 
-if (languageConfig === 'pt') {
+if (global.db.data.chats[m.chat].language === 'pt') {
     notOwnerMg = `
 > robot@bytesec: #/groups/ cat access_denied.log
 > ---------------------------------------
@@ -87,7 +87,7 @@ if (languageConfig === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (languageConfig === 'en') {
+} else if (global.db.data.chats[m.chat].language === 'en') {
     notOwnerMg = `
 > robot@bytesec: #/groups/ cat access_denied.log
 > ---------------------------------------
