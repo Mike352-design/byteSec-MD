@@ -20,7 +20,8 @@ let handler = async(m, { conn,args, usedPrefix, command, text }) =>  {
 > ‎ 
 ╰─────────
 `)
-  
+
+ global.db.data.chats[m.chat].langChangeID = getLang.key.id
 }
 
 
