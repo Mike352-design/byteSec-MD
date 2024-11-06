@@ -18,7 +18,7 @@ const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isCha
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) //
 
 
-    let picture = './media/menus/img5.jpg';
+    let picture = 'https://itzpire.com/file/034330669708.jpg';
     let format = sizeFormatter({
         std: 'JEDEC', // 'SI' (default) | 'IEC' | 'JEDEC'
         decimalPlaces: 2,
