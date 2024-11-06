@@ -210,7 +210,7 @@ chat[1].isBanned).length}* 𝙲𝚑𝚊𝚝𝚜 𝚋𝚊𝚗𝚒𝚍𝚘𝚜}* |
 >  *Load de sistema:* ${systemLoadPercentage}%
 `;
 
-  const footer = `> # Maintained by ByteSec
+  const footer = `> # Maintained by ByteSec`
   
   switch (command){
     
