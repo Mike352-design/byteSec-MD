@@ -10,13 +10,14 @@ import {decode} from 'html-entities'
 let handler = async(m, { conn,args, usedPrefix, command, text }) =>  {
   
   let getLang = await m.reply(`robot@bytesec:~# lang-config
- . . . . . . . . . . . . . . . . . . . . . . .
+╭ . . . . . . . . . . . . . . . . . . . . . . .
 > [+] LANG CONFIG
 > -----------------------
 > ‎ 
-> >[1] 🇧🇷 Português
-> >[2] 🇺🇸 English
+> ⁅1⁆ 🇧🇷 Português
+> ⁅2⁆ 🇺🇸 English
 > ‎ 
+╰─────────
 `)
   
 }
