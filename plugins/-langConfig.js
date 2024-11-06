@@ -11,6 +11,7 @@ let handler = async(m, { conn,args, usedPrefix, command, text }) =>  {
   
   let getLang = await m.reply(`robot@bytesec:~# lang-config
 ╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [!] system >>> ${global.db.data.chats[m.chat].language}
 > [+] LANG CONFIG
 > -----------------------
 > ‎ 
