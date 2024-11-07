@@ -1414,13 +1414,9 @@ let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metad
 for (let user of participants) {
 let pp = global.gataImg
 try {
-pp = await this.profilePictureUrl(user, 'image')
-} catch (e) {
-} finally {
-let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-let welcomeMessage;
+;
 
 if (global.db.data.chats[id].language === 'pt') {
     text = `
@@ -1434,7 +1430,7 @@ if (global.db.data.chats[id].language === 'pt') {
 
 >>> ORIENTAÇÕES DO GRUPO
 ────────────────────────────────
-> [+] Bem-vindo(a) ao grupo ${groupName}.
+> [+] Bem-vindo(a) ao grupo ${await this.getName(id)}.
 > [+] Leia as regras e familiarize-se com as normas do grupo.
 > [+] A ordem é mantida pela ByteSec. Desvios serão tratados.
 ────────────────────────────────
@@ -1451,7 +1447,7 @@ if (global.db.data.chats[id].language === 'pt') {
 
 >>> GROUP GUIDELINES
 ────────────────────────────────
-> [+] Welcome to ${groupName}.
+> [+] Welcome to ${await this.getName(id)}.
 > [+] Read the rules and get familiar with group standards.
 > [+] Order is maintained by ByteSec. Deviations will be handled.
 ────────────────────────────────
@@ -1487,6 +1483,9 @@ mentionedJid:[user],
 }}}, { quoted: fkontak2 })
 }
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
+
+} catch (e) {
+  console.log(e)
 }}}
 			    
 break
