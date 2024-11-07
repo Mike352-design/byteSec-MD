@@ -997,18 +997,16 @@ global.opts['swonly'] = isEnable
 break
 default:
 if (!/[01]/.test(command))
-let warnin = global.db.data.chats[m.chat].language === 'pt' ? `> [⎔] ENDPOINT
+return await m.reply(`root@bytesec: #~ cfs --${command + ' ' + text}
+⎓────────
+> [!] 500 INTERNAL ERROR
+${global.db.data.chats[m.chat].language === 'pt' ? `> [⎔] ENDPOINT
 INVÁLIDO
 > ‎ 
 > ᴅɪɢɪᴛᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴏᴇs ᴘᴀʀᴀ ᴠᴇʀ ᴏs ᴍᴇᴛᴏᴅᴏs ᴅɪsᴘᴏɴɪ́ᴠᴇɪs` : `> [⎔] ENDPOINT ERROR
 > ‎ 
 > ᴛʏᴘᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴛɪᴏɴs ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴍᴇᴛʜᴏᴅs`
-
-
-return await m.reply(`root@bytesec: #~ cfs --${command + ' ' + text}
-⎓────────
-> [!] 500 INTERNAL ERROR
-${warnin}`)
+}`)
 
 
 
