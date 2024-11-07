@@ -81,8 +81,7 @@ else {
   user = global.db.data.users[m.sender]
 bot = global.db.data.settings[this.user.jid] || {}
 global.db.data.chats[m.chat].autolevelup = false
- if(!isAllowed && !m.fromMe && bot.antiPrivate&&
- global.db.data.chats[m.chat].msgCount >= 10){
+ if(!isAllowed && !m.fromMe && bot.antiPrivate && global.db.data.chats[m.chat].msgCount >= 10){
    
    const language = global.db.data.chats[m.chat].language;
 
