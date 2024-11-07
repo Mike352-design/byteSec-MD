@@ -28,13 +28,11 @@ console.log(m.plugin)
 let chat, user, bot
 chat = global.db.data.chats[m.chat]
 
-if(typeof global.db.data.chats[m.chat].first === undefined){
-global.db.data.chats[m.chat].msgCount = 0
+if(typeof global.db.data.chats[m.chat].language === undefined){
+
 global.db.data.chats[m.chat].first = true
 global.db.data.chats[m.chat].privateChat = true
-}
 
-if(global.db.data.chats[m.chat].first){
   
     let getLang = await m.reply(`robot@bytesec:~# lang-config
 ╭ . . . . . . . . . . . . . . . . . . . . . . .
@@ -50,7 +48,35 @@ if(global.db.data.chats[m.chat].first){
  global.db.data.chats[m.chat].langChangeID = getLang.key.id
   
   
+
 }
+if (global.db.data.chats[m.chat].first && m.text &&
+global.db.data.chats[m.chat].msgCount == 0) {
+if(m.text ==1){
+  global.db.data.chats[m.chat].language ='pt'
+  global.db.data.chats[m.chat].first = false 
+  return !0
+} 
+else if(m.text==2){
+  
+  global.db.data.chats[m.chat].language ='en'
+  global.db.data.chats[m.chat].first = false 
+  return !0
+  
+}
+
+  else{
+ m.react("❌")  
+    
+    return !0 
+  }
+  
+  
+  
+  
+  
+}
+
 else {
   user = global.db.data.users[m.sender]
 bot = global.db.data.settings[this.user.jid] || {}
