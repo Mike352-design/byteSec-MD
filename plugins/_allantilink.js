@@ -784,7 +784,9 @@ await tempBanimento(igDetected)
 return m.reply(global.notAdmin)
 } else if (!bot.restrict) {
 return m.reply(global.notOwner)
-}}
+}
+
+}
     
 if (chat.antiTwitter && isAntiLinkTw) {
 if (isBotAdmin && bot.restrict) {

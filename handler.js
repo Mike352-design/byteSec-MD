@@ -90,6 +90,8 @@ if (!isNumber(user.exp)) user.exp = 0
 
 if (!isNumber(user.money)) user.money = 150
 if (!isNumber(user.limit)) user.limit = 2     
+if (!isNumber(user.nsfwAdv)) user.nsfwAdv = 0     
+if (!isNumber(user.adv)) user.adv = 2     
 	
 if (!isNumber(user.counterPrivate)) user.counterPrivate = 0	                    		    
 if (!isNumber(user.afk)) user.afk = -1

@@ -75,6 +75,7 @@ if(!global.db.data.chats[m.chat].users[m.sender]){
         adm: admcheck,
         legendary: false,
         banned:false,
+        nsfwAdv:0,
         adv:0,
   }
 }
@@ -109,14 +110,16 @@ const resultSt = nsfwSt && nsfwSt.score > 0.6;
 console.log(`NSFW?: ${resultSt}`)
 if(resultSt){
   
- global.db.data.chats[m.chat].users[m.sender].adv += 1
+ global.db.data.chats[m.chat].users[m.sender].nsfwAdv += 1
+
+
  let textt=`╭━━━━『ÄÐvêr†êñ¢ïå』━━━━⬣
           *@${m.sender.split(`@`)[0]}*
      
 ⚠️🔞 𝑬𝒔𝒕𝒆 𝒕𝒊𝒑𝒐 𝒅𝒆 𝒄𝒐𝒏𝒕𝒆𝒖𝒅𝒐 𝒆 𝒑𝒓𝒐𝒇𝒂𝒏𝒐 𝒆 𝒏𝒂𝒐 𝒔𝒆𝒓𝒂 𝒕𝒐𝒍𝒆𝒓𝒂𝒅𝒐 𝒏𝒆𝒔𝒕𝒆 𝒅𝒐𝒎𝒊𝒏𝒊𝒐!
 
 𝑺𝒆𝒓𝒂𝒔 𝒎𝒂𝒓𝒄𝒂𝒅𝒐 𝒄𝒐𝒎 𝒖𝒎𝒂 𝒂𝒅𝒗𝒆𝒓𝒕𝒆𝒏𝒄𝒊𝒂 𝒄𝒐𝒎𝒐 𝒑𝒖𝒏𝒊𝒄𝒂𝒐
-*${global.db.data.chats[m.chat].users[m.sender].adv}/3*
+*${global.db.data.chats[m.chat].users[m.sender].nsfwAdv}/3*
 
 ╰━━━━━━━━━━━━━━━━━━⬣`
 await conn.sendMessage(m.chat, { text: textt, mentions:[m.sender] });
@@ -149,14 +152,14 @@ console.log(`NSFW?: ${result}`)
 
 
 if(result){
- global.db.data.chats[m.chat].users[m.sender].adv += 1
+ global.db.data.chats[m.chat].users[m.sender].nsfwAdv += 1
  let textt=`╭━━━━『ÄÐvêr†êñ¢ïå』━━━━⬣
           *@${m.sender.split(`@`)[0]}*
      
 ⚠️🔞 𝑬𝒔𝒕𝒆 𝒕𝒊𝒑𝒐 𝒅𝒆 𝒄𝒐𝒏𝒕𝒆𝒖𝒅𝒐 𝒆 𝒑𝒓𝒐𝒇𝒂𝒏𝒐 𝒆 𝒏𝒂𝒐 𝒔𝒆𝒓𝒂 𝒕𝒐𝒍𝒆𝒓𝒂𝒅𝒐 𝒏𝒆𝒔𝒕𝒆 𝒅𝒐𝒎𝒊𝒏𝒊𝒐!
 
 𝑺𝒆𝒓𝒂𝒔 𝒎𝒂𝒓𝒄𝒂𝒅𝒐 𝒄𝒐𝒎 𝒖𝒎𝒂 𝒂𝒅𝒗𝒆𝒓𝒕𝒆𝒏𝒄𝒊𝒂 𝒄𝒐𝒎𝒐 𝒑𝒖𝒏𝒊𝒄𝒂𝒐
-*${global.db.data.chats[m.chat].users[m.sender].adv}/3*
+*${global.db.data.chats[m.chat].users[m.sender].nsfwAdv}/3*
 
 ╰━━━━━━━━━━━━━━━━━━⬣`
 await conn.sendMessage(m.chat, { text: textt, mentions:[m.sender] });
@@ -167,6 +170,10 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGEst.message.protocolMessag
 }
      }
    
+
+
+
+
 }
 
 
