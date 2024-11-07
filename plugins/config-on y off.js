@@ -1013,11 +1013,9 @@ return await m.reply(`┏━─────────────━┓
 throw false
 }
 
-let modoGrupo = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F
-SISTEMA/GRUPO' : '0x0041F SYSTEM/GROUP'
+let modoGrupo = global.db.data.chats[m.chat].language === 'pt' ? `0x0041F SISTEMA/GRUPO` : `0x0041F SYSTEM/GROUP`
 
-let modoBot = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F
-SISTEMA/TODOS' : '0x0041F SYSTEM/ALL'
+let modoBot = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F SISTEMA/TODOS' : '0x0041F SYSTEM/ALL'
   
 let resultado = `root@bytesec: #~ ${text}
 ⎓────────
