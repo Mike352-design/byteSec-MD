@@ -6689,7 +6689,8 @@
           "resposta": ""
         },
         "351927285125@s.whatsapp.net": []
-      }
+      },
+      "language": "en"
     },
     "212715668921@s.whatsapp.net": {
       "quiz": {
@@ -13052,10 +13053,10 @@
       "lastSuccess": 1730911432756
     },
     "dl-ig.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1730892633044,
-      "lastSuccess": 1730892633044
+      "total": 5,
+      "success": 5,
+      "last": 1730958146768,
+      "lastSuccess": 1730958146768
     },
     "registrar.js": {
       "total": 2,
