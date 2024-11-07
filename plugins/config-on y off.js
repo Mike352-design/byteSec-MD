@@ -1020,7 +1020,7 @@ SISTEMA/GRUPO' :
 let modoBot = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F
 SISTEMA/TODOS' :
 '0x0041F SYSTEM/ALL'
-  l
+  
 let resultado = `root@bytesec: #~ ${text}
 ⎓────────
 > ‎ 
