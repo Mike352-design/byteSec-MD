@@ -1447,51 +1447,7 @@ text = (action === 'add' ? `⎔⎓───────────────�
 ┗━── *「️  」*  ─━┛`)
 console.log(text)
 	
-if (chat.antifake && isBotAdminNn && action === 'add') {
-const numerosPermitidos = ["1", "2", "4", "6", "7", "8", "9"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
-if (numerosPermitidos.some(num => user.startsWith(num))) {                                                                                           	let texto;
 
-if (global.db.data.chats[mconn.chat].language === 'pt') {
-    texto = `
-> robot@bytesec: #/groups/ alert.log
-> ---------------------------------------
-
-[!] ALERTA: NÚMERO EXTERNO SUSPEITO DETECTADO
-────────────────────────────────
-> Número detectado: ${user.split('@')[0]}
-> Código de erro: 0x4F2A1D
-> Acesso não autorizado - bloqueio imediato.
-
-> ⚠ 0xC014: "IP isolado e marcado para blacklist."
-> ‎ 
-> # Monitoração ativa por ByteSec.
-────────────────────────────────
-    `;
-} else if (global.db.data.chats[mconn.chat].language === 'en') {
-    texto = `
-> robot@bytesec: #/groups/ alert.log
-> ---------------------------------------
-
-[!] WARNING: SUSPICIOUS EXTERNAL NUMBER DETECTED
-────────────────────────────────
-> Detected number: ${user.split('@')[0]}
-> Error code: 0x4F2A1D
-> Unauthorized access - immediate lockout.
-
-> ⚠ 0xC014: "IP isolated and flagged for blacklist."
-> ‎ 
-> # Active monitoring by ByteSec.
-────────────────────────────────
-    `;
-}
-  
-this.sendMessage(id, { text:texto, mentions: [user] }, { quoted: null });   
-await conn.groupParticipantsUpdate(id, [user], 'remove')
-console.log("👥")
-
-if (responseb[0].status === "404") return      
-return    
-}}    
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
 if(isWelcome){
  const getRandom = (ext) => { 
