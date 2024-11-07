@@ -118,6 +118,9 @@ const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "stat
 if (!m.isGroup) return !1
 if (!m.fromMe) return !1
 if (m.fromMe) return 
+
+
+console.log('tst')
 let chat = global.db.data.chats[m.chat]
 if (isBotAdmin && chat.antifake) {
   console.log('detecting number')
