@@ -1013,11 +1013,22 @@ return await m.reply(`┏━─────────────━┓
 throw false
 }
 
-let resultado = `─┅──┅❖ ִ𖤐 ❖─┅──┅
-━━━━⬣ ${type}  
-━━━⬣ ${isEnable ? lenguajeGB.smsEncender() : lenguajeGB.smsApagar()} 
-━━⬣ *_NESTE_* ${isAll ? lenguajeGB.smsMens4() : isUser ? '' : lenguajeGB.smsMens5()}`
+let modoGrupo = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F
+SISTEMA/GRUPO' :
+'0x0041F SYSTEM/GROUP'
 
+let modoBot = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F
+SISTEMA/TODOS' :
+'0x0041F SYSTEM/ALL'
+  l
+let resultado = `root@bytesec: #~ ${text}
+⎓────────
+> ‎ 
+> [*] ${type}
+> [+] ${isEnable ? '200 OK' : '500 INTERNAL '}
+> [⎔] ${isAll ? modoBot : modoGrupo}
+> ‎ 
+─────────`
 
 await conn.reply(m.chat, resultado, fkontak, m)}	
 /*await conn.sendButton(m.chat, `${lenguajeGB['smsAvisoRG']()}ღ *_${lenguajeGB['smsMens1']()}_* *|* ${type} 
