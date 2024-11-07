@@ -1,10 +1,10 @@
 
-//⌬──────────────────────────────────────
+//⌬───────────────────────
 //┃  ༒ 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑫 𝑩𝒀 𝑯𝑬𝑵𝑹𝒀 𝑨𝑹𝑪𝑨𝑵𝑮𝑬𝑳𝑶  ༒
 //┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 //┃ ✞ঔৣ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚌𝚛𝚎𝚍𝚒𝚝 𝚒𝚏 𝚢𝚘𝚞 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎 ঔৣ✞
 //┃ 𖤍 𝘾𝙤𝙣𝙩𝙖𝙘𝙩-𝙢𝙚 𝙛𝙤𝙧 𝙖𝙣𝙮 𝙙𝙤𝙪𝙗𝙩
-// ╰─...⌬─────────────────────────────────
+// ╰─...⌬──────────────────
 
 import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import { smsg } from './lib/simple.js'
@@ -1421,36 +1421,36 @@ const isBotAdminNn = botTt2?.admin === "admin" || false
 if (global.db.data.chats[id].language === 'pt') {
     text = `
 > root@bytesec:~$ journalctl --access-log
-> ---------------------------------------
+> --------------
 
 [+] NOVO LOGIN
-────────────────────────────────
-> Novo usuário detectado: ${user.split('@')[0]}
-> Status: Conexão estabelecida | Código 200 OK
+─────────────────
+> Novo usuário detectado: @${user.split('@')[0]}
+> Status: Conexão estabelecida | 200 OK
 
 >>> ORIENTAÇÕES DO GRUPO
-────────────────────────────────
+─────────────────
 > [+] Bem-vindo(a) ao grupo ${await this.getName(id)}.
 > [+] Leia as regras e familiarize-se com as normas do grupo.
 > [+] A ordem é mantida pela ByteSec. Desvios serão tratados.
-────────────────────────────────
+─────────────────
     `;
 } else if (global.db.data.chats[id].language === 'en') {
     text = `
 > root@bytesec:~$ journalctl --access-log
-> ---------------------------------------
+> ---------------
 
 [+] NEW LOGIN
-────────────────────────────────
-> New user detected: ${user.split('@')[0]}
-> Status: Connection established | Code 200 OK
+─────────────────
+> New user detected: @${user.split('@')[0]}
+> Status: Connection established | 200 OK
 
 >>> GROUP GUIDELINES
-────────────────────────────────
+─────────────────
 > [+] Welcome to ${await this.getName(id)}.
 > [+] Read the rules and get familiar with group standards.
 > [+] Order is maintained by ByteSec. Deviations will be handled.
-────────────────────────────────
+─────────────────
     `;
 }
 
@@ -1464,7 +1464,7 @@ console.log(text)
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
 if(isWelcome){
 
-   global.conn.sendMessage(id,{text:text},mconn)
+   global.conn.sendMessage(id,{text:text},contextInfo: { mentionedJid: [user] },)
 
 }
 else{
