@@ -1420,31 +1420,48 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? `⎔⎓─────────────────
-┃  𝑺𝒂𝒖𝒅𝒂𝒄𝒐𝒆𝒔, ${global.db.data.users[user].name}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ ঔৣ _${pickRandom([
-    "Bem-vindo, alma errante, ao reino das sombras eternas.",
-    "Entre, espírito solitário, onde o tempo é apenas um eco distante.",
-    "Bem-vindo, viajante das trevas, ao abismo que sussurra segredos esquecidos.",
-    "A noite te chama, peregrino, para dançar com as almas perdidas.",
-    "Adentre, alma perdida, e encontre repouso nas profundezas do desconhecido.",
-    "Bem-vindo ao véu da escuridão, onde a luz é apenas uma memória desvanecida.",
-    "Entre, espectro inquieto, e junte-se ao coro de lamentos sem fim.",
-    "Bem-vindo, filho do crepúsculo, onde o destino tece sua teia sombria.",
-    "A escuridão te acolhe, alma errante, em seus braços frios e infinitos.",
-    "Bem-vindo, viajante do abismo, onde os sonhos se transformam em pesadelos eternos."
-])}_
-┃ 
-┃ ✞︎𝗟𝗲𝗶𝗮 𝗮 𝗱𝗲𝘀𝗰𝗿𝗶𝗰𝗮𝗼 𝗱𝗼 𝗴𝗿𝘂𝗽𝗼.
-┃ ─┅ ${await this.getName(id)}
-┃ 
-┃ ${groupMetadata.desc?.toString()}
-╰─...⎔⎓──────────────`  : `┏━── *「️@subject」*  ─━┓
-│▢ 
-│▢ _${global.db.data.users[user].name} foi banido da irmandade pelos guardiões, condenado por suas transgressões às sombras do exílio eterno._
-│▢ 
-┗━── *「️  」*  ─━┛`)
+let welcomeMessage;
+
+if (global.db.data.chats[id].language === 'pt') {
+    text = `
+> root@bytesec:~$ journalctl --access-log
+> ---------------------------------------
+
+[+] NOVO LOGIN
+────────────────────────────────
+> Novo usuário detectado: ${m.sender.split('@')[0]}
+> Status: Conexão estabelecida | Código 200 OK
+
+>>> ORIENTAÇÕES DO GRUPO
+────────────────────────────────
+> [+] Bem-vindo(a) ao grupo ${groupName}.
+> [+] Leia as regras e familiarize-se com as normas do grupo.
+> [+] A ordem é mantida pela ByteSec. Desvios serão tratados.
+────────────────────────────────
+    `;
+} else if (global.db.data.chats[id].language === 'en') {
+    text = `
+> root@bytesec:~$ journalctl --access-log
+> ---------------------------------------
+
+[+] NEW LOGIN
+────────────────────────────────
+> New user detected: ${m.sender.split('@')[0]}
+> Status: Connection established | Code 200 OK
+
+>>> GROUP GUIDELINES
+────────────────────────────────
+> [+] Welcome to ${groupName}.
+> [+] Read the rules and get familiar with group standards.
+> [+] Order is maintained by ByteSec. Deviations will be handled.
+────────────────────────────────
+    `;
+}
+
+
+
+
+
 console.log(text)
 	
 
