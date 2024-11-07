@@ -417,7 +417,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1730841082616
+      "lastmiming": 1731004466149
     },
     "558488916581@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -12948,7 +12948,7 @@
       },
       "users": {
         "351927285125@s.whatsapp.net": {
-          "exp": 657,
+          "exp": 658,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -12978,7 +12978,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 5590,
+          "exp": 5684,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -13132,8 +13132,8 @@
         "command": "",
         "isSelected": false
       },
-      "langChangeID": "BAE5CF4D17B1D854",
-      "language": "pt"
+      "langChangeID": "BAE5CD174E8C7720",
+      "language": "en"
     }
   },
   "stats": {
@@ -13144,10 +13144,10 @@
       "lastSuccess": 1730976232051
     },
     "config-on y off.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1731000819528,
-      "lastSuccess": 1731000819528
+      "total": 28,
+      "success": 28,
+      "last": 1731004903955,
+      "lastSuccess": 1731004903955
     },
     "dono-unbanchat.js": {
       "total": 5,
@@ -13186,10 +13186,10 @@
       "lastSuccess": 1730378674613
     },
     "dono-update.js": {
-      "total": 52,
-      "success": 52,
-      "last": 1731000818633,
-      "lastSuccess": 1731000818633
+      "total": 53,
+      "success": 53,
+      "last": 1731004861112,
+      "lastSuccess": 1731004861112
     },
     "dono-exec.js": {
       "total": 25,
@@ -13204,10 +13204,10 @@
       "lastSuccess": 1730510385135
     },
     "sticker-sticker.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1730974280724,
-      "lastSuccess": 1730974280724
+      "total": 21,
+      "success": 21,
+      "last": 1731004466149,
+      "lastSuccess": 1731004466149
     },
     "grupo-tagall.js": {
       "total": 2,
@@ -13360,10 +13360,10 @@
       "lastSuccess": 1730852341869
     },
     "-langConfig.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1730931884886,
-      "lastSuccess": 1730931884886
+      "total": 10,
+      "success": 10,
+      "last": 1731004898403,
+      "lastSuccess": 1731004898403
     },
     "grupo-kick.js": {
       "total": 2,
