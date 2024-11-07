@@ -1430,7 +1430,7 @@ if (global.db.data.chats[id].language === 'pt') {
 
 >>> ORIENTAÇÕES DO GRUPO
 ────────────────────────────────
-> [+] Bem-vindo(a) ao grupo ${groupName}.
+> [+] Bem-vindo(a) ao grupo ${await this.getName(id)}.
 > [+] Leia as regras e familiarize-se com as normas do grupo.
 > [+] A ordem é mantida pela ByteSec. Desvios serão tratados.
 ────────────────────────────────
@@ -1447,7 +1447,7 @@ if (global.db.data.chats[id].language === 'pt') {
 
 >>> GROUP GUIDELINES
 ────────────────────────────────
-> [+] Welcome to ${groupName}.
+> [+] Welcome to ${await this.getName(id)}.
 > [+] Read the rules and get familiar with group standards.
 > [+] Order is maintained by ByteSec. Deviations will be handled.
 ────────────────────────────────
