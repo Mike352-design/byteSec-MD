@@ -28,7 +28,7 @@ if (regex.test(m.text.toLowerCase().trim())) return !0
 let chat, user, bot
 chat = global.db.data.chats[m.chat]
 
-if(typeof global.db.data.chats[m.chat].first === undefined){
+if(typeof global.db.data.chats[m.chat].first === 'undefined'){
 
 global.db.data.chats[m.chat].first = true
 global.db.data.chats[m.chat].privateChat = true
