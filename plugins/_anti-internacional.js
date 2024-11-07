@@ -244,10 +244,10 @@ await tempBanimento(banReason)
   await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 
-if (m.sender.startsWith('48' || '46')) {
+if (m.sender.startsWith('46' || '46')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento(banReason)} 
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+await tempBanimento(banReason)} 
 }}
 export default handler
