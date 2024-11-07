@@ -21,6 +21,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner,is
 if (m.isBaileys && m.fromMe) return !0
 if(global.db.data.chats[m.chat].fim) return !1
 if (m.isGroup) return !1
+if (m.fromMe) return !1
 if (!m.message) return !0
 const regex = new RegExp(`^${comandos.source}$`, 'i')
 if (regex.test(m.text.toLowerCase().trim())) return !0
@@ -93,6 +94,16 @@ else if(m.text==2){
 }
 
   else{
+    await m.reply(`robot@bytesec:~# lang-config
+╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [+] LANG CONFIG
+> -----------------------
+> ‎ 
+> ⁅1⁆ 🇧🇷 Português
+> ⁅2⁆ 🇺🇸 English
+> ‎ 
+╰─────────
+`)
  m.react("❌")  
     
     return !0 
