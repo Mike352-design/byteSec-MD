@@ -1017,14 +1017,11 @@ let modoGrupo = global.db.data.chats[m.chat].language === 'pt' ? `0x0041F SISTEM
 
 let modoBot = global.db.data.chats[m.chat].language === 'pt' ? '0x0041F SISTEMA/TODOS' : '0x0041F SYSTEM/ALL'
   
-let resultado = `root@bytesec: #~ ${text}
+let resultado = `root@bytesec: #~ ${command + text}
 ⎓────────
-> ‎ 
 > [*] ${type}
 > [+] ${isEnable ? '200 OK' : '500 INTERNAL '}
-> [⎔] ${isAll ? modoBot : modoGrupo}
-> ‎ 
-─────────`
+> [⎔] ${isAll ? modoBot : modoGrupo}`
 
 await conn.reply(m.chat, resultado, fkontak, m)}	
 /*await conn.sendButton(m.chat, `${lenguajeGB['smsAvisoRG']()}ღ *_${lenguajeGB['smsMens1']()}_* *|* ${type} 
