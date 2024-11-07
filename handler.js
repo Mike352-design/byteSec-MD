@@ -1426,13 +1426,15 @@ if (global.db.data.chats[id].language === 'pt') {
 [+] NOVO LOGIN
 ─────────────────
 > Novo usuário detectado: @${user.split('@')[0]}
-> Status: Conexão estabelecida | 200 OK
+> [*] Conexão estabelecida
+> STATUS 200 OK
 
 >>> ORIENTAÇÕES DO GRUPO
 ─────────────────
 > [+] Bem-vindo(a) ao grupo ${await this.getName(id)}.
 > [+] Leia as regras e familiarize-se com as normas do grupo.
-> [+] A ordem é mantida pela ByteSec. Desvios serão tratados.
+> ‎ 
+> [!] O monitoramento é mantido pela ByteSec..
 ─────────────────
     `;
 } else if (global.db.data.chats[id].language === 'en') {
@@ -1443,13 +1445,15 @@ if (global.db.data.chats[id].language === 'pt') {
 [+] NEW LOGIN
 ─────────────────
 > New user detected: @${user.split('@')[0]}
-> Status: Connection established | 200 OK
-
+> [*] Connection established 
+> STATUS 200 OK
+ 
 >>> GROUP GUIDELINES
 ─────────────────
 > [+] Welcome to ${await this.getName(id)}.
 > [+] Read the rules and get familiar with group standards.
-> [+] Order is maintained by ByteSec. Deviations will be handled.
+> ‎ 
+> [+] Order is maintained by ByteSec.
 ─────────────────
     `;
 }
