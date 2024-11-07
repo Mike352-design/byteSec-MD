@@ -1451,7 +1451,7 @@ if (chat.antifake && isBotAdminNn && action === 'add') {
 const numerosPermitidos = ["1", "2", "4", "6", "7", "8", "9"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
 if (numerosPermitidos.some(num => user.startsWith(num))) {                                                                                           	let texto;
 
-if (global.db.data.chats[m.chat].language === 'pt') {
+if (global.db.data.chats[mconn.chat].language === 'pt') {
     texto = `
 > robot@bytesec: #/groups/ alert.log
 > ---------------------------------------
@@ -1467,7 +1467,7 @@ if (global.db.data.chats[m.chat].language === 'pt') {
 > # Monitoração ativa por ByteSec.
 ────────────────────────────────
     `;
-} else if (global.db.data.chats[m.chat].language === 'en') {
+} else if (global.db.data.chats[mconn.chat].language === 'en') {
     texto = `
 > robot@bytesec: #/groups/ alert.log
 > ---------------------------------------
