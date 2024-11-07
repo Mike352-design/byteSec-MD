@@ -1019,8 +1019,8 @@ let modoBot = global.db.data.chats[m.chat].language === 'pt' ? ' SISTEMA/TODOS' 
   
 let resultado = `root@bytesec: #~ cfs --${command + ' ' + text}
 ⎓────────
-> [*] ${type}
-> [+] ${isEnable ? '200 OK' : '500 INTERNAL '}
+> [!] ${type}
+> ${isEnable ? '[+] 200 OK' : '[-] 500 INTERNAL '}
 > [⎔] ${isAll ? modoBot : modoGrupo}`
 
 await conn.reply(m.chat, resultado, fkontak, m)}	
