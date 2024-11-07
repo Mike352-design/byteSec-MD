@@ -14,7 +14,6 @@ let bot = global.db.data.settings[this.user.jid] || {}
 const isGroupLink = linkRegex.exec(m.text)
 
 
-console.log(chat.antiLink2 && isGroupLink && !isAdmin)
 
 if (chat.antiLink2 && isGroupLink && !isAdmin) {
   console.log('bot e admin?')
