@@ -1000,10 +1000,9 @@ if (!/[01]/.test(command))
 return await m.reply(`root@bytesec: #~ cfs --${command + ' ' + text}
 ⎓────────
 > [!] 500 INTERNAL ERROR
-${global.db.data.chats[m.chat].language === 'pt' ? `> [⎔] ENDPOINT
-INVÁLIDO
+${global.db.data.chats[m.chat].language === 'pt' ? `> [⎔] ENDPOINT INVÁLIDO
 > ‎ 
-> ᴅɪɢɪᴛᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴏᴇs ᴘᴀʀᴀ ᴠᴇʀ ᴏs ᴍᴇᴛᴏᴅᴏs ᴅɪsᴘᴏɴɪ́ᴠᴇɪs` : `> [⎔] ENDPOINT ERROR
+> ᴅɪɢɪᴛᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴏᴇs ᴘᴀʀᴀ ᴠᴇʀ ᴏs ᴍᴇᴛᴏᴅᴏs ᴅɪsᴘᴏɴɪ́ᴠᴇɪs` : `> [⎔] INVALID ENDPOINT 
 > ‎ 
 > ᴛʏᴘᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴛɪᴏɴs ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴍᴇᴛʜᴏᴅs`
 }`)
