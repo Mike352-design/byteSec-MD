@@ -1544,7 +1544,7 @@ ctx.fillText(global.db.data.users[user].name, text2X, text2Y);
 
 await createWelcomeBanner()
 console.log(outputFilePath)
-  await global.conn.sendFile(id, outputFilePath,'welcome.png',text,null)
+  await global.conn.sendMessage(id,{text:text},null)
 
 }
 else{
