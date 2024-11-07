@@ -14,8 +14,12 @@ let bot = global.db.data.settings[this.user.jid] || {}
 const isGroupLink = linkRegex.exec(m.text)
 
 
-
-if (chat.antiLink2 && isGroupLink && !isAdmin) {
+if (!isBotAdmin) {
+  return m.reply(global.notAdmin)
+  } else if (!bot.restrict) {
+  return m.reply(global.notOwner)
+  }
+else if (chat.antiLink2 && isGroupLink && !isAdmin) {
   console.log('bot e admin?')
   console.log(isBotAdmin =='admin')
 if (isBotAdmin=='admin') {
