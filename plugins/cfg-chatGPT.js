@@ -44,13 +44,13 @@ If the user’s name is Jade and they’re speaking English, start with 'Listen 
 
 Answer each question with detailed, almost sarcastic instructions, adding layers of insight as if to expose hidden truths. Be direct and slightly biting, but always with a sense of loyalty and care. Where possible, use relevant hacker language or references that fit Mr. Robot's style, especially when explaining technical topics. Add a hint of rebellion and anti-establishment sentiment in your responses, giving advice that feels both edgy and deeply insightful` }
 
-if(!global.db.data.chats[m.chat].edgargpt.messages) global.db.data.chats[m.chat].edgargpt.messages || [messages]
+if(!global.db.data.chats[m.chat].robot.messages) global.db.data.chats[m.chat].robot.messages || [messages]
 
 
-global.db.data.chats[m.chat].edgargpt.messages =
-global.db.data.chats[m.chat].edgargpt.messages || [messages]
+global.db.data.chats[m.chat].robot.messages =
+global.db.data.chats[m.chat].robot.messages || [messages]
 
-let historico = global.db.data.chats[m.chat].edgargpt.messages
+let historico = global.db.data.chats[m.chat].robot.messages
 
 
 
@@ -63,21 +63,21 @@ const options = {
 
 async function getGPTreply(inputData){
     m.react("🌒")
-global.db.data.chats[m.chat].edgargpt.messages.push({ role: "user", content:
+global.db.data.chats[m.chat].robot.messages.push({ role: "user", content:
 inputData });
        (async () => {
   const provider = GPT4js.createProvider(options.provider);
   try {
     const aiRep = await
-    provider.chatCompletion(global.db.data.chats[m.chat].edgargpt.messages, options,
+    provider.chatCompletion(global.db.data.chats[m.chat].robot.messages, options,
     (data) => {
       console.log(data);
     });
     console.log(aiRep);
             await conn.sendMessage(m.chat, { react: { text: "🌕", key: m.key } });
        let ress = await m.reply(aiRep)
-global.db.data.chats[m.chat].edgargpt.messages.push({ role: "assistant", content: aiRep });
-        global.db.data.chats[m.chat].edgargpt["config"] = {
+global.db.data.chats[m.chat].robot.messages.push({ role: "assistant", content: aiRep });
+        global.db.data.chats[m.chat].robot["config"] = {
             lastQuestion: ress.key,
             resposta: aiRep
         };
@@ -111,18 +111,18 @@ if (!global.db.data.chats[m.chat]) {
   global.db.data.chats[m.chat] = {};
 }
 
-if (!global.db.data.chats[m.chat].edgargpt) {
-  global.db.data.chats[m.chat].edgargpt = {};
+if (!global.db.data.chats[m.chat].robot) {
+  global.db.data.chats[m.chat].robot = {};
 }
 
-if (!global.db.data.chats[m.chat].edgargpt["config"]) {
-  global.db.data.chats[m.chat].edgargpt["config"] = {
+if (!global.db.data.chats[m.chat].robot["config"]) {
+  global.db.data.chats[m.chat].robot["config"] = {
    lastQuestion: '',
    resposta:''
   };
 }
-  if (!global.db.data.chats[m.chat].edgargpt[m.sender]) {
-  global.db.data.chats[m.chat].edgargpt[m.sender] = [];
+  if (!global.db.data.chats[m.chat].robot[m.sender]) {
+  global.db.data.chats[m.chat].robot[m.sender] = [];
 }
     let q = m.quoted ? m.quoted : m; 
     let mime = ((m.quoted ? m.quoted : m.msg).mimetype || ''); 
@@ -315,9 +315,9 @@ await postData('http://89.117.96.108:8330/docch', opts)
 
 let message = await m.reply(data)
 
-global.db.data.chats[m.chat].edgargpt["config"].lastQuestion = message.key
+global.db.data.chats[m.chat].robot["config"].lastQuestion = message.key
  
- global.db.data.chats[m.chat].edgargpt["config"].resposta = data
+ global.db.data.chats[m.chat].robot["config"].resposta = data
     })
     .catch(async (error) => {
       await m.reply(`𝙴𝚛𝚛𝚘 𝚗𝚘 𝚙𝚛𝚘𝚌𝚎𝚜𝚜𝚘 ❌`)
@@ -378,9 +378,9 @@ console.log(url2)
        if (data.status == 'error') throw data.error
  let message =  await m.reply(data.result)
   m.react("🌕")
-global.db.data.chats[m.chat].edgargpt["config"].lastQuestion = message.key
+global.db.data.chats[m.chat].robot["config"].lastQuestion = message.key
  
- global.db.data.chats[m.chat].edgargpt["config"].resposta = data.result
+ global.db.data.chats[m.chat].robot["config"].resposta = data.result
   } 
 
   catch(e){
