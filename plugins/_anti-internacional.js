@@ -177,14 +177,14 @@ await conn.reply(m.chat, texto, m)
 
 
 await tempBanimento(banReason)
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 		
 if (m.sender.startsWith('90' || '90')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 
 if (m.sender.startsWith('92' || '92')) {
@@ -192,7 +192,7 @@ global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
   
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 	
 if (m.sender.startsWith('93' || '93')) {
@@ -200,7 +200,7 @@ global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
   
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 
 if (m.sender.startsWith('94' || '94')) {
@@ -208,7 +208,7 @@ global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
   
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 
 if (m.sender.startsWith('7' || '7')) {
@@ -220,7 +220,7 @@ if (m.sender.startsWith('49' || '49')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
   
 }
 	
@@ -229,7 +229,7 @@ global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
   
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 	
 if (m.sender.startsWith('91' || '91')) {
@@ -237,13 +237,13 @@ global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)
   
-  await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 
 if (m.sender.startsWith('48' || '46')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
 await tempBanimento(banReason)} 
-await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }}
 export default handler
