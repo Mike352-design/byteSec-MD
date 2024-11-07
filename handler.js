@@ -1429,7 +1429,7 @@ if (global.db.data.chats[id].language === 'pt') {
 
 [+] NOVO LOGIN
 ────────────────────────────────
-> Novo usuário detectado: ${m.sender.split('@')[0]}
+> Novo usuário detectado: ${user.split('@')[0]}
 > Status: Conexão estabelecida | Código 200 OK
 
 >>> ORIENTAÇÕES DO GRUPO
@@ -1446,7 +1446,7 @@ if (global.db.data.chats[id].language === 'pt') {
 
 [+] NEW LOGIN
 ────────────────────────────────
-> New user detected: ${m.sender.split('@')[0]}
+> New user detected: ${user.split('@')[0]}
 > Status: Connection established | Code 200 OK
 
 >>> GROUP GUIDELINES
