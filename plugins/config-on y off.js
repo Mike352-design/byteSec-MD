@@ -997,14 +997,18 @@ global.opts['swonly'] = isEnable
 break
 default:
 if (!/[01]/.test(command))
-return await m.reply(`┏━─────────────━┓
-│
-│ ❌ 𝑭𝒖𝒏𝒄𝒂𝒐 𝒊𝒏𝒗𝒂𝒍𝒊𝒅𝒂!
-│
-│  𝑻𝒆𝒄𝒍𝒆 *.menu funcoes* 𝒑𝒂𝒓𝒂 𝒅𝒆𝒔𝒗𝒆𝒍𝒂𝒓 𝒂 𝒍𝒊𝒔𝒕𝒂
-│ 𝒅𝒂𝒔 𝒇𝒖𝒏𝒄𝒐𝒆𝒔 𝒒𝒖𝒆 𝒐 𝒈𝒓𝒖𝒑𝒐 𝒕𝒆𝒎 𝒂 𝒅𝒊𝒔𝒑𝒐𝒔𝒊𝒄𝒂𝒐.
-│
-┗━────────────━┛`)
+let warnin = global.db.data.chats[m.chat].language === 'pt' ? `> [⎔] ENDPOINT
+INVÁLIDO
+> ‎ 
+> ᴅɪɢɪᴛᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴏᴇs ᴘᴀʀᴀ ᴠᴇʀ ᴏs ᴍᴇᴛᴏᴅᴏs ᴅɪsᴘᴏɴɪ́ᴠᴇɪs` : `> [⎔] ENDPOINT ERROR
+> ‎ 
+> ᴛʏᴘᴇ .ᴍᴇɴᴜ ғᴜɴᴄᴛɪᴏɴs ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴍᴇᴛʜᴏᴅs`
+
+
+return await m.reply(`root@bytesec: #~ cfs --${command + ' ' + text}
+⎓────────
+> [!] 500 INTERNAL ERROR
+${warnin}`)
 
 
 
@@ -1020,7 +1024,7 @@ let modoBot = global.db.data.chats[m.chat].language === 'pt' ? ' SISTEMA/TODOS' 
 let resultado = `root@bytesec: #~ cfs --${command + ' ' + text}
 ⎓────────
 > [!] ${type}
-> ${isEnable ? '[+] 200 OK' : '[-] 500 INTERNAL '}
+> ${isEnable ? '[+] 200 OK | ONLINE' : '[-] 200 OK | OFFLINE '}
 > [⎔] ${isAll ? modoBot : modoGrupo}`
 
 await conn.reply(m.chat, resultado, fkontak, m)}	
