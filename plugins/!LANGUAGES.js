@@ -12,7 +12,7 @@
 
 let handler = m => m 
 handler.before = async function (m, { text, args, usedPrefix, command, conn } ) {
-
+if (!m.isGroup) return !1
 
 if(m.quoted &&
 global.db.data.chats[m.chat].langChangeID &&
