@@ -1467,84 +1467,8 @@ console.log(text)
 
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
 if(isWelcome){
- const getRandom = (ext) => { 
-    return `${Math.floor(Math.random() * 10000)}${ext}`;
-}
 
-   let out = getRandom('.png'); 
-    let backgroundImagePath = join(global.dirname, '../media/overlays/welcome.png');
-    let outputFilePath = join(global.dirname, '../tmp/' + out);
-
-
-const profileImagePath = await conn.profilePictureUrl(user, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-
-
-const groupNameText = groupMetadata.subject
-const canvasWidth = 800;
-const canvasHeight = 800;
-
-async function createWelcomeBanner() {
-    const canvas = createCanvas(canvasWidth, canvasHeight);
-    const ctx = canvas.getContext('2d');
-
-    // Load and draw the background image
-    const backgroundImage = await loadImage(backgroundImagePath);
-    ctx.drawImage(backgroundImage, 0, 0, canvasWidth, canvasHeight);
-
-    // Load and draw the profile picture in a circular clip
-    const profileImage = await loadImage(profileImagePath);
-    const profileSize = 300;
-    const profileX = (canvasWidth - profileSize) / 2;
-    const profileY = (canvasHeight - profileSize) / 2.78;
-
-    ctx.save();
-    ctx.beginPath();
-    ctx.arc(profileX + profileSize / 2, profileY + profileSize / 2, profileSize / 2, 0, Math.PI * 2, true);
-    ctx.closePath();
-    ctx.clip();
-
-    ctx.drawImage(profileImage, profileX, profileY, profileSize, profileSize);
-    ctx.restore();
-
-    // Add the group name text at the bottom center
-    ctx.fillStyle = '#ffffff';
-    ctx.font = '25px Garamond';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    const textX = canvasWidth / 2;
-    const textY = canvasHeight - 30;
-    ctx.fillText(groupNameText, textX, textY);
-
-
-registerFont('fonts/MedusaGothic-VAEV.ttf', { family: 'MedusaGothic-VAEV' });
-
-ctx.fillStyle = '#eeeeee';
-ctx.font = '35px "MedusaGothic-VAEV"';
-ctx.textAlign = 'center';
-ctx.textBaseline = 'middle';
-
-ctx.shadowColor = '#ff0000';
-ctx.shadowBlur = 10;
-
-const text2X = canvasWidth / 2;
-const text2Y = canvasHeight - 250;
-
-console.log('Novo membro:  '+ global.db.data.users[user].name)
-ctx.fillText(global.db.data.users[user].name, text2X, text2Y);
-
-
-    
-    // Save the canvas to a file
-    const buffer = canvas.toBuffer('image/png');
-    fs.writeFileSync(outputFilePath, buffer);
-    console.log(`Welcome banner created: ${outputFilePath}`);
-       
-}
-
-
-await createWelcomeBanner()
-console.log(outputFilePath)
-  await global.conn.sendMessage(id,{text:text},null)
+   global.conn.sendMessage(id,{text:text},null)
 
 }
 else{
