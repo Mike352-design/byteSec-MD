@@ -161,6 +161,8 @@ if (global.db.data.chats[m.chat].language === 'pt') {
     `;
 }
 
+console.log(texto)
+
 let banReason;
 
 if (global.db.data.chats[m.chat].language === 'pt') {
