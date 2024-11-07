@@ -246,15 +246,13 @@ await tempBanimento(banReason)
 }
 
 if (m.sender.startsWith('46' || '46')) {
-  console.log('testeeeeeeeee')
 global.db.data.users[m.sender].block = true
-await conn.reply(m.chat, 'teste', m)
+await conn.reply(m.chat, texto, m)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 await tempBanimento(banReason)} 
 if (m.sender.startsWith('76' || '76')) {
-  console.log('testeeeeeeeee')
 global.db.data.users[m.sender].block = true
-await conn.reply(m.chat, 'teste', m)
+await conn.reply(m.chat, texto, m)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 await tempBanimento(banReason)} 
 }}
