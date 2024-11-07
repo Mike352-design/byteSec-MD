@@ -58,22 +58,57 @@ let destino = global.db.data.chats[m.chat].reportchat || adminAleatorio
    console.log('3🌙')
 
   
-let teks = `─┅──┅❖𓌜❖─┅──┅
-𝖀𝖘𝖚á𝖗𝖎𝖔 𝕭𝖆𝖓𝖎𝖉𝖔!
+  let teks;
 
-*№ Protocolo: ${generateRandomCode()}*
-*Data: ${getDataAtual()}*
+if (global.db.data.chats[m.chat].language === 'pt') {
+    teks = `
+> robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+> ---------------------------------------
 
-Nome: ${m.name}
-Contato: @${m.sender.split`@`[0]}
+[!] ALERTA: Usuário Banido
+────────────────────────────────
+> Protocolo: ${generateRandomCode()}
+> Data: ${getDataAtual()}
 
-*Grupo:* ${groupMetadata.subject}
-⎔⎓──────────────
-_*Motivo do exílio:*_
-${motivo}
-╰─...⎔⎓──────────────
+>>> DETALHES DO USUÁRIO
+────────────────────────────────
+> [+] Nome: ${m.name}
+> [+] Contato: @${m.sender.split`@`[0]}
+> [+] Grupo: ${groupMetadata.subject}
 
-─┅──┅❖ ❖─┅──┅`
+>>> MOTIVO DO EXÍLIO
+────────────────────────────────
+> ${motivo}
+
+> # Operação realizada pela ByteSec. 
+> # Monitoramento constante.
+────────────────────────────────
+    `;
+} else if (global.db.data.chats[m.chat].language === 'en') {
+    teks = `
+> robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+> ---------------------------------------
+
+[!] ALERT: User Banned
+────────────────────────────────
+> Protocol: ${generateRandomCode()}
+> Date: ${getDataAtual()}
+
+>>> USER DETAILS
+────────────────────────────────
+> [+] Name: ${m.name}
+> [+] Contact: @${m.sender.split`@`[0]}
+> [+] Group: ${groupMetadata.subject}
+
+>>> REASON FOR EXILE
+────────────────────────────────
+> ${motivo}
+> ‎ 
+> # Operation conducted by ByteSec.
+> # Under continuous surveillance.
+────────────────────────────────
+    `;
+}
    
    m.reply(teks,destino)
    
@@ -82,29 +117,76 @@ const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "stat
 }
 if (!m.isGroup) return !1
 if (!m.fromMe) return !1
-if (m.fromMe) return
 let chat = global.db.data.chats[m.chat]
 if (isBotAdmin && chat.antifake) {
-let texto = `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsInt1']()} *@${m.sender.split`@`[0]}* ${lenguajeGB['smsInt2']()}`
+  
+  
+let texto;
+
+if (global.db.data.chats[m.chat].language === 'pt') {
+    texto = `
+> robot@bytesec: #/groups/ alert.log
+> ---------------------------------------
+
+[!] ALERTA: NÚMERO EXTERNO SUSPEITO DETECTADO
+────────────────────────────────
+> Número detectado: ${m.sender.split('@')[0]}
+> Código de erro: 0x4F2A1D
+> Acesso não autorizado - bloqueio imediato.
+
+> ⚠ 0xC014: "IP isolado e marcado para blacklist."
+> ‎ 
+> # Monitoração ativa por ByteSec.
+────────────────────────────────
+    `;
+} else if (global.db.data.chats[m.chat].language === 'en') {
+    texto = `
+> robot@bytesec: #/groups/ alert.log
+> ---------------------------------------
+
+[!] WARNING: SUSPICIOUS EXTERNAL NUMBER DETECTED
+────────────────────────────────
+> Detected number: ${m.sender.split('@')[0]}
+> Error code: 0x4F2A1D
+> Unauthorized access - immediate lockout.
+
+> ⚠ 0xC014: "IP isolated and flagged for blacklist."
+> ‎ 
+> # Active monitoring by ByteSec.
+────────────────────────────────
+    `;
+}
+
+let banReason;
+
+if (global.db.data.chats[m.chat].language === 'pt') {
+    banReason = `⚠️ Número suspeito detectado! Usuário removido e IP marcado para blacklist.`;
+} else if (global.db.data.chats[m.chat].language === 'en') {
+    banReason = `⚠️ Suspicious number detected! User removed and IP flagged for blacklist.`;
+}
+
+
 	
 if (m.sender.startsWith('6' || '6')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+
+
+await tempBanimento(banReason)
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
 		
 if (m.sender.startsWith('90' || '90')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
 
 if (m.sender.startsWith('92' || '92')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
@@ -112,7 +194,7 @@ await tempBanimento('Detectado um numero internacional, potencialmente fake ou s
 if (m.sender.startsWith('93' || '93')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
@@ -120,7 +202,7 @@ await tempBanimento('Detectado um numero internacional, potencialmente fake ou s
 if (m.sender.startsWith('94' || '94')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
@@ -128,12 +210,12 @@ await tempBanimento('Detectado um numero internacional, potencialmente fake ou s
 if (m.sender.startsWith('7' || '7')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')}
+await tempBanimento(banReason)}
 	
 if (m.sender.startsWith('49' || '49')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
   
 }
@@ -141,7 +223,7 @@ await tempBanimento('Detectado um numero internacional, potencialmente fake ou s
 if (m.sender.startsWith('2' || '2')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
@@ -149,15 +231,15 @@ await tempBanimento('Detectado um numero internacional, potencialmente fake ou s
 if (m.sender.startsWith('91' || '91')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')
+await tempBanimento(banReason)
   
   await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }
 
-if (m.sender.startsWith('48' || '48')) {
+if (m.sender.startsWith('48' || '46')) {
 global.db.data.users[m.sender].block = true
 await conn.reply(m.chat, texto, m)
-await tempBanimento('Detectado um numero internacional, potencialmente fake ou spam!')} 
+await tempBanimento(banReason)} 
 await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 }}
 export default handler
