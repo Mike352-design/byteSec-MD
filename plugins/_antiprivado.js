@@ -24,11 +24,11 @@ if (m.isGroup) return !1
 if (!m.message) return !0
 const regex = new RegExp(`^${comandos.source}$`, 'i')
 if (regex.test(m.text.toLowerCase().trim())) return !0
-console.log(m.plugin)
+
 let chat, user, bot
 chat = global.db.data.chats[m.chat]
 
-if(typeof global.db.data.chats[m.chat].language === undefined){
+if(typeof global.db.data.chats[m.chat].first === undefined){
 
 global.db.data.chats[m.chat].first = true
 global.db.data.chats[m.chat].privateChat = true
