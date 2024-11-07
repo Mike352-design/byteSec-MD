@@ -16,6 +16,8 @@
 
 const comandos = /piedra|papel|tijera|estado|verificar|code|jadibot --code|--code|creadora|bottemporal|grupos|instalarbot|términos|bots|deletebot|eliminarsesion|serbot|verify|register|registrar|reg|reg1|nombre|name|nombre2|name2|edad|age|edad2|age2|genero|género|gender|identidad|pasatiempo|hobby|identify|finalizar|pas2|pas3|pas4|pas5|registroc|deletesesion|registror|jadibot/i
 export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner,isAllowed ,plugin,usedPrefix, command }) {
+  
+  
 if (m.isBaileys && m.fromMe) return !0
 if(global.db.data.chats[m.chat].fim) return !1
 if (m.isGroup) return !1
@@ -23,30 +25,81 @@ if (!m.message) return !0
 const regex = new RegExp(`^${comandos.source}$`, 'i')
 if (regex.test(m.text.toLowerCase().trim())) return !0
 console.log(m.plugin)
-let chat, user, bot, mensaje
+let chat, user, bot
 chat = global.db.data.chats[m.chat]
-if(!global.db.data.chats[m.chat].msgCount){ global.db.data.chats[m.chat].msgCount = 0
+
+if(typeof global.db.data.chats[m.chat].first === undefined){
+global.db.data.chats[m.chat].msgCount = 0
+global.db.data.chats[m.chat].first = true
+global.db.data.chats[m.chat].privateChat = true
 }
-user = global.db.data.users[m.sender]
+
+if(global.db.data.chats[m.chat].first){
+  
+    let getLang = await m.reply(`robot@bytesec:~# lang-config
+╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [+] LANG CONFIG
+> -----------------------
+> ‎ 
+> ⁅1⁆ 🇧🇷 Português
+> ⁅2⁆ 🇺🇸 English
+> ‎ 
+╰─────────
+`)
+
+ global.db.data.chats[m.chat].langChangeID = getLang.key.id
+  
+  
+}
+else {
+  user = global.db.data.users[m.sender]
 bot = global.db.data.settings[this.user.jid] || {}
 global.db.data.chats[m.chat].autolevelup = false
-console.log("private chat allowed?   " +  isAllowed)
- if(!isAllowed && !m.fromMe && bot.antiPrivate&& global.db.data.chats[m.chat].msgCount >= 5){
- m.reply(`╭─┅──┅❖ ༒︎ ❖─┅──┅
-𝑪𝒂𝒓𝒐 ${m.pushName},
+ if(!isAllowed && !m.fromMe && bot.antiPrivate&&
+ global.db.data.chats[m.chat].msgCount >= 10){
+   
+   const language = global.db.data.chats[m.chat].language;
 
-𝑨𝒔 𝒕𝒓𝒆𝒗𝒂𝒔 𝒄𝒐𝒏𝒔𝒖𝒎𝒊𝒓𝒂𝒎 𝒐 𝒖𝒍𝒕𝒊𝒎𝒐 𝒗𝒆𝒔𝒕𝒊𝒈𝒊𝒐 𝒅𝒐 𝒑𝒆𝒓𝒊𝒐𝒅𝒐 𝒅𝒆 𝒕𝒆𝒔𝒕𝒆𝒔 𝒏𝒆𝒔𝒕𝒆 𝒄𝒉𝒂𝒕. 𝑶 𝒐𝒄𝒂𝒔𝒐 𝒕𝒓𝒐𝒖𝒙𝒆 𝒄𝒐𝒏𝒔𝒊𝒈𝒐 𝒐 𝒇𝒊𝒎 𝒅𝒆𝒔𝒕𝒂 𝒆𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒊𝒂, 𝒎𝒂𝒔 𝒏ã𝒐 𝒐 𝒇𝒊𝒎 𝒅𝒆 𝒏𝒐𝒔𝒔𝒂 𝒄𝒐𝒏𝒆𝒙𝒂𝒐.  
-𝑺𝒆 𝒅𝒆𝒔𝒆𝒋𝒂𝒓 𝒄𝒐𝒏𝒕𝒊𝒏𝒖𝒂𝒓 𝒆𝒙𝒑𝒍𝒐𝒓𝒂𝒏𝒅𝒐 𝒐𝒔 𝒔𝒆𝒈𝒓𝒆𝒅𝒐𝒔 𝒗𝒆𝒍𝒂𝒅𝒐𝒔 𝒆 𝒐𝒔 𝒎𝒊𝒔𝒕𝒆𝒓𝒊𝒐𝒔 𝒏𝒐𝒕𝒖𝒓𝒏𝒐𝒔, 𝒆𝒏𝒕𝒓𝒆 𝒆𝒎 𝒄𝒐𝒏𝒕𝒂𝒄𝒕𝒐 𝒄𝒐𝒎 𝒏𝒐𝒔𝒔𝒐 𝒔𝒖𝒑𝒐𝒓𝒕𝒆:
-+351 927 285 125
-+55 45 9852-7531
+const message = language === 'pt' ? `
+> root@bytesec:~# cat /etc/trial.md
+> . . . . . . . . . . 
+> ‎ 
+[+] Período de Teste: Encerrado
 
-𝑵𝒂𝒐 𝒉𝒆𝒔𝒊𝒕𝒆 𝒆𝒎 𝒅𝒆𝒊𝒙𝒂𝒓-𝒏𝒐𝒔 𝒖𝒎𝒂 𝒎𝒆𝒏𝒔𝒂𝒈𝒆𝒎,𝒑𝒐𝒊𝒔 𝒏𝒂 𝒆𝒔𝒄𝒖𝒓𝒊𝒅𝒂𝒐, 𝒔𝒆𝒎𝒑𝒓𝒆 𝒉𝒂 𝒖𝒎 𝒄𝒂𝒎𝒊𝒏𝒉𝒐 𝒐𝒄𝒖𝒍𝒕𝒐 𝒂 𝒔𝒆𝒓 𝒅𝒆𝒔𝒄𝒐𝒃𝒆𝒓𝒕𝒐.
+Então, ${m.pushName}... chegamos ao fim do seu "teste grátis." Interessante, não? Um pequeno vislumbre do que está por trás. Mas sejamos sinceros, você não está aqui só por isso. Você quer ver o que realmente acontece por trás das linhas de código.
 
-𝑸𝒖𝒆 𝒂𝒔 𝒔𝒐𝒎𝒃𝒓𝒂𝒔 𝒐 𝒆𝒏𝒗𝒐𝒍𝒗𝒂𝒎 𝒆 𝒐𝒔 𝒄𝒐𝒓𝒗𝒐𝒔 𝒂𝒄𝒐𝒎𝒑𝒂𝒏𝒉𝒆𝒎 𝒔𝒖𝒂 𝒋𝒐𝒓𝒏𝒂𝒅𝒂.
+Interessado no que a fSociety de verdade, a byteSec, realmente oferece? Ferramentas avançadas, Deep learning pentest, auto-recon... Quer acesso? Sabe onde me encontrar.
 
-— 𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 🪶
+> Entre em contato:
+> +351 927 285 125
 
-*╰─┅──┅❖ ⸸ ❖─┅──┅*`)
+[!] Mas lembre-se, algumas portas, uma vez abertas, não se fecham. Escolha sabiamente.
+
+— 𝙈𝙧.𝙍𝙤𝙗𝙤𝙩
+
+root@bytesec:~# _
+` : `
+> root@bytesec:~# cat /etc/trial.md
+> . . . . . . . . . . 
+> ‎ 
+[+] Trial Period: Ended
+
+So, ${m.pushName}… here we are. The end of your "free trial." A nice little glimpse, right? But let’s be real, you didn’t come here for a taste. You want to see what’s really behind the code.
+
+Curious about what "real" fSociety, a.k.a byteSec, actually offers? Advanced tools. Auto-recon, Deep learning pentest. You want in? You know where to find me.
+
+> Reach us out:
+> +351 927 285 125
+
+[!] But remember, some doors, once opened, don’t close. Choose wisely.
+
+— 𝙈𝙧.𝙍𝙤𝙗𝙤𝙩
+
+root@bytesec:~# _
+`;
+
+
+ m.reply(message)
 global.db.data.chats[m.chat].fim = true
 }
 else if (!isAllowed && bot.antiPrivate) {
@@ -54,7 +107,8 @@ else if (!isAllowed && bot.antiPrivate) {
 
 return !1
 }
-if(isAllowed) return 0
-return !1
+
+}
+
 }
 
