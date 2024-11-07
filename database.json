@@ -708,7 +708,9 @@
       "money": 150,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "nsfwAdv": 0,
+      "adv": 2
     },
     "554598527531@s.whatsapp.net,555391229279@s.whatsapp.net": {},
     "555391229279@s.whatsapp.net": {
@@ -4730,133 +4732,6 @@
     }
   },
   "chats": {
-    "351927285125@s.whatsapp.net": {
-      "quiz": {
-        "math": false,
-        "cp": "",
-        "ca": "",
-        "cm": "",
-        "xp": 0,
-        "id": "",
-        "time": ""
-      },
-      "users": {
-        "351927285125@s.whatsapp.net": {
-          "exp": 0,
-          "limit": 6666,
-          "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
-          "money": 66666,
-          "level": 666,
-          "adm": false,
-          "legendary": true,
-          "banned": false,
-          "adv": 0,
-          "tentativasRoubo": 666,
-          "silenced": false,
-          "maxlevel": false,
-          "cocriador": false,
-          "pontos": 0,
-          "tempBan": false,
-          "coadmin": false,
-          "slots": 666,
-          "name": "Henry Arcangelo 𖤍",
-          "age": "23 anos",
-          "morada": "Rio Tinto, Porto.  Portugal",
-          "profissao": "Desenvolvedor fullstack",
-          "instagram": "https://instagram.con/henryy.xn",
-          "website": "https://arcangelo.net",
-          "links": "https://github.com/ARCANGEL0",
-          "biografia": "Sem informações sobre mim",
-          "hobbies": "Ler e ouvir música",
-          "relacionamento": "❔",
-          "usuariosRoubados": []
-        },
-        "79001643752@s.whatsapp.net": {
-          "exp": 0,
-          "limit": 0,
-          "role": "",
-          "money": 0,
-          "level": 100,
-          "adm": false,
-          "legendary": true,
-          "banned": false,
-          "adv": 0,
-          "tentativasRoubo": 5,
-          "silenced": false,
-          "maxlevel": true,
-          "cocriador": false
-        }
-      },
-      "isBanned": false,
-      "welcome": true,
-      "detect": false,
-      "sWelcome": "",
-      "sBye": "",
-      "sPromote": "",
-      "sDemote": "",
-      "delete": true,
-      "jogos": true,
-      "gpt": true,
-      "expira": "2000-01-01T00:00:00.000Z",
-      "acoes": true,
-      "busca": true,
-      "midia": true,
-      "xadrez": true,
-      "admafk": false,
-      "downloads": true,
-      "modohorny": false,
-      "stickers": true,
-      "autosticker": false,
-      "audios": false,
-      "antiSpam": true,
-      "antiver": true,
-      "antiLink": true,
-      "antiLink2": true,
-      "antiTiktok": false,
-      "antiYoutube": false,
-      "antiTelegram": false,
-      "antiFacebook": false,
-      "antiInstagram": false,
-      "antiTwitter": false,
-      "antifake": true,
-      "reaction": true,
-      "viewonce": true,
-      "modoadmin": false,
-      "antitoxic": true,
-      "simi": false,
-      "antiTraba": true,
-      "autolevelup": false,
-      "edgar": true,
-      "reply": true,
-      "expired": 0,
-      "except": false,
-      "msgCount": 0,
-      "firstTime": true,
-      "antiCallGp": true,
-      "nsfw": false,
-      "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
-      "totalMembros": 0,
-      "membros": [],
-      "boleto": 20,
-      "forca": {
-        "isGame": false,
-        "forcaID": "",
-        "palavra": "",
-        "currentStatus": "",
-        "currentStage": ""
-      },
-      "afks": [],
-      "lastSentTime": 0,
-      "robotgpt": {
-        "config": {
-          "lastQuestion": "",
-          "resposta": ""
-        },
-        "351927285125@s.whatsapp.net": []
-      },
-      "privategpthistory": [],
-      "language": "en"
-    },
     "79001643752@s.whatsapp.net": {
       "quiz": {
         "math": false,
@@ -6722,7 +6597,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 118,
+          "exp": 119,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6737,7 +6612,7 @@
           "cocriador": false
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 769,
+          "exp": 827,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
           "money": 0,
@@ -6754,7 +6629,7 @@
           "tempBan": false
         },
         "554796646044@s.whatsapp.net": {
-          "exp": 180,
+          "exp": 219,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
           "money": 0,
@@ -13084,7 +12959,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 5967,
+          "exp": 5978,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -13240,6 +13115,123 @@
       },
       "langChangeID": "BAE5CD174E8C7720",
       "language": "en"
+    },
+    "351927285125@s.whatsapp.net": {
+      "quiz": {
+        "math": false,
+        "cp": "",
+        "ca": "",
+        "cm": "",
+        "xp": 0,
+        "id": "",
+        "time": ""
+      },
+      "users": {
+        "351927285125@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0,
+          "tempBan": false
+        },
+        "79001643752@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "",
+          "money": 0,
+          "level": 100,
+          "adm": false,
+          "legendary": true,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": true,
+          "cocriador": false
+        }
+      },
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "language": "pt",
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "jogos": true,
+      "gpt": true,
+      "expira": "2000-01-01T00:00:00.000Z",
+      "acoes": true,
+      "busca": true,
+      "midia": true,
+      "xadrez": true,
+      "admafk": false,
+      "downloads": true,
+      "modohorny": false,
+      "stickers": true,
+      "autosticker": false,
+      "audios": false,
+      "antiSpam": true,
+      "antiver": true,
+      "antiLink": true,
+      "antiLink2": true,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": true,
+      "reaction": true,
+      "viewonce": true,
+      "modoadmin": false,
+      "antitoxic": true,
+      "simi": false,
+      "antiTraba": true,
+      "autolevelup": false,
+      "edgar": true,
+      "reply": true,
+      "expired": 0,
+      "firstTime": true,
+      "antiCallGp": true,
+      "nsfw": false,
+      "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
+      "except": false,
+      "lastSentTime": 0,
+      "first": false,
+      "privateChat": true,
+      "langChangeID": "BAE5E29DFDD32734",
+      "totalMembros": 0,
+      "membros": [],
+      "boleto": 20,
+      "forca": {
+        "isGame": false,
+        "forcaID": "",
+        "palavra": "",
+        "currentStatus": "",
+        "currentStage": ""
+      },
+      "afks": [],
+      "robotgpt": {
+        "config": {
+          "lastQuestion": "",
+          "resposta": ""
+        },
+        "351927285125@s.whatsapp.net": []
+      },
+      "msgCount": 0,
+      "privategpthistory": []
     }
   },
   "stats": {
@@ -13292,16 +13284,16 @@
       "lastSuccess": 1730378674613
     },
     "dono-update.js": {
-      "total": 53,
-      "success": 53,
-      "last": 1731004861112,
-      "lastSuccess": 1731004861112
+      "total": 59,
+      "success": 59,
+      "last": 1731021103860,
+      "lastSuccess": 1731021103860
     },
     "dono-exec.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1730973069170,
-      "lastSuccess": 1730973069170
+      "total": 44,
+      "success": 44,
+      "last": 1731021110940,
+      "lastSuccess": 1731021110940
     },
     "shell.js": {
       "total": 3,
