@@ -87,32 +87,312 @@ global.db.data.chats[m.chat].users[m.sender].adv =0
 
    
 
+const spamWarningMsg = global.db.data.chats[m.chat].language === 'pt'
+    ? [
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+> . . . . . . . . . . . . . . . . . . . . . . . .
 
-const warningMessage = `༒︎ *${mention} 𝐒𝐏𝐀𝐌 É 𝐏𝐑𝐎𝐈𝐁𝐈𝐃𝐎!! ༒︎*
+[+] Spam detectado:
+> >>> ${mention}, aqui não toleramos spam, garoto.
+> Você tá flodando o chat demais. Vou te deixar em silêncio por 30 minutos pra repensar suas atitudes.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
 
-𝙿𝚘𝚛 𝚙𝚎𝚛𝚝𝚞𝚛𝚋𝚊𝚛 𝚊 𝚘𝚛𝚍𝚎𝚖 𝚎𝚌𝚘𝚊𝚗𝚍𝚘 𝚟á𝚛𝚒𝚊𝚜 𝚖𝚎𝚗𝚜𝚊𝚐𝚎𝚗𝚜 𝚗𝚎𝚜𝚝𝚎 𝚐𝚛𝚞𝚙𝚘.. 𝚜𝚎𝚛á 𝚜𝚒𝚕𝚎𝚗𝚌𝚒𝚊𝚍𝚘 𝚙𝚘𝚛 𝟹𝟶 𝚖𝚒𝚗𝚞𝚝𝚘𝚜
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
 
-『⚠』 ${global.db.data.chats[m.chat].users[m.sender].adv +1}/3
-  ${global.db.data.chats[m.chat].users[m.sender].adv==1 ? "_Este é meu ultimo aviso, senao será expurgado para além destas terras sombrias 💀🕯️_" : "" }
-─┅──┅❖ ❖─┅──┅
+[+] Spam detectado:
+> >>> ${mention}, parece que você se perdeu no conceito de conversa.
+> Silenciado por 30 minutos pra ver se você entende que spam não é bem-vindo.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, você tá espalhando ruído desnecessário.
+> 30 minutos de silêncio pra ver se você entende que isso aqui não é bagunça.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, flodando o chat com spam? Péssima ideia.
+> Vou te dar 30 minutos de silêncio. Hora de repensar as regras por aqui.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, aqui não toleramos spam.
+> 30 minutos no mudo. Pode usar esse tempo pra refletir.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Executand daemon:
+> >>> ${mention}, insistir em spam? Só te leva ao silêncio.
+> Aproveite os 30 minutos pra pensar se vale a pena continuar assim.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, chat é pra conversar, não pra flodar.
+> 30 minutos de silêncio. Talvez assim você entenda o básico.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, spam tem preço, e é o silêncio.
+> Silenciado por 30 minutos. Lembre-se: aqui é um chat para conversar, e não flodar com suas coisas por aqui
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, chat não é lugar pra poluição de mensagens.
+> 30 minutos de silêncio. Melhor assim.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detectado:
+> >>> ${mention}, flodando por aqui? Sem chance.
+> 30 minutos no mudo. Hora de reavaliar o conceito de respeito.
+|
+> root@bytesec:~# _
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
 `
+    ]
+    : [
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
 
-await conn.reply(m.chat, warningMessage, m, { mentions: [m.sender] })  
+[+] Spam detected:
+> >>> ${mention}, we don’t tolerate spam here, kid.
+> You’re flooding the chat too much. 30 minutes of silence to rethink your choices.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, seems you forgot what a conversation is.
+> Silenced for 30 minutes to remind you that spam isn’t welcome here.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, spreading useless noise?
+> 30 minutes of silence to understand this isn’t a free-for-all.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, flooding the chat with spam? Bad move.
+> 30 minutes of silence. Time to rethink the rules around here.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, spam isn’t allowed here.
+> 30 minutes in silence. Use the time to reflect on that.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, persisting in spam? Only leads to silence.
+> Enjoy the 30 minutes to consider if it’s worth it.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, chat’s for conversation, not for flooding.
+> 30 minutes in silence. Maybe then you’ll understand the basics.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, spam has a price, and it’s silence.
+> 30 minutes out of the conversation. Remember: this isn’t your bulletin board.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, chat isn’t a place for message pollution.
+> 30 minutes in silence. Better that way.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+
+        `> root@bytesec:~# ./silence.py --mute 1 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Spam detected:
+> >>> ${mention}, flooding here? Not happening.
+> 30 minutes in silence. Time to reevaluate the concept of respect.
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`
+    ];
+
+await conn.reply(m.chat, spamWarningMsg.getRandom() , m, { mentions: [m.sender] })  
 
  setTimeout( async () => {
    global.db.data.chats[m.chat].users[m.sender].adv += 1
    
   global.db.data.chats[m.chat].users[m.sender].silenced = false;
-   let desmutemsg = `─┅──┅❖ ❖─┅──┅
-༒︎ *${mention} 𝗗𝗘𝗦𝗠𝗨𝗧𝗔𝗗𝗢 !
+   const desmutemsg = global.db.data.chats[m.chat].language === 'pt'
+    ? [
+        `> root@bytesec:~# ./silence.py --mute 0 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
 
-⸸ 𝑻𝒆𝒖 𝒍𝒖𝒈𝒖𝒃𝒓𝒆 𝒏𝒐𝒎𝒆 𝒆𝒄𝒐𝒂𝒓𝒂 𝒏𝒐𝒔 𝒓𝒆𝒄𝒊𝒏𝒕𝒐𝒔 𝒄𝒐𝒎𝒐 𝒂𝒅𝒗𝒆𝒓𝒕𝒆𝒏𝒄𝒊𝒂𝑨𝒕𝒆𝒏𝒕𝒆-𝒔𝒆 𝒂 𝒎𝒊𝒏𝒉𝒂𝒔 𝒑𝒂𝒍𝒂𝒗𝒓𝒂𝒔, 𝒂 𝒕𝒆𝒏𝒂𝒛 𝒇𝒖𝒈𝒂 𝒅𝒆 𝒔𝒆𝒓 𝒆𝒙𝒊𝒍𝒂𝒅𝒐.
+[+] Executando daemon:
+> >>> Usuário: ${mention}
+> Você foi “liberado”. Aproveite, mas cuidado.
+|
+| Avisos: ${global.db.data.chats[m.chat].users[m.sender].adv}/3
+|
+> ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Última advertência, garoto. Mais um passo em falso, e você tá fora._ ⨻" : ""}
+|
+> root@bytesec:~# _
+> # Monitorado por - ΒYƬΣSΞC-MĐ`,
 
-『⚠』 ${global.db.data.chats[m.chat].users[m.sender].adv}/3
-  ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Este é meu ultimo aviso, senao será expurgado para além destas terras sombrias 💀🕯️_" : "" }
-  ─┅──┅❖ ❖─┅──┅
-  `
-  
+        `> root@bytesec:~# ./silence.py --mute 0 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Executando daemon:
+> >>> Usuário: ${mention}.
+> Você foi desmutado, garoto… mas não se engane, ainda estamos de olho.
+|
+| Avisos: ${global.db.data.chats[m.chat].users[m.sender].adv}/3
+|
+> ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Última chance. Mais uma dessas e você desaparece._" : ""}
+|
+> root@bytesec:~# _
+> # Monitorado por - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 0 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Executando daemon:
+> >>> Usuário: ${mention}
+> O silêncio acabou… por enquanto. Use essa chance com sabedoria.
+|
+| Avisos: ${global.db.data.chats[m.chat].users[m.sender].adv}/3
+|
+> ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Último aviso: mais um deslize e é o fim da linha._" : ""}
+|
+> root@bytesec:~# _
+> # Monitorado por - ΒYƬΣSΞC-MĐ`
+    ]
+    : [
+        `> root@bytesec:~# ./silence.py --mute 0 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Running daemon:
+> >>> User: ${mention}
+> You've been “freed.” Enjoy it… but tread carefully.
+|
+| Warnings: ${global.db.data.chats[m.chat].users[m.sender].adv}/3
+|
+> ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Last warning. One more strike and you're out._" : ""}
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 0 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Running daemon:
+> >>> User: ${mention} .
+> You got unmuted, kid… but don’t get too comfy, we're still watching.
+|
+| Warnings: ${global.db.data.chats[m.chat].users[m.sender].adv}/3
+|
+> ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Final chance. One more, and you're out._" : ""}
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
+
+        `> root@bytesec:~# ./silence.py --mute 0 -p
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Running daemon:
+> >>> User: ${mention}
+> Just unmuted you, kiddo. Try paying attetions to the rule for now.
+|
+| Warnings: ${global.db.data.chats[m.chat].users[m.sender].adv}/3
+|
+> ${global.db.data.chats[m.chat].users[m.sender].adv==2 ? "_Last warning: one more slip, and it’s the end of the line._" : ""}
+|
+> root@bytesec:~# _
+> # Monitored by - ΒYƬΣSΞC-MĐ`
+    ];
   
   
   await conn.reply(m.chat, desmutemsg, m, { mentions: [m.sender] })  
