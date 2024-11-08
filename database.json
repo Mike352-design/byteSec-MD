@@ -517,7 +517,9 @@
       "money": 150,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "nsfwAdv": 0,
+      "adv": 2
     },
     "13135550002@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -4789,6 +4791,24 @@
       "level": 0,
       "limit": 0,
       "exp": 0
+    },
+    "209448475857150@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0
     }
   },
   "chats": {
@@ -6778,7 +6798,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 124,
+          "exp": 127,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6810,7 +6830,7 @@
           "tempBan": false
         },
         "554796646044@s.whatsapp.net": {
-          "exp": 364,
+          "exp": 396,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
           "money": 0,
@@ -10020,6 +10040,21 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false
+        },
+        "209448475857150@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false
         }
       },
       "isBanned": true,
@@ -13160,10 +13195,11 @@
           "biografia": "Sem informações sobre mim",
           "hobbies": "Ler e ouvir música",
           "relacionamento": "❔",
-          "usuariosRoubados": []
+          "usuariosRoubados": [],
+          "nsfwAdv": null
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 5978,
+          "exp": 22812,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -13273,7 +13309,7 @@
       },
       "firstTime": true,
       "antiCallGp": true,
-      "nsfw": false,
+      "nsfw": true,
       "robot": {
         "messageId": "BAE50EBAA1F13A05",
         "lastMsgTime": "2024-11-05T21:02:11.226Z",
@@ -13318,7 +13354,11 @@
         "isSelected": false
       },
       "langChangeID": "BAE5CD174E8C7720",
-      "language": "en"
+      "language": "en",
+      "ignored": [
+        "328E931C2359520917A54AD8536268BC",
+        "2D9B54602C4A7349C67696B1E623214A"
+      ]
     },
     "351927285125@s.whatsapp.net": {
       "quiz": {
@@ -13459,10 +13499,10 @@
       "lastSuccess": 1730976232051
     },
     "config-on y off.js": {
-      "total": 28,
-      "success": 28,
-      "last": 1731004903955,
-      "lastSuccess": 1731004903955
+      "total": 29,
+      "success": 29,
+      "last": 1731081534666,
+      "lastSuccess": 1731081534666
     },
     "dono-unbanchat.js": {
       "total": 6,
@@ -13483,10 +13523,10 @@
       "lastSuccess": 1730606020856
     },
     "dl-spotify.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1731028790818,
-      "lastSuccess": 1731028790818
+      "total": 28,
+      "success": 28,
+      "last": 1731078089450,
+      "lastSuccess": 1731078089450
     },
     "dl-yt_play.js": {
       "total": 6,
@@ -13501,16 +13541,16 @@
       "lastSuccess": 1730378674613
     },
     "dono-update.js": {
-      "total": 59,
-      "success": 59,
-      "last": 1731021103860,
-      "lastSuccess": 1731021103860
+      "total": 61,
+      "success": 61,
+      "last": 1731081802743,
+      "lastSuccess": 1731081802743
     },
     "dono-exec.js": {
-      "total": 44,
-      "success": 44,
-      "last": 1731021110940,
-      "lastSuccess": 1731021110940
+      "total": 46,
+      "success": 46,
+      "last": 1731081695548,
+      "lastSuccess": 1731081695548
     },
     "shell.js": {
       "total": 3,
@@ -13727,18 +13767,18 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9948003188070413,
-    "cotacaoOntem": 0.9934291547727357,
+    "cotacao": 0.9990838751400534,
+    "cotacaoOntem": 0.9948003188070413,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024870007970176034
+      "rendimento": 0.000024977096878501333
     },
-    "cotacaoPercentual": 0.13802333339202952,
-    "ultimaAtualizacao": "2024-11-07T12:42:13.364Z"
+    "cotacaoPercentual": 0.43059458788160065,
+    "ultimaAtualizacao": "2024-11-08T15:01:15.271Z"
   },
   "languages": {
     "pt": {},
