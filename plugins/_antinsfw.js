@@ -189,7 +189,7 @@ ${warningMessageThree.getRandom()}
     [m.sender]}, {quoted: m})
     
    global.db.data.chats[m.chat].users[m.sender].nsfwAdv =0 
-await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
 
 return !0
 }
