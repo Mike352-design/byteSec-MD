@@ -13,7 +13,7 @@ let user = global.db.data.chats[m.chat].users[m.sender]
 const sender = m.sender
 const currentTime = new Date().getTime()
 const timeWindow = 5000 // tiempo límite 
-const messageLimit = 7
+const messageLimit = 6
 
 let time, time2, time3, mensaje, motive
 time = 30000 // 30 seg
