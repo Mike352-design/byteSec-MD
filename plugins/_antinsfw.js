@@ -188,10 +188,6 @@ ${warningMessageThree.getRandom()}
 `, mentions:
     [m.sender]}, {quoted: m})
     
-   global.db.data.chats[m.chat].users[m.sender].nsfwAdv =0 
-await conn.groupParticipantsUpdate(m.chat, m.sender, 'remove')
-
-return !0
 }
 
    let q =  m; 
@@ -240,6 +236,10 @@ if(global.db.data.chats[m.chat].users[m.sender].nsfwAdv == 2) {
 }
 if(global.db.data.chats[m.chat].users[m.sender].nsfwAdv == 3) {
   await lastWarning()
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+global.db.data.chats[m.chat].users[m.sender].advLink = 0 
+
+return !0
 }
   
   
@@ -284,6 +284,11 @@ if(global.db.data.chats[m.chat].users[m.sender].nsfwAdv == 2) {
 }
 if(global.db.data.chats[m.chat].users[m.sender].nsfwAdv == 3) {
   await lastWarning()
+  await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+global.db.data.chats[m.chat].users[m.sender].advLink = 0 
+
+return !0
+  
 }
   
   
