@@ -197,7 +197,7 @@ await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
     if(/sticker/.test(m.mediaType)){
       console.log("👀")
    
-    if (!(isAdmin || isOwner) && global.db.data.chats[m.chat].nsfw){
+    if (global.db.data.chats[m.chat].nsfw){
       
  
         try {
