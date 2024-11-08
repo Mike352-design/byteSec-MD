@@ -971,7 +971,9 @@
       "money": 150,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "nsfwAdv": 0,
+      "adv": 2
     },
     "163522759626883@lid": {
       "counterPrivate": 0,
@@ -1091,7 +1093,9 @@
       "money": 150,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "nsfwAdv": 0,
+      "adv": 2
     },
     "165936447361193@lid": {
       "counterPrivate": 0,
@@ -6755,7 +6759,7 @@
           "cocriador": false
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1219,
+          "exp": 1290,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
           "money": 0,
@@ -6772,7 +6776,7 @@
           "tempBan": false
         },
         "554796646044@s.whatsapp.net": {
-          "exp": 346,
+          "exp": 364,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
           "money": 0,
