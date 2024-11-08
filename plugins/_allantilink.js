@@ -24,6 +24,8 @@ export async function before(m, {isMods,participants, groupMetadata, conn, args,
 if (m.isBaileys && m.fromMe)
 return !0
 if (!m.isGroup) return !1
+  if(!global.db.data.chats[m.chat].initialBoot) return !1
+
 if (global.db.data.chats[m.chat].isBanned) return !1
 let chat = global.db.data.chats[m.chat]
 if (chat.antiLink2) return !1
