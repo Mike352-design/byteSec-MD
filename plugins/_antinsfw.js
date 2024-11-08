@@ -219,8 +219,10 @@ const nsfwSt = resSt.data.find(e => e.label === 'nsfw');
 const resultSt = nsfwSt && nsfwSt.score > 0.6;
 console.log(`NSFW?: ${resultSt}`)
 if(resultSt){
+  console.log('nsfw detected')
   if(typeof global.db.data.chats[m.chat].users[m.sender].nsfwAdv
   =='undefined')global.db.data.chats[m.chat].users[m.sender].nsfwAdv =0
+
  global.db.data.chats[m.chat].users[m.sender].nsfwAdv += 1
 
 let DELETEMESSAGEst = await conn.sendMessage(m.chat, { delete: m.key })
