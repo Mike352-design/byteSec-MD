@@ -210,7 +210,6 @@ await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
              console.log("👀")
              console.log(linkST)
              console.log("👀")
- console.log("🌙")
   let checkSt = await fetch(`https://itzpire.com/tools/nsfwcheck?url=${linkST}`)
   let resSt= await checkSt.json()
   console.log(resSt)
@@ -220,12 +219,15 @@ const nsfwSt = resSt.data.find(e => e.label === 'nsfw');
 const resultSt = nsfwSt && nsfwSt.score > 0.6;
 console.log(`NSFW?: ${resultSt}`)
 if(resultSt){
-  
+  if(typeof global.db.data.chats[m.chat].users[m.sender].nsfwAdv
+  =='undefined')global.db.data.chats[m.chat].users[m.sender].nsfwAdv =0
  global.db.data.chats[m.chat].users[m.sender].nsfwAdv += 1
 
 let DELETEMESSAGEst = await conn.sendMessage(m.chat, { delete: m.key })
 global.db.data.chats[m.chat].ignored.push(DELETEMESSAGEst.message.protocolMessage.key.id)
+
 if(global.db.data.chats[m.chat].users[m.sender].nsfwAdv == 1) {
+ console.log("🌙")
   await firstWarning()
 }
 if(global.db.data.chats[m.chat].users[m.sender].nsfwAdv == 2) {
