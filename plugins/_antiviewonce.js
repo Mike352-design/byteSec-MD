@@ -20,6 +20,7 @@ export async function before(m, { isAdmin, isBotAdmin }) {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
 }
 
+  if(!global.db.data.chats[m.chat].initialBoot) return !1
 
  
  
