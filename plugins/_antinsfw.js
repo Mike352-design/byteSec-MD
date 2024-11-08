@@ -20,7 +20,8 @@ import sharp from 'sharp'
 let handler = m => m
 handler.before = async function (m,{isCriadora,isAdmin,groupMetadata ,participants,__dirname , conn}) {
   
-  
+if (!m.isGroup) return !1
+
   function getDataAtual() {
     const hoje = new Date();
     const dia = String(hoje.getDate()).padStart(2, '0');
