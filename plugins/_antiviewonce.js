@@ -42,91 +42,84 @@ let buffer = Buffer.from([])
 . . . . . . . . . . . . . . . . . . . . . . . . 
 
 [+] Arquivo recuperado:
-> >>> Usuário: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
+> >>> Usuário: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 | 
-|  Desculpa, garoto. Aqui, não mantemos
-| segredos uns dos outros.
-| 
-> root@bytesec:~# _`,
+> Desculpa, garoto. Aqui, não mantemos segredos uns dos outros.
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ `,
 
         `> root@bytesec:~# photorec /dev/sda1 --filetype=jpeg --undelete
 . . . . . . . . . . . . . . . . . . . . . . . .
 
 [+] Arquivo recuperado:
-> >>> Usuário: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
-| 
-| Mensagens “visualizar uma vez”? Ah, claro...
+> >>> Usuário: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 |
-> root@bytesec:~# _`,
+> Mensagens “visualizar uma vez”? Ah, claro...
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ
+`,
 
         `> root@bytesec:~# recoverfiles /dev/sda1 -p --view-once
 . . . . . . . . . . . . . . . . . . . . . . . .
 
 [+] Arquivo recuperado:
-> >>> Usuário: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
+> >>> Usuário: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 | 
-| Parece que alguém levou um xposed
-|
-> root@bytesec:~# _`,
+> Parece que alguém levou um xposed
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ`,
 
         `> root@bytesec:~# dd if=/dev/sda1 of=/recovered.msg bs=4M
 . . . . . . . . . . . . . . . . . . . . . . . .
 
 [+] Arquivo recuperado:
-> >>> Usuário: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
+> >>> Usuário: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 | 
-| Ops, era para ser segredo? 
-
-> root@bytesec:~# _`
+> Ops, era para ser segredo? 
+> # Vigilância ativa - ΒYƬΣSΞC-MĐ`
     ]
     : [
         `> root@bytesec:~# extundelete /dev/sda1 -r --target=view_once
 . . . . . . . . . . . . . . . . . . . . . . . . 
 
 [+] File recovered:
-> >>> User: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
+> >>> User: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 | 
-|  Sorry, kiddo. In here, we don’t keep 
-| secrets from each other.
-|
-> root@bytesec:~# _`,
+> Sorry, kiddo. In here, we don’t keep secrets from each other.
+> # Monitored by - ΒYƬΣSΞC-MĐ
+`,
 
         `> root@bytesec:~# photorec /dev/sda1 --filetype=jpeg --undelete
 . . . . . . . . . . . . . . . . . . . . . . . .
 
 [+] File recovered:
-> >>> User: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
+> >>> User: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 | 
-| View only once messages? Yeah, right…
-| 
-> root@bytesec:~# _`,
+> View only once messages? Yeah, right…
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
 
         `> root@bytesec:~# recoverfiles /dev/sda1 -p --view-once
 . . . . . . . . . . . . . . . . . . . . . . . .
 
 [+] File recovered:
-> >>> User: @${m.sender.split('@')[0]}
-> ${msg[type].caption} 
-| Seems like someone just got xposed
+> >>> User: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 |
-> root@bytesec:~# _`,
+> Seems like someone just got xposed
+> # Monitored by - ΒYƬΣSΞC-MĐ`,
 
         `> root@bytesec:~# dd if=/dev/sda1 of=/recovered.msg bs=4M
 . . . . . . . . . . . . . . . . . . . . . . . .
 
 [+] File recovered:
-> >>> User: @${m.sender.split('@')[0]}
-> ${msg[type].caption}
+> >>> User: @${m.sender.split('@')[0]}${msg[type].caption ? '> '+
+msg[type].caption : ''}
 |
-| Ops, was it supposed to be a secret?
-|
-> root@bytesec:~# _`
+> Ops, was it supposed to be a secret?
+> # Monitored by - ΒYƬΣSΞC-MĐ`
     ]
 
 
