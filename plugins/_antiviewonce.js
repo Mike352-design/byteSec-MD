@@ -20,6 +20,22 @@ export async function before(m, { isAdmin, isBotAdmin }) {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
 }
 
+
+ 
+ 
+ 
+ 
+let chat = db.data.chats[m.chat] 
+if (/^[.~#/\$,](read)?viewonce/.test(m.text)) return
+if (!chat.antiver || chat.isBanned) return
+if (global.db.data.chats[m.chat].isBanned) return !1
+if (m.mtype == 'viewOnceMessageV2') {
+let msg = m.message.viewOnceMessageV2.message
+let type = Object.keys(msg)[0]
+let media = await downloadContentFromMessage(msg[type], type == 'imageMessage' ? 'image' : 'video')
+let buffer = Buffer.from([])
+
+
  const exposedMessage = global.db.data.chats[m.chat].language === 'pt'
     ? [
         `> root@bytesec:~# extundelete /dev/sda1 -r --target=view_once
@@ -114,19 +130,7 @@ export async function before(m, { isAdmin, isBotAdmin }) {
     ];
 
 
- 
- 
- 
- 
-let chat = db.data.chats[m.chat] 
-if (/^[.~#/\$,](read)?viewonce/.test(m.text)) return
-if (!chat.antiver || chat.isBanned) return
-if (global.db.data.chats[m.chat].isBanned) return !1
-if (m.mtype == 'viewOnceMessageV2') {
-let msg = m.message.viewOnceMessageV2.message
-let type = Object.keys(msg)[0]
-let media = await downloadContentFromMessage(msg[type], type == 'imageMessage' ? 'image' : 'video')
-let buffer = Buffer.from([])
+
 for await (const chunk of media) {
 buffer = Buffer.concat([buffer, chunk])}
 if (/video/.test(type)) {
