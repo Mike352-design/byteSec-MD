@@ -36,13 +36,105 @@ let media = await downloadContentFromMessage(msg[type], type == 'imageMessage' ?
 let buffer = Buffer.from([])
 
 
- 
+ const exposedMessage = global.db.data.chats[m.chat].language === 'pt'
+    ? [
+        `> root@bytesec:~# extundelete /dev/sda1 -r --target=view_once
+. . . . . . . . . . . . . . . . . . . . . . . . 
+
+[+] Arquivo recuperado:
+> >>> Usuário: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+| 
+|  Desculpa, garoto. Aqui, não mantemos
+| segredos uns dos outros.
+| 
+> root@bytesec:~# _`,
+
+        `> root@bytesec:~# photorec /dev/sda1 --filetype=jpeg --undelete
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Arquivo recuperado:
+> >>> Usuário: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+| 
+| Mensagens “visualizar uma vez”? Ah, claro...
+|
+> root@bytesec:~# _`,
+
+        `> root@bytesec:~# recoverfiles /dev/sda1 -p --view-once
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Arquivo recuperado:
+> >>> Usuário: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+| 
+| Parece que alguém levou um xposed
+|
+> root@bytesec:~# _`,
+
+        `> root@bytesec:~# dd if=/dev/sda1 of=/recovered.msg bs=4M
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] Arquivo recuperado:
+> >>> Usuário: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+| 
+| Ops, era para ser segredo? 
+
+> root@bytesec:~# _`
+    ]
+    : [
+        `> root@bytesec:~# extundelete /dev/sda1 -r --target=view_once
+. . . . . . . . . . . . . . . . . . . . . . . . 
+
+[+] File recovered:
+> >>> User: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+| 
+|  Sorry, kiddo. In here, we don’t keep 
+| secrets from each other.
+|
+> root@bytesec:~# _`,
+
+        `> root@bytesec:~# photorec /dev/sda1 --filetype=jpeg --undelete
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] File recovered:
+> >>> User: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+| 
+| View only once messages? Yeah, right…
+| 
+> root@bytesec:~# _`,
+
+        `> root@bytesec:~# recoverfiles /dev/sda1 -p --view-once
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] File recovered:
+> >>> User: @${m.sender.split('@')[0]}
+> ${msg[type].caption} 
+| Seems like someone just got xposed
+|
+> root@bytesec:~# _`,
+
+        `> root@bytesec:~# dd if=/dev/sda1 of=/recovered.msg bs=4M
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+[+] File recovered:
+> >>> User: @${m.sender.split('@')[0]}
+> ${msg[type].caption}
+|
+| Ops, was it supposed to be a secret?
+|
+> root@bytesec:~# _`
+    ]
+
 
 
 for await (const chunk of media) {
 buffer = Buffer.concat([buffer, chunk])}
 if (/video/.test(type)) {
-return this.sendFile(m.chat, buffer, 'error.mp4', '@', m)
+return this.sendFile(m.chat, buffer, 'error.mp4', exposedMessage.getRandom(), m)
 } else if (/image/.test(type)) {
-return this.sendFile(m.chat, buffer, 'error.jpg', '@', m)
+return this.sendFile(m.chat, buffer, 'error.jpg', exposedMessage.getRandom(), m)
 }}}
