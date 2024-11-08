@@ -13,7 +13,27 @@
 let handler = m => m 
 handler.before = async function (m, { text, args, usedPrefix, command, conn } ) {
 if (!m.isGroup) return !1
+if(typeof global.db.data.chats[m.chat].firstTime == 'undefined'){
+   let getLang = await m.reply(`robot@bytesec:~# lang-config
+╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [!] system >>> ${global.db.data.chats[m.chat].language}
+> [+] LANG CONFIG
+> -----------------------
+> ‎ 
+> ⁅1⁆ 🇧🇷 Português
+> ⁅2⁆ 🇺🇸 English
+> ‎ 
+╰─────────
+`)
 
+ global.db.data.chats[m.chat].langChangeID = getLang.key.id
+  global.db.data.chats[m.chat].firstTime = true
+ 
+ 
+ return !0
+  
+  
+}
 if(m.quoted &&
 global.db.data.chats[m.chat].langChangeID &&
 m.quoted.id == global.db.data.chats[m.chat].langChangeID )
@@ -54,8 +74,10 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
         },m);
     }
 }
-
- 
+else if(global.db.data.chats[m.chat].firstTime && m.plugin && isOwner)
+ {
+   m.reply('tst')
+ }
 
     let notAdminMg;
 
