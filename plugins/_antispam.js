@@ -7,7 +7,7 @@ const chat = global.db.data.chats[m.chat]
 if (!m.isGroup) return
 if (chat.modoadmin) return  
 if (!chat.antiSpam) return
-if (global.isOwner || isROwner || isAdmin) return
+// if (global.isOwner || isROwner || isAdmin) return
   
 let user = global.db.data.chats[m.chat].users[m.sender]
 const sender = m.sender
