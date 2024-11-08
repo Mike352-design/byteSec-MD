@@ -151,7 +151,7 @@ if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false                    
 if (!('firstTime' in chat)) chat.firstTime = true       
 if (!('antiCallGp' in chat)) chat.antiCallGp = true
-if (!('nsfw' in chat)) chat.nsfw = false                    
+if (!('nsfw' in chat)) chat.nsfw = true                    
 if (!('expira' in chat)) chat.expira = '2000-01-01T00:00:00.000Z'                    
 if (!('welcome' in chat)) chat.welcome = true                    
 if (!('detect' in chat)) chat.detect = true                    
@@ -1590,17 +1590,24 @@ if (!chat?.delete) return
 if (!msg) return 
 if(global.db.data.chats[msg.chat].ignored && global.db.data.chats[msg.chat].ignored.includes(id)) return;
 if (!msg?.isGroup) return
+let lang = global.db.data.chats[m.chat].language
+const antideleteMessage = `> root@bytesec:~# extundelete /dev/sda1 -c
+. . . . . . . . . . . . . . . . . . . . . . . .
 
-const antideleteMessage = `
-*─┅──┅❖ 🕯️🪶 ❖─┅──┅*
-𝔗𝔲𝔡𝔬 𝔥𝔞 𝔡𝔢 𝔰𝔢𝔯 𝔯𝔢𝔳𝔢𝔩𝔞𝔡𝔬 👁️
-༺ @${participant.split`@`[0]}
-𝔈𝔫𝔳𝔦𝔞𝔫𝔡𝔬 𝔞 𝔪𝔢𝔫𝔰𝔞𝔤𝔢𝔪 𝔞 𝔰𝔢𝔯 𝔡𝔢𝔰𝔳𝔢𝔩𝔞𝔡𝔞
-*─┅──┅❖ ❖─┅──┅*`.trim();
+[+] ${lang == 'pt' ? 'Mensagem recuperada' : 'Message recovered'}:
+| >>> ${lang == 'pt' ? 'Usuário' : 'User'}: @${participant.split`@`[0]}
+> ‎ 
+> ${msg.text}
+> ‎ 
+| ${lang == 'pt' ? 'Adicionado em' : 'Added at'}: /tmp/chats.log
+| 
+> root@bytesec:~# _`
+trim();
+
 let DELETEMESSAGE = await conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
 
 
-conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
+// conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
 } catch (e) {
 console.error(e)
 }}
