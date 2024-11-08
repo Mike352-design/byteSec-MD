@@ -13,7 +13,7 @@
 let handler = m => m 
 handler.before = async function (m, { text, args, usedPrefix, command, conn } ) {
 if (!m.isGroup) return !1
-if(m.plugin && typeof global.db.data.chats[m.chat].firstTime == 'undefined'){
+if(m.plugin && typeof global.db.data.chats[m.chat].initialBoot == 'undefined'){
    let getLang = await m.reply(`robot@bytesec:~# lang-config
 ╭ . . . . . . . . . . . . . . . . . . . . . . .
 > [!] system >>> ${global.db.data.chats[m.chat].language}
@@ -27,7 +27,7 @@ if(m.plugin && typeof global.db.data.chats[m.chat].firstTime == 'undefined'){
 `)
 
  global.db.data.chats[m.chat].langChangeID = getLang.key.id
-  global.db.data.chats[m.chat].firstTime = true
+  global.db.data.chats[m.chat].initialBoot = true
  
  
  return !0
@@ -74,7 +74,7 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
         },m);
     }
 }
-else if(global.db.data.chats[m.chat].firstTime && m.plugin && isOwner)
+else if(global.db.data.chats[m.chat].initialBoot && m.plugin && isOwner)
  {
    m.reply('tst')
  }
