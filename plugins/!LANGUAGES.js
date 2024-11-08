@@ -16,7 +16,7 @@ if (!m.isGroup) return !1
 
 
 console.log(m.isCommand)
-if(m.isCommand && typeof global.db.data.chats[m.chat].initialBoot == 'undefined'){
+if(m.text.length >= 3 && ['.', '!', '/'].includes(m.text[0]) && typeof global.db.data.chats[m.chat].initialBoot == 'undefined'){
    let getLang = await m.reply(`robot@bytesec:~# lang-config
 ╭ . . . . . . . . . . . . . . . . . . . . . . .
 > [!] system >>> ${global.db.data.chats[m.chat].language}
