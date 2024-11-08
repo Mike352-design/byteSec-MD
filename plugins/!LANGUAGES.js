@@ -15,34 +15,15 @@ handler.before = async function (m, { text, args, usedPrefix, command, conn } ) 
 if (!m.isGroup) return !1
 
 
-console.log(m.isCommand)
-if(m.text.length >= 3 && ['.', '!', '/'].includes(m.text[0]) && typeof global.db.data.chats[m.chat].initialBoot == 'undefined'){
-   let getLang = await m.reply(`robot@bytesec:~# lang-config
-╭ . . . . . . . . . . . . . . . . . . . . . . .
-> [!] system >>> ${global.db.data.chats[m.chat].language}
-> [+] LANG CONFIG
-> -----------------------
-> ‎ 
-> ⁅1⁆ 🇧🇷 Português
-> ⁅2⁆ 🇺🇸 English
-> ‎ 
-╰─────────
-`)
 
- global.db.data.chats[m.chat].langChangeID = getLang.key.id
-  global.db.data.chats[m.chat].initialBoot = true
- 
- 
- return !0
-  
-  
-}
+
 if(m.quoted &&
 global.db.data.chats[m.chat].langChangeID &&
 m.quoted.id == global.db.data.chats[m.chat].langChangeID )
 {
     if(m.text ==1) {
         global.db.data.chats[m.chat].language = 'pt'
+        global.db.data.chats[m.chat].initialBoot = true
   m.react("✅")
 
         await conn.sendMessage(m.chat,
@@ -59,9 +40,8 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
         }
         ,m)
     }
-
-
-    if(m.text ==2) {
+    else if(m.text ==2) {
+      global.db.data.chats[m.chat].initialBoot = true
         global.db.data.chats[m.chat].language = 'en'
   m.react("✅")
         await conn.sendMessage(m.chat, {
@@ -76,11 +56,13 @@ m.quoted.id == global.db.data.chats[m.chat].langChangeID )
        
         },m);
     }
+    else {
+          m.react("❗")
+
+return !0
+    }
 }
-else if(global.db.data.chats[m.chat].initialBoot && m.plugin && isOwner)
- {
-   m.reply('tst')
- }
+
 
     let notAdminMg;
 
