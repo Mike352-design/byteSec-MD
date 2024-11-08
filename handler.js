@@ -1590,7 +1590,7 @@ if (!chat?.delete) return
 if (!msg) return 
 if(global.db.data.chats[msg.chat].ignored && global.db.data.chats[msg.chat].ignored.includes(id)) return;
 if (!msg?.isGroup) return
-let lang = global.db.data.chats[m.chat].language
+let lang = global.db.data.chats[mgs.chat].language
 const antideleteMessage = `> root@bytesec:~# extundelete /dev/sda1 -c
 . . . . . . . . . . . . . . . . . . . . . . . .
 
