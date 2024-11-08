@@ -1113,6 +1113,27 @@ continue
 }
 
 m.isCommand = true
+
+if(!m.fromMe && typeof global.db.data.chats[m.chat].initialBoot == 'undefined'){
+   let getLang = await m.reply(`robot@bytesec:~# lang-config
+╭ . . . . . . . . . . . . . . . . . . . . . . .
+> [!] system >>> ${global.db.data.chats[m.chat].language}
+> [+] LANG CONFIG
+> -----------------------
+> ‎ 
+> ⁅1⁆ 🇧🇷 Português
+> ⁅2⁆ 🇺🇸 English
+> ‎ 
+╰─────────
+`)
+
+ global.db.data.chats[m.chat].langChangeID = getLang.key.id
+  
+ 
+ return !0
+  
+  
+}
 if (!m.fromMe && !(isCriadora ||isROwner) && global.db.data.settings[this.user.jid].desativado) {
  m.react("🔏")
   return !0
