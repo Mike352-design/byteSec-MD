@@ -179,7 +179,7 @@ async function lastWarning(){
     ];
 
 
-    return conn.sendMessage(m.chat, {text: `> robot@bytesec:~# uafw -m @${m.sender.split('@')[0]}
+    await conn.sendMessage(m.chat, {text: `> robot@bytesec:~# uafw -m @${m.sender.split('@')[0]}
 > . . . . . . . . . . . . . . . . . . . . . . .
 > ‎ 
 ${warningMessageThree.getRandom()}
@@ -190,6 +190,8 @@ ${warningMessageThree.getRandom()}
     
    global.db.data.chats[m.chat].users[m.sender].nsfwAdv =0 
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+
+return !0
 }
 
    let q =  m; 
