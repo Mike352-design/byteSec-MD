@@ -128,7 +128,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "",
+      "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -152,6 +152,11 @@
           "afkReason": ""
         },
         "120363360114833087@g.us": {
+          "afkTime": -2,
+          "number": "79001643752@s.whatsapp.net",
+          "afkReason": ""
+        },
+        "351927285125@s.whatsapp.net": {
           "afkTime": -2,
           "number": "79001643752@s.whatsapp.net",
           "afkReason": ""
@@ -4809,6 +4814,24 @@
       "level": 0,
       "limit": 0,
       "exp": 0
+    },
+    "184834253172739@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0
     }
   },
   "chats": {
@@ -6813,7 +6836,7 @@
           "cocriador": false
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1290,
+          "exp": 1305,
           "limit": 0,
           "role": "🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨",
           "money": 0,
@@ -10042,6 +10065,21 @@
           "cocriador": false
         },
         "209448475857150@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false
+        },
+        "184834253172739@lid": {
           "exp": 0,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
@@ -13399,7 +13437,8 @@
           "biografia": "Sem informações sobre mim",
           "hobbies": "Ler e ouvir música",
           "relacionamento": "❔",
-          "usuariosRoubados": []
+          "usuariosRoubados": [],
+          "nsfwAdv": 1
         },
         "79001643752@s.whatsapp.net": {
           "exp": 0,
@@ -13414,13 +13453,14 @@
           "tentativasRoubo": 5,
           "silenced": false,
           "maxlevel": true,
-          "cocriador": false
+          "cocriador": false,
+          "pontos": 0
         }
       },
       "isBanned": false,
       "welcome": true,
       "detect": false,
-      "language": "pt",
+      "language": "en",
       "sWelcome": "",
       "sBye": "",
       "sPromote": "",
@@ -13462,13 +13502,16 @@
       "expired": 0,
       "firstTime": true,
       "antiCallGp": true,
-      "nsfw": false,
+      "nsfw": true,
       "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
       "except": false,
       "lastSentTime": 0,
+      "ignored": [
+        "E427CEDD82E7CAECF865CFD5A4475368"
+      ],
       "first": false,
       "privateChat": true,
-      "langChangeID": "BAE5E29DFDD32734",
+      "langChangeID": "BAE593AD9A9389B7",
       "totalMembros": 0,
       "membros": [],
       "boleto": 20,
@@ -13485,7 +13528,8 @@
           "lastQuestion": "",
           "resposta": ""
         },
-        "351927285125@s.whatsapp.net": []
+        "351927285125@s.whatsapp.net": [],
+        "79001643752@s.whatsapp.net": []
       },
       "msgCount": 0,
       "privategpthistory": []
@@ -13493,16 +13537,16 @@
   },
   "stats": {
     "cpu.js": {
-      "total": 34,
-      "success": 32,
-      "last": 1730976232051,
-      "lastSuccess": 1730976232051
+      "total": 35,
+      "success": 33,
+      "last": 1731092900574,
+      "lastSuccess": 1731092900574
     },
     "config-on y off.js": {
-      "total": 29,
-      "success": 29,
-      "last": 1731081534666,
-      "lastSuccess": 1731081534666
+      "total": 30,
+      "success": 30,
+      "last": 1731092990341,
+      "lastSuccess": 1731092990341
     },
     "dono-unbanchat.js": {
       "total": 6,
@@ -13541,16 +13585,16 @@
       "lastSuccess": 1730378674613
     },
     "dono-update.js": {
-      "total": 61,
-      "success": 61,
-      "last": 1731081802743,
-      "lastSuccess": 1731081802743
+      "total": 62,
+      "success": 62,
+      "last": 1731092874376,
+      "lastSuccess": 1731092874376
     },
     "dono-exec.js": {
-      "total": 46,
-      "success": 46,
-      "last": 1731081695548,
-      "lastSuccess": 1731081695548
+      "total": 47,
+      "success": 47,
+      "last": 1731092883039,
+      "lastSuccess": 1731092883039
     },
     "shell.js": {
       "total": 3,
