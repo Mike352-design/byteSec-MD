@@ -19,7 +19,8 @@ import { join } from 'path'
 import sharp from 'sharp'
 let handler = m => m
 handler.before = async function (m,{isCriadora,isAdmin,groupMetadata ,participants,__dirname , conn}) {
-  
+  if(!global.db.data.chats[m.chat].initialBoot) return !1
+
 if (!m.isGroup) return !1
 
   function getDataAtual() {
