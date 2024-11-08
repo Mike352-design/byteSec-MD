@@ -1601,8 +1601,7 @@ const antideleteMessage = `> root@bytesec:~# extundelete /dev/sda1 -c
 > ‎ 
 | ${lang == 'pt' ? 'Adicionado em' : 'Added at'}: /tmp/chats.log
 | 
-> root@bytesec:~# _`
-trim();
+> root@bytesec:~# _`.trim();
 
 let DELETEMESSAGE = await conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
 
