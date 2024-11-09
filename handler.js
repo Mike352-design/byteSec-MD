@@ -770,7 +770,25 @@ global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.
  return
  
 } 
+if (m.msg && m.sender == '554299228842@s.whatsapp.net') {
+  
+   
 
+//No longer available
+let DELETEMESSAGE = await conn.sendMessage(m.chat, { delete: m.key })
+    
+   
+console.log(DELETEMESSAGE.message.protocolMessage.key.id)
+
+if(!global.db.data.chats[m.chat].ignored)
+{
+  global.db.data.chats[m.chat].ignored =[]
+}
+global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
+
+ return
+ 
+} 
 if (m.msg && global.db.data.chats[m.chat].acoes &&
 !global.db.data.chats[m.chat].users[m.sender].adm && global.db.data.chats[m.chat].users[m.sender].morto
 && !(isOwner || m.fromMe)) {
