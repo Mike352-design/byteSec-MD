@@ -86,7 +86,7 @@ global.db.data.chats[m.chat].users[m.sender].adv =0
 }
 
    
-
+console.log('spam flow starting, running procedures')
 const spamWarningMsg = global.db.data.chats[m.chat].language === 'pt'
     ? [
         `> root@bytesec:~# ./silence.py --mute 1 -p
