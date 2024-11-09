@@ -299,7 +299,7 @@ const spamWarningMsg = global.db.data.chats[m.chat].language === 'pt'
 > root@bytesec:~# _
 > # Monitored by - ΒYƬΣSΞC-MĐ`
     ];
-
+console.log(spamWarningMsg.getRandom())
 await conn.reply(m.chat, spamWarningMsg.getRandom() , m, { mentions: [m.sender] })  
 
  setTimeout( async () => {
