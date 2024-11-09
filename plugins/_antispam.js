@@ -395,7 +395,7 @@ await conn.reply(m.chat, spamWarningMsg.getRandom() , m, { mentions: [m.sender] 
     ];
   
   
-  await conn.reply(m.chat, desmutemsg, m, { mentions: [m.sender] })  
+  await conn.reply(m.chat, desmutemsg.getRandom(), m, { mentions: [m.sender] })  
 },1800000);
 
 
@@ -435,3 +435,6 @@ user.lastMessageTime = currentTime
 export default handler
 
 
+const getRandom = (ext) => { 
+    return `${Math.floor(Math.random() * 10000)}${ext}`;
+}
