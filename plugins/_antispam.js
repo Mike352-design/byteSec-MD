@@ -61,13 +61,14 @@ if(!global.db.data.chats[m.chat].users[m.sender]){
 
 
 if (user.messageCount>8 && timeDifference <= timeWindow) {
-  console.log('SPAM DETECTADO, MUTAR AGORA')
   
   
-  global.db.data.chats[m.chat].users[m.sender].silenced = true
+  
 user.messageCount += 1
 
   if (!user.silenced && user.messageCount >= messageLimit) {
+    
+  global.db.data.chats[m.chat].users[m.sender].silenced = true
     console.log('SPAM DETECTADO!!!!')
 const mention = `@${sender.split("@")[0]}`
 
@@ -86,7 +87,7 @@ global.db.data.chats[m.chat].users[m.sender].adv =0
 }
 
    
-
+console.log('spam flow starting, running procedures')
 const spamWarningMsg = global.db.data.chats[m.chat].language === 'pt'
     ? [
         `> root@bytesec:~# ./silence.py --mute 1 -p
