@@ -264,7 +264,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "5521983793257@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -776,7 +777,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "153730385215592@lid": {
       "counterPrivate": 0,
@@ -4060,11 +4062,11 @@
       },
       "users": {
         "558175001504@s.whatsapp.net": {
-          "exp": 629,
+          "exp": 1728,
           "limit": 0,
-          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
-          "money": 0,
-          "level": 0,
+          "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
+          "money": 30,
+          "level": 1,
           "adm": false,
           "legendary": false,
           "banned": false,
@@ -4078,7 +4080,7 @@
           "pontos": 0
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 612,
+          "exp": 1115,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -4096,11 +4098,11 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 599,
-          "limit": 0,
-          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
-          "money": 0,
-          "level": 0,
+          "exp": 1018,
+          "limit": 5000,
+          "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
+          "money": 4820,
+          "level": 666,
           "adm": true,
           "legendary": false,
           "banned": false,
@@ -4112,10 +4114,11 @@
           "pontos": 0,
           "tempBan": false,
           "lastMessageTime": 1731171628926,
-          "messageCount": 2
+          "messageCount": 2,
+          "cocriadora": true
         },
         "557599248005@s.whatsapp.net": {
-          "exp": 32,
+          "exp": 61,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4206,11 +4209,11 @@
           "pontos": 0
         },
         "558488916581@s.whatsapp.net": {
-          "exp": 1616,
+          "exp": 2908,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
-          "money": 30,
-          "level": 1,
+          "money": 60,
+          "level": 2,
           "adm": false,
           "legendary": false,
           "banned": false,
@@ -4244,7 +4247,7 @@
           "pontos": 0
         },
         "5521973949337@s.whatsapp.net": {
-          "exp": 641,
+          "exp": 730,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4316,7 +4319,7 @@
           "pontos": 0
         },
         "558387182943@s.whatsapp.net": {
-          "exp": 120,
+          "exp": 195,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4352,7 +4355,7 @@
           "pontos": 0
         },
         "554299228842@s.whatsapp.net": {
-          "exp": 129,
+          "exp": 550,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4370,7 +4373,7 @@
           "pontos": 0
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 231,
+          "exp": 351,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -4469,7 +4472,7 @@
       ],
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
-      "totalMembros": 25,
+      "totalMembros": 24,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -4509,10 +4512,6 @@
         },
         {
           "id": "553591290379@s.whatsapp.net",
-          "admin": null
-        },
-        {
-          "id": "554299228842@s.whatsapp.net",
           "admin": null
         },
         {
@@ -4572,7 +4571,7 @@
           "admin": "admin"
         }
       ],
-      "boleto": 25,
+      "boleto": 20,
       "forca": {
         "isGame": false,
         "forcaID": "",
@@ -4636,7 +4635,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 100,
+          "exp": 231,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4650,11 +4649,11 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731141786216,
+          "lastMessageTime": 1731185787135,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 79,
+          "exp": 83,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -4672,7 +4671,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 254,
+          "exp": 511,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4687,7 +4686,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731184358743,
+          "lastMessageTime": 1731191575960,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
@@ -4999,13 +4998,13 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731111151338,
+          "lastMessageTime": 1731191253117,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 118,
+          "exp": 134,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -5128,7 +5127,8 @@
       },
       "firstTime": true,
       "antiCallGp": true,
-      "nsfw": true
+      "nsfw": true,
+      "langChangeID": "BAE5B49B07D81852"
     },
     "79001643752@s.whatsapp.net": {
       "quiz": {
@@ -5198,10 +5198,10 @@
       "lastSuccess": 1731183864961
     },
     "dono-update.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1731110979373,
-      "lastSuccess": 1731110979373
+      "total": 15,
+      "success": 15,
+      "last": 1731191253760,
+      "lastSuccess": 1731191253760
     },
     "menu-menu.js": {
       "total": 3,
@@ -5282,10 +5282,10 @@
       "lastSuccess": 1731180377331
     },
     "buscador-lyrics.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731175253068,
-      "lastSuccess": 1731175253068
+      "total": 4,
+      "success": 4,
+      "last": 1731185852567,
+      "lastSuccess": 1731185852567
     },
     "grupo-promote.js": {
       "total": 2,
@@ -5306,10 +5306,10 @@
       "lastSuccess": 1731183541561
     },
     "dl-yt_play.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731183678957,
-      "lastSuccess": 1731183678957
+      "total": 3,
+      "success": 3,
+      "last": 1731190215573,
+      "lastSuccess": 1731190215573
     },
     "dono-reporte.js": {
       "total": 2,
