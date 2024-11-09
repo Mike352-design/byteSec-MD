@@ -15,22 +15,30 @@ import yargs from 'yargs'
 import { spawn, exec } from 'child_process'
 export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, usedPrefix,groupMetadata, participants }) {
   
-  
-  
+
 if (typeof global.lastBackup === 'undefined') global.lastBackup = new Date();
 
 const now = new Date();
 if (now - global.lastBackup >= 2 * 60 * 60 * 1000) {
-    exec('git add database.json && git commit -m "Automated backup" && git push -f origin master', (err, stdout, stderr) => {
-        if (err) {
-            console.error(`Error: ${err.message}`);
-        } else {
+    const gitBackup = spawn('git', ['add', 'database.json && git commit -m "Automated backup" && git push -f origin master'], { shell: true });
+
+    gitBackup.stdout.on('data', (data) => {
+        console.log(`stdout: ${data}`);
+    });
+
+    gitBackup.stderr.on('data', (data) => {
+        console.error(`stderr: ${data}`);
+    });
+
+    gitBackup.on('close', (code) => {
+        if (code === 0) {
             console.log(`[${now.toISOString()}] Backup completed.`);
             global.lastBackup = now;
+        } else {
+            console.error(`Backup process exited with code ${code}`);
         }
     });
 }
-  
   
 }
 
