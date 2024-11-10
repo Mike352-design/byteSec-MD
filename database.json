@@ -45,6 +45,11 @@
           "afkTime": -2,
           "number": "351927285125@s.whatsapp.net",
           "afkReason": ""
+        },
+        "status@broadcast": {
+          "afkTime": -2,
+          "number": "351927285125@s.whatsapp.net",
+          "afkReason": ""
         }
       }
     },
@@ -4127,7 +4132,7 @@
           "pontos": 0
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 2167,
+          "exp": 2599,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -4145,7 +4150,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1018,
+          "exp": 1038,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -4256,7 +4261,7 @@
           "pontos": 0
         },
         "558488916581@s.whatsapp.net": {
-          "exp": 3671,
+          "exp": 3943,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 445,
@@ -4402,7 +4407,7 @@
           "pontos": 0
         },
         "554299228842@s.whatsapp.net": {
-          "exp": 550,
+          "exp": 552,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4515,11 +4520,13 @@
       "lastSentTime": 0,
       "ignored": [
         "BF4A88DA67B400F15AA6086745408DCC",
-        "B3B11B6514BACFF229C6E3437B59E480"
+        "B3B11B6514BACFF229C6E3437B59E480",
+        "3EB084EC25FB083B3FE50B",
+        "0EB69F4F38E077DCF632C6FE4E8561D0"
       ],
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
-      "totalMembros": 24,
+      "totalMembros": 25,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -4559,6 +4566,10 @@
         },
         {
           "id": "553591290379@s.whatsapp.net",
+          "admin": null
+        },
+        {
+          "id": "554299228842@s.whatsapp.net",
           "admin": null
         },
         {
@@ -4615,10 +4626,10 @@
         },
         {
           "id": "79001643752@s.whatsapp.net",
-          "admin": "admin"
+          "admin": null
         }
       ],
-      "boleto": 20,
+      "boleto": 25,
       "forca": {
         "palavra": "elucidar",
         "isGame": true,
@@ -4695,7 +4706,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 237,
+          "exp": 294,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4709,11 +4720,11 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731198573921,
+          "lastMessageTime": 1731202391717,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 90,
+          "exp": 139,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -4731,7 +4742,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 571,
+          "exp": 889,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4746,11 +4757,11 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731198818272,
+          "lastMessageTime": 1731202246275,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 5,
+          "exp": 439,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -4763,7 +4774,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731184318855,
+          "lastMessageTime": 1731202358420,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -4829,14 +4840,10 @@
       "lastSentTime": 0,
       "name": "Sociedade dos Poe's mortos 🪦",
       "desc": "*••• ADMINISTRAÇÃO CABEÇUDOS •••*\n\n* Evitar mandar mensagens na comunidade \n- Fechar o grupo _Cabeçudos_ ou dar uma chamada de atenção quando ver o pessoal fugindo do intuito do grupo \n* Não aceitar solicitações de entrada em nenhum grupo antes de todos aqui lerem o formulário respondido pelo solicitador\n* Remover pessoas que interagem apenas no grupo _Rebosteio_\n* Discutir sempre aqui novas ideias e sugestões para ambos os grupos\n* Mutar pessoa que estiver passando dos limites\n* Não aceitar solicitações nesse grupo\n* Não vazar conversas, prints ou qualquer tipo de mídia desse grupo\n* Qualquer ação que provoque impacto significativo no grupo deve ser discutida e tomada em conjunto acordo\n\n*» Formulário obrigatório para entrada no grupo:*\n\nhttps://forms.gle/3Uq91UWBoWzR1EUn9",
-      "totalMembros": 4,
+      "totalMembros": 3,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "554598527531@s.whatsapp.net",
           "admin": "admin"
         },
         {
@@ -5255,6 +5262,119 @@
       "antiCallGp": true,
       "nsfw": true,
       "name": "𝙼𝚛 𝚁𝚘𝚋𝚘𝚝 #~"
+    },
+    "status@broadcast": {
+      "quiz": {
+        "math": false,
+        "cp": "",
+        "ca": "",
+        "cm": "",
+        "xp": 0,
+        "id": "",
+        "time": ""
+      },
+      "users": {
+        "351927285125@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0
+        },
+        "79001643752@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "",
+          "money": 0,
+          "level": 100,
+          "adm": false,
+          "legendary": true,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": true,
+          "cocriador": false
+        }
+      },
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "language": "en",
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "jogos": true,
+      "gpt": true,
+      "expira": "2000-01-01T00:00:00.000Z",
+      "acoes": true,
+      "busca": true,
+      "midia": true,
+      "xadrez": true,
+      "admafk": false,
+      "downloads": true,
+      "modohorny": false,
+      "stickers": true,
+      "autosticker": false,
+      "audios": false,
+      "antiSpam": true,
+      "antiver": true,
+      "antiLink": true,
+      "antiLink2": true,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": true,
+      "reaction": true,
+      "viewonce": true,
+      "modoadmin": false,
+      "antitoxic": true,
+      "simi": false,
+      "antiTraba": true,
+      "autolevelup": false,
+      "edgar": true,
+      "reply": true,
+      "expired": 0,
+      "except": false,
+      "lastSentTime": 0,
+      "first": true,
+      "privateChat": true,
+      "langChangeID": "BAE5168998BA405B",
+      "totalMembros": 0,
+      "membros": [],
+      "boleto": 20,
+      "forca": {
+        "isGame": false,
+        "forcaID": "",
+        "palavra": "",
+        "currentStatus": "",
+        "currentStage": ""
+      },
+      "afks": [],
+      "robotgpt": {
+        "config": {
+          "lastQuestion": "",
+          "resposta": ""
+        },
+        "351927285125@s.whatsapp.net": []
+      },
+      "firstTime": true,
+      "antiCallGp": true,
+      "nsfw": true
     }
   },
   "stats": {
@@ -5349,10 +5469,10 @@
       "lastSuccess": 1731180377331
     },
     "buscador-lyrics.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1731185852567,
-      "lastSuccess": 1731185852567
+      "total": 5,
+      "success": 5,
+      "last": 1731202496498,
+      "lastSuccess": 1731202496498
     },
     "grupo-promote.js": {
       "total": 2,
