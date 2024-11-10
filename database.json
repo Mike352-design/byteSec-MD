@@ -368,7 +368,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "555194556035@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -4114,11 +4115,11 @@
       },
       "users": {
         "558175001504@s.whatsapp.net": {
-          "exp": 1946,
+          "exp": 2004,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
-          "money": 30,
-          "level": 1,
+          "money": 60,
+          "level": 2,
           "adm": false,
           "legendary": false,
           "banned": false,
@@ -4132,7 +4133,7 @@
           "pontos": 0
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 2599,
+          "exp": 2790,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -4243,7 +4244,7 @@
           "pontos": 0
         },
         "59167154580@s.whatsapp.net": {
-          "exp": 117,
+          "exp": 146,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -5511,10 +5512,10 @@
       "lastSuccess": 1731194056496
     },
     "jogosLetras.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1731196909054,
-      "lastSuccess": 1731196909054
+      "total": 5,
+      "success": 5,
+      "last": 1731240025047,
+      "lastSuccess": 1731240025047
     },
     "lista-lista.js": {
       "total": 2,
