@@ -1395,6 +1395,96 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "270321265418302@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Paulo vitor",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "270321265418302@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "147785714294915@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "rafael bruno",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "147785714294915@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "205041990418454@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "205041990418454@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -1471,7 +1561,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731249126934,
+          "lastMessageTime": 1731256877757,
           "messageCount": 1,
           "pontos": 0
         },
@@ -1561,7 +1651,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731247600586,
+          "lastMessageTime": 1731258554180,
           "messageCount": 1,
           "pontos": 0
         },
@@ -1851,6 +1941,60 @@
           "cocriador": false,
           "lastMessageTime": 1731251620135,
           "messageCount": 3,
+          "pontos": 0
+        },
+        "270321265418302@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731255679706,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "147785714294915@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731258794374,
+          "messageCount": 4,
+          "pontos": 0
+        },
+        "205041990418454@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731259110969,
+          "messageCount": null,
           "pontos": 0
         }
       },
@@ -4335,7 +4479,10 @@
         "146978277163151@lid": [],
         "3358849028253@lid": [],
         "155680216494256@lid": [],
-        "59902009585876@lid": []
+        "59902009585876@lid": [],
+        "270321265418302@lid": [],
+        "147785714294915@lid": [],
+        "205041990418454@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -4350,7 +4497,7 @@
       },
       "users": {
         "558175001504@s.whatsapp.net": {
-          "exp": 2005,
+          "exp": 2023,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 60,
@@ -4369,7 +4516,7 @@
           "almas": 0
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 2969,
+          "exp": 3390,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -4387,7 +4534,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1041,
+          "exp": 1056,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -4407,7 +4554,7 @@
           "cocriadora": true
         },
         "557599248005@s.whatsapp.net": {
-          "exp": 61,
+          "exp": 182,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4480,7 +4627,7 @@
           "pontos": 0
         },
         "59167154580@s.whatsapp.net": {
-          "exp": 172,
+          "exp": 260,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4495,7 +4642,8 @@
           "cocriador": false,
           "lastMessageTime": 1731170857138,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "tempBan": false
         },
         "558488916581@s.whatsapp.net": {
           "exp": 3943,
@@ -4608,7 +4756,7 @@
           "pontos": 0
         },
         "558387182943@s.whatsapp.net": {
-          "exp": 195,
+          "exp": 245,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -4662,7 +4810,7 @@
           "pontos": 0
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 395,
+          "exp": 428,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -4863,7 +5011,7 @@
         },
         {
           "id": "79001643752@s.whatsapp.net",
-          "admin": null
+          "admin": "admin"
         }
       ],
       "boleto": 25,
@@ -4919,9 +5067,9 @@
       "langChangeID": "BAE50CEE442819D6",
       "initialBoot": true,
       "robot": {
-        "messageId": "BAE516B1A4BE870D",
-        "lastMsgTime": "2024-11-09T18:04:34.377Z",
-        "question": "como apagar ela dos arquivos e garantir que nao haja nenhuma persistencia ou cache no /tmp. \ncada dia que passa to pensando em usar fdisk e formatar tudo, queimar o ssd"
+        "messageId": "BAE58C323A22253D",
+        "lastMsgTime": "2024-11-10T16:45:06.375Z",
+        "question": "quais empresas em portugal possuem bug bounty program?"
       },
       "fsociety": {
         "menuId": "",
@@ -5664,10 +5812,10 @@
       "lastSuccess": 1731110501833
     },
     "funAcoes7.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1731110623129,
-      "lastSuccess": 1731110623129
+      "total": 5,
+      "success": 5,
+      "last": 1731257151471,
+      "lastSuccess": 1731257151471
     },
     "grupo-perfil.js": {
       "total": 3,
@@ -5718,10 +5866,10 @@
       "lastSuccess": 1731175366596
     },
     "ia-fSociety.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731175474377,
-      "lastSuccess": 1731175474377
+      "total": 3,
+      "success": 3,
+      "last": 1731257106375,
+      "lastSuccess": 1731257106375
     },
     "ia-shadyGPT.js": {
       "total": 2,
