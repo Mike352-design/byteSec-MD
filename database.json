@@ -6166,14 +6166,23 @@
           },
           {
             "role": "assistant"
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"quanto tempo eu tenho que treinar pra atingir o ápice da minha forma física?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, garoto, buscando o tal do \"ápice físico,\" é? Vamos lá, deixa eu te dizer uma coisa que ninguém curte ouvir: não existe um prazo exato pra chegar lá, porque o **ápice físico** é um alvo móvel. Cada corpo é um quebra-cabeça biológico com seu próprio ritmo, genética e limites.\n\nMas se você quer números, eu posso te dar uma ideia: com foco, disciplina, e alimentação calculada, em **6 meses** a **1 ano** de treino consistente, você já consegue mudanças bem visíveis. Tô falando de *visíveis*, não de *definitivas*. Isso vai ser um avanço, mas pra atingir a “forma da sua vida”? É mais complexo.\n\nPra quebrar os detalhes:\n- **Primeiros 3-6 meses**: o básico. Ganho de força, resistência, controle muscular. O corpo tá só se adaptando. No início, os ganhos são mais rápidos, mas esse é o período de formação de base.\n- **1-2 anos**: Agora é sério. Você começa a ver o físico ganhando forma, músculos bem definidos, menos gordura. Aqui, já tem gente que começa a ficar satisfeita.\n- **3-5 anos**: Agora sim, estamos falando de “ápice”. Passou pela fase de adaptações, ganhou massa magra sólida, tem resistência cardiovascular, sabe treinar com intensidade e tem o metabolismo alinhado. Aqui você tá perto do máximo que sua genética permite.\n\nEntão, não se iluda com promessas de atalhos. O ápice é um processo contínuo de treino inteligente, descanso, dieta disciplinada e foco mental."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE577A1DCD79E18"
-          }
+            "id": "BAE5DAA8A5BAFDB7"
+          },
+          "resposta": "Ah, garoto, buscando o tal do \"ápice físico,\" é? Vamos lá, deixa eu te dizer uma coisa que ninguém curte ouvir: não existe um prazo exato pra chegar lá, porque o **ápice físico** é um alvo móvel. Cada corpo é um quebra-cabeça biológico com seu próprio ritmo, genética e limites.\n\nMas se você quer números, eu posso te dar uma ideia: com foco, disciplina, e alimentação calculada, em **6 meses** a **1 ano** de treino consistente, você já consegue mudanças bem visíveis. Tô falando de *visíveis*, não de *definitivas*. Isso vai ser um avanço, mas pra atingir a “forma da sua vida”? É mais complexo.\n\nPra quebrar os detalhes:\n- **Primeiros 3-6 meses**: o básico. Ganho de força, resistência, controle muscular. O corpo tá só se adaptando. No início, os ganhos são mais rápidos, mas esse é o período de formação de base.\n- **1-2 anos**: Agora é sério. Você começa a ver o físico ganhando forma, músculos bem definidos, menos gordura. Aqui, já tem gente que começa a ficar satisfeita.\n- **3-5 anos**: Agora sim, estamos falando de “ápice”. Passou pela fase de adaptações, ganhou massa magra sólida, tem resistência cardiovascular, sabe treinar com intensidade e tem o metabolismo alinhado. Aqui você tá perto do máximo que sua genética permite.\n\nEntão, não se iluda com promessas de atalhos. O ápice é um processo contínuo de treino inteligente, descanso, dieta disciplinada e foco mental."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -6215,7 +6224,7 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731378948183,
+          "lastMessageTime": 1731380030424,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
@@ -6944,10 +6953,10 @@
       "lastSuccess": 1731111070380
     },
     "cfg-chatGPT.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1731368199279,
-      "lastSuccess": 1731368199279
+      "total": 14,
+      "success": 14,
+      "last": 1731381537200,
+      "lastSuccess": 1731381537200
     },
     "dono-clearallsession.js": {
       "total": 2,
