@@ -8,21 +8,27 @@
 
 let handler = async (m, { conn, participants, groupMetadata, args, usedPrefix, text, command }) => {
  
-const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/admins.jpg'
+const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || 'https://itzpire.com/file/8009e081ebe7.jpg'
 const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]}*`).join('\n')
 const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
 let pesan = args.join` `
 let oi = `${lenguajeGB.smsAddB5()} + "\n"+_${pesan}_`
 
-let textoA = `*𒈔 𝑰𝒏𝒗𝒐𝒄𝒂𝒏𝒅𝒐 𝒂𝒅𝒎𝒊𝒏𝒊𝒔𝒕𝒓𝒂𝒅𝒐𝒓𝒆𝒔. .*
+let textoA = `
+> robot@bytesec:~# node admins.mjs
+> ---------------------------------------
 
-𒌐 𝙿𝚛𝚎𝚜𝚎𝚗𝚌𝚊 𝚊𝚞𝚝𝚘𝚛𝚒𝚝𝚊𝚛𝚒𝚊 𝚗𝚎𝚌𝚎𝚜𝚜𝚊𝚛𝚒𝚊 
-
-✮♱ 𝔐𝔢𝔫𝔰𝔞𝔤𝔢𝔪:
-${text ? text :  m.quoted?.text ? m.quoted?.text : '---'}
-
-━━━━━━━━━⬣ 𖤐 ⬣━━━━━━━━`
+[!] ${global.db.data.chats[m.chat].language == 'pt' ? 'ALERTA: CONVOCANDO ADMINS' : 'ALERT: SUMMONING ADMINS' }
+──────────────────────
+> [+] ${text ? text :  m.quoted?.text ? m.quoted?.text : '---'}
+> ‎
+> ‎
+> # Operation conducted by ByteSec.
+> # Under continuous surveillance.
+     <<< EOF >>>
+──────────────────────
+`
 
 await conn.sendFile(m.chat, pp, 'error.jpg', textoA, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 //await conn.sendButton(m.chat, textoA, textoB, pp, [[lenguajeGB.smsConMenu(), `.menu`]], m, { mentions: [...groupAdmins.map(v => v.id), owner] })
