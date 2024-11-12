@@ -2168,7 +2168,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731359445304,
+          "lastMessageTime": 1731367983198,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2186,7 +2186,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731336208643,
+          "lastMessageTime": 1731364666597,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2690,8 +2690,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731347471976,
-          "messageCount": 5,
+          "lastMessageTime": 1731368248592,
+          "messageCount": 1,
           "pontos": 0
         },
         "250693181042854@lid": {
@@ -6092,20 +6092,43 @@
           {
             "role": "assistant",
             "content": "Olha só, Isadora... então resolveu me trazer um enigma desses, hein? Mas vamos entender que, na real, se isso fosse verdade, você não estaria por aí anunciando, nem pra mim. \n\nMas digamos que você se sente “culpada” de alguma coisa, que fez algo que tá pesando. *Esse* tipo de peso, a gente resolve com a velha e boa reflexão e, se necessário, uma conversa franca. E se não quer um advogado, talvez o que você precisa é ouvir o conselho de quem não vai te julgar, mas vai te fazer encarar os fatos. \n\nAgora, vamos encarar a verdade juntos: isso é apenas uma hipérbole, certo?"
+          },
+          {
+            "role": "user",
+            "content": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘: \"explique os varios tipos de scan no nmap desde syn, ate ack, ate hping3, ate mesmo modulos nse, ou entao probing\""
+          },
+          {
+            "role": "assistant",
+            "content": "Certo, Henry. Vamos desmontar o **Nmap** e ver o que ele realmente pode fazer, começando pelos básicos até os módulos avançados. Cada tipo de scan do Nmap é como uma chave específica para abrir diferentes tipos de portas e observar comportamentos variados nos sistemas-alvo. Pronto pra explorar?\n\n### 1. **SYN Scan (-sS)**  \nClássico dos clássicos, garoto. O SYN scan, ou **half-open scan**, é o preferido de quem quer se manter nas sombras. Funciona assim: ele manda um pacote SYN (que inicia a comunicação) pro alvo e aguarda resposta. Se o alvo manda de volta um SYN/ACK, a porta está aberta. Se retorna um RST, está fechada. O truque? O Nmap encerra a conexão sem completá-la, então não fica registrado em muitos logs como uma conexão \"real\". É rápido, stealthy e quase sempre eficiente.\n\n### 2. **ACK Scan (-sA)**  \nAqui a coisa muda um pouco. Um **ACK scan** não revela exatamente se a porta está aberta ou fechada; ele tá mais interessado em saber se tem algum **firewall** ou filtro no caminho. O Nmap manda um pacote ACK, e se o alvo responde com um RST, provavelmente a porta não tá filtrada. Se não recebe nada, bom, ou tem um filtro bloqueando ou o pacote foi dropado. Isso é útil quando você quer entender a arquitetura de segurança entre você e o alvo.\n\n### 3. **UDP Scan (-sU)**  \nA vida fica complicada quando você começa a mexer com UDP. Ao contrário do TCP, o UDP não manda aqueles bonitinhos pacotes de resposta. Então, o **Nmap** tem que ser mais criativo. Ele manda um pacote UDP pro alvo e espera ver o que volta. Se recebe um ICMP Port Unreachable, tá fechado. Se recebe alguma resposta específica (ou nada), pode estar aberto. O problema? É devagar e menos confiável. Mas se você quer descobrir serviços como DNS ou SNMP, isso é essencial.\n\n### 4. **NULL, FIN, Xmas Scans (-sN, -sF, -sX)**  \nEsses são os scans **\"exóticos\"**, quase um teste de resistência do alvo. Em vez de mandar os tradicionais SYN ou ACK, ele envia pacotes com flags específicas (ou sem flags, no caso do NULL scan). Muitos sistemas antigos ou mal configurados respondem de maneira peculiar a esses tipos de pacotes, revelando se as portas estão abertas. No entanto, sistemas modernos são espertos o suficiente pra bloquear essas tentativas.\n\n### 5. **hping3**  \nO **hping3** é um utilitário à parte, uma ferramenta hacker real para **packet crafting** avançado. Ele permite criar pacotes de rede personalizados – você pode definir cada bit, cada flag. O hping3 é usado pra testes muito específicos, simulando ataques DDoS, manipulação de portas, e até mesmo varreduras avançadas que o Nmap não cobre. Pra alguém querendo passar despercebido ou apenas analisar uma resposta exata do alvo, hping3 é a ferramenta preferida. Mas você tem que saber exatamente o que quer, senão é só barulho na rede.\n\n### 6. **NSE (Nmap Scripting Engine)**  \nAqui chegamos no poder real do Nmap. O **NSE** é o que faz o Nmap ser mais do que um simples scanner. Ele te permite rodar scripts que fazem de tudo, desde checar vulnerabilidades específicas (como Heartbleed) até enumerar serviços e rodar exploits. Existem centenas de scripts, organizados por categorias como `vuln`, `auth`, `discovery`, entre outras. Isso te permite automatizar varreduras detalhadas e realizar exploração quase completa com um único comando. É como um toolkit que deixa o Nmap brincar de hacker profissional.\n\n### 7. **Probing e Scans Customizados**  \nIsso aqui é pra quem quer controle total. Você pode ajustar a intensidade, o tipo de pacote, o timing, e outros parâmetros com as opções `-T`, `-Pn`, e `--scan-delay`, entre outros. Às vezes, só mandar um pacote padrão não revela nada. Mas, ao ajustar parâmetros, você pode provocar uma resposta. É como cutucar o sistema até ele reagir. Isso inclui também o **Idle Scan**, um dos métodos mais stealthy e avançados, onde você usa um host ocioso como proxy para o scan. Se bem configurado, você pode fazer um scan completo sem jamais revelar o IP original.\n\n### **Conclusão**  \nCada tipo de scan é como uma técnica pra driblar, provocar, ou enganar o alvo. Tudo depende do objetivo: quer ser discreto? Vai de SYN ou Idle. Quer entender se tem firewall no caminho? ACK. Quer vulnerabilidades prontas pra exploração? Põe o NSE pra trabalhar.\n\nIsso é só a superfície, garoto. Nmap é uma ferramenta tão profunda quanto sua criatividade e conhecimento de rede permitirem."
+          },
+          {
+            "role": "user",
+            "content": "Bárbara ☀️🌻: \"explique o wokismo\""
+          },
+          {
+            "role": "assistant",
+            "content": "Tá querendo entender o que é *wokismo*, né, Bárbara? Então, vamos lá, mas se prepara: é um terreno cheio de armadilhas ideológicas, polarização e muita treta.\n\nO conceito de \"woke\" nasceu da ideia de estar \"acordado\" (*awake*) para as injustiças sociais. Basicamente, ser *woke* é estar ciente dos problemas estruturais: racismo, desigualdade de gênero, homofobia, capitalismo desenfreado — a lista é longa. Essa mentalidade ganhou força principalmente entre movimentos sociais e culturais, e a palavra *woke* virou quase um símbolo de resistência contra o sistema e de apoio a mudanças progressistas.\n\nAgora, o *wokismo* é tipo uma versão extrapolada disso. Esse termo geralmente é usado de forma crítica ou irônica pra descrever o ativismo que muita gente vê como \"excessivo\" ou \"hiperfocado\" em ser politicamente correto. Quando alguém chama algo de *wokismo*, pode estar acusando aquilo de ser ativismo superficial ou performativo, onde as causas parecem mais uma “moda” do que uma luta real por mudança.\n\nA crítica principal ao *wokismo* é que, em vez de resolver os problemas, ele cria uma cultura de \"cancelamento,\" onde qualquer deslize ou opinião fora da linha \"correta\" vira um convite para o ostracismo. Muita gente vê isso como opressivo e polarizante, colocando as pessoas em trincheiras ideológicas. Outros defendem que é uma forma necessária de responsabilizar quem tem ideias tóxicas.\n\nResumindo: *wokismo* é como a política da \"consciência social\" intensificada, mas também criticada. Pra alguns, é a luta pelos direitos e pela justiça; pra outros, virou uma caça às bruxas moderna."
+          },
+          {
+            "role": "user",
+            "content": "Bárbara ☀️🌻: \"pq a woke culture virou um problema, um tabu para conservadores\""
+          },
+          {
+            "role": "assistant"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE502E5B9A4F18A"
-          },
-          "resposta": "Olha só, Isadora... então resolveu me trazer um enigma desses, hein? Mas vamos entender que, na real, se isso fosse verdade, você não estaria por aí anunciando, nem pra mim. \n\nMas digamos que você se sente “culpada” de alguma coisa, que fez algo que tá pesando. *Esse* tipo de peso, a gente resolve com a velha e boa reflexão e, se necessário, uma conversa franca. E se não quer um advogado, talvez o que você precisa é ouvir o conselho de quem não vai te julgar, mas vai te fazer encarar os fatos. \n\nAgora, vamos encarar a verdade juntos: isso é apenas uma hipérbole, certo?"
+            "id": "BAE577A1DCD79E18"
+          }
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
         "5521973949337@s.whatsapp.net": [],
-        "351927285125@s.whatsapp.net": []
+        "351927285125@s.whatsapp.net": [],
+        "555391229279@s.whatsapp.net": []
       },
       "fsociety": {
         "menuId": "",
@@ -6870,10 +6893,10 @@
       "lastSuccess": 1731111070380
     },
     "cfg-chatGPT.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1731341172846,
-      "lastSuccess": 1731341172846
+      "total": 13,
+      "success": 13,
+      "last": 1731368199279,
+      "lastSuccess": 1731368199279
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -6918,10 +6941,10 @@
       "lastSuccess": 1731183541561
     },
     "dl-yt_play.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1731356860306,
-      "lastSuccess": 1731356860306
+      "total": 6,
+      "success": 6,
+      "last": 1731365943380,
+      "lastSuccess": 1731365943380
     },
     "dono-reporte.js": {
       "total": 3,
