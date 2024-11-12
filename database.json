@@ -169,7 +169,8 @@
           "afkReason": ""
         }
       },
-      "warn": 0
+      "warn": 0,
+      "lastmiming": 1731418260538
     },
     "554598527531@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -2309,8 +2310,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731372266112,
-          "messageCount": 2,
+          "lastMessageTime": 1731421531040,
+          "messageCount": 1,
           "pontos": 0
         },
         "175595493306511@lid": {
@@ -6267,7 +6268,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 636,
+          "exp": 657,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6281,7 +6282,7 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731400808918,
+          "lastMessageTime": 1731420699546,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
@@ -6303,7 +6304,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1905,
+          "exp": 1950,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6318,11 +6319,11 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731414986535,
+          "lastMessageTime": 1731420609514,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 872,
+          "exp": 914,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -6335,7 +6336,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731360549270,
+          "lastMessageTime": 1731419162660,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -7100,10 +7101,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731271818162,
-      "lastSuccess": 1731271818162
+      "total": 5,
+      "success": 5,
+      "last": 1731418260539,
+      "lastSuccess": 1731418260539
     },
     "conversor-totext.js": {
       "total": 2,
@@ -7133,17 +7134,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 1.0060408801688663,
-    "cotacaoOntem": 1.01122496241601,
+    "cotacao": 0.9967992074287148,
+    "cotacaoOntem": 1.0060408801688663,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000025151022004221657
+      "rendimento": 0.00002491998018571787
     },
-    "cotacaoPercentual": -0.5126537061306174,
-    "ultimaAtualizacao": "2024-11-11T15:00:46.206Z"
+    "cotacaoPercentual": -0.9186180126795935,
+    "ultimaAtualizacao": "2024-11-12T15:00:15.270Z"
   }
 }
