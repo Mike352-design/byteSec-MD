@@ -952,7 +952,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "",
+      "name": "Henrique",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -970,7 +970,13 @@
           "number": "2598925004858@lid",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "554599015152@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -1882,7 +1888,13 @@
           "number": "553497704017@s.whatsapp.net",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "184327296032775@lid": {
       "counterPrivate": 0,
@@ -1922,7 +1934,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Tahoshi TX🇮🇱",
+      "name": "Tahoshi TX🇪🇪",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -1940,7 +1952,13 @@
           "number": "5596577317114@lid",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "276677615726703@lid": {
       "counterPrivate": 0,
@@ -2150,7 +2168,97 @@
       "spammer": 0,
       "usuariosRoubados": []
     },
-    "553496426551@s.whatsapp.net": {}
+    "553496426551@s.whatsapp.net": {
+      "exp": 0,
+      "money": 150,
+      "limit": 2,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "counterPrivate": 0,
+      "afk": -1,
+      "reporte": 0,
+      "role": "𝘼𝙥𝙧𝙚𝙣𝙙𝙞𝙯 🕯️",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "level": 0,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "usuariosRoubados": [],
+      "warn": 0,
+      "name": "Jo 🦊",
+      "afkInfo": {
+        "120363202217134158@g.us": {
+          "afkTime": -2,
+          "number": "553496426551@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "188420232073421@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Yago 🙈",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "188420232073421@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "22926535446541@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Nayara Fernandes🩷",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "22926535446541@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    }
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -2316,7 +2424,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731421531040,
+          "lastMessageTime": 1731437362512,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2370,8 +2478,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731159068684,
-          "messageCount": null,
+          "lastMessageTime": 1731436533461,
+          "messageCount": 2,
           "pontos": 0
         },
         "554599015152@s.whatsapp.net": {
@@ -2892,8 +3000,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731339690032,
-          "messageCount": null,
+          "lastMessageTime": 1731436423326,
+          "messageCount": 1,
           "pontos": 0
         },
         "184327296032775@lid": {
@@ -2928,8 +3036,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731340341967,
-          "messageCount": null,
+          "lastMessageTime": 1731436446188,
+          "messageCount": 1,
           "pontos": 0
         },
         "276677615726703@lid": {
@@ -2946,8 +3054,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731345849718,
-          "messageCount": null,
+          "lastMessageTime": 1731436550764,
+          "messageCount": 3,
           "pontos": 0
         },
         "87729119482087@lid": {
@@ -3038,6 +3146,42 @@
           "cocriador": false,
           "lastMessageTime": 1731373457322,
           "messageCount": 2,
+          "pontos": 0
+        },
+        "188420232073421@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731436598544,
+          "messageCount": 4,
+          "pontos": 0
+        },
+        "22926535446541@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731437252859,
+          "messageCount": 1,
           "pontos": 0
         }
       },
@@ -5514,7 +5658,9 @@
         "178249799827474@lid": [],
         "182909973590178@lid": [],
         "219627481239786@lid": [],
-        "112627346882715@lid": []
+        "112627346882715@lid": [],
+        "188420232073421@lid": [],
+        "22926535446541@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -5912,6 +6058,22 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0
+        },
+        "553496426551@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0
         }
       },
       "isBanned": false,
@@ -6112,7 +6274,8 @@
         "79001643752@s.whatsapp.net": [],
         "351927285125@s.whatsapp.net": [],
         "559991168209@s.whatsapp.net": [],
-        "5516993161616@s.whatsapp.net": []
+        "5516993161616@s.whatsapp.net": [],
+        "553496426551@s.whatsapp.net": []
       },
       "firstTime": false,
       "antiCallGp": true,
@@ -6246,15 +6409,23 @@
           {
             "role": "assistant",
             "content": "Quer juntar um capital rápido e de forma lícita, né, Isadora? Beleza, aqui vão algumas dicas diretas pra levantar uma grana inicial. Vamos direto ao ponto, sem ilusões:\n\n### 1. **Freelance Rápido**\n   Plataformas como **Upwork**, **Fiverr**, e até **99Freelas** têm oportunidades rápidas se você tiver alguma habilidade que dê pra vender: design, redação, tradução, edição de vídeo, marketing digital, ou até transcrição. Dá pra pegar projetos curtos e fazer dinheiro sem demora.\n\n### 2. **Revenda de Produtos**\n   Sem complicação: compra barato e vende por um preço mais alto. Se tiver um pouco de capital, dá pra investir em produtos de demanda, como acessórios, maquiagem, itens de tecnologia e revender em redes sociais, como o Instagram ou Facebook Marketplace. Você lucra na diferença, e o retorno é rápido.\n\n### 3. **Serviços Temporários**\n   Falo de coisas práticas, como dar aula particular de algum assunto que você domina, cuidar de pets (pet-sitting), fazer passeios de cachorro, ou até resolver problemas domésticos simples, tipo limpeza ou pequenas montagens. Dá pra anunciar esses serviços em grupos de WhatsApp e aplicativos como o **GetNinjas**.\n\n### 4. **Marketplaces de Coisas Usadas**\n   Tem algo em casa que não usa mais? Vende! Itens como roupas, eletrônicos, móveis e até livros encontram fácil compradores. Apps como **OLX**, **Enjoei** e **Mercado Livre** podem te ajudar a fazer uma grana rápido.\n\n### 5. **Microinvestimentos**\n   Se tiver um pouco de grana sobrando, dá pra investir em renda fixa de curto prazo ou opções que oferecem liquidez diária, como CDBs, que pagam uma taxa acima de 100% do CDI. Não vai te deixar rica da noite pro dia, mas pode render um pouco mais que uma poupança.\n\n### 6. **Parcerias e Colaborações**\n   Se seu objetivo é levantar capital pra um empreendimento, você também pode considerar trazer um parceiro investidor. Isso pode significar menos dinheiro direto, mas mais poder de ação. Procure alguém que veja valor na sua ideia e esteja disposto a colocar um pouco de capital inicial.\n\n### 7. **Crowdfunding**\n   Tem plataformas como **Kickante** ou **Catarse** onde você pode levantar dinheiro com o público, desde que tenha uma ideia interessante ou um projeto que chame atenção. Pode não ser “dinheiro rápido” no sentido de imediato, mas é uma forma de capital inicial para quem tem uma boa proposta.\n\n### 8. **Economize Onde Puder**\n   Não parece uma dica de \"ganhar dinheiro\", mas veja bem: toda grana que você consegue economizar (sem comprometer o essencial) é dinheiro a mais no bolso. \n\nDá trabalho? Sim. Mas, como você quer fazer isso da maneira correta, é a forma mais segura de conseguir a grana que precisa."
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"se tiver uma sentença de um juiz no recesso forense, ela será válida ?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Boa pergunta, Isadora. Quer saber se uma sentença proferida no recesso forense tem validade, né? Então, vamos direto ao ponto.\n\nSim, uma sentença emitida por um juiz durante o recesso **pode ser válida**, mas existem alguns detalhes a considerar:\n\n1. **Casos de Urgência**: Durante o recesso, normalmente, o Judiciário opera em regime de plantão. Ou seja, só causas que exigem uma resposta rápida ou que envolvem **questões urgentes** (como habeas corpus, medidas cautelares ou ações que evitem dano irreparável) podem ser analisadas. Nesses casos, a sentença dada por um juiz de plantão é válida e tem efeito legal.\n\n2. **Validade e Eficácia**: As decisões tomadas no recesso, seja uma liminar ou sentença, são plenamente válidas, já que o juiz tem autoridade para tomar medidas urgentes, mesmo fora do expediente comum. Essa sentença pode ser revisada depois, mas enquanto isso, ela tem força.\n\n3. **Publicação e Processamento**: Algumas formalidades podem ficar pra depois, tipo a publicação oficial no sistema do tribunal. Porém, isso não invalida a decisão. No retorno do recesso, o processo continua normalmente, com o trâmite adequado.\n\nEntão, em resumo: se o caso for urgente e o juiz emitiu uma sentença durante o recesso, essa sentença é válida."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE5A4FB2DE43C70"
+            "id": "BAE53955CCED740C"
           },
-          "resposta": "Quer juntar um capital rápido e de forma lícita, né, Isadora? Beleza, aqui vão algumas dicas diretas pra levantar uma grana inicial. Vamos direto ao ponto, sem ilusões:\n\n### 1. **Freelance Rápido**\n   Plataformas como **Upwork**, **Fiverr**, e até **99Freelas** têm oportunidades rápidas se você tiver alguma habilidade que dê pra vender: design, redação, tradução, edição de vídeo, marketing digital, ou até transcrição. Dá pra pegar projetos curtos e fazer dinheiro sem demora.\n\n### 2. **Revenda de Produtos**\n   Sem complicação: compra barato e vende por um preço mais alto. Se tiver um pouco de capital, dá pra investir em produtos de demanda, como acessórios, maquiagem, itens de tecnologia e revender em redes sociais, como o Instagram ou Facebook Marketplace. Você lucra na diferença, e o retorno é rápido.\n\n### 3. **Serviços Temporários**\n   Falo de coisas práticas, como dar aula particular de algum assunto que você domina, cuidar de pets (pet-sitting), fazer passeios de cachorro, ou até resolver problemas domésticos simples, tipo limpeza ou pequenas montagens. Dá pra anunciar esses serviços em grupos de WhatsApp e aplicativos como o **GetNinjas**.\n\n### 4. **Marketplaces de Coisas Usadas**\n   Tem algo em casa que não usa mais? Vende! Itens como roupas, eletrônicos, móveis e até livros encontram fácil compradores. Apps como **OLX**, **Enjoei** e **Mercado Livre** podem te ajudar a fazer uma grana rápido.\n\n### 5. **Microinvestimentos**\n   Se tiver um pouco de grana sobrando, dá pra investir em renda fixa de curto prazo ou opções que oferecem liquidez diária, como CDBs, que pagam uma taxa acima de 100% do CDI. Não vai te deixar rica da noite pro dia, mas pode render um pouco mais que uma poupança.\n\n### 6. **Parcerias e Colaborações**\n   Se seu objetivo é levantar capital pra um empreendimento, você também pode considerar trazer um parceiro investidor. Isso pode significar menos dinheiro direto, mas mais poder de ação. Procure alguém que veja valor na sua ideia e esteja disposto a colocar um pouco de capital inicial.\n\n### 7. **Crowdfunding**\n   Tem plataformas como **Kickante** ou **Catarse** onde você pode levantar dinheiro com o público, desde que tenha uma ideia interessante ou um projeto que chame atenção. Pode não ser “dinheiro rápido” no sentido de imediato, mas é uma forma de capital inicial para quem tem uma boa proposta.\n\n### 8. **Economize Onde Puder**\n   Não parece uma dica de \"ganhar dinheiro\", mas veja bem: toda grana que você consegue economizar (sem comprometer o essencial) é dinheiro a mais no bolso. \n\nDá trabalho? Sim. Mas, como você quer fazer isso da maneira correta, é a forma mais segura de conseguir a grana que precisa."
+          "resposta": "Boa pergunta, Isadora. Quer saber se uma sentença proferida no recesso forense tem validade, né? Então, vamos direto ao ponto.\n\nSim, uma sentença emitida por um juiz durante o recesso **pode ser válida**, mas existem alguns detalhes a considerar:\n\n1. **Casos de Urgência**: Durante o recesso, normalmente, o Judiciário opera em regime de plantão. Ou seja, só causas que exigem uma resposta rápida ou que envolvem **questões urgentes** (como habeas corpus, medidas cautelares ou ações que evitem dano irreparável) podem ser analisadas. Nesses casos, a sentença dada por um juiz de plantão é válida e tem efeito legal.\n\n2. **Validade e Eficácia**: As decisões tomadas no recesso, seja uma liminar ou sentença, são plenamente válidas, já que o juiz tem autoridade para tomar medidas urgentes, mesmo fora do expediente comum. Essa sentença pode ser revisada depois, mas enquanto isso, ela tem força.\n\n3. **Publicação e Processamento**: Algumas formalidades podem ficar pra depois, tipo a publicação oficial no sistema do tribunal. Porém, isso não invalida a decisão. No retorno do recesso, o processo continua normalmente, com o trâmite adequado.\n\nEntão, em resumo: se o caso for urgente e o juiz emitiu uma sentença durante o recesso, essa sentença é válida."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -7142,10 +7313,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 22,
-      "success": 22,
-      "last": 1731424321725,
-      "lastSuccess": 1731424321725
+      "total": 23,
+      "success": 23,
+      "last": 1731436218560,
+      "lastSuccess": 1731436218560
     },
     "dono-clearallsession.js": {
       "total": 2,
