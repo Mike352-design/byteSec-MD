@@ -2110,7 +2110,39 @@
       "spammer": 0,
       "usuariosRoubados": []
     },
-    "558488916581@s.whatsapp.net,555391229279@s.whatsapp.net": {}
+    "558488916581@s.whatsapp.net,555391229279@s.whatsapp.net": {},
+    "112627346882715@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Cléber Reis Tattoo",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "112627346882715@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    }
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -2168,7 +2200,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731367983198,
+          "lastMessageTime": 1731372367727,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2276,8 +2308,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731347120442,
-          "messageCount": 1,
+          "lastMessageTime": 1731372266112,
+          "messageCount": 2,
           "pontos": 0
         },
         "175595493306511@lid": {
@@ -2980,6 +3012,24 @@
           "cocriador": false,
           "lastMessageTime": 1731358337464,
           "messageCount": null,
+          "pontos": 0
+        },
+        "112627346882715@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731373457322,
+          "messageCount": 2,
           "pontos": 0
         }
       },
@@ -5455,7 +5505,8 @@
         "87729119482087@lid": [],
         "178249799827474@lid": [],
         "182909973590178@lid": [],
-        "219627481239786@lid": []
+        "219627481239786@lid": [],
+        "112627346882715@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -6150,7 +6201,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 538,
+          "exp": 635,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6164,11 +6215,11 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731360890045,
+          "lastMessageTime": 1731378948183,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 185,
+          "exp": 188,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6186,7 +6237,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1721,
+          "exp": 1879,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6201,7 +6252,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731360582350,
+          "lastMessageTime": 1731379317366,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
@@ -6526,7 +6577,7 @@
           "tempBan": false
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 156,
+          "exp": 215,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6541,7 +6592,7 @@
           "cocriador": false
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 4,
+          "exp": 11,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6554,7 +6605,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731183878202,
+          "lastMessageTime": 1731379427503,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false
@@ -6827,10 +6878,10 @@
   },
   "stats": {
     "config-on y off.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1731282443881,
-      "lastSuccess": 1731282443881
+      "total": 21,
+      "success": 21,
+      "last": 1731379384944,
+      "lastSuccess": 1731379384944
     },
     "dono-update.js": {
       "total": 16,
@@ -6941,10 +6992,10 @@
       "lastSuccess": 1731183541561
     },
     "dl-yt_play.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1731365943380,
-      "lastSuccess": 1731365943380
+      "total": 8,
+      "success": 8,
+      "last": 1731377649364,
+      "lastSuccess": 1731377649364
     },
     "dono-reporte.js": {
       "total": 3,
