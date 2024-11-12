@@ -50,6 +50,11 @@
           "afkTime": -2,
           "number": "351927285125@s.whatsapp.net",
           "afkReason": ""
+        },
+        "351927285125@s.whatsapp.net": {
+          "afkTime": -2,
+          "number": "351927285125@s.whatsapp.net",
+          "afkReason": ""
         }
       },
       "lastmiming": 1731271818161
@@ -2144,7 +2149,8 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
-    }
+    },
+    "553496426551@s.whatsapp.net": {}
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -6232,15 +6238,23 @@
           {
             "role": "assistant",
             "content": "Boa tentativa, Lucas, mas a legítima defesa não é tão simples assim. Não basta sentir-se \"perturbado\" ou incomodado. Pra que a justiça reconheça legítima defesa, precisam estar presentes três elementos básicos:\n\n1. **Agressão atual ou iminente**: Legítima defesa é quando você está sendo ameaçado de forma direta, com risco claro e imediato à sua vida ou integridade física. *Perturbação* não se enquadra nisso, a menos que essa pessoa esteja te atacando fisicamente ou prestes a fazer isso de forma evidente.\n\n2. **Proporcionalidade**: A resposta precisa ser proporcional ao perigo. Se alguém está te incomodando, responder com violência letal é claramente desproporcional. Em outras palavras, você só pode usar o mínimo de força necessário para se proteger.\n\n3. **Ausência de provocação**: Legítima defesa não pode ser alegada se você provocou a situação e depois reagiu. Não pode “caçar” o problema e depois dizer que agiu por legítima defesa.\n\nEntão, nada de justificar algo tão drástico como “legítima defesa” se não houver uma ameaça direta e real."
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"me dê dicas de como conseguir dinheiro rápido de forma lícitas ? Para começar um empreendimento ?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Quer juntar um capital rápido e de forma lícita, né, Isadora? Beleza, aqui vão algumas dicas diretas pra levantar uma grana inicial. Vamos direto ao ponto, sem ilusões:\n\n### 1. **Freelance Rápido**\n   Plataformas como **Upwork**, **Fiverr**, e até **99Freelas** têm oportunidades rápidas se você tiver alguma habilidade que dê pra vender: design, redação, tradução, edição de vídeo, marketing digital, ou até transcrição. Dá pra pegar projetos curtos e fazer dinheiro sem demora.\n\n### 2. **Revenda de Produtos**\n   Sem complicação: compra barato e vende por um preço mais alto. Se tiver um pouco de capital, dá pra investir em produtos de demanda, como acessórios, maquiagem, itens de tecnologia e revender em redes sociais, como o Instagram ou Facebook Marketplace. Você lucra na diferença, e o retorno é rápido.\n\n### 3. **Serviços Temporários**\n   Falo de coisas práticas, como dar aula particular de algum assunto que você domina, cuidar de pets (pet-sitting), fazer passeios de cachorro, ou até resolver problemas domésticos simples, tipo limpeza ou pequenas montagens. Dá pra anunciar esses serviços em grupos de WhatsApp e aplicativos como o **GetNinjas**.\n\n### 4. **Marketplaces de Coisas Usadas**\n   Tem algo em casa que não usa mais? Vende! Itens como roupas, eletrônicos, móveis e até livros encontram fácil compradores. Apps como **OLX**, **Enjoei** e **Mercado Livre** podem te ajudar a fazer uma grana rápido.\n\n### 5. **Microinvestimentos**\n   Se tiver um pouco de grana sobrando, dá pra investir em renda fixa de curto prazo ou opções que oferecem liquidez diária, como CDBs, que pagam uma taxa acima de 100% do CDI. Não vai te deixar rica da noite pro dia, mas pode render um pouco mais que uma poupança.\n\n### 6. **Parcerias e Colaborações**\n   Se seu objetivo é levantar capital pra um empreendimento, você também pode considerar trazer um parceiro investidor. Isso pode significar menos dinheiro direto, mas mais poder de ação. Procure alguém que veja valor na sua ideia e esteja disposto a colocar um pouco de capital inicial.\n\n### 7. **Crowdfunding**\n   Tem plataformas como **Kickante** ou **Catarse** onde você pode levantar dinheiro com o público, desde que tenha uma ideia interessante ou um projeto que chame atenção. Pode não ser “dinheiro rápido” no sentido de imediato, mas é uma forma de capital inicial para quem tem uma boa proposta.\n\n### 8. **Economize Onde Puder**\n   Não parece uma dica de \"ganhar dinheiro\", mas veja bem: toda grana que você consegue economizar (sem comprometer o essencial) é dinheiro a mais no bolso. \n\nDá trabalho? Sim. Mas, como você quer fazer isso da maneira correta, é a forma mais segura de conseguir a grana que precisa."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE5A94ECD0EDC68"
+            "id": "BAE5A4FB2DE43C70"
           },
-          "resposta": "Boa tentativa, Lucas, mas a legítima defesa não é tão simples assim. Não basta sentir-se \"perturbado\" ou incomodado. Pra que a justiça reconheça legítima defesa, precisam estar presentes três elementos básicos:\n\n1. **Agressão atual ou iminente**: Legítima defesa é quando você está sendo ameaçado de forma direta, com risco claro e imediato à sua vida ou integridade física. *Perturbação* não se enquadra nisso, a menos que essa pessoa esteja te atacando fisicamente ou prestes a fazer isso de forma evidente.\n\n2. **Proporcionalidade**: A resposta precisa ser proporcional ao perigo. Se alguém está te incomodando, responder com violência letal é claramente desproporcional. Em outras palavras, você só pode usar o mínimo de força necessário para se proteger.\n\n3. **Ausência de provocação**: Legítima defesa não pode ser alegada se você provocou a situação e depois reagiu. Não pode “caçar” o problema e depois dizer que agiu por legítima defesa.\n\nEntão, nada de justificar algo tão drástico como “legítima defesa” se não houver uma ameaça direta e real."
+          "resposta": "Quer juntar um capital rápido e de forma lícita, né, Isadora? Beleza, aqui vão algumas dicas diretas pra levantar uma grana inicial. Vamos direto ao ponto, sem ilusões:\n\n### 1. **Freelance Rápido**\n   Plataformas como **Upwork**, **Fiverr**, e até **99Freelas** têm oportunidades rápidas se você tiver alguma habilidade que dê pra vender: design, redação, tradução, edição de vídeo, marketing digital, ou até transcrição. Dá pra pegar projetos curtos e fazer dinheiro sem demora.\n\n### 2. **Revenda de Produtos**\n   Sem complicação: compra barato e vende por um preço mais alto. Se tiver um pouco de capital, dá pra investir em produtos de demanda, como acessórios, maquiagem, itens de tecnologia e revender em redes sociais, como o Instagram ou Facebook Marketplace. Você lucra na diferença, e o retorno é rápido.\n\n### 3. **Serviços Temporários**\n   Falo de coisas práticas, como dar aula particular de algum assunto que você domina, cuidar de pets (pet-sitting), fazer passeios de cachorro, ou até resolver problemas domésticos simples, tipo limpeza ou pequenas montagens. Dá pra anunciar esses serviços em grupos de WhatsApp e aplicativos como o **GetNinjas**.\n\n### 4. **Marketplaces de Coisas Usadas**\n   Tem algo em casa que não usa mais? Vende! Itens como roupas, eletrônicos, móveis e até livros encontram fácil compradores. Apps como **OLX**, **Enjoei** e **Mercado Livre** podem te ajudar a fazer uma grana rápido.\n\n### 5. **Microinvestimentos**\n   Se tiver um pouco de grana sobrando, dá pra investir em renda fixa de curto prazo ou opções que oferecem liquidez diária, como CDBs, que pagam uma taxa acima de 100% do CDI. Não vai te deixar rica da noite pro dia, mas pode render um pouco mais que uma poupança.\n\n### 6. **Parcerias e Colaborações**\n   Se seu objetivo é levantar capital pra um empreendimento, você também pode considerar trazer um parceiro investidor. Isso pode significar menos dinheiro direto, mas mais poder de ação. Procure alguém que veja valor na sua ideia e esteja disposto a colocar um pouco de capital inicial.\n\n### 7. **Crowdfunding**\n   Tem plataformas como **Kickante** ou **Catarse** onde você pode levantar dinheiro com o público, desde que tenha uma ideia interessante ou um projeto que chame atenção. Pode não ser “dinheiro rápido” no sentido de imediato, mas é uma forma de capital inicial para quem tem uma boa proposta.\n\n### 8. **Economize Onde Puder**\n   Não parece uma dica de \"ganhar dinheiro\", mas veja bem: toda grana que você consegue economizar (sem comprometer o essencial) é dinheiro a mais no bolso. \n\nDá trabalho? Sim. Mas, como você quer fazer isso da maneira correta, é a forma mais segura de conseguir a grana que precisa."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -6472,7 +6486,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731271404811,
+          "lastMessageTime": 1731429983240,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -6491,7 +6505,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 326,
+          "exp": 330,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6941,6 +6955,123 @@
       "firstTime": true,
       "antiCallGp": true,
       "nsfw": true
+    },
+    "351927285125@s.whatsapp.net": {
+      "quiz": {
+        "math": false,
+        "cp": "",
+        "ca": "",
+        "cm": "",
+        "xp": 0,
+        "id": "",
+        "time": ""
+      },
+      "users": {
+        "351927285125@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "pontos": 0,
+          "tempBan": false
+        },
+        "79001643752@s.whatsapp.net": {
+          "exp": 42,
+          "limit": 0,
+          "role": "",
+          "money": 0,
+          "level": 100,
+          "adm": false,
+          "legendary": true,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": true,
+          "cocriador": false
+        }
+      },
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "language": "pt",
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "jogos": true,
+      "gpt": true,
+      "expira": "2000-01-01T00:00:00.000Z",
+      "acoes": true,
+      "busca": true,
+      "midia": true,
+      "xadrez": true,
+      "admafk": false,
+      "downloads": true,
+      "modohorny": false,
+      "stickers": true,
+      "autosticker": false,
+      "audios": false,
+      "antiSpam": true,
+      "antiver": true,
+      "antiLink": true,
+      "antiLink2": true,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": true,
+      "reaction": true,
+      "viewonce": true,
+      "modoadmin": false,
+      "antitoxic": true,
+      "simi": false,
+      "antiTraba": true,
+      "autolevelup": false,
+      "edgar": true,
+      "reply": true,
+      "expired": 0,
+      "except": false,
+      "lastSentTime": 0,
+      "first": false,
+      "privateChat": true,
+      "langChangeID": "BAE58B2539BCA211",
+      "firstTime": true,
+      "antiCallGp": true,
+      "nsfw": true,
+      "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
+      "totalMembros": 0,
+      "membros": [],
+      "boleto": 20,
+      "forca": {
+        "isGame": false,
+        "forcaID": "",
+        "palavra": "",
+        "currentStatus": "",
+        "currentStage": ""
+      },
+      "afks": [],
+      "robotgpt": {
+        "config": {
+          "lastQuestion": "",
+          "resposta": ""
+        },
+        "351927285125@s.whatsapp.net": []
+      },
+      "msgCount": 0,
+      "privategpthistory": []
     }
   },
   "stats": {
@@ -6951,16 +7082,16 @@
       "lastSuccess": 1731379384944
     },
     "dono-update.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1731271406298,
-      "lastSuccess": 1731271406298
+      "total": 20,
+      "success": 20,
+      "last": 1731429984344,
+      "lastSuccess": 1731429984344
     },
     "menu-menu.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1731198121201,
-      "lastSuccess": 1731198121201
+      "total": 7,
+      "success": 7,
+      "last": 1731429929151,
+      "lastSuccess": 1731429929151
     },
     "dono-unbanchat.js": {
       "total": 8,
@@ -6981,10 +7112,10 @@
       "lastSuccess": 1731175282947
     },
     "dono-exec.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1731121433224,
-      "lastSuccess": 1731121433224
+      "total": 12,
+      "success": 12,
+      "last": 1731429957073,
+      "lastSuccess": 1731429957073
     },
     "bingImg.js": {
       "total": 3,
@@ -7005,16 +7136,16 @@
       "lastSuccess": 1731283369317
     },
     "dono-reiniciar-usuario.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1731111070380,
-      "lastSuccess": 1731111070380
+      "total": 6,
+      "success": 6,
+      "last": 1731429934683,
+      "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1731407552135,
-      "lastSuccess": 1731407552135
+      "total": 22,
+      "success": 22,
+      "last": 1731424321725,
+      "lastSuccess": 1731424321725
     },
     "dono-clearallsession.js": {
       "total": 2,
