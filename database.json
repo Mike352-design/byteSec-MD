@@ -147,7 +147,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "lastmiming": 1731465824969
     },
     "558488916581@s.whatsapp.net": {
       "exp": 0,
@@ -2322,7 +2323,8 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
-    }
+    },
+    "59167154580@s.whatsapp.net,553496426551@s.whatsapp.net": {}
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -6974,7 +6976,7 @@
           "cocriador": false
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 11,
+          "exp": 12,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6987,7 +6989,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731446647739,
+          "lastMessageTime": 1731462140426,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false
@@ -7533,10 +7535,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1731418260539,
-      "lastSuccess": 1731418260539
+      "total": 10,
+      "success": 10,
+      "last": 1731465824970,
+      "lastSuccess": 1731465824970
     },
     "conversor-totext.js": {
       "total": 2,
