@@ -2548,7 +2548,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731437362512,
+          "lastMessageTime": 1731534860672,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6892,7 +6892,7 @@
       },
       "users": {
         "351927285125@s.whatsapp.net": {
-          "exp": 28,
+          "exp": 31,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -6905,7 +6905,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731429983240,
+          "lastMessageTime": 1731528568494,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -6924,7 +6924,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 330,
+          "exp": 363,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -7058,26 +7058,39 @@
       },
       "users": {
         "351927285125@s.whatsapp.net": {
-          "exp": 23,
-          "limit": 0,
-          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
-          "money": 0,
-          "level": 0,
+          "exp": 98,
+          "limit": 6666,
+          "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
+          "money": 66666,
+          "level": 666,
           "adm": true,
-          "legendary": false,
+          "legendary": true,
           "banned": false,
           "adv": 0,
-          "tentativasRoubo": 5,
+          "tentativasRoubo": 666,
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731191253117,
+          "lastMessageTime": 1731533472723,
           "messageCount": 1,
           "pontos": 0,
-          "tempBan": false
+          "tempBan": false,
+          "coadmin": false,
+          "slots": 666,
+          "name": "Henry Arcangelo 𖤍",
+          "age": "23 anos",
+          "morada": "Rio Tinto, Porto.  Portugal",
+          "profissao": "Desenvolvedor fullstack",
+          "instagram": "https://instagram.con/henryy.xn",
+          "website": "https://arcangelo.net",
+          "links": "https://github.com/ARCANGEL0",
+          "biografia": "Sem informações sobre mim",
+          "hobbies": "Ler e ouvir música",
+          "relacionamento": "❔",
+          "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 215,
+          "exp": 283,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -7092,7 +7105,7 @@
           "cocriador": false
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 12,
+          "exp": 160,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -7105,16 +7118,31 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731462140426,
+          "lastMessageTime": 1731533500799,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false
+        },
+        "46769352642@s.whatsapp.net": {
+          "exp": 47,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": true,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false
         }
       },
       "isBanned": true,
       "welcome": true,
       "detect": false,
-      "language": "en",
+      "language": "pt",
       "sWelcome": "",
       "sBye": "",
       "sPromote": "",
@@ -7158,7 +7186,7 @@
       "lastSentTime": 0,
       "name": "𒈒 𝐑𝐄𝐏𝐎𝐑𝐓𝐒",
       "desc": "─┅──┅❖ ❖─┅──┅\n*FORMULÁRIO DO POE:* https://docs.google.com/forms/d/1BkJZrFOqD3WgYOK7nSk-QCthVmzBnvwOcT2QfvqbSgI/edit?ts=664500d6\n\n─┅──┅❖ ❖─┅──┅",
-      "totalMembros": 5,
+      "totalMembros": 4,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -7170,10 +7198,6 @@
         },
         {
           "id": "554598527531@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "56954838837@s.whatsapp.net",
           "admin": "admin"
         },
         {
@@ -7201,7 +7225,9 @@
       "firstTime": true,
       "antiCallGp": true,
       "nsfw": true,
-      "langChangeID": "BAE5B49B07D81852"
+      "langChangeID": "BAE5570CB027A426",
+      "initialBoot": true,
+      "ignored": []
     },
     "79001643752@s.whatsapp.net": {
       "quiz": {
@@ -7495,10 +7521,10 @@
   },
   "stats": {
     "config-on y off.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1731379384944,
-      "lastSuccess": 1731379384944
+      "total": 23,
+      "success": 23,
+      "last": 1731532978165,
+      "lastSuccess": 1731532978165
     },
     "dono-update.js": {
       "total": 20,
@@ -7513,10 +7539,10 @@
       "lastSuccess": 1731429929151
     },
     "dono-unbanchat.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1731284246141,
-      "lastSuccess": 1731284246141
+      "total": 10,
+      "success": 10,
+      "last": 1731532951641,
+      "lastSuccess": 1731532951641
     },
     "dl-spotify.js": {
       "total": 7,
@@ -7573,10 +7599,10 @@
       "lastSuccess": 1731122548623
     },
     "dono-setprazo.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731122556977,
-      "lastSuccess": 1731122556977
+      "total": 3,
+      "success": 3,
+      "last": 1731532795906,
+      "lastSuccess": 1731532795906
     },
     "dl-ig.js": {
       "total": 5,
@@ -7591,10 +7617,10 @@
       "lastSuccess": 1731202496498
     },
     "grupo-promote.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731175366596,
-      "lastSuccess": 1731175366596
+      "total": 5,
+      "success": 5,
+      "last": 1731533217718,
+      "lastSuccess": 1731533217718
     },
     "ia-fSociety.js": {
       "total": 3,
@@ -7667,6 +7693,24 @@
       "success": 2,
       "last": 1731332053756,
       "lastSuccess": 1731332053756
+    },
+    "audios.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1731528568640,
+      "lastSuccess": 1731528568640
+    },
+    "menu-audios.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1731528534651,
+      "lastSuccess": 1731528534651
+    },
+    "grupo-demote.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1731533205427,
+      "lastSuccess": 1731533205427
     }
   },
   "msgs": {},
