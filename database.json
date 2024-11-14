@@ -2458,7 +2458,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731364666597,
+          "lastMessageTime": 1731536178240,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2548,7 +2548,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731534860672,
+          "lastMessageTime": 1731536587723,
           "messageCount": 1,
           "pontos": 0
         },
@@ -7118,13 +7118,13 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731533500799,
+          "lastMessageTime": 1731541562892,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false
         },
         "46769352642@s.whatsapp.net": {
-          "exp": 47,
+          "exp": 56,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -7677,10 +7677,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1731465824970,
-      "lastSuccess": 1731465824970
+      "total": 11,
+      "success": 11,
+      "last": 1731541563020,
+      "lastSuccess": 1731541563020
     },
     "conversor-totext.js": {
       "total": 2,
