@@ -176,7 +176,7 @@
         }
       },
       "warn": 0,
-      "lastmiming": 1731418260538
+      "lastmiming": 1731605082854
     },
     "554598527531@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -6856,11 +6856,11 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 945,
+          "exp": 1036,
           "limit": 0,
-          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
-          "money": 0,
-          "level": 0,
+          "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
+          "money": 30,
+          "level": 1,
           "adm": true,
           "legendary": false,
           "banned": false,
@@ -6870,11 +6870,11 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731599036460,
+          "lastMessageTime": 1731605583200,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 238,
+          "exp": 257,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6892,7 +6892,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 2019,
+          "exp": 2100,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6907,11 +6907,11 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731598972968,
+          "lastMessageTime": 1731606209109,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 919,
+          "exp": 987,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -6924,7 +6924,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731586951393,
+          "lastMessageTime": 1731606421725,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -7857,10 +7857,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1731541563020,
-      "lastSuccess": 1731541563020
+      "total": 12,
+      "success": 12,
+      "last": 1731605082855,
+      "lastSuccess": 1731605082855
     },
     "conversor-totext.js": {
       "total": 2,
