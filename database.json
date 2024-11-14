@@ -184,7 +184,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Åńōnymøü_3301 🖖👽",
+      "name": "",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -208,6 +208,11 @@
           "afkReason": ""
         },
         "120363217076425903@g.us": {
+          "afkTime": -2,
+          "number": "554598527531@s.whatsapp.net",
+          "afkReason": ""
+        },
+        "120363338752899134@g.us": {
           "afkTime": -2,
           "number": "554598527531@s.whatsapp.net",
           "afkReason": ""
@@ -1132,7 +1137,8 @@
           "afkReason": ""
         }
       },
-      "warn": 0
+      "warn": 0,
+      "lastmiming": 1731622831784
     },
     "5522997671199@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -6856,7 +6862,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 1351,
+          "exp": 1407,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 30,
@@ -6870,11 +6876,11 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731613594089,
+          "lastMessageTime": 1731624910391,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 261,
+          "exp": 262,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -6892,7 +6898,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 2440,
+          "exp": 2712,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6907,11 +6913,11 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731613653984,
+          "lastMessageTime": 1731619850710,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 1014,
+          "exp": 1254,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -6924,7 +6930,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731611845366,
+          "lastMessageTime": 1731619785650,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -7697,6 +7703,142 @@
       },
       "msgCount": 0,
       "privategpthistory": []
+    },
+    "120363338752899134@g.us": {
+      "quiz": {
+        "math": false,
+        "cp": "",
+        "ca": "",
+        "cm": "",
+        "xp": 0,
+        "id": "",
+        "time": ""
+      },
+      "users": {
+        "554598527531@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": true,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731625134896,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "79001643752@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "",
+          "money": 0,
+          "level": 100,
+          "adm": true,
+          "legendary": true,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": true,
+          "cocriador": false
+        }
+      },
+      "isBanned": true,
+      "welcome": true,
+      "detect": false,
+      "language": "en",
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "jogos": true,
+      "gpt": true,
+      "expira": "2000-01-01T00:00:00.000Z",
+      "acoes": true,
+      "busca": true,
+      "midia": true,
+      "xadrez": true,
+      "admafk": false,
+      "downloads": true,
+      "modohorny": false,
+      "stickers": true,
+      "autosticker": false,
+      "audios": false,
+      "antiSpam": true,
+      "antiver": true,
+      "antiLink": true,
+      "antiLink2": true,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": true,
+      "reaction": true,
+      "viewonce": true,
+      "modoadmin": false,
+      "antitoxic": true,
+      "simi": false,
+      "antiTraba": true,
+      "autolevelup": true,
+      "edgar": true,
+      "reply": true,
+      "expired": 0,
+      "except": false,
+      "lastSentTime": 0,
+      "name": "꧁꧂ 𝕰𝖉𝖌𝖆𝖗 𝖆𝖑𝖑𝖆𝖓 𝕭𝖔𝖙",
+      "desc": "⃠",
+      "totalMembros": 6,
+      "membros": [
+        {
+          "id": "351927285125@s.whatsapp.net",
+          "admin": "superadmin"
+        },
+        {
+          "id": "230618822656003@lid",
+          "admin": null
+        },
+        {
+          "id": "554598527531@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "13542602334278@lid",
+          "admin": null
+        },
+        {
+          "id": "143345070424279@lid",
+          "admin": null
+        },
+        {
+          "id": "149697377337387@lid",
+          "admin": null
+        }
+      ],
+      "boleto": null,
+      "forca": {
+        "isGame": false,
+        "forcaID": "",
+        "palavra": "",
+        "currentStatus": "",
+        "currentStage": ""
+      },
+      "afks": [],
+      "robotgpt": {
+        "config": {
+          "lastQuestion": "",
+          "resposta": ""
+        },
+        "554598527531@s.whatsapp.net": []
+      }
     }
   },
   "stats": {
@@ -7857,10 +7999,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1731605082855,
-      "lastSuccess": 1731605082855
+      "total": 13,
+      "success": 13,
+      "last": 1731622831784,
+      "lastSuccess": 1731622831784
     },
     "conversor-totext.js": {
       "total": 2,
