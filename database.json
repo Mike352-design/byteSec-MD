@@ -2440,7 +2440,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731372367727,
+          "lastMessageTime": 1731543451074,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2458,7 +2458,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731536178240,
+          "lastMessageTime": 1731549469230,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2548,7 +2548,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731536587723,
+          "lastMessageTime": 1731549865199,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2962,8 +2962,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731368248592,
-          "messageCount": 1,
+          "lastMessageTime": 1731549782092,
+          "messageCount": 5,
           "pontos": 0
         },
         "250693181042854@lid": {
@@ -6737,7 +6737,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1967,
+          "exp": 1968,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6752,7 +6752,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731448275625,
+          "lastMessageTime": 1731545669990,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
@@ -7533,16 +7533,16 @@
       "lastSuccess": 1731429984344
     },
     "menu-menu.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1731429929151,
-      "lastSuccess": 1731429929151
+      "total": 8,
+      "success": 8,
+      "last": 1731545652431,
+      "lastSuccess": 1731545652431
     },
     "dono-unbanchat.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1731532951641,
-      "lastSuccess": 1731532951641
+      "total": 11,
+      "success": 11,
+      "last": 1731545662150,
+      "lastSuccess": 1731545662150
     },
     "dl-spotify.js": {
       "total": 7,
