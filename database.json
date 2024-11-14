@@ -2516,7 +2516,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731551710053,
+          "lastMessageTime": 1731584729181,
           "messageCount": 1,
           "pontos": 0
         },
@@ -2732,7 +2732,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731449824353,
+          "lastMessageTime": 1731584048710,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3362,7 +3362,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731582728986,
+          "lastMessageTime": 1731584210412,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6829,7 +6829,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 1968,
+          "exp": 1972,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -6844,11 +6844,11 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731545669990,
+          "lastMessageTime": 1731584363036,
           "messageCount": 1
         },
         "351927285125@s.whatsapp.net": {
-          "exp": 917,
+          "exp": 919,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
           "money": 66666,
@@ -6861,7 +6861,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731568926249,
+          "lastMessageTime": 1731586951393,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -7680,10 +7680,10 @@
       "lastSuccess": 1731429957073
     },
     "bingImg.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1731110501833,
-      "lastSuccess": 1731110501833
+      "total": 4,
+      "success": 4,
+      "last": 1731586952225,
+      "lastSuccess": 1731586952225
     },
     "funAcoes7.js": {
       "total": 10,
