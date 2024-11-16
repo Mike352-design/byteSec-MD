@@ -3187,7 +3187,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731759828707,
+          "lastMessageTime": 1731774811716,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3295,7 +3295,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731718732901,
+          "lastMessageTime": 1731774094348,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3354,7 +3354,7 @@
           "pontos": 0
         },
         "554599015152@s.whatsapp.net": {
-          "exp": 170,
+          "exp": 311,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -3367,7 +3367,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731716211158,
+          "lastMessageTime": 1731769687137,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3421,7 +3421,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731716568405,
+          "lastMessageTime": 1731774475026,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3457,8 +3457,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731177866620,
-          "messageCount": 3,
+          "lastMessageTime": 1731773404122,
+          "messageCount": 1,
           "pontos": 0
         },
         "224382060371988@lid": {
@@ -4051,7 +4051,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731584210412,
+          "lastMessageTime": 1731770234507,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8110,7 +8110,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 1708,
+          "exp": 1732,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 30,
@@ -8124,7 +8124,7 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731735764240,
+          "lastMessageTime": 1731775115524,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
@@ -8146,7 +8146,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 3258,
+          "exp": 3280,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -8161,7 +8161,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731744098409,
+          "lastMessageTime": 1731769035820,
           "messageCount": 1,
           "cocriadora": true
         },
@@ -9305,17 +9305,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9991322624703748,
-    "cotacaoOntem": 1.005653716481511,
+    "cotacao": 0.990495974109389,
+    "cotacaoOntem": 0.9991322624703748,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.00002497830656175937
+      "rendimento": 0.000024762399352734727
     },
-    "cotacaoPercentual": -0.6484790842272026,
-    "ultimaAtualizacao": "2024-11-15T15:20:52.111Z"
+    "cotacaoPercentual": -0.86437889010133,
+    "ultimaAtualizacao": "2024-11-16T15:08:07.139Z"
   }
 }
