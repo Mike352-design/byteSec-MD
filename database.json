@@ -3010,6 +3010,32 @@
           "afkReason": ""
         }
       }
+    },
+    "101945746395379@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "101945746395379@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -4404,6 +4430,24 @@
           "maxlevel": false,
           "cocriador": false,
           "lastMessageTime": 1731721995852,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "101945746395379@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731728944433,
           "messageCount": null,
           "pontos": 0
         }
@@ -6926,7 +6970,8 @@
         "235154341683322@lid": [],
         "232284833755274@lid": [],
         "49787512594432@lid": [],
-        "199806307815544@lid": []
+        "199806307815544@lid": [],
+        "101945746395379@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -7934,7 +7979,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 1601,
+          "exp": 1624,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 30,
@@ -7948,7 +7993,7 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731724804719,
+          "lastMessageTime": 1731726147056,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
