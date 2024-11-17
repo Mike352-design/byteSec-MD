@@ -3465,6 +3465,38 @@
           "afkReason": ""
         }
       }
+    },
+    "1915672879170@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Gabriel Barreto",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "1915672879170@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -3616,7 +3648,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731811089535,
+          "lastMessageTime": 1731874319844,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3760,7 +3792,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731774475026,
+          "lastMessageTime": 1731873560739,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4210,7 +4242,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731871223780,
+          "lastMessageTime": 1731874146069,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4390,7 +4422,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731801716624,
+          "lastMessageTime": 1731874128434,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4552,7 +4584,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731637630642,
+          "lastMessageTime": 1731876610546,
           "messageCount": 1,
           "pontos": 0
         },
@@ -5148,6 +5180,24 @@
           "cocriador": false,
           "lastMessageTime": 1731869743872,
           "messageCount": null,
+          "pontos": 0
+        },
+        "1915672879170@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731874472723,
+          "messageCount": 3,
           "pontos": 0
         }
       },
@@ -7625,7 +7675,8 @@
         "152385540387052@lid": [],
         "278606257336348@lid": [],
         "106300910366859@lid": [],
-        "108503809179794@lid": []
+        "108503809179794@lid": [],
+        "1915672879170@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -9108,7 +9159,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 1738,
+          "exp": 1855,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 30,
@@ -9122,7 +9173,7 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731866774965,
+          "lastMessageTime": 1731873350469,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
@@ -9144,7 +9195,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 3280,
+          "exp": 3301,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -9159,7 +9210,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731769035820,
+          "lastMessageTime": 1731874730336,
           "messageCount": 1,
           "cocriadora": true
         },
