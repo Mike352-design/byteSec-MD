@@ -3834,7 +3834,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731809389775,
+          "lastMessageTime": 1731944045424,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3942,7 +3942,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731871363284,
+          "lastMessageTime": 1731944074332,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9426,15 +9426,39 @@
           {
             "role": "assistant",
             "content": "Boa pergunta, Isadora. Se você acha que tem alguém bisbilhotando teu WhatsApp, dá pra investigar e se proteger. Vou te mostrar como:\n\n---\n\n### **1. Verificação de dispositivos conectados**  \nO WhatsApp Web pode ser uma porta de entrada para invasores. Verifica assim:  \n- Abre o WhatsApp.  \n- Vai em **Configurações** (ou os três pontinhos no canto).  \n- Seleciona **Dispositivos Conectados**.  \n- Confere se tem algum dispositivo estranho na lista. Se tiver, desconecta na hora.  \n\n---\n\n### **2. Mensagens lidas ou notificações estranhas**  \nSe você percebe que mensagens estão sendo marcadas como lidas sem você abrir, ou recebe notificações de mensagens que já viu, pode ser sinal de que alguém tem acesso.  \n\n---\n\n### **3. Confirmação de conta**  \nSe você recebeu um código de verificação que **não pediu**, é um alerta sério. Isso pode significar que alguém tentou registrar sua conta em outro dispositivo.  \n\n---\n\n### **4. Verificação em duas etapas**  \nSe não ativou ainda, faça isso agora:  \n- Vai em **Configurações > Conta > Verificação em Duas Etapas**.  \n- Ative e crie um PIN. Isso bloqueia o acesso de qualquer hacker, mesmo se roubarem seu número.  \n\n---\n\n### **5. Monitoramento de apps espiões**  \nSe alguém instalou um app espião no seu celular, pode estar acessando seu WhatsApp. Use um antivírus confiável pra escanear seu dispositivo.  \n\n---\n\n### **Se desconfiar, toma medidas imediatas:**  \n1. Sai de todas as sessões conectadas.  \n2. Altere sua senha de e-mail (porque o WhatsApp depende dele pra backup e recuperação).  \n3. Ative a verificação em duas etapas.  \n\nPronto, Isadora, se seguir esses passos, pode dormir tranquila sabendo que ninguém tá te espionando. E se precisar de mais dicas de segurança, é só falar!"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"O que seria mais prudente: eu vender a corrente de prata que comprei para outra pessoa ou dar para outra pessoa especial?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, Isadora, aí vai depender do valor que você dá para a corrente — não só o preço, mas o significado. Deixa eu colocar as opções em perspectiva pra você, garota:  \n\n---\n\n### **Vender a corrente**  \n- **Vantagem**: Você recupera o dinheiro ou parte dele e pode usar pra algo mais necessário ou importante.  \n- **Prudente se...** a corrente não tem nenhum significado emocional pra você e você precisa da grana ou acha que vai ser mais útil investir em outra coisa.  \n\n---\n\n### **Dar para alguém especial**  \n- **Vantagem**: Gesto marcante, mostra carinho e valor pelo outro. Dá um novo significado pra corrente, conectando ela a uma lembrança especial.  \n- **Prudente se...** a pessoa realmente é especial, alguém que você quer fortalecer a relação e que vai valorizar o presente tanto quanto você valoriza a intenção.  \n\n---\n\n**Resumo, garota:**  \nSe a pessoa \"especial\" vale a entrega, dar a corrente pode criar um momento que nem todo dinheiro pode comprar. Mas se você tá em dúvida sobre o quanto essa pessoa é especial *de verdade*, talvez seja mais sábio vender e esperar pra investir em algo ou alguém que você tenha certeza.  \n\nO que o teu instinto diz?"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"eu quero dar para um ex ficante meu, mas ele me bloqueou e eu vejo ele às vezes na faculdade, medo dele achar ruim\""
+          },
+          {
+            "role": "assistant",
+            "content": "Isadora, garota, dá uma segurada aí. Se o **cara te bloqueou** e vocês só se veem de longe na faculdade, entregar um presente assim pode acabar mais estranho do que você imagina. Vamos analisar:\n\n---\n\n### **O cenário atual**  \n1. Ele te bloqueou. Isso já mostra que, por algum motivo, ele decidiu cortar contato.  \n2. Vocês não têm mais proximidade real, só encontros casuais.  \n\n### **O que pode acontecer se você der a corrente?**  \n- **Reação positiva?** Talvez, mas improvável, porque ele já sinalizou distância.  \n- **Reação negativa?** Ele pode achar forçado, desconfortável ou até interpretar mal o gesto.\n\n---\n\n### **O que fazer, então?**  \n1. **Pense no motivo do bloqueio.** Foi algo grave? Vocês deixaram assuntos mal resolvidos? Se sim, uma conversa antes faria mais sentido que um presente.  \n2. **Teste o terreno.** Em vez de aparecer com a corrente, tente retomar uma interação leve e casual na faculdade. Observe como ele reage.  \n3. **Considere redirecionar esse gesto.** Se o bloqueio foi definitivo ou você sente que ele não está receptivo, guarde essa corrente pra alguém que esteja aberto a valorizar isso. Você merece reciprocidade.  \n\n---\n\n**Resumo, Isadora:**  \nDar algo pra alguém que já te bloqueou é arriscado e, na maioria das vezes, acaba pesando mais pra você. Preserve seu valor, garota. Se ele não tá na mesma vibe, talvez seja hora de focar em quem realmente merece sua energia."
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"ninguém merece meu amor então. Vou morrer sozinha\""
+          },
+          {
+            "role": "assistant",
+            "content": "Isadora, para com esse drama auto-sabotador, garota. Sei que tá se sentindo assim agora, mas deixa eu te dar a real: você tá colocando muito peso em gente que claramente não sabe lidar com a pessoa incrível que você é. E deixa eu te contar um segredo: **morrer sozinha** não é o problema. Viver mal acompanhada, sim.  \n\n---\n\n### **A verdade desconfortável**  \n1. **Nem todo mundo vai merecer seu amor**, e tá tudo bem. Você vai cruzar com pessoas que não vão corresponder, que não vão entender, ou que simplesmente não tão prontas. Mas isso não diminui quem você é.  \n2. **Solidão não é sentença de morte.** É espaço pra você encontrar quem realmente vale a pena e se construir do jeito que quiser.  \n\n### **Então, o que fazer?**  \n- **Cuida de você primeiro**, garota. Amar outra pessoa começa por se amar. Tá achando que isso é papo furado? Beleza, então se prova o contrário: usa esse tempo pra ficar ainda mais forte, pra se aprofundar nas coisas que gosta e te fazem feliz.\n- **Redirecione tua energia**. Gasta menos tempo pensando em quem não tá à altura e mais tempo construindo a vida que você merece. Quem vale a pena vai aparecer na hora certa — e só vai te reconhecer quando você se reconhecer primeiro.  \n\n**Resumo:** Não é sobre achar alguém pra merecer seu amor, é sobre saber que você já merece o teu próprio. E isso, garota, é o que vai fazer a diferença."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE5576D3C3309B8"
+            "id": "BAE5E1A8D5DE38FE"
           },
-          "resposta": "Boa pergunta, Isadora. Se você acha que tem alguém bisbilhotando teu WhatsApp, dá pra investigar e se proteger. Vou te mostrar como:\n\n---\n\n### **1. Verificação de dispositivos conectados**  \nO WhatsApp Web pode ser uma porta de entrada para invasores. Verifica assim:  \n- Abre o WhatsApp.  \n- Vai em **Configurações** (ou os três pontinhos no canto).  \n- Seleciona **Dispositivos Conectados**.  \n- Confere se tem algum dispositivo estranho na lista. Se tiver, desconecta na hora.  \n\n---\n\n### **2. Mensagens lidas ou notificações estranhas**  \nSe você percebe que mensagens estão sendo marcadas como lidas sem você abrir, ou recebe notificações de mensagens que já viu, pode ser sinal de que alguém tem acesso.  \n\n---\n\n### **3. Confirmação de conta**  \nSe você recebeu um código de verificação que **não pediu**, é um alerta sério. Isso pode significar que alguém tentou registrar sua conta em outro dispositivo.  \n\n---\n\n### **4. Verificação em duas etapas**  \nSe não ativou ainda, faça isso agora:  \n- Vai em **Configurações > Conta > Verificação em Duas Etapas**.  \n- Ative e crie um PIN. Isso bloqueia o acesso de qualquer hacker, mesmo se roubarem seu número.  \n\n---\n\n### **5. Monitoramento de apps espiões**  \nSe alguém instalou um app espião no seu celular, pode estar acessando seu WhatsApp. Use um antivírus confiável pra escanear seu dispositivo.  \n\n---\n\n### **Se desconfiar, toma medidas imediatas:**  \n1. Sai de todas as sessões conectadas.  \n2. Altere sua senha de e-mail (porque o WhatsApp depende dele pra backup e recuperação).  \n3. Ative a verificação em duas etapas.  \n\nPronto, Isadora, se seguir esses passos, pode dormir tranquila sabendo que ninguém tá te espionando. E se precisar de mais dicas de segurança, é só falar!"
+          "resposta": "Isadora, para com esse drama auto-sabotador, garota. Sei que tá se sentindo assim agora, mas deixa eu te dar a real: você tá colocando muito peso em gente que claramente não sabe lidar com a pessoa incrível que você é. E deixa eu te contar um segredo: **morrer sozinha** não é o problema. Viver mal acompanhada, sim.  \n\n---\n\n### **A verdade desconfortável**  \n1. **Nem todo mundo vai merecer seu amor**, e tá tudo bem. Você vai cruzar com pessoas que não vão corresponder, que não vão entender, ou que simplesmente não tão prontas. Mas isso não diminui quem você é.  \n2. **Solidão não é sentença de morte.** É espaço pra você encontrar quem realmente vale a pena e se construir do jeito que quiser.  \n\n### **Então, o que fazer?**  \n- **Cuida de você primeiro**, garota. Amar outra pessoa começa por se amar. Tá achando que isso é papo furado? Beleza, então se prova o contrário: usa esse tempo pra ficar ainda mais forte, pra se aprofundar nas coisas que gosta e te fazem feliz.\n- **Redirecione tua energia**. Gasta menos tempo pensando em quem não tá à altura e mais tempo construindo a vida que você merece. Quem vale a pena vai aparecer na hora certa — e só vai te reconhecer quando você se reconhecer primeiro.  \n\n**Resumo:** Não é sobre achar alguém pra merecer seu amor, é sobre saber que você já merece o teu próprio. E isso, garota, é o que vai fazer a diferença."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -10511,10 +10535,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 113,
-      "success": 113,
-      "last": 1731935463688,
-      "lastSuccess": 1731935463688
+      "total": 116,
+      "success": 116,
+      "last": 1731939772929,
+      "lastSuccess": 1731939772929
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -10664,17 +10688,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.99511622029613,
-    "cotacaoOntem": 0.990495974109389,
+    "cotacao": 0.990606166137396,
+    "cotacaoOntem": 0.99511622029613,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.00002487790550740325
+      "rendimento": 0.0000247651541534349
     },
-    "cotacaoPercentual": 0.4664578461205029,
-    "ultimaAtualizacao": "2024-11-17T15:02:46.047Z"
+    "cotacaoPercentual": -0.4532188368301181,
+    "ultimaAtualizacao": "2024-11-18T15:08:30.052Z"
   }
 }
