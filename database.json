@@ -3639,6 +3639,32 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "158274292850862@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "158274292850862@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -5430,6 +5456,24 @@
           "cocriador": false,
           "lastMessageTime": 1731895023172,
           "messageCount": 1,
+          "pontos": 0
+        },
+        "158274292850862@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1731923047960,
+          "messageCount": null,
           "pontos": 0
         }
       },
@@ -7905,7 +7949,8 @@
         "179216586899650@lid": [],
         "89236686544940@lid": [],
         "114134863610000@lid": [],
-        "48559202238570@lid": []
+        "48559202238570@lid": [],
+        "158274292850862@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -10576,10 +10621,10 @@
       "lastSuccess": 1731637324186
     },
     "conversor-tts.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731879433592,
-      "lastSuccess": 1731879433592
+      "total": 4,
+      "success": 4,
+      "last": 1731928489050,
+      "lastSuccess": 1731928489050
     }
   },
   "msgs": {},
