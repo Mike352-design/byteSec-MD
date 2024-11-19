@@ -3719,7 +3719,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731833394724,
+          "lastMessageTime": 1732011284210,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3860,7 +3860,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731975891781,
+          "lastMessageTime": 1732011086434,
           "messageCount": 1,
           "pontos": 0
         },
@@ -3914,8 +3914,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731930818844,
-          "messageCount": 3,
+          "lastMessageTime": 1732011029682,
+          "messageCount": 5,
           "pontos": 0
         },
         "554599015152@s.whatsapp.net": {
@@ -3968,7 +3968,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731944074332,
+          "lastMessageTime": 1732010868304,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4436,7 +4436,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731874146069,
+          "lastMessageTime": 1732010765772,
           "messageCount": 1,
           "pontos": 0
         },
@@ -5390,8 +5390,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731874472723,
-          "messageCount": 3,
+          "lastMessageTime": 1732010950879,
+          "messageCount": 5,
           "pontos": 0
         },
         "163105996841183@lid": {
@@ -8479,7 +8479,7 @@
       ],
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
-      "totalMembros": 24,
+      "totalMembros": 25,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -8524,6 +8524,10 @@
         {
           "id": "554299228842@s.whatsapp.net",
           "admin": null
+        },
+        {
+          "id": "554598527531@s.whatsapp.net",
+          "admin": "admin"
         },
         {
           "id": "555194556035@s.whatsapp.net",
@@ -8578,7 +8582,7 @@
           "admin": "admin"
         }
       ],
-      "boleto": 20,
+      "boleto": 25,
       "forca": {
         "palavra": "elucidar",
         "isGame": true,
@@ -9564,7 +9568,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 3472,
+          "exp": 3479,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -9579,7 +9583,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1731982585125,
+          "lastMessageTime": 1732010487478,
           "messageCount": 1,
           "cocriadora": true
         },
@@ -10624,10 +10628,10 @@
       "lastSuccess": 1731183541561
     },
     "dl-yt_play.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1731853174607,
-      "lastSuccess": 1731853174607
+      "total": 13,
+      "success": 13,
+      "last": 1732008532204,
+      "lastSuccess": 1732008532204
     },
     "dono-reporte.js": {
       "total": 3,
