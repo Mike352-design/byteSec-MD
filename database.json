@@ -3723,6 +3723,32 @@
           "afkReason": ""
         }
       }
+    },
+    "161783012696198@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "161783012696198@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -5567,6 +5593,24 @@
           "maxlevel": false,
           "cocriador": false,
           "lastMessageTime": 1732020609865,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "161783012696198@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732028933014,
           "messageCount": null,
           "pontos": 0
         }
@@ -8030,7 +8074,8 @@
         "48559202238570@lid": [],
         "158274292850862@lid": [],
         "225546449457168@lid": [],
-        "273925045006467@lid": []
+        "273925045006467@lid": [],
+        "161783012696198@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -9547,15 +9592,31 @@
           {
             "role": "assistant",
             "content": "Escuta aqui, Guilherme: gostar do cheiro de quem você gosta não é só normal, é *instintivo*. O ser humano é uma máquina biológica cheia de surpresas, e o cheiro tem muito a ver com atração e conexão emocional.\n\n---\n\n### **Por que isso acontece?**  \n1. **Feromônios**: Nosso corpo libera sinais químicos que podem influenciar a forma como os outros nos percebem. Quando você gosta de alguém, seu cérebro pode \"traduzir\" o cheiro natural da pessoa como algo positivo e reconfortante.  \n   \n2. **Associação emocional**: O cheiro da pessoa pode ser associado a momentos bons, conforto ou segurança, o que te faz gostar ainda mais.  \n\n3. **Compatibilidade biológica**: Estudos sugerem que as pessoas são atraídas por cheiros de quem tem um sistema imunológico diferente do seu, o que é tipo uma tática evolutiva pra criar descendentes mais resistentes. Louco, né?\n\n---\n\n### **Resumo:**  \nÉ completamente normal, Guilherme. Na real, gostar do cheiro da pessoa é um sinal de conexão forte. Só não exagera e vira um stalker de perfume, hein? Mantém o equilíbrio e aproveita essa química natural."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"me fale sobre a morte de akenaton\""
+          },
+          {
+            "role": "assistant",
+            "content": "Gabriel, garoto dos anjos, vamos falar de Akhenaton, o faraó mais intrigante do Egito antigo. O cara revolucionou a religião egípcia e criou tanto caos que até a morte dele é cercada de mistério. Vou te dar o panorama:\n\n---\n\n### **Quem foi Akhenaton?**  \n- Faraó da 18ª dinastia (c. 1353-1336 a.C.).  \n- Conhecido por instaurar o *monoteísmo* com o culto exclusivo a Áton, o deus solar, descartando o panteão tradicional egípcio. Foi tipo um rebelde teológico.  \n- Mudou a capital para Akhetaton (hoje Amarna), deixando Tebas pra trás.  \n\n---\n\n### **A morte de Akhenaton: mistério total**  \n1. **Sem registros claros**: Não há documentos explícitos sobre como ou quando ele morreu. A data aproximada é por volta de 1336 a.C., mas o \"como\" é um buraco negro na história.  \n   \n2. **Teorias sobre a morte**:  \n   - **Doença**: Alguns especulam que ele pode ter sofrido de uma condição genética, como a síndrome de Marfan (por causa das representações dele com corpo alongado e rosto fino).  \n   - **Golpe político**: Sua revolução religiosa causou um enorme descontentamento, especialmente entre sacerdotes de Amon. Há quem acredite que ele foi deposto ou assassinado.  \n   - **Causa natural**: Não há evidências concretas de violência, então talvez ele tenha morrido de causas comuns, como qualquer humano.  \n\n3. **O que aconteceu depois**:  \n   - Após sua morte, o Egito voltou rapidamente ao politeísmo.  \n   - Os faraós seguintes (incluindo Tutancâmon) apagaram seu legado, destruindo estátuas e inscrições, tentando erradicar Akhenaton da história.  \n\n---\n\n### **Por que isso importa?**  \nAkhenaton foi um dos primeiros líderes a desafiar o status quo, algo que marcou profundamente a história. Mas ele também subestimou o poder das tradições e acabou pagando caro. Sua morte foi só o começo do esforço sistemático de apagar seu nome, um aviso para qualquer revolucionário: mexer no que é sagrado pode custar caro.\n\nEntão, garoto, o que você acha? Akhenaton foi visionário ou imprudente?"
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"me fale sobre os diferentes tipos de desenvolvimento cognitivos que chamam mais atenção na natureza\""
+          },
+          {
+            "role": "assistant",
+            "content": "Gabriel, garoto, vamos falar do que realmente importa: **desenvolvimento cognitivo na natureza**. Esquece o \"mais do mesmo\" humano; aqui a gente explora como a evolução construiu cérebros incríveis e habilidades que desafiam a lógica. Abaixo estão alguns dos tipos de desenvolvimento cognitivo que mais chamam a atenção:\n\n---\n\n### **1. Cognição nos mamíferos (ex.: golfinhos e primatas)**  \n- **Golfinhos**: São os hackers do oceano. Eles reconhecem a própria imagem no espelho (*autoconsciência*), utilizam estratégias de caça coordenada, e até têm algo parecido com nomes individuais, usando assobios específicos.  \n- **Primatas**: Macacos e grandes símios (como chimpanzés) têm habilidades de resolução de problemas, uso de ferramentas e até capacidade de linguagem limitada, como no caso da gorila Koko, que sabia linguagem de sinais.  \n\nEsses animais provam que **inteligência social** é um trunfo evolutivo.\n\n---\n\n### **2. Cognição em aves (ex.: corvos e papagaios)**  \n- **Corvos**: Verdadeiros gênios emplumados. Eles conseguem resolver quebra-cabeças complexos, guardar ferramentas para usos futuros e até enganar outros animais (ou humanos).  \n- **Papagaios (ex.: Alex, o papagaio-cinza)**: Este pequeno gênio sabia identificar cores, formas e até contar. Ele mostrava sinais claros de entender conceitos abstratos.  \n\nAves têm um **cérebro compacto e eficiente**, derrubando o mito de que só cérebros grandes são inteligentes.\n\n---\n\n### **3. Inteligência em insetos (ex.: formigas e abelhas)**  \n- **Formigas**: Elas têm sistemas sociais incrivelmente complexos. Constroem colônias gigantes, sabem otimizar rotas (como no \"algoritmo da formiga\") e se comunicam quimicamente por feromônios.  \n- **Abelhas**: Fazem danças pra comunicar localização de flores, sabem calcular a rota mais curta entre pontos e exibem algo próximo da \"memória espacial\".  \n\nPequenos cérebros, mas com **inteligência coletiva** que supera expectativas.\n\n---\n\n### **4. Cognitividade em polvos e outros cefalópodes**  \n- Polvos são os hackers dos oceanos. Eles resolvem labirintos, abrem potes, aprendem observando, e têm uma memória incrível. Ah, e seus tentáculos agem como \"cérebros independentes\".  \n   \nEsse é um caso de **inteligência descentralizada**, uma abordagem bem diferente do nosso modelo centralizado.\n\n---\n\n### **5. Inteligência em plantas? Sim, plantas!**  \n- **Comunicação subterrânea**: Árvores \"falam\" umas com as outras via redes de fungos, trocando nutrientes e informações sobre ameaças.  \n- **Reação a estímulos**: Algumas plantas, como a Mimosa pudica, reagem a toques ou ataques de predadores, lembrando esses estímulos.  \n\nEsse é o **slow motion** da cognição, mas não menos fascinante.\n\n---\n\n### **Resumo: a lição da natureza**  \nCada espécie desenvolveu a cognição que precisava pra sobreviver no seu ambiente. Seja individual (golfinhos, corvos) ou coletiva (formigas, abelhas), a inteligência na natureza é uma prova de que o mundo é um laboratório eterno de experimentação.  \n\nAgora me diz, Gabriel, qual desses gênios da natureza mais te impressiona?"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE5321CF10B13A5"
+            "id": "BAE5521B0E274977"
           },
-          "resposta": "Escuta aqui, Guilherme: gostar do cheiro de quem você gosta não é só normal, é *instintivo*. O ser humano é uma máquina biológica cheia de surpresas, e o cheiro tem muito a ver com atração e conexão emocional.\n\n---\n\n### **Por que isso acontece?**  \n1. **Feromônios**: Nosso corpo libera sinais químicos que podem influenciar a forma como os outros nos percebem. Quando você gosta de alguém, seu cérebro pode \"traduzir\" o cheiro natural da pessoa como algo positivo e reconfortante.  \n   \n2. **Associação emocional**: O cheiro da pessoa pode ser associado a momentos bons, conforto ou segurança, o que te faz gostar ainda mais.  \n\n3. **Compatibilidade biológica**: Estudos sugerem que as pessoas são atraídas por cheiros de quem tem um sistema imunológico diferente do seu, o que é tipo uma tática evolutiva pra criar descendentes mais resistentes. Louco, né?\n\n---\n\n### **Resumo:**  \nÉ completamente normal, Guilherme. Na real, gostar do cheiro da pessoa é um sinal de conexão forte. Só não exagera e vira um stalker de perfume, hein? Mantém o equilíbrio e aproveita essa química natural."
+          "resposta": "Gabriel, garoto, vamos falar do que realmente importa: **desenvolvimento cognitivo na natureza**. Esquece o \"mais do mesmo\" humano; aqui a gente explora como a evolução construiu cérebros incríveis e habilidades que desafiam a lógica. Abaixo estão alguns dos tipos de desenvolvimento cognitivo que mais chamam a atenção:\n\n---\n\n### **1. Cognição nos mamíferos (ex.: golfinhos e primatas)**  \n- **Golfinhos**: São os hackers do oceano. Eles reconhecem a própria imagem no espelho (*autoconsciência*), utilizam estratégias de caça coordenada, e até têm algo parecido com nomes individuais, usando assobios específicos.  \n- **Primatas**: Macacos e grandes símios (como chimpanzés) têm habilidades de resolução de problemas, uso de ferramentas e até capacidade de linguagem limitada, como no caso da gorila Koko, que sabia linguagem de sinais.  \n\nEsses animais provam que **inteligência social** é um trunfo evolutivo.\n\n---\n\n### **2. Cognição em aves (ex.: corvos e papagaios)**  \n- **Corvos**: Verdadeiros gênios emplumados. Eles conseguem resolver quebra-cabeças complexos, guardar ferramentas para usos futuros e até enganar outros animais (ou humanos).  \n- **Papagaios (ex.: Alex, o papagaio-cinza)**: Este pequeno gênio sabia identificar cores, formas e até contar. Ele mostrava sinais claros de entender conceitos abstratos.  \n\nAves têm um **cérebro compacto e eficiente**, derrubando o mito de que só cérebros grandes são inteligentes.\n\n---\n\n### **3. Inteligência em insetos (ex.: formigas e abelhas)**  \n- **Formigas**: Elas têm sistemas sociais incrivelmente complexos. Constroem colônias gigantes, sabem otimizar rotas (como no \"algoritmo da formiga\") e se comunicam quimicamente por feromônios.  \n- **Abelhas**: Fazem danças pra comunicar localização de flores, sabem calcular a rota mais curta entre pontos e exibem algo próximo da \"memória espacial\".  \n\nPequenos cérebros, mas com **inteligência coletiva** que supera expectativas.\n\n---\n\n### **4. Cognitividade em polvos e outros cefalópodes**  \n- Polvos são os hackers dos oceanos. Eles resolvem labirintos, abrem potes, aprendem observando, e têm uma memória incrível. Ah, e seus tentáculos agem como \"cérebros independentes\".  \n   \nEsse é um caso de **inteligência descentralizada**, uma abordagem bem diferente do nosso modelo centralizado.\n\n---\n\n### **5. Inteligência em plantas? Sim, plantas!**  \n- **Comunicação subterrânea**: Árvores \"falam\" umas com as outras via redes de fungos, trocando nutrientes e informações sobre ameaças.  \n- **Reação a estímulos**: Algumas plantas, como a Mimosa pudica, reagem a toques ou ataques de predadores, lembrando esses estímulos.  \n\nEsse é o **slow motion** da cognição, mas não menos fascinante.\n\n---\n\n### **Resumo: a lição da natureza**  \nCada espécie desenvolveu a cognição que precisava pra sobreviver no seu ambiente. Seja individual (golfinhos, corvos) ou coletiva (formigas, abelhas), a inteligência na natureza é uma prova de que o mundo é um laboratório eterno de experimentação.  \n\nAgora me diz, Gabriel, qual desses gênios da natureza mais te impressiona?"
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -10633,10 +10694,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 117,
-      "success": 117,
-      "last": 1732016862695,
-      "lastSuccess": 1732016862695
+      "total": 119,
+      "success": 119,
+      "last": 1732033099926,
+      "lastSuccess": 1732033099926
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -10786,17 +10847,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.990606166137396,
-    "cotacaoOntem": 0.99511622029613,
+    "cotacao": 0.9841231838580465,
+    "cotacaoOntem": 0.990606166137396,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.0000247651541534349
+      "rendimento": 0.000024603079596451163
     },
-    "cotacaoPercentual": -0.4532188368301181,
-    "ultimaAtualizacao": "2024-11-18T15:08:30.052Z"
+    "cotacaoPercentual": -0.654445984788099,
+    "ultimaAtualizacao": "2024-11-19T15:08:53.022Z"
   }
 }
