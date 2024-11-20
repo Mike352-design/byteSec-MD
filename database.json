@@ -11386,17 +11386,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9841231838580465,
-    "cotacaoOntem": 0.990606166137396,
+    "cotacao": 0.9765292648039482,
+    "cotacaoOntem": 0.9841231838580465,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024603079596451163
+      "rendimento": 0.000024413231620098706
     },
-    "cotacaoPercentual": -0.654445984788099,
-    "ultimaAtualizacao": "2024-11-19T15:08:53.022Z"
+    "cotacaoPercentual": -0.7716431416977689,
+    "ultimaAtualizacao": "2024-11-20T15:54:39.444Z"
   }
 }
