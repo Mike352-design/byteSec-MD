@@ -937,7 +937,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "77554291597450@lid": {
       "counterPrivate": 0,
@@ -3918,6 +3919,32 @@
           "afkReason": ""
         }
       }
+    },
+    "70218420363389@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "70218420363389@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -5872,6 +5899,24 @@
           "lastMessageTime": 1732065974120,
           "messageCount": null,
           "pontos": 0
+        },
+        "70218420363389@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732118876057,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -5924,26 +5969,158 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 572,
+      "totalMembros": 571,
       "membros": [
         {
-          "id": "148730506440789@lid",
+          "id": "258020311351352@lid",
           "admin": null
         },
         {
-          "id": "187166554644601@lid",
+          "id": "208658151567563@lid",
           "admin": null
         },
         {
-          "id": "211973815959747@lid",
+          "id": "181544392110325@lid",
           "admin": null
         },
         {
-          "id": "111214403281125@lid",
+          "id": "266627341938937@lid",
           "admin": null
         },
         {
-          "id": "46162795073756@lid",
+          "id": "202409074786310@lid",
+          "admin": null
+        },
+        {
+          "id": "130365142368500@lid",
+          "admin": null
+        },
+        {
+          "id": "21414774100175@lid",
+          "admin": null
+        },
+        {
+          "id": "224618401013847@lid",
+          "admin": null
+        },
+        {
+          "id": "270441289654406@lid",
+          "admin": null
+        },
+        {
+          "id": "33733059063937@lid",
+          "admin": null
+        },
+        {
+          "id": "1022336475322@lid",
+          "admin": null
+        },
+        {
+          "id": "30275778166920@lid",
+          "admin": null
+        },
+        {
+          "id": "228934725697587@lid",
+          "admin": null
+        },
+        {
+          "id": "554599015152@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "225112271933561@lid",
+          "admin": null
+        },
+        {
+          "id": "81548711874603@lid",
+          "admin": null
+        },
+        {
+          "id": "4862322413756@lid",
+          "admin": null
+        },
+        {
+          "id": "90546836099189@lid",
+          "admin": null
+        },
+        {
+          "id": "280547431608376@lid",
+          "admin": null
+        },
+        {
+          "id": "142532801462387@lid",
+          "admin": null
+        },
+        {
+          "id": "281114266607795@lid",
+          "admin": null
+        },
+        {
+          "id": "211553009848487@lid",
+          "admin": null
+        },
+        {
+          "id": "32474751103230@lid",
+          "admin": null
+        },
+        {
+          "id": "70613758672900@lid",
+          "admin": null
+        },
+        {
+          "id": "96959088091321@lid",
+          "admin": null
+        },
+        {
+          "id": "255791089086486@lid",
+          "admin": null
+        },
+        {
+          "id": "127822622363750@lid",
+          "admin": null
+        },
+        {
+          "id": "207825162739923@lid",
+          "admin": null
+        },
+        {
+          "id": "268757813489902@lid",
+          "admin": null
+        },
+        {
+          "id": "93158092333190@lid",
+          "admin": null
+        },
+        {
+          "id": "247128173637793@lid",
+          "admin": null
+        },
+        {
+          "id": "178816735567927@lid",
+          "admin": null
+        },
+        {
+          "id": "178958704312402@lid",
+          "admin": null
+        },
+        {
+          "id": "13310472786148@lid",
+          "admin": null
+        },
+        {
+          "id": "151500944883825@lid",
+          "admin": null
+        },
+        {
+          "id": "244001521287320@lid",
+          "admin": null
+        },
+        {
+          "id": "173224755232819@lid",
+          "admin": null
+        },
+        {
+          "id": "273237598576667@lid",
           "admin": null
         },
         {
@@ -5951,19 +6128,179 @@
           "admin": null
         },
         {
-          "id": "111531828191290@lid",
+          "id": "180882933555321@lid",
           "admin": null
         },
         {
-          "id": "115831426044057@lid",
+          "id": "190499499569295@lid",
           "admin": null
         },
         {
-          "id": "173521107968168@lid",
+          "id": "59412433617034@lid",
           "admin": null
         },
         {
-          "id": "276986752675890@lid",
+          "id": "211973815959747@lid",
+          "admin": null
+        },
+        {
+          "id": "276600205611071@lid",
+          "admin": null
+        },
+        {
+          "id": "132727475040314@lid",
+          "admin": null
+        },
+        {
+          "id": "99359890882707@lid",
+          "admin": null
+        },
+        {
+          "id": "148593168121997@lid",
+          "admin": null
+        },
+        {
+          "id": "266176504549595@lid",
+          "admin": null
+        },
+        {
+          "id": "251655220162661@lid",
+          "admin": null
+        },
+        {
+          "id": "168118441742533@lid",
+          "admin": null
+        },
+        {
+          "id": "125078121521358@lid",
+          "admin": null
+        },
+        {
+          "id": "188420232073421@lid",
+          "admin": null
+        },
+        {
+          "id": "44878146883839@lid",
+          "admin": null
+        },
+        {
+          "id": "71223476240522@lid",
+          "admin": null
+        },
+        {
+          "id": "147785714294915@lid",
+          "admin": null
+        },
+        {
+          "id": "152385540387052@lid",
+          "admin": null
+        },
+        {
+          "id": "136129139449888@lid",
+          "admin": null
+        },
+        {
+          "id": "41206033735821@lid",
+          "admin": null
+        },
+        {
+          "id": "146978277163151@lid",
+          "admin": null
+        },
+        {
+          "id": "69677472555097@lid",
+          "admin": null
+        },
+        {
+          "id": "76167470149830@lid",
+          "admin": null
+        },
+        {
+          "id": "265188527886420@lid",
+          "admin": null
+        },
+        {
+          "id": "203173780279374@lid",
+          "admin": null
+        },
+        {
+          "id": "86015326859434@lid",
+          "admin": null
+        },
+        {
+          "id": "33556696981543@lid",
+          "admin": null
+        },
+        {
+          "id": "263157192867995@lid",
+          "admin": null
+        },
+        {
+          "id": "161658743873658@lid",
+          "admin": null
+        },
+        {
+          "id": "50273078779913@lid",
+          "admin": null
+        },
+        {
+          "id": "64222713086054@lid",
+          "admin": null
+        },
+        {
+          "id": "206081271795791@lid",
+          "admin": null
+        },
+        {
+          "id": "77704632266969@lid",
+          "admin": null
+        },
+        {
+          "id": "119193949180112@lid",
+          "admin": null
+        },
+        {
+          "id": "148730506440789@lid",
+          "admin": null
+        },
+        {
+          "id": "261855968768061@lid",
+          "admin": null
+        },
+        {
+          "id": "180753832886375@lid",
+          "admin": null
+        },
+        {
+          "id": "102692785524850@lid",
+          "admin": null
+        },
+        {
+          "id": "167709983682620@lid",
+          "admin": null
+        },
+        {
+          "id": "178374437806233@lid",
+          "admin": null
+        },
+        {
+          "id": "279134269919273@lid",
+          "admin": null
+        },
+        {
+          "id": "33930627530975@lid",
+          "admin": null
+        },
+        {
+          "id": "223510551089365@lid",
+          "admin": null
+        },
+        {
+          "id": "1606435217420@lid",
+          "admin": null
+        },
+        {
+          "id": "46695287103533@lid",
           "admin": null
         },
         {
@@ -5971,19 +6308,511 @@
           "admin": null
         },
         {
-          "id": "270162502676623@lid",
+          "id": "276986752675890@lid",
           "admin": null
         },
         {
-          "id": "110354973593792@lid",
+          "id": "1584926826656@lid",
           "admin": null
         },
         {
-          "id": "57467182567645@lid",
+          "id": "246204906614883@lid",
           "admin": null
         },
         {
-          "id": "71760582029411@lid",
+          "id": "553497704017@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "14573176373277@lid",
+          "admin": null
+        },
+        {
+          "id": "144551922651240@lid",
+          "admin": null
+        },
+        {
+          "id": "268783482601648@lid",
+          "admin": null
+        },
+        {
+          "id": "106974867882097@lid",
+          "admin": null
+        },
+        {
+          "id": "212777058738302@lid",
+          "admin": null
+        },
+        {
+          "id": "195408580108479@lid",
+          "admin": null
+        },
+        {
+          "id": "144418426339553@lid",
+          "admin": null
+        },
+        {
+          "id": "182282908364849@lid",
+          "admin": null
+        },
+        {
+          "id": "6489729200176@lid",
+          "admin": null
+        },
+        {
+          "id": "46162795073756@lid",
+          "admin": null
+        },
+        {
+          "id": "147085550743685@lid",
+          "admin": null
+        },
+        {
+          "id": "11261421043902@lid",
+          "admin": null
+        },
+        {
+          "id": "12094846025792@lid",
+          "admin": null
+        },
+        {
+          "id": "271545146564741@lid",
+          "admin": null
+        },
+        {
+          "id": "5644107178148@lid",
+          "admin": null
+        },
+        {
+          "id": "276677615726703@lid",
+          "admin": null
+        },
+        {
+          "id": "80303087481020@lid",
+          "admin": null
+        },
+        {
+          "id": "208100191682628@lid",
+          "admin": null
+        },
+        {
+          "id": "61220765843488@lid",
+          "admin": null
+        },
+        {
+          "id": "242485397852317@lid",
+          "admin": null
+        },
+        {
+          "id": "190937133232312@lid",
+          "admin": null
+        },
+        {
+          "id": "49787512594432@lid",
+          "admin": null
+        },
+        {
+          "id": "192242752958708@lid",
+          "admin": null
+        },
+        {
+          "id": "263874334982180@lid",
+          "admin": null
+        },
+        {
+          "id": "176177561842@lid",
+          "admin": null
+        },
+        {
+          "id": "108413564498030@lid",
+          "admin": null
+        },
+        {
+          "id": "173439486804002@lid",
+          "admin": null
+        },
+        {
+          "id": "261434709692668@lid",
+          "admin": null
+        },
+        {
+          "id": "77241144860756@lid",
+          "admin": null
+        },
+        {
+          "id": "251857033277608@lid",
+          "admin": null
+        },
+        {
+          "id": "190898981879837@lid",
+          "admin": null
+        },
+        {
+          "id": "182909973590178@lid",
+          "admin": null
+        },
+        {
+          "id": "33947790647477@lid",
+          "admin": null
+        },
+        {
+          "id": "278747907420320@lid",
+          "admin": null
+        },
+        {
+          "id": "113614920896759@lid",
+          "admin": null
+        },
+        {
+          "id": "233302673911933@lid",
+          "admin": null
+        },
+        {
+          "id": "42305595691234@lid",
+          "admin": null
+        },
+        {
+          "id": "261774129512662@lid",
+          "admin": null
+        },
+        {
+          "id": "244315171377234@lid",
+          "admin": null
+        },
+        {
+          "id": "129433620983813@lid",
+          "admin": null
+        },
+        {
+          "id": "39780289097838@lid",
+          "admin": null
+        },
+        {
+          "id": "169651610878002@lid",
+          "admin": null
+        },
+        {
+          "id": "160043534151880@lid",
+          "admin": null
+        },
+        {
+          "id": "128913544089833@lid",
+          "admin": null
+        },
+        {
+          "id": "245277109805250@lid",
+          "admin": null
+        },
+        {
+          "id": "100807445868582@lid",
+          "admin": null
+        },
+        {
+          "id": "155826245390496@lid",
+          "admin": null
+        },
+        {
+          "id": "108469483008215@lid",
+          "admin": null
+        },
+        {
+          "id": "227414827364600@lid",
+          "admin": null
+        },
+        {
+          "id": "185878098010274@lid",
+          "admin": null
+        },
+        {
+          "id": "230596827689186@lid",
+          "admin": null
+        },
+        {
+          "id": "110213206134959@lid",
+          "admin": null
+        },
+        {
+          "id": "195636179787957@lid",
+          "admin": null
+        },
+        {
+          "id": "27436452413523@lid",
+          "admin": null
+        },
+        {
+          "id": "114555468382437@lid",
+          "admin": null
+        },
+        {
+          "id": "48619180802068@lid",
+          "admin": null
+        },
+        {
+          "id": "167508086620288@lid",
+          "admin": null
+        },
+        {
+          "id": "87707862728942@lid",
+          "admin": null
+        },
+        {
+          "id": "141394769395878@lid",
+          "admin": null
+        },
+        {
+          "id": "209448442327214@lid",
+          "admin": null
+        },
+        {
+          "id": "173521107968168@lid",
+          "admin": null
+        },
+        {
+          "id": "59927913619606@lid",
+          "admin": null
+        },
+        {
+          "id": "115831426044057@lid",
+          "admin": null
+        },
+        {
+          "id": "271678223441927@lid",
+          "admin": null
+        },
+        {
+          "id": "145818468221148@lid",
+          "admin": null
+        },
+        {
+          "id": "37563901436047@lid",
+          "admin": null
+        },
+        {
+          "id": "274689280704516@lid",
+          "admin": null
+        },
+        {
+          "id": "171399796768854@lid",
+          "admin": null
+        },
+        {
+          "id": "119657956696292@lid",
+          "admin": null
+        },
+        {
+          "id": "2598925004858@lid",
+          "admin": null
+        },
+        {
+          "id": "274491762577549@lid",
+          "admin": null
+        },
+        {
+          "id": "147008442654817@lid",
+          "admin": null
+        },
+        {
+          "id": "183576129740819@lid",
+          "admin": null
+        },
+        {
+          "id": "137718227009692@lid",
+          "admin": null
+        },
+        {
+          "id": "13872828252300@lid",
+          "admin": null
+        },
+        {
+          "id": "189876544790644@lid",
+          "admin": null
+        },
+        {
+          "id": "66803921359010@lid",
+          "admin": null
+        },
+        {
+          "id": "104350978449660@lid",
+          "admin": null
+        },
+        {
+          "id": "3509038641272@lid",
+          "admin": null
+        },
+        {
+          "id": "155099976450058@lid",
+          "admin": null
+        },
+        {
+          "id": "44887223341270@lid",
+          "admin": null
+        },
+        {
+          "id": "249511913984002@lid",
+          "admin": null
+        },
+        {
+          "id": "195326589825217@lid",
+          "admin": null
+        },
+        {
+          "id": "223630491443325@lid",
+          "admin": null
+        },
+        {
+          "id": "44307100745842@lid",
+          "admin": null
+        },
+        {
+          "id": "118906337407112@lid",
+          "admin": null
+        },
+        {
+          "id": "23935953424534@lid",
+          "admin": null
+        },
+        {
+          "id": "81171123859685@lid",
+          "admin": null
+        },
+        {
+          "id": "107868271423661@lid",
+          "admin": null
+        },
+        {
+          "id": "110793077084211@lid",
+          "admin": null
+        },
+        {
+          "id": "99171197550754@lid",
+          "admin": null
+        },
+        {
+          "id": "26745315000324@lid",
+          "admin": null
+        },
+        {
+          "id": "153184605622342@lid",
+          "admin": null
+        },
+        {
+          "id": "106536714137649@lid",
+          "admin": null
+        },
+        {
+          "id": "212347612324083@lid",
+          "admin": null
+        },
+        {
+          "id": "149035566530632@lid",
+          "admin": null
+        },
+        {
+          "id": "67104770396278@lid",
+          "admin": null
+        },
+        {
+          "id": "261271534489659@lid",
+          "admin": null
+        },
+        {
+          "id": "41996508987417@lid",
+          "admin": null
+        },
+        {
+          "id": "90284574699583@lid",
+          "admin": null
+        },
+        {
+          "id": "183356868321299@lid",
+          "admin": null
+        },
+        {
+          "id": "105841214656763@lid",
+          "admin": null
+        },
+        {
+          "id": "80032873578539@lid",
+          "admin": null
+        },
+        {
+          "id": "170587779510447@lid",
+          "admin": null
+        },
+        {
+          "id": "70218420363389@lid",
+          "admin": null
+        },
+        {
+          "id": "243726928629889@lid",
+          "admin": null
+        },
+        {
+          "id": "39668737376357@lid",
+          "admin": null
+        },
+        {
+          "id": "173993873133790@lid",
+          "admin": null
+        },
+        {
+          "id": "36425802240206@lid",
+          "admin": null
+        },
+        {
+          "id": "241343255302289@lid",
+          "admin": null
+        },
+        {
+          "id": "142803568955548@lid",
+          "admin": null
+        },
+        {
+          "id": "48409096532046@lid",
+          "admin": null
+        },
+        {
+          "id": "18378450317439@lid",
+          "admin": null
+        },
+        {
+          "id": "191882042843305@lid",
+          "admin": null
+        },
+        {
+          "id": "161160527642748@lid",
+          "admin": null
+        },
+        {
+          "id": "83735017947299@lid",
+          "admin": null
+        },
+        {
+          "id": "23326521032890@lid",
+          "admin": null
+        },
+        {
+          "id": "18962330996910@lid",
+          "admin": null
+        },
+        {
+          "id": "161525549519090@lid",
+          "admin": null
+        },
+        {
+          "id": "122715822375082@lid",
+          "admin": null
+        },
+        {
+          "id": "103006418780255@lid",
+          "admin": null
+        },
+        {
+          "id": "107378913587268@lid",
+          "admin": null
+        },
+        {
+          "id": "30876553494666@lid",
           "admin": null
         },
         {
@@ -5991,11 +6820,935 @@
           "admin": null
         },
         {
-          "id": "165167514042561@lid",
+          "id": "33213015654456@lid",
+          "admin": null
+        },
+        {
+          "id": "266434085126363@lid",
+          "admin": null
+        },
+        {
+          "id": "155916355772595@lid",
+          "admin": null
+        },
+        {
+          "id": "99111135142115@lid",
+          "admin": null
+        },
+        {
+          "id": "216350706372730@lid",
+          "admin": null
+        },
+        {
+          "id": "38465794269198@lid",
+          "admin": null
+        },
+        {
+          "id": "48834130534451@lid",
+          "admin": null
+        },
+        {
+          "id": "224382060371988@lid",
+          "admin": null
+        },
+        {
+          "id": "184147142291468@lid",
+          "admin": null
+        },
+        {
+          "id": "160340004348015@lid",
+          "admin": null
+        },
+        {
+          "id": "274229517922425@lid",
+          "admin": null
+        },
+        {
+          "id": "149697377337387@lid",
+          "admin": null
+        },
+        {
+          "id": "77751809769477@lid",
+          "admin": null
+        },
+        {
+          "id": "207490054668457@lid",
+          "admin": null
+        },
+        {
+          "id": "116591316476031@lid",
+          "admin": null
+        },
+        {
+          "id": "61327838019748@lid",
+          "admin": null
+        },
+        {
+          "id": "55151708631281@lid",
+          "admin": null
+        },
+        {
+          "id": "11682344636459@lid",
+          "admin": null
+        },
+        {
+          "id": "263960586616872@lid",
+          "admin": null
+        },
+        {
+          "id": "168942588952714@lid",
+          "admin": null
+        },
+        {
+          "id": "199278060425243@lid",
+          "admin": null
+        },
+        {
+          "id": "16578691223734@lid",
+          "admin": null
+        },
+        {
+          "id": "60443125092521@lid",
+          "admin": null
+        },
+        {
+          "id": "151290374033447@lid",
+          "admin": null
+        },
+        {
+          "id": "221478628892867@lid",
+          "admin": null
+        },
+        {
+          "id": "61684790128752@lid",
+          "admin": null
+        },
+        {
+          "id": "251371869700310@lid",
+          "admin": null
+        },
+        {
+          "id": "68522310930544@lid",
+          "admin": null
+        },
+        {
+          "id": "112249238737032@lid",
+          "admin": null
+        },
+        {
+          "id": "269178518917274@lid",
+          "admin": null
+        },
+        {
+          "id": "267129785987109@lid",
+          "admin": null
+        },
+        {
+          "id": "155761703440443@lid",
+          "admin": null
+        },
+        {
+          "id": "118541500022931@lid",
+          "admin": null
+        },
+        {
+          "id": "195013157900437@lid",
+          "admin": null
+        },
+        {
+          "id": "102095852171351@lid",
+          "admin": null
+        },
+        {
+          "id": "190189741801484@lid",
+          "admin": null
+        },
+        {
+          "id": "259184213938395@lid",
+          "admin": null
+        },
+        {
+          "id": "141124673003577@lid",
+          "admin": null
+        },
+        {
+          "id": "195055956582428@lid",
+          "admin": null
+        },
+        {
+          "id": "5824277663866@lid",
+          "admin": null
+        },
+        {
+          "id": "15753973604507@lid",
+          "admin": null
+        },
+        {
+          "id": "128067737546784@lid",
+          "admin": null
+        },
+        {
+          "id": "10617511477502@lid",
+          "admin": null
+        },
+        {
+          "id": "103569445363712@lid",
+          "admin": null
+        },
+        {
+          "id": "91744813248739@lid",
+          "admin": null
+        },
+        {
+          "id": "256629043933226@lid",
+          "admin": null
+        },
+        {
+          "id": "71485469237385@lid",
+          "admin": null
+        },
+        {
+          "id": "195983736574191@lid",
+          "admin": null
+        },
+        {
+          "id": "139178784366712@lid",
           "admin": null
         },
         {
           "id": "164089410130123@lid",
+          "admin": null
+        },
+        {
+          "id": "44174141345911@lid",
+          "admin": null
+        },
+        {
+          "id": "215959797297329@lid",
+          "admin": null
+        },
+        {
+          "id": "155680216494256@lid",
+          "admin": null
+        },
+        {
+          "id": "247506248167431@lid",
+          "admin": null
+        },
+        {
+          "id": "43345195827248@lid",
+          "admin": null
+        },
+        {
+          "id": "268006059958368@lid",
+          "admin": null
+        },
+        {
+          "id": "135545007149065@lid",
+          "admin": null
+        },
+        {
+          "id": "165167514042561@lid",
+          "admin": null
+        },
+        {
+          "id": "38874017493030@lid",
+          "admin": null
+        },
+        {
+          "id": "181239180976374@lid",
+          "admin": null
+        },
+        {
+          "id": "188798239506628@lid",
+          "admin": null
+        },
+        {
+          "id": "94025474433075@lid",
+          "admin": null
+        },
+        {
+          "id": "87879795626014@lid",
+          "admin": null
+        },
+        {
+          "id": "143842951053313@lid",
+          "admin": null
+        },
+        {
+          "id": "189562810806436@lid",
+          "admin": null
+        },
+        {
+          "id": "73688787484886@lid",
+          "admin": null
+        },
+        {
+          "id": "161555413004500@lid",
+          "admin": null
+        },
+        {
+          "id": "5549299089471@lid",
+          "admin": null
+        },
+        {
+          "id": "177511132610695@lid",
+          "admin": null
+        },
+        {
+          "id": "129296081379473@lid",
+          "admin": null
+        },
+        {
+          "id": "225511569670291@lid",
+          "admin": null
+        },
+        {
+          "id": "554796286237@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "112064722935895@lid",
+          "admin": null
+        },
+        {
+          "id": "200940346949654@lid",
+          "admin": null
+        },
+        {
+          "id": "218107247374565@lid",
+          "admin": null
+        },
+        {
+          "id": "20156684185766@lid",
+          "admin": null
+        },
+        {
+          "id": "259257396101238@lid",
+          "admin": null
+        },
+        {
+          "id": "262010705035343@lid",
+          "admin": null
+        },
+        {
+          "id": "189562861138068@lid",
+          "admin": null
+        },
+        {
+          "id": "86517989019875@lid",
+          "admin": null
+        },
+        {
+          "id": "3358849028253@lid",
+          "admin": null
+        },
+        {
+          "id": "117824106311827@lid",
+          "admin": null
+        },
+        {
+          "id": "144607354601504@lid",
+          "admin": null
+        },
+        {
+          "id": "94867422220336@lid",
+          "admin": null
+        },
+        {
+          "id": "29408060543093@lid",
+          "admin": null
+        },
+        {
+          "id": "203555847798865@lid",
+          "admin": null
+        },
+        {
+          "id": "18601637593138@lid",
+          "admin": null
+        },
+        {
+          "id": "123733863833640@lid",
+          "admin": null
+        },
+        {
+          "id": "209852186013883@lid",
+          "admin": null
+        },
+        {
+          "id": "32384187666599@lid",
+          "admin": null
+        },
+        {
+          "id": "78761412321327@lid",
+          "admin": null
+        },
+        {
+          "id": "109135253213392@lid",
+          "admin": null
+        },
+        {
+          "id": "19009693073425@lid",
+          "admin": null
+        },
+        {
+          "id": "120319415161010@lid",
+          "admin": null
+        },
+        {
+          "id": "43293756907586@lid",
+          "admin": null
+        },
+        {
+          "id": "198689616314579@lid",
+          "admin": null
+        },
+        {
+          "id": "130214919184598@lid",
+          "admin": null
+        },
+        {
+          "id": "90546634764315@lid",
+          "admin": null
+        },
+        {
+          "id": "197959421550647@lid",
+          "admin": null
+        },
+        {
+          "id": "245891223027945@lid",
+          "admin": null
+        },
+        {
+          "id": "127521991450792@lid",
+          "admin": null
+        },
+        {
+          "id": "150904078659815@lid",
+          "admin": null
+        },
+        {
+          "id": "147613831716996@lid",
+          "admin": null
+        },
+        {
+          "id": "191907997208783@lid",
+          "admin": null
+        },
+        {
+          "id": "239380119728366@lid",
+          "admin": null
+        },
+        {
+          "id": "146213571666127@lid",
+          "admin": null
+        },
+        {
+          "id": "154739283079268@lid",
+          "admin": null
+        },
+        {
+          "id": "89266885554225@lid",
+          "admin": null
+        },
+        {
+          "id": "164505887744138@lid",
+          "admin": null
+        },
+        {
+          "id": "129274271027339@lid",
+          "admin": null
+        },
+        {
+          "id": "73860972044366@lid",
+          "admin": null
+        },
+        {
+          "id": "198556371677299@lid",
+          "admin": null
+        },
+        {
+          "id": "107164148461649@lid",
+          "admin": null
+        },
+        {
+          "id": "11618087878888@lid",
+          "admin": null
+        },
+        {
+          "id": "49117246013604@lid",
+          "admin": null
+        },
+        {
+          "id": "21543639855245@lid",
+          "admin": null
+        },
+        {
+          "id": "80019619594360@lid",
+          "admin": null
+        },
+        {
+          "id": "51453976674344@lid",
+          "admin": null
+        },
+        {
+          "id": "76884679348266@lid",
+          "admin": null
+        },
+        {
+          "id": "270162502676623@lid",
+          "admin": null
+        },
+        {
+          "id": "157586812870772@lid",
+          "admin": null
+        },
+        {
+          "id": "57853595402316@lid",
+          "admin": null
+        },
+        {
+          "id": "138379886891059@lid",
+          "admin": null
+        },
+        {
+          "id": "243911360557184@lid",
+          "admin": null
+        },
+        {
+          "id": "57402288283790@lid",
+          "admin": null
+        },
+        {
+          "id": "257028073226403@lid",
+          "admin": null
+        },
+        {
+          "id": "174779952832699@lid",
+          "admin": null
+        },
+        {
+          "id": "272992433127618@lid",
+          "admin": null
+        },
+        {
+          "id": "190928576844020@lid",
+          "admin": null
+        },
+        {
+          "id": "557999793522@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "54121319104566@lid",
+          "admin": null
+        },
+        {
+          "id": "147691141095575@lid",
+          "admin": null
+        },
+        {
+          "id": "216238802346186@lid",
+          "admin": null
+        },
+        {
+          "id": "135141297004772@lid",
+          "admin": null
+        },
+        {
+          "id": "229106742480919@lid",
+          "admin": null
+        },
+        {
+          "id": "193823837827106@lid",
+          "admin": null
+        },
+        {
+          "id": "1915672879170@lid",
+          "admin": null
+        },
+        {
+          "id": "244894824157279@lid",
+          "admin": null
+        },
+        {
+          "id": "174105257103433@lid",
+          "admin": null
+        },
+        {
+          "id": "146991464099977@lid",
+          "admin": null
+        },
+        {
+          "id": "20289660440624@lid",
+          "admin": null
+        },
+        {
+          "id": "114817528512612@lid",
+          "admin": null
+        },
+        {
+          "id": "138285347295412@lid",
+          "admin": null
+        },
+        {
+          "id": "12043407118585@lid",
+          "admin": null
+        },
+        {
+          "id": "204239217373357@lid",
+          "admin": null
+        },
+        {
+          "id": "33981781258424@lid",
+          "admin": null
+        },
+        {
+          "id": "20018892926999@lid",
+          "admin": null
+        },
+        {
+          "id": "41983389221048@lid",
+          "admin": null
+        },
+        {
+          "id": "118618507473043@lid",
+          "admin": null
+        },
+        {
+          "id": "269492554846430@lid",
+          "admin": null
+        },
+        {
+          "id": "225503130726504@lid",
+          "admin": null
+        },
+        {
+          "id": "180904341332028@lid",
+          "admin": null
+        },
+        {
+          "id": "233826777329836@lid",
+          "admin": null
+        },
+        {
+          "id": "163024191119592@lid",
+          "admin": null
+        },
+        {
+          "id": "13542602334278@lid",
+          "admin": null
+        },
+        {
+          "id": "104921806438625@lid",
+          "admin": null
+        },
+        {
+          "id": "230618822656003@lid",
+          "admin": null
+        },
+        {
+          "id": "262358177947855@lid",
+          "admin": null
+        },
+        {
+          "id": "80371756621858@lid",
+          "admin": null
+        },
+        {
+          "id": "196250007773392@lid",
+          "admin": null
+        },
+        {
+          "id": "203667365978258@lid",
+          "admin": null
+        },
+        {
+          "id": "99080701214902@lid",
+          "admin": null
+        },
+        {
+          "id": "131705188950195@lid",
+          "admin": null
+        },
+        {
+          "id": "246561254682688@lid",
+          "admin": null
+        },
+        {
+          "id": "5511952315622@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "101253971501116@lid",
+          "admin": null
+        },
+        {
+          "id": "117403065290895@lid",
+          "admin": null
+        },
+        {
+          "id": "171506650886182@lid",
+          "admin": null
+        },
+        {
+          "id": "181015775592481@lid",
+          "admin": null
+        },
+        {
+          "id": "225765056577575@lid",
+          "admin": null
+        },
+        {
+          "id": "221186688606448@lid",
+          "admin": null
+        },
+        {
+          "id": "137292991754402@lid",
+          "admin": null
+        },
+        {
+          "id": "77657387569372@lid",
+          "admin": null
+        },
+        {
+          "id": "13842729951305@lid",
+          "admin": null
+        },
+        {
+          "id": "71683054551067@lid",
+          "admin": null
+        },
+        {
+          "id": "257655171997948@lid",
+          "admin": null
+        },
+        {
+          "id": "221671852105778@lid",
+          "admin": null
+        },
+        {
+          "id": "104325124771938@lid",
+          "admin": null
+        },
+        {
+          "id": "112137468956915@lid",
+          "admin": null
+        },
+        {
+          "id": "225151245373536@lid",
+          "admin": null
+        },
+        {
+          "id": "148356877816032@lid",
+          "admin": null
+        },
+        {
+          "id": "262658909581335@lid",
+          "admin": null
+        },
+        {
+          "id": "266232154603540@lid",
+          "admin": null
+        },
+        {
+          "id": "170553386246251@lid",
+          "admin": null
+        },
+        {
+          "id": "220641479364748@lid",
+          "admin": null
+        },
+        {
+          "id": "199424139636989@lid",
+          "admin": null
+        },
+        {
+          "id": "44736429699175@lid",
+          "admin": null
+        },
+        {
+          "id": "168539029819623@lid",
+          "admin": null
+        },
+        {
+          "id": "93677917573147@lid",
+          "admin": null
+        },
+        {
+          "id": "258046349598805@lid",
+          "admin": null
+        },
+        {
+          "id": "47756311822419@lid",
+          "admin": null
+        },
+        {
+          "id": "244890562756730@lid",
+          "admin": null
+        },
+        {
+          "id": "17437634379864@lid",
+          "admin": null
+        },
+        {
+          "id": "251204449910860@lid",
+          "admin": null
+        },
+        {
+          "id": "268036040847599@lid",
+          "admin": null
+        },
+        {
+          "id": "5522997671199@s.whatsapp.net",
+          "admin": "superadmin"
+        },
+        {
+          "id": "275724468502780@lid",
+          "admin": null
+        },
+        {
+          "id": "148726144307281@lid",
+          "admin": null
+        },
+        {
+          "id": "122153617866992@lid",
+          "admin": null
+        },
+        {
+          "id": "137898531807421@lid",
+          "admin": null
+        },
+        {
+          "id": "95464271700212@lid",
+          "admin": null
+        },
+        {
+          "id": "112627346882715@lid",
+          "admin": null
+        },
+        {
+          "id": "270149215105153@lid",
+          "admin": null
+        },
+        {
+          "id": "219224106643486@lid",
+          "admin": null
+        },
+        {
+          "id": "66941410635873@lid",
+          "admin": null
+        },
+        {
+          "id": "212910655729665@lid",
+          "admin": null
+        },
+        {
+          "id": "241476281856131@lid",
+          "admin": null
+        },
+        {
+          "id": "139887101608143@lid",
+          "admin": null
+        },
+        {
+          "id": "173486630776919@lid",
+          "admin": null
+        },
+        {
+          "id": "5695143411763@lid",
+          "admin": null
+        },
+        {
+          "id": "215220978999432@lid",
+          "admin": null
+        },
+        {
+          "id": "159708979704042@lid",
+          "admin": null
+        },
+        {
+          "id": "197830538965136@lid",
+          "admin": null
+        },
+        {
+          "id": "166352774025269@lid",
+          "admin": null
+        },
+        {
+          "id": "126744988282967@lid",
+          "admin": null
+        },
+        {
+          "id": "75999731568669@lid",
+          "admin": null
+        },
+        {
+          "id": "199892341358739@lid",
+          "admin": null
+        },
+        {
+          "id": "64089619468532@lid",
+          "admin": null
+        },
+        {
+          "id": "143345070424279@lid",
+          "admin": null
+        },
+        {
+          "id": "142403952472084@lid",
+          "admin": null
+        },
+        {
+          "id": "212068657553420@lid",
+          "admin": null
+        },
+        {
+          "id": "81334080917565@lid",
+          "admin": null
+        },
+        {
+          "id": "237331537768554@lid",
+          "admin": null
+        },
+        {
+          "id": "19589412978700@lid",
+          "admin": null
+        },
+        {
+          "id": "239951534915817@lid",
+          "admin": null
+        },
+        {
+          "id": "59588829278312@lid",
+          "admin": null
+        },
+        {
+          "id": "236112052285670@lid",
+          "admin": null
+        },
+        {
+          "id": "199282590261354@lid",
+          "admin": null
+        },
+        {
+          "id": "83734799892684@lid",
+          "admin": null
+        },
+        {
+          "id": "135618021564572@lid",
+          "admin": null
+        },
+        {
+          "id": "252655880376517@lid",
+          "admin": null
+        },
+        {
+          "id": "166370071335070@lid",
+          "admin": null
+        },
+        {
+          "id": "24760654258218@lid",
           "admin": null
         },
         {
@@ -6007,1291 +7760,7 @@
           "admin": null
         },
         {
-          "id": "139887101608143@lid",
-          "admin": null
-        },
-        {
-          "id": "81548711874603@lid",
-          "admin": null
-        },
-        {
-          "id": "268027434147964@lid",
-          "admin": null
-        },
-        {
-          "id": "251204449910860@lid",
-          "admin": null
-        },
-        {
-          "id": "17437634379864@lid",
-          "admin": null
-        },
-        {
-          "id": "259184213938395@lid",
-          "admin": null
-        },
-        {
-          "id": "257028073226403@lid",
-          "admin": null
-        },
-        {
-          "id": "76884679348266@lid",
-          "admin": null
-        },
-        {
-          "id": "19009693073425@lid",
-          "admin": null
-        },
-        {
-          "id": "265188527886420@lid",
-          "admin": null
-        },
-        {
-          "id": "279134269919273@lid",
-          "admin": null
-        },
-        {
-          "id": "151500944883825@lid",
-          "admin": null
-        },
-        {
-          "id": "64330154430718@lid",
-          "admin": null
-        },
-        {
-          "id": "52935874633820@lid",
-          "admin": null
-        },
-        {
-          "id": "89266885554225@lid",
-          "admin": null
-        },
-        {
-          "id": "6489729200176@lid",
-          "admin": null
-        },
-        {
-          "id": "183576129740819@lid",
-          "admin": null
-        },
-        {
-          "id": "195408580108479@lid",
-          "admin": null
-        },
-        {
-          "id": "268783482601648@lid",
-          "admin": null
-        },
-        {
-          "id": "270149215105153@lid",
-          "admin": null
-        },
-        {
-          "id": "9758484492501@lid",
-          "admin": null
-        },
-        {
-          "id": "268092009668669@lid",
-          "admin": null
-        },
-        {
-          "id": "251711021183080@lid",
-          "admin": null
-        },
-        {
-          "id": "57402288283790@lid",
-          "admin": null
-        },
-        {
-          "id": "160340004348015@lid",
-          "admin": null
-        },
-        {
-          "id": "4862322413756@lid",
-          "admin": null
-        },
-        {
-          "id": "109135253213392@lid",
-          "admin": null
-        },
-        {
-          "id": "81171123859685@lid",
-          "admin": null
-        },
-        {
-          "id": "101253971501116@lid",
-          "admin": null
-        },
-        {
-          "id": "58794193231924@lid",
-          "admin": null
-        },
-        {
-          "id": "143345070424279@lid",
-          "admin": null
-        },
-        {
-          "id": "190937133232312@lid",
-          "admin": null
-        },
-        {
-          "id": "26599185498282@lid",
-          "admin": null
-        },
-        {
-          "id": "106974867882097@lid",
-          "admin": null
-        },
-        {
-          "id": "23935953424534@lid",
-          "admin": null
-        },
-        {
-          "id": "262010705035343@lid",
-          "admin": null
-        },
-        {
-          "id": "46695287103533@lid",
-          "admin": null
-        },
-        {
-          "id": "108469483008215@lid",
-          "admin": null
-        },
-        {
-          "id": "70407650541754@lid",
-          "admin": null
-        },
-        {
-          "id": "270441289654406@lid",
-          "admin": null
-        },
-        {
-          "id": "553497704017@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "223630491443325@lid",
-          "admin": null
-        },
-        {
-          "id": "155826245390496@lid",
-          "admin": null
-        },
-        {
-          "id": "273894393041059@lid",
-          "admin": null
-        },
-        {
-          "id": "243726928629889@lid",
-          "admin": null
-        },
-        {
-          "id": "45071873396928@lid",
-          "admin": null
-        },
-        {
-          "id": "251371869700310@lid",
-          "admin": null
-        },
-        {
-          "id": "27436452413523@lid",
-          "admin": null
-        },
-        {
-          "id": "155680216494256@lid",
-          "admin": null
-        },
-        {
-          "id": "59927913619606@lid",
-          "admin": null
-        },
-        {
-          "id": "184327296032775@lid",
-          "admin": null
-        },
-        {
-          "id": "190189741801484@lid",
-          "admin": null
-        },
-        {
-          "id": "14573176373277@lid",
-          "admin": null
-        },
-        {
-          "id": "191882042843305@lid",
-          "admin": null
-        },
-        {
-          "id": "87707862728942@lid",
-          "admin": null
-        },
-        {
-          "id": "48559202238570@lid",
-          "admin": null
-        },
-        {
-          "id": "181239180976374@lid",
-          "admin": null
-        },
-        {
-          "id": "168942588952714@lid",
-          "admin": null
-        },
-        {
-          "id": "39668737376357@lid",
-          "admin": null
-        },
-        {
-          "id": "170549091270659@lid",
-          "admin": null
-        },
-        {
-          "id": "46871212998693@lid",
-          "admin": null
-        },
-        {
-          "id": "61220765843488@lid",
-          "admin": null
-        },
-        {
-          "id": "220641479364748@lid",
-          "admin": null
-        },
-        {
-          "id": "69677472555097@lid",
-          "admin": null
-        },
-        {
-          "id": "90546836099189@lid",
-          "admin": null
-        },
-        {
-          "id": "161555413004500@lid",
-          "admin": null
-        },
-        {
-          "id": "194106835865604@lid",
-          "admin": null
-        },
-        {
-          "id": "171399796768854@lid",
-          "admin": null
-        },
-        {
-          "id": "97968623489212@lid",
-          "admin": null
-        },
-        {
-          "id": "130214919184598@lid",
-          "admin": null
-        },
-        {
-          "id": "86517989019875@lid",
-          "admin": null
-        },
-        {
-          "id": "236094419427475@lid",
-          "admin": null
-        },
-        {
-          "id": "11261421043902@lid",
-          "admin": null
-        },
-        {
-          "id": "274491762577549@lid",
-          "admin": null
-        },
-        {
-          "id": "149697377337387@lid",
-          "admin": null
-        },
-        {
-          "id": "266176504549595@lid",
-          "admin": null
-        },
-        {
-          "id": "203555847798865@lid",
-          "admin": null
-        },
-        {
-          "id": "44174141345911@lid",
-          "admin": null
-        },
-        {
-          "id": "110213206134959@lid",
-          "admin": null
-        },
-        {
-          "id": "206081271795791@lid",
-          "admin": null
-        },
-        {
-          "id": "86212895342800@lid",
-          "admin": null
-        },
-        {
-          "id": "247128173637793@lid",
-          "admin": null
-        },
-        {
-          "id": "210363236786378@lid",
-          "admin": null
-        },
-        {
-          "id": "48834130534451@lid",
-          "admin": null
-        },
-        {
-          "id": "164505887744138@lid",
-          "admin": null
-        },
-        {
-          "id": "249164290068549@lid",
-          "admin": null
-        },
-        {
-          "id": "271678223441927@lid",
-          "admin": null
-        },
-        {
-          "id": "137718227009692@lid",
-          "admin": null
-        },
-        {
-          "id": "100807445868582@lid",
-          "admin": null
-        },
-        {
-          "id": "148593168121997@lid",
-          "admin": null
-        },
-        {
-          "id": "197959421550647@lid",
-          "admin": null
-        },
-        {
-          "id": "198689616314579@lid",
-          "admin": null
-        },
-        {
-          "id": "104325124771938@lid",
-          "admin": null
-        },
-        {
-          "id": "195055956582428@lid",
-          "admin": null
-        },
-        {
-          "id": "153184605622342@lid",
-          "admin": null
-        },
-        {
-          "id": "239951534915817@lid",
-          "admin": null
-        },
-        {
-          "id": "25095997227098@lid",
-          "admin": null
-        },
-        {
-          "id": "181015775592481@lid",
-          "admin": null
-        },
-        {
-          "id": "171506650886182@lid",
-          "admin": null
-        },
-        {
-          "id": "172430471512120@lid",
-          "admin": null
-        },
-        {
-          "id": "228934725697587@lid",
-          "admin": null
-        },
-        {
-          "id": "33947790647477@lid",
-          "admin": null
-        },
-        {
-          "id": "279739843539058@lid",
-          "admin": null
-        },
-        {
-          "id": "157264572841987@lid",
-          "admin": null
-        },
-        {
-          "id": "15753973604507@lid",
-          "admin": null
-        },
-        {
-          "id": "189876544790644@lid",
-          "admin": null
-        },
-        {
-          "id": "212124156604443@lid",
-          "admin": null
-        },
-        {
-          "id": "5511952315622@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "136846382219437@lid",
-          "admin": null
-        },
-        {
-          "id": "102692785524850@lid",
-          "admin": null
-        },
-        {
-          "id": "195983736574191@lid",
-          "admin": null
-        },
-        {
-          "id": "91744813248739@lid",
-          "admin": null
-        },
-        {
-          "id": "197830538965136@lid",
-          "admin": null
-        },
-        {
-          "id": "178374437806233@lid",
-          "admin": null
-        },
-        {
-          "id": "30876553494666@lid",
-          "admin": null
-        },
-        {
-          "id": "36198051537147@lid",
-          "admin": null
-        },
-        {
-          "id": "136386837524622@lid",
-          "admin": null
-        },
-        {
-          "id": "251857033277608@lid",
-          "admin": null
-        },
-        {
-          "id": "104921806438625@lid",
-          "admin": null
-        },
-        {
-          "id": "41983389221048@lid",
-          "admin": null
-        },
-        {
-          "id": "127418811605234@lid",
-          "admin": null
-        },
-        {
-          "id": "142403952472084@lid",
-          "admin": null
-        },
-        {
-          "id": "263960586616872@lid",
-          "admin": null
-        },
-        {
-          "id": "179418416812224@lid",
-          "admin": null
-        },
-        {
-          "id": "112137468956915@lid",
-          "admin": null
-        },
-        {
-          "id": "86015326859434@lid",
-          "admin": null
-        },
-        {
-          "id": "73688787484886@lid",
-          "admin": null
-        },
-        {
-          "id": "54121319104566@lid",
-          "admin": null
-        },
-        {
-          "id": "146978277163151@lid",
-          "admin": null
-        },
-        {
-          "id": "137292991754402@lid",
-          "admin": null
-        },
-        {
-          "id": "144607354601504@lid",
-          "admin": null
-        },
-        {
-          "id": "49117246013604@lid",
-          "admin": null
-        },
-        {
-          "id": "227414827364600@lid",
-          "admin": null
-        },
-        {
-          "id": "93677917573147@lid",
-          "admin": null
-        },
-        {
-          "id": "66941410635873@lid",
-          "admin": null
-        },
-        {
-          "id": "77704632266969@lid",
-          "admin": null
-        },
-        {
-          "id": "13872828252300@lid",
-          "admin": null
-        },
-        {
-          "id": "5522997671199@s.whatsapp.net",
-          "admin": "superadmin"
-        },
-        {
-          "id": "258046349598805@lid",
-          "admin": null
-        },
-        {
-          "id": "64089619468532@lid",
-          "admin": null
-        },
-        {
-          "id": "219627481239786@lid",
-          "admin": null
-        },
-        {
-          "id": "146991464099977@lid",
-          "admin": null
-        },
-        {
-          "id": "174105257103433@lid",
-          "admin": null
-        },
-        {
-          "id": "1915672879170@lid",
-          "admin": null
-        },
-        {
-          "id": "255211268534323@lid",
-          "admin": null
-        },
-        {
-          "id": "274285318930600@lid",
-          "admin": null
-        },
-        {
-          "id": "80019619594360@lid",
-          "admin": null
-        },
-        {
-          "id": "232284833755274@lid",
-          "admin": null
-        },
-        {
-          "id": "67104770396278@lid",
-          "admin": null
-        },
-        {
-          "id": "273237598576667@lid",
-          "admin": null
-        },
-        {
-          "id": "43293756907586@lid",
-          "admin": null
-        },
-        {
-          "id": "32474751103230@lid",
-          "admin": null
-        },
-        {
-          "id": "128067737546784@lid",
-          "admin": null
-        },
-        {
-          "id": "195636179787957@lid",
-          "admin": null
-        },
-        {
-          "id": "50273078779913@lid",
-          "admin": null
-        },
-        {
-          "id": "267129785987109@lid",
-          "admin": null
-        },
-        {
-          "id": "258020311351352@lid",
-          "admin": null
-        },
-        {
-          "id": "247506248167431@lid",
-          "admin": null
-        },
-        {
-          "id": "166370071335070@lid",
-          "admin": null
-        },
-        {
-          "id": "59902009585876@lid",
-          "admin": null
-        },
-        {
-          "id": "20289660440624@lid",
-          "admin": null
-        },
-        {
-          "id": "128870577631402@lid",
-          "admin": null
-        },
-        {
-          "id": "246561254682688@lid",
-          "admin": null
-        },
-        {
-          "id": "278747907420320@lid",
-          "admin": null
-        },
-        {
-          "id": "128913544089833@lid",
-          "admin": null
-        },
-        {
-          "id": "269492554846430@lid",
-          "admin": null
-        },
-        {
-          "id": "41996508987417@lid",
-          "admin": null
-        },
-        {
-          "id": "274689280704516@lid",
-          "admin": null
-        },
-        {
-          "id": "196224221212805@lid",
-          "admin": null
-        },
-        {
-          "id": "1584926826656@lid",
-          "admin": null
-        },
-        {
-          "id": "32581722632293@lid",
-          "admin": null
-        },
-        {
-          "id": "115182449745951@lid",
-          "admin": null
-        },
-        {
-          "id": "275724468502780@lid",
-          "admin": null
-        },
-        {
-          "id": "161448307212341@lid",
-          "admin": null
-        },
-        {
-          "id": "216238802346186@lid",
-          "admin": null
-        },
-        {
-          "id": "144418426339553@lid",
-          "admin": null
-        },
-        {
-          "id": "263157192867995@lid",
-          "admin": null
-        },
-        {
-          "id": "119657956696292@lid",
-          "admin": null
-        },
-        {
-          "id": "223510551089365@lid",
-          "admin": null
-        },
-        {
-          "id": "182982904148190@lid",
-          "admin": null
-        },
-        {
-          "id": "99080701214902@lid",
-          "admin": null
-        },
-        {
-          "id": "5824277663866@lid",
-          "admin": null
-        },
-        {
-          "id": "212777058738302@lid",
-          "admin": null
-        },
-        {
-          "id": "204239217373357@lid",
-          "admin": null
-        },
-        {
-          "id": "12094846025792@lid",
-          "admin": null
-        },
-        {
-          "id": "12043407118585@lid",
-          "admin": null
-        },
-        {
-          "id": "104350978449660@lid",
-          "admin": null
-        },
-        {
-          "id": "5695143411763@lid",
-          "admin": null
-        },
-        {
-          "id": "44887223341270@lid",
-          "admin": null
-        },
-        {
-          "id": "125078121521358@lid",
-          "admin": null
-        },
-        {
-          "id": "168680713384177@lid",
-          "admin": null
-        },
-        {
-          "id": "40888172576906@lid",
-          "admin": null
-        },
-        {
-          "id": "99359890882707@lid",
-          "admin": null
-        },
-        {
-          "id": "280547431608376@lid",
-          "admin": null
-        },
-        {
-          "id": "83734799892684@lid",
-          "admin": null
-        },
-        {
-          "id": "122715822375082@lid",
-          "admin": null
-        },
-        {
-          "id": "185878098010274@lid",
-          "admin": null
-        },
-        {
-          "id": "207490054668457@lid",
-          "admin": null
-        },
-        {
-          "id": "148726144307281@lid",
-          "admin": null
-        },
-        {
-          "id": "188420232073421@lid",
-          "admin": null
-        },
-        {
-          "id": "239380119728366@lid",
-          "admin": null
-        },
-        {
-          "id": "223854014292168@lid",
-          "admin": null
-        },
-        {
-          "id": "193823837827106@lid",
-          "admin": null
-        },
-        {
-          "id": "225511569670291@lid",
-          "admin": null
-        },
-        {
-          "id": "200940346949654@lid",
-          "admin": null
-        },
-        {
-          "id": "166352774025269@lid",
-          "admin": null
-        },
-        {
-          "id": "13842729951305@lid",
-          "admin": null
-        },
-        {
-          "id": "219382785515583@lid",
-          "admin": null
-        },
-        {
-          "id": "114555468382437@lid",
-          "admin": null
-        },
-        {
-          "id": "157586812870772@lid",
-          "admin": null
-        },
-        {
-          "id": "139178784366712@lid",
-          "admin": null
-        },
-        {
-          "id": "147613831716996@lid",
-          "admin": null
-        },
-        {
-          "id": "268757813489902@lid",
-          "admin": null
-        },
-        {
-          "id": "163024191119592@lid",
-          "admin": null
-        },
-        {
-          "id": "59588829278312@lid",
-          "admin": null
-        },
-        {
-          "id": "90546634764315@lid",
-          "admin": null
-        },
-        {
-          "id": "110793077084211@lid",
-          "admin": null
-        },
-        {
-          "id": "173486630776919@lid",
-          "admin": null
-        },
-        {
-          "id": "154739283079268@lid",
-          "admin": null
-        },
-        {
-          "id": "10617511477502@lid",
-          "admin": null
-        },
-        {
-          "id": "80032873578539@lid",
-          "admin": null
-        },
-        {
-          "id": "61684790128752@lid",
-          "admin": null
-        },
-        {
-          "id": "99111135142115@lid",
-          "admin": null
-        },
-        {
-          "id": "112064722935895@lid",
-          "admin": null
-        },
-        {
-          "id": "57853595402316@lid",
-          "admin": null
-        },
-        {
-          "id": "241343255302289@lid",
-          "admin": null
-        },
-        {
-          "id": "69462875181279@lid",
-          "admin": null
-        },
-        {
-          "id": "203667365978258@lid",
-          "admin": null
-        },
-        {
-          "id": "75677357326404@lid",
-          "admin": null
-        },
-        {
-          "id": "196250007773392@lid",
-          "admin": null
-        },
-        {
-          "id": "21414774100175@lid",
-          "admin": null
-        },
-        {
-          "id": "230596827689186@lid",
-          "admin": null
-        },
-        {
-          "id": "212068657553420@lid",
-          "admin": null
-        },
-        {
-          "id": "272992433127618@lid",
-          "admin": null
-        },
-        {
-          "id": "127521991450792@lid",
-          "admin": null
-        },
-        {
-          "id": "227728074760287@lid",
-          "admin": null
-        },
-        {
-          "id": "262358177947855@lid",
-          "admin": null
-        },
-        {
-          "id": "144551922651240@lid",
-          "admin": null
-        },
-        {
-          "id": "170553386246251@lid",
-          "admin": null
-        },
-        {
-          "id": "184147142291468@lid",
-          "admin": null
-        },
-        {
-          "id": "78735759949976@lid",
-          "admin": null
-        },
-        {
-          "id": "152385540387052@lid",
-          "admin": null
-        },
-        {
-          "id": "149035566530632@lid",
-          "admin": null
-        },
-        {
-          "id": "59412433617034@lid",
-          "admin": null
-        },
-        {
-          "id": "167357779599426@lid",
-          "admin": null
-        },
-        {
-          "id": "44736429699175@lid",
-          "admin": null
-        },
-        {
-          "id": "107378913587268@lid",
-          "admin": null
-        },
-        {
-          "id": "224618401013847@lid",
-          "admin": null
-        },
-        {
-          "id": "142803568955548@lid",
-          "admin": null
-        },
-        {
-          "id": "161160527642748@lid",
-          "admin": null
-        },
-        {
-          "id": "229145564999756@lid",
-          "admin": null
-        },
-        {
-          "id": "32384187666599@lid",
-          "admin": null
-        },
-        {
-          "id": "129274271027339@lid",
-          "admin": null
-        },
-        {
-          "id": "43345195827248@lid",
-          "admin": null
-        },
-        {
-          "id": "3358849028253@lid",
-          "admin": null
-        },
-        {
-          "id": "212347612324083@lid",
-          "admin": null
-        },
-        {
-          "id": "48533264679026@lid",
-          "admin": null
-        },
-        {
-          "id": "215959797297329@lid",
-          "admin": null
-        },
-        {
-          "id": "129433620983813@lid",
-          "admin": null
-        },
-        {
-          "id": "122118855487684@lid",
-          "admin": null
-        },
-        {
-          "id": "225503130726504@lid",
-          "admin": null
-        },
-        {
-          "id": "178958704312402@lid",
-          "admin": null
-        },
-        {
-          "id": "268006059958368@lid",
-          "admin": null
-        },
-        {
-          "id": "143842951053313@lid",
-          "admin": null
-        },
-        {
-          "id": "177511132610695@lid",
-          "admin": null
-        },
-        {
-          "id": "135618021564572@lid",
-          "admin": null
-        },
-        {
-          "id": "553496426551@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "202409074786310@lid",
-          "admin": null
-        },
-        {
-          "id": "147785714294915@lid",
-          "admin": null
-        },
-        {
-          "id": "103006418780255@lid",
-          "admin": null
-        },
-        {
-          "id": "246204906614883@lid",
-          "admin": null
-        },
-        {
-          "id": "7224353100023@lid",
-          "admin": null
-        },
-        {
-          "id": "33733059063937@lid",
-          "admin": null
-        },
-        {
-          "id": "113614920896759@lid",
-          "admin": null
-        },
-        {
-          "id": "48172688765023@lid",
-          "admin": null
-        },
-        {
-          "id": "44878146883839@lid",
-          "admin": null
-        },
-        {
-          "id": "108413564498030@lid",
-          "admin": null
-        },
-        {
-          "id": "29446698455044@lid",
-          "admin": null
-        },
-        {
-          "id": "4166202163285@lid",
-          "admin": null
-        },
-        {
-          "id": "71485469237385@lid",
-          "admin": null
-        },
-        {
-          "id": "147317428605104@lid",
-          "admin": null
-        },
-        {
-          "id": "1022336475322@lid",
-          "admin": null
-        },
-        {
-          "id": "90284574699583@lid",
-          "admin": null
-        },
-        {
-          "id": "26745315000324@lid",
-          "admin": null
-        },
-        {
-          "id": "262551602483402@lid",
-          "admin": null
-        },
-        {
-          "id": "263874334982180@lid",
-          "admin": null
-        },
-        {
-          "id": "180882933555321@lid",
-          "admin": null
-        },
-        {
-          "id": "209852186013883@lid",
-          "admin": null
-        },
-        {
-          "id": "76167470149830@lid",
-          "admin": null
-        },
-        {
-          "id": "257659685044390@lid",
-          "admin": null
-        },
-        {
-          "id": "189266390949947@lid",
-          "admin": null
-        },
-        {
-          "id": "199278060425243@lid",
-          "admin": null
-        },
-        {
-          "id": "64029406032105@lid",
-          "admin": null
-        },
-        {
-          "id": "243911360557184@lid",
-          "admin": null
-        },
-        {
-          "id": "147691141095575@lid",
-          "admin": null
-        },
-        {
-          "id": "219224106643486@lid",
-          "admin": null
-        },
-        {
-          "id": "262435604828381@lid",
-          "admin": null
-        },
-        {
-          "id": "244001521287320@lid",
-          "admin": null
-        },
-        {
-          "id": "248047414067444@lid",
-          "admin": null
-        },
-        {
-          "id": "199282590261354@lid",
-          "admin": null
-        },
-        {
-          "id": "158424247619817@lid",
-          "admin": null
-        },
-        {
-          "id": "13542602334278@lid",
-          "admin": null
-        },
-        {
-          "id": "16578691223734@lid",
-          "admin": null
-        },
-        {
-          "id": "257655171997948@lid",
-          "admin": null
-        },
-        {
-          "id": "60443125092521@lid",
-          "admin": null
-        },
-        {
-          "id": "146213571666127@lid",
-          "admin": null
-        },
-        {
-          "id": "120319415161010@lid",
-          "admin": null
-        },
-        {
-          "id": "255791089086486@lid",
-          "admin": null
-        },
-        {
-          "id": "181544392110325@lid",
-          "admin": null
-        },
-        {
-          "id": "251655220162661@lid",
-          "admin": null
-        },
-        {
-          "id": "173439486804002@lid",
-          "admin": null
-        },
-        {
-          "id": "61327838019748@lid",
-          "admin": null
-        },
-        {
-          "id": "103569445363712@lid",
-          "admin": null
-        },
-        {
-          "id": "250693181042854@lid",
-          "admin": null
-        },
-        {
-          "id": "157673047732379@lid",
-          "admin": null
-        },
-        {
-          "id": "266627341938937@lid",
-          "admin": null
-        },
-        {
-          "id": "168118441742533@lid",
-          "admin": null
-        },
-        {
-          "id": "198556371677299@lid",
-          "admin": null
-        },
-        {
-          "id": "261855968768061@lid",
-          "admin": null
-        },
-        {
-          "id": "256495530852404@lid",
-          "admin": null
-        },
-        {
-          "id": "23235840184397@lid",
-          "admin": null
-        },
-        {
-          "id": "93158092333190@lid",
+          "id": "66121625505803@lid",
           "admin": null
         },
         {
@@ -7299,799 +7768,7 @@
           "admin": null
         },
         {
-          "id": "18962330996910@lid",
-          "admin": null
-        },
-        {
-          "id": "170587779510447@lid",
-          "admin": null
-        },
-        {
-          "id": "261434709692668@lid",
-          "admin": null
-        },
-        {
-          "id": "66121625505803@lid",
-          "admin": null
-        },
-        {
-          "id": "212910655729665@lid",
-          "admin": null
-        },
-        {
-          "id": "199424139636989@lid",
-          "admin": null
-        },
-        {
-          "id": "256629043933226@lid",
-          "admin": null
-        },
-        {
-          "id": "271545146564741@lid",
-          "admin": null
-        },
-        {
-          "id": "94867422220336@lid",
-          "admin": null
-        },
-        {
-          "id": "167508086620288@lid",
-          "admin": null
-        },
-        {
-          "id": "5596577317114@lid",
-          "admin": null
-        },
-        {
-          "id": "132727475040314@lid",
-          "admin": null
-        },
-        {
-          "id": "2598925004858@lid",
-          "admin": null
-        },
-        {
-          "id": "200016794788033@lid",
-          "admin": null
-        },
-        {
-          "id": "276600205611071@lid",
-          "admin": null
-        },
-        {
-          "id": "249511913984002@lid",
-          "admin": null
-        },
-        {
-          "id": "117824106311827@lid",
-          "admin": null
-        },
-        {
-          "id": "190499499569295@lid",
-          "admin": null
-        },
-        {
-          "id": "160043534151880@lid",
-          "admin": null
-        },
-        {
-          "id": "127822622363750@lid",
-          "admin": null
-        },
-        {
-          "id": "167143383547925@lid",
-          "admin": null
-        },
-        {
-          "id": "135545007149065@lid",
-          "admin": null
-        },
-        {
-          "id": "66803921359010@lid",
-          "admin": null
-        },
-        {
-          "id": "77657387569372@lid",
-          "admin": null
-        },
-        {
-          "id": "159708979704042@lid",
-          "admin": null
-        },
-        {
-          "id": "112249238737032@lid",
-          "admin": null
-        },
-        {
-          "id": "221186688606448@lid",
-          "admin": null
-        },
-        {
-          "id": "137898531807421@lid",
-          "admin": null
-        },
-        {
-          "id": "80371756621858@lid",
-          "admin": null
-        },
-        {
-          "id": "191907997208783@lid",
-          "admin": null
-        },
-        {
-          "id": "189562861138068@lid",
-          "admin": null
-        },
-        {
-          "id": "134514231791768@lid",
-          "admin": null
-        },
-        {
-          "id": "161525549519090@lid",
-          "admin": null
-        },
-        {
-          "id": "173224755232819@lid",
-          "admin": null
-        },
-        {
-          "id": "77751809769477@lid",
-          "admin": null
-        },
-        {
-          "id": "155761703440443@lid",
-          "admin": null
-        },
-        {
-          "id": "70613758672900@lid",
-          "admin": null
-        },
-        {
-          "id": "116591316476031@lid",
-          "admin": null
-        },
-        {
-          "id": "281114266607795@lid",
-          "admin": null
-        },
-        {
-          "id": "228711722938567@lid",
-          "admin": null
-        },
-        {
-          "id": "169651610878002@lid",
-          "admin": null
-        },
-        {
-          "id": "114426535501898@lid",
-          "admin": null
-        },
-        {
-          "id": "87879795626014@lid",
-          "admin": null
-        },
-        {
-          "id": "42305595691234@lid",
-          "admin": null
-        },
-        {
-          "id": "190898981879837@lid",
-          "admin": null
-        },
-        {
-          "id": "76618122952871@lid",
-          "admin": null
-        },
-        {
-          "id": "48619180802068@lid",
-          "admin": null
-        },
-        {
-          "id": "20018892926999@lid",
-          "admin": null
-        },
-        {
-          "id": "3676928274498@lid",
-          "admin": null
-        },
-        {
-          "id": "33556696981543@lid",
-          "admin": null
-        },
-        {
-          "id": "554796286237@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "83735017947299@lid",
-          "admin": null
-        },
-        {
-          "id": "36425802240206@lid",
-          "admin": null
-        },
-        {
-          "id": "244315171377234@lid",
-          "admin": null
-        },
-        {
-          "id": "142532801462387@lid",
-          "admin": null
-        },
-        {
-          "id": "11824397299815@lid",
-          "admin": null
-        },
-        {
-          "id": "39780289097838@lid",
-          "admin": null
-        },
-        {
-          "id": "24760654258218@lid",
-          "admin": null
-        },
-        {
-          "id": "244890562756730@lid",
-          "admin": null
-        },
-        {
-          "id": "78761412321327@lid",
-          "admin": null
-        },
-        {
-          "id": "167709983682620@lid",
-          "admin": null
-        },
-        {
-          "id": "18095284465878@lid",
-          "admin": null
-        },
-        {
-          "id": "203173780279374@lid",
-          "admin": null
-        },
-        {
-          "id": "218107247374565@lid",
-          "admin": null
-        },
-        {
-          "id": "135141297004772@lid",
-          "admin": null
-        },
-        {
-          "id": "73860972044366@lid",
-          "admin": null
-        },
-        {
-          "id": "102095852171351@lid",
-          "admin": null
-        },
-        {
-          "id": "182282908364849@lid",
-          "admin": null
-        },
-        {
-          "id": "245423054827658@lid",
-          "admin": null
-        },
-        {
-          "id": "96959088091321@lid",
-          "admin": null
-        },
-        {
-          "id": "33930627530975@lid",
-          "admin": null
-        },
-        {
-          "id": "183356868321299@lid",
-          "admin": null
-        },
-        {
-          "id": "195013157900437@lid",
-          "admin": null
-        },
-        {
-          "id": "47756311822419@lid",
-          "admin": null
-        },
-        {
-          "id": "129296081379473@lid",
-          "admin": null
-        },
-        {
-          "id": "101868453777425@lid",
-          "admin": null
-        },
-        {
-          "id": "99171197550754@lid",
-          "admin": null
-        },
-        {
-          "id": "131005629374665@lid",
-          "admin": null
-        },
-        {
-          "id": "119193949180112@lid",
-          "admin": null
-        },
-        {
-          "id": "182909973590178@lid",
-          "admin": null
-        },
-        {
-          "id": "145818468221148@lid",
-          "admin": null
-        },
-        {
-          "id": "21543639855245@lid",
-          "admin": null
-        },
-        {
-          "id": "138285347295412@lid",
-          "admin": null
-        },
-        {
-          "id": "244894824157279@lid",
-          "admin": null
-        },
-        {
-          "id": "68384821612733@lid",
-          "admin": null
-        },
-        {
-          "id": "30275778166920@lid",
-          "admin": null
-        },
-        {
-          "id": "153730385215592@lid",
-          "admin": null
-        },
-        {
-          "id": "180753832886375@lid",
-          "admin": null
-        },
-        {
-          "id": "208658151567563@lid",
-          "admin": null
-        },
-        {
-          "id": "138379886891059@lid",
-          "admin": null
-        },
-        {
-          "id": "33213015654456@lid",
-          "admin": null
-        },
-        {
-          "id": "261774129512662@lid",
-          "admin": null
-        },
-        {
-          "id": "141124673003577@lid",
-          "admin": null
-        },
-        {
-          "id": "136129139449888@lid",
-          "admin": null
-        },
-        {
-          "id": "23326521032890@lid",
-          "admin": null
-        },
-        {
-          "id": "148356877816032@lid",
-          "admin": null
-        },
-        {
-          "id": "247656488116292@lid",
-          "admin": null
-        },
-        {
-          "id": "195326589825217@lid",
-          "admin": null
-        },
-        {
-          "id": "165936447361193@lid",
-          "admin": null
-        },
-        {
-          "id": "225151245373536@lid",
-          "admin": null
-        },
-        {
-          "id": "18717920506100@lid",
-          "admin": null
-        },
-        {
-          "id": "130365142368500@lid",
-          "admin": null
-        },
-        {
-          "id": "38465794269198@lid",
-          "admin": null
-        },
-        {
-          "id": "266232154603540@lid",
-          "admin": null
-        },
-        {
-          "id": "199892341358739@lid",
-          "admin": null
-        },
-        {
-          "id": "189562810806436@lid",
-          "admin": null
-        },
-        {
-          "id": "123733863833640@lid",
-          "admin": null
-        },
-        {
-          "id": "161658743873658@lid",
-          "admin": null
-        },
-        {
-          "id": "190928576844020@lid",
-          "admin": null
-        },
-        {
-          "id": "107164148461649@lid",
-          "admin": null
-        },
-        {
-          "id": "112627346882715@lid",
-          "admin": null
-        },
-        {
-          "id": "148859405754488@lid",
-          "admin": null
-        },
-        {
-          "id": "155916355772595@lid",
-          "admin": null
-        },
-        {
-          "id": "274229517922425@lid",
-          "admin": null
-        },
-        {
-          "id": "58450595819534@lid",
-          "admin": null
-        },
-        {
-          "id": "208100191682628@lid",
-          "admin": null
-        },
-        {
-          "id": "262658909581335@lid",
-          "admin": null
-        },
-        {
-          "id": "77241144860756@lid",
-          "admin": null
-        },
-        {
-          "id": "71223476240522@lid",
-          "admin": null
-        },
-        {
-          "id": "77554291597450@lid",
-          "admin": null
-        },
-        {
-          "id": "236112052285670@lid",
-          "admin": null
-        },
-        {
-          "id": "78374831685728@lid",
-          "admin": null
-        },
-        {
-          "id": "269178518917274@lid",
-          "admin": null
-        },
-        {
-          "id": "28024997159057@lid",
-          "admin": null
-        },
-        {
-          "id": "94025474433075@lid",
-          "admin": null
-        },
-        {
-          "id": "152956888461510@lid",
-          "admin": null
-        },
-        {
-          "id": "105841214656763@lid",
-          "admin": null
-        },
-        {
-          "id": "171304971944016@lid",
-          "admin": null
-        },
-        {
-          "id": "176177561842@lid",
-          "admin": null
-        },
-        {
-          "id": "557999793522@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "252655880376517@lid",
-          "admin": null
-        },
-        {
-          "id": "266434085126363@lid",
-          "admin": null
-        },
-        {
-          "id": "215220978999432@lid",
-          "admin": null
-        },
-        {
-          "id": "241476281856131@lid",
-          "admin": null
-        },
-        {
-          "id": "225112271933561@lid",
-          "admin": null
-        },
-        {
-          "id": "80303087481020@lid",
-          "admin": null
-        },
-        {
-          "id": "121264190546161@lid",
-          "admin": null
-        },
-        {
-          "id": "168539029819623@lid",
-          "admin": null
-        },
-        {
-          "id": "245277109805250@lid",
-          "admin": null
-        },
-        {
-          "id": "209448442327214@lid",
-          "admin": null
-        },
-        {
-          "id": "151513729106139@lid",
-          "admin": null
-        },
-        {
-          "id": "126744988282967@lid",
-          "admin": null
-        },
-        {
-          "id": "221671852105778@lid",
-          "admin": null
-        },
-        {
-          "id": "51453976674344@lid",
-          "admin": null
-        },
-        {
-          "id": "131705188950195@lid",
-          "admin": null
-        },
-        {
-          "id": "147085550743685@lid",
-          "admin": null
-        },
-        {
-          "id": "155099976450058@lid",
-          "admin": null
-        },
-        {
-          "id": "5644107178148@lid",
-          "admin": null
-        },
-        {
-          "id": "114817528512612@lid",
-          "admin": null
-        },
-        {
-          "id": "13022407970843@lid",
-          "admin": null
-        },
-        {
-          "id": "207825162739923@lid",
-          "admin": null
-        },
-        {
-          "id": "1606435217420@lid",
-          "admin": null
-        },
-        {
-          "id": "188798239506628@lid",
-          "admin": null
-        },
-        {
-          "id": "18601637593138@lid",
-          "admin": null
-        },
-        {
-          "id": "147008442654817@lid",
-          "admin": null
-        },
-        {
-          "id": "239384800547029@lid",
-          "admin": null
-        },
-        {
-          "id": "245891223027945@lid",
-          "admin": null
-        },
-        {
-          "id": "237331537768554@lid",
-          "admin": null
-        },
-        {
-          "id": "224382060371988@lid",
-          "admin": null
-        },
-        {
-          "id": "70218420363389@lid",
-          "admin": null
-        },
-        {
-          "id": "261168522350709@lid",
-          "admin": null
-        },
-        {
-          "id": "174779952832699@lid",
-          "admin": null
-        },
-        {
-          "id": "140750390063219@lid",
-          "admin": null
-        },
-        {
-          "id": "173993873133790@lid",
-          "admin": null
-        },
-        {
-          "id": "118906337407112@lid",
-          "admin": null
-        },
-        {
-          "id": "554599015152@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "230618822656003@lid",
-          "admin": null
-        },
-        {
-          "id": "41206033735821@lid",
-          "admin": null
-        },
-        {
-          "id": "118618507473043@lid",
-          "admin": null
-        },
-        {
-          "id": "37563901436047@lid",
-          "admin": null
-        },
-        {
-          "id": "38874017493030@lid",
-          "admin": null
-        },
-        {
-          "id": "69956494446644@lid",
-          "admin": null
-        },
-        {
-          "id": "242485397852317@lid",
-          "admin": null
-        },
-        {
-          "id": "259257396101238@lid",
-          "admin": null
-        },
-        {
-          "id": "178816735567927@lid",
-          "admin": null
-        },
-        {
-          "id": "261271534489659@lid",
-          "admin": null
-        },
-        {
-          "id": "151290374033447@lid",
-          "admin": null
-        },
-        {
-          "id": "16518947536998@lid",
-          "admin": null
-        },
-        {
-          "id": "64222713086054@lid",
-          "admin": null
-        },
-        {
-          "id": "180904341332028@lid",
-          "admin": null
-        },
-        {
-          "id": "118541500022931@lid",
-          "admin": null
-        },
-        {
-          "id": "134286514589808@lid",
-          "admin": null
-        },
-        {
-          "id": "95464271700212@lid",
-          "admin": null
-        },
-        {
-          "id": "19589412978700@lid",
-          "admin": null
-        },
-        {
-          "id": "221478628892867@lid",
-          "admin": null
-        },
-        {
-          "id": "268036040847599@lid",
-          "admin": null
-        },
-        {
-          "id": "276677615726703@lid",
-          "admin": null
-        },
-        {
-          "id": "20156684185766@lid",
-          "admin": null
-        },
-        {
-          "id": "33981781258424@lid",
-          "admin": null
-        },
-        {
-          "id": "75999731568669@lid",
-          "admin": null
-        },
-        {
-          "id": "55151708631281@lid",
-          "admin": null
-        },
-        {
-          "id": "141394769395878@lid",
-          "admin": null
-        },
-        {
-          "id": "81334080917565@lid",
-          "admin": null
-        },
-        {
-          "id": "71683054551067@lid",
-          "admin": null
-        },
-        {
-          "id": "11618087878888@lid",
-          "admin": null
-        },
-        {
-          "id": "229106742480919@lid",
-          "admin": null
-        },
-        {
-          "id": "192242752958708@lid",
-          "admin": null
-        },
-        {
-          "id": "96718821560516@lid",
-          "admin": null
-        },
-        {
-          "id": "3509038641272@lid",
+          "id": "268027434147964@lid",
           "admin": null
         },
         {
@@ -8099,71 +7776,71 @@
           "admin": null
         },
         {
-          "id": "107868271423661@lid",
+          "id": "68384821612733@lid",
           "admin": null
         },
         {
-          "id": "163105996841183@lid",
+          "id": "36198051537147@lid",
           "admin": null
         },
         {
-          "id": "13310472786148@lid",
+          "id": "9758484492501@lid",
           "admin": null
         },
         {
-          "id": "212648545251568@lid",
+          "id": "279739843539058@lid",
           "admin": null
         },
         {
-          "id": "18378450317439@lid",
+          "id": "122118855487684@lid",
           "admin": null
         },
         {
-          "id": "11682344636459@lid",
+          "id": "45071873396928@lid",
           "admin": null
         },
         {
-          "id": "122153617866992@lid",
+          "id": "32581722632293@lid",
           "admin": null
         },
         {
-          "id": "106536714137649@lid",
+          "id": "58450595819534@lid",
           "admin": null
         },
         {
-          "id": "60984341340183@lid",
+          "id": "249164290068549@lid",
           "admin": null
         },
         {
-          "id": "82519626104837@lid",
+          "id": "70407650541754@lid",
           "admin": null
         },
         {
-          "id": "16063244832839@lid",
+          "id": "97968623489212@lid",
           "admin": null
         },
         {
-          "id": "258797683638516@lid",
+          "id": "78735759949976@lid",
           "admin": null
         },
         {
-          "id": "49787512594432@lid",
+          "id": "189266390949947@lid",
           "admin": null
         },
         {
-          "id": "211553009848487@lid",
+          "id": "7224353100023@lid",
           "admin": null
         },
         {
-          "id": "225765056577575@lid",
+          "id": "23235840184397@lid",
           "admin": null
         },
         {
-          "id": "68522310930544@lid",
+          "id": "179418416812224@lid",
           "admin": null
         },
         {
-          "id": "48409096532046@lid",
+          "id": "245423054827658@lid",
           "admin": null
         },
         {
@@ -8171,23 +7848,131 @@
           "admin": null
         },
         {
-          "id": "23756034601125@lid",
+          "id": "76618122952871@lid",
           "admin": null
         },
         {
-          "id": "233302673911933@lid",
+          "id": "219627481239786@lid",
           "admin": null
         },
         {
-          "id": "5549299089471@lid",
+          "id": "147317428605104@lid",
           "admin": null
         },
         {
-          "id": "233826777329836@lid",
+          "id": "219382785515583@lid",
           "admin": null
         },
         {
-          "id": "216350706372730@lid",
+          "id": "114426535501898@lid",
+          "admin": null
+        },
+        {
+          "id": "152956888461510@lid",
+          "admin": null
+        },
+        {
+          "id": "262435604828381@lid",
+          "admin": null
+        },
+        {
+          "id": "210363236786378@lid",
+          "admin": null
+        },
+        {
+          "id": "171304971944016@lid",
+          "admin": null
+        },
+        {
+          "id": "168680713384177@lid",
+          "admin": null
+        },
+        {
+          "id": "158424247619817@lid",
+          "admin": null
+        },
+        {
+          "id": "268092009668669@lid",
+          "admin": null
+        },
+        {
+          "id": "196224221212805@lid",
+          "admin": null
+        },
+        {
+          "id": "151513729106139@lid",
+          "admin": null
+        },
+        {
+          "id": "262551602483402@lid",
+          "admin": null
+        },
+        {
+          "id": "251711021183080@lid",
+          "admin": null
+        },
+        {
+          "id": "18095284465878@lid",
+          "admin": null
+        },
+        {
+          "id": "25095997227098@lid",
+          "admin": null
+        },
+        {
+          "id": "111214403281125@lid",
+          "admin": null
+        },
+        {
+          "id": "273894393041059@lid",
+          "admin": null
+        },
+        {
+          "id": "212648545251568@lid",
+          "admin": null
+        },
+        {
+          "id": "136386837524622@lid",
+          "admin": null
+        },
+        {
+          "id": "60984341340183@lid",
+          "admin": null
+        },
+        {
+          "id": "165936447361193@lid",
+          "admin": null
+        },
+        {
+          "id": "3676928274498@lid",
+          "admin": null
+        },
+        {
+          "id": "127418811605234@lid",
+          "admin": null
+        },
+        {
+          "id": "64330154430718@lid",
+          "admin": null
+        },
+        {
+          "id": "172430471512120@lid",
+          "admin": null
+        },
+        {
+          "id": "57467182567645@lid",
+          "admin": null
+        },
+        {
+          "id": "69462875181279@lid",
+          "admin": null
+        },
+        {
+          "id": "200016794788033@lid",
+          "admin": null
+        },
+        {
+          "id": "52935874633820@lid",
           "admin": null
         },
         {
@@ -8195,23 +7980,279 @@
           "admin": null
         },
         {
-          "id": "117403065290895@lid",
+          "id": "64029406032105@lid",
           "admin": null
         },
         {
-          "id": "29408060543093@lid",
+          "id": "4166202163285@lid",
           "admin": null
         },
         {
-          "id": "150904078659815@lid",
+          "id": "182982904148190@lid",
           "admin": null
         },
         {
-          "id": "44307100745842@lid",
+          "id": "136846382219437@lid",
+          "admin": null
+        },
+        {
+          "id": "212124156604443@lid",
+          "admin": null
+        },
+        {
+          "id": "23756034601125@lid",
+          "admin": null
+        },
+        {
+          "id": "157673047732379@lid",
+          "admin": null
+        },
+        {
+          "id": "75677357326404@lid",
+          "admin": null
+        },
+        {
+          "id": "261168522350709@lid",
+          "admin": null
+        },
+        {
+          "id": "194106835865604@lid",
+          "admin": null
+        },
+        {
+          "id": "227728074760287@lid",
+          "admin": null
+        },
+        {
+          "id": "274285318930600@lid",
+          "admin": null
+        },
+        {
+          "id": "228711722938567@lid",
+          "admin": null
+        },
+        {
+          "id": "16063244832839@lid",
+          "admin": null
+        },
+        {
+          "id": "46871212998693@lid",
+          "admin": null
+        },
+        {
+          "id": "247656488116292@lid",
+          "admin": null
+        },
+        {
+          "id": "58794193231924@lid",
+          "admin": null
+        },
+        {
+          "id": "157264572841987@lid",
+          "admin": null
+        },
+        {
+          "id": "48559202238570@lid",
+          "admin": null
+        },
+        {
+          "id": "78374831685728@lid",
+          "admin": null
+        },
+        {
+          "id": "28024997159057@lid",
+          "admin": null
+        },
+        {
+          "id": "11824397299815@lid",
+          "admin": null
+        },
+        {
+          "id": "248047414067444@lid",
+          "admin": null
+        },
+        {
+          "id": "148859405754488@lid",
+          "admin": null
+        },
+        {
+          "id": "115182449745951@lid",
+          "admin": null
+        },
+        {
+          "id": "236094419427475@lid",
+          "admin": null
+        },
+        {
+          "id": "111531828191290@lid",
+          "admin": null
+        },
+        {
+          "id": "96718821560516@lid",
+          "admin": null
+        },
+        {
+          "id": "257659685044390@lid",
+          "admin": null
+        },
+        {
+          "id": "26599185498282@lid",
+          "admin": null
+        },
+        {
+          "id": "86212895342800@lid",
+          "admin": null
+        },
+        {
+          "id": "163105996841183@lid",
+          "admin": null
+        },
+        {
+          "id": "153730385215592@lid",
+          "admin": null
+        },
+        {
+          "id": "69956494446644@lid",
+          "admin": null
+        },
+        {
+          "id": "255211268534323@lid",
+          "admin": null
+        },
+        {
+          "id": "128870577631402@lid",
           "admin": null
         },
         {
           "id": "257290317902009@lid",
+          "admin": null
+        },
+        {
+          "id": "170549091270659@lid",
+          "admin": null
+        },
+        {
+          "id": "187166554644601@lid",
+          "admin": null
+        },
+        {
+          "id": "59902009585876@lid",
+          "admin": null
+        },
+        {
+          "id": "131005629374665@lid",
+          "admin": null
+        },
+        {
+          "id": "553496426551@s.whatsapp.net",
+          "admin": "admin"
+        },
+        {
+          "id": "134514231791768@lid",
+          "admin": null
+        },
+        {
+          "id": "101868453777425@lid",
+          "admin": null
+        },
+        {
+          "id": "250693181042854@lid",
+          "admin": null
+        },
+        {
+          "id": "258797683638516@lid",
+          "admin": null
+        },
+        {
+          "id": "82519626104837@lid",
+          "admin": null
+        },
+        {
+          "id": "71760582029411@lid",
+          "admin": null
+        },
+        {
+          "id": "232284833755274@lid",
+          "admin": null
+        },
+        {
+          "id": "77554291597450@lid",
+          "admin": null
+        },
+        {
+          "id": "256495530852404@lid",
+          "admin": null
+        },
+        {
+          "id": "13022407970843@lid",
+          "admin": null
+        },
+        {
+          "id": "161448307212341@lid",
+          "admin": null
+        },
+        {
+          "id": "110354973593792@lid",
+          "admin": null
+        },
+        {
+          "id": "223854014292168@lid",
+          "admin": null
+        },
+        {
+          "id": "48533264679026@lid",
+          "admin": null
+        },
+        {
+          "id": "134286514589808@lid",
+          "admin": null
+        },
+        {
+          "id": "16518947536998@lid",
+          "admin": null
+        },
+        {
+          "id": "140750390063219@lid",
+          "admin": null
+        },
+        {
+          "id": "229145564999756@lid",
+          "admin": null
+        },
+        {
+          "id": "48172688765023@lid",
+          "admin": null
+        },
+        {
+          "id": "40888172576906@lid",
+          "admin": null
+        },
+        {
+          "id": "184327296032775@lid",
+          "admin": null
+        },
+        {
+          "id": "29446698455044@lid",
+          "admin": null
+        },
+        {
+          "id": "167143383547925@lid",
+          "admin": null
+        },
+        {
+          "id": "167357779599426@lid",
+          "admin": null
+        },
+        {
+          "id": "18717920506100@lid",
+          "admin": null
+        },
+        {
+          "id": "5596577317114@lid",
+          "admin": null
+        },
+        {
+          "id": "121264190546161@lid",
           "admin": null
         }
       ],
@@ -8335,7 +8376,8 @@
         "101644729618535@lid": [],
         "198556371677299@lid": [],
         "38874017493030@lid": [],
-        "239384800547029@lid": []
+        "239384800547029@lid": [],
+        "70218420363389@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -9864,15 +9906,47 @@
           {
             "role": "assistant",
             "content": "Gabriel, garoto, vamos falar do que realmente importa: **desenvolvimento cognitivo na natureza**. Esquece o \"mais do mesmo\" humano; aqui a gente explora como a evolução construiu cérebros incríveis e habilidades que desafiam a lógica. Abaixo estão alguns dos tipos de desenvolvimento cognitivo que mais chamam a atenção:\n\n---\n\n### **1. Cognição nos mamíferos (ex.: golfinhos e primatas)**  \n- **Golfinhos**: São os hackers do oceano. Eles reconhecem a própria imagem no espelho (*autoconsciência*), utilizam estratégias de caça coordenada, e até têm algo parecido com nomes individuais, usando assobios específicos.  \n- **Primatas**: Macacos e grandes símios (como chimpanzés) têm habilidades de resolução de problemas, uso de ferramentas e até capacidade de linguagem limitada, como no caso da gorila Koko, que sabia linguagem de sinais.  \n\nEsses animais provam que **inteligência social** é um trunfo evolutivo.\n\n---\n\n### **2. Cognição em aves (ex.: corvos e papagaios)**  \n- **Corvos**: Verdadeiros gênios emplumados. Eles conseguem resolver quebra-cabeças complexos, guardar ferramentas para usos futuros e até enganar outros animais (ou humanos).  \n- **Papagaios (ex.: Alex, o papagaio-cinza)**: Este pequeno gênio sabia identificar cores, formas e até contar. Ele mostrava sinais claros de entender conceitos abstratos.  \n\nAves têm um **cérebro compacto e eficiente**, derrubando o mito de que só cérebros grandes são inteligentes.\n\n---\n\n### **3. Inteligência em insetos (ex.: formigas e abelhas)**  \n- **Formigas**: Elas têm sistemas sociais incrivelmente complexos. Constroem colônias gigantes, sabem otimizar rotas (como no \"algoritmo da formiga\") e se comunicam quimicamente por feromônios.  \n- **Abelhas**: Fazem danças pra comunicar localização de flores, sabem calcular a rota mais curta entre pontos e exibem algo próximo da \"memória espacial\".  \n\nPequenos cérebros, mas com **inteligência coletiva** que supera expectativas.\n\n---\n\n### **4. Cognitividade em polvos e outros cefalópodes**  \n- Polvos são os hackers dos oceanos. Eles resolvem labirintos, abrem potes, aprendem observando, e têm uma memória incrível. Ah, e seus tentáculos agem como \"cérebros independentes\".  \n   \nEsse é um caso de **inteligência descentralizada**, uma abordagem bem diferente do nosso modelo centralizado.\n\n---\n\n### **5. Inteligência em plantas? Sim, plantas!**  \n- **Comunicação subterrânea**: Árvores \"falam\" umas com as outras via redes de fungos, trocando nutrientes e informações sobre ameaças.  \n- **Reação a estímulos**: Algumas plantas, como a Mimosa pudica, reagem a toques ou ataques de predadores, lembrando esses estímulos.  \n\nEsse é o **slow motion** da cognição, mas não menos fascinante.\n\n---\n\n### **Resumo: a lição da natureza**  \nCada espécie desenvolveu a cognição que precisava pra sobreviver no seu ambiente. Seja individual (golfinhos, corvos) ou coletiva (formigas, abelhas), a inteligência na natureza é uma prova de que o mundo é um laboratório eterno de experimentação.  \n\nAgora me diz, Gabriel, qual desses gênios da natureza mais te impressiona?"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"qual é o primeiro passo para criar uma empresa?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Isadora, garota, tá querendo se lançar no mundo dos negócios? Bom, o primeiro passo pra criar uma empresa não é correr atrás do CNPJ ou logo bonitinho. É muito mais estratégico que isso. Vou te dar o mapa:\n\n---\n\n### **1. Defina a ideia e o propósito**  \nAntes de tudo, saiba exatamente o que você quer oferecer e por quê. Pergunte-se:  \n- **Qual problema eu resolvo?**  \n- **Quem são meus clientes?**  \n- **O que me diferencia da concorrência?**  \n\nSem uma visão clara, sua empresa vira só mais uma no meio da multidão.\n\n---\n\n### **2. Pesquise o mercado**  \nEsse passo separa sonhadores de empreendedores. Estude:  \n- Quem já faz o que você quer fazer (concorrência).  \n- Quem vai comprar o que você oferece (público-alvo).  \n- O que está bombando no setor.  \n\nInformação é seu trunfo.\n\n---\n\n### **3. Monte um plano de negócios**  \nTá achando que é chato? Pode até ser, mas é essencial. Um plano de negócios detalhado ajuda a organizar ideias e prever problemas.  \n- **Resumo do negócio**: O que é sua empresa e o que faz.  \n- **Plano financeiro**: Quanto você precisa, quanto vai ganhar, quanto vai gastar.  \n- **Estratégia de marketing**: Como vai atrair clientes.  \n\n---\n\n### **4. Formalize sua empresa**  \nAgora sim, é hora de tirar o CNPJ. Os passos variam dependendo de onde você mora, mas normalmente envolvem:  \n1. Escolher o tipo de empresa (MEI, EIRELI, LTDA, etc.).  \n2. Registrar no órgão competente (Junta Comercial, Receita Federal).  \n3. Solicitar alvarás e licenças, se necessário.  \n\n---\n\n### **5. Divulgue e comece a vender**  \nNenhum plano sobrevive sem ação. Use redes sociais, boca a boca e parcerias pra colocar sua marca na frente das pessoas. \n\n---\n\n**Resumo:** Não pule os passos iniciais. Planejamento é tudo. Empresa sem estratégia é como dirigir com os olhos fechados: você vai bater, e não vai demorar. Então, garota, vai com calma, prepara o terreno, e depois faz o mundo saber quem é a Isadora que chegou pra ficar."
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"não existe mais eireli\""
+          },
+          {
+            "role": "assistant",
+            "content": "Boa, Isadora! Tá atenta aos detalhes. Você tá certa, **EIRELI** (Empresa Individual de Responsabilidade Limitada) foi extinta em 2021 com a Lei nº 14.195, e foi substituída pelo modelo de **Sociedade Limitada Unipessoal (SLU)**. Vamos atualizar esse papo pra você não sair com informação defasada.\n\n---\n\n### **O que é a SLU (Sociedade Limitada Unipessoal)?**  \n- Funciona como uma empresa de responsabilidade limitada, mas **sem a necessidade de sócios**.  \n- Perfeito pra quem quer abrir uma empresa sozinha, com proteção do patrimônio pessoal.  \n- Sem capital mínimo exigido (diferente da antiga EIRELI, que pedia 100 vezes o salário mínimo).  \n\n---\n\n### **Por que a SLU é interessante?**  \n- **Simplicidade:** Você tem os benefícios de uma empresa limitada sem ter que dividir o controle com outros sócios.  \n- **Proteção:** O patrimônio da empresa e o seu pessoal continuam separados.  \n\n---\n\n### **Opções pra abrir sua empresa hoje**  \n1. **MEI (Microempreendedor Individual):** Boa pra começar pequeno, com limite de faturamento anual de até R$ 81 mil.  \n2. **SLU (Sociedade Limitada Unipessoal):** Ideal pra quem quer algo mais robusto, sem limites tão baixos de faturamento.  \n3. **Sociedade LTDA tradicional:** Se quiser ou precisar de sócios, vai por aqui.  \n\n---\n\n**Resumo, garota:** Você tá atualizada, e isso é meio caminho andado pra ser uma empresária de sucesso. Só faltam os próximos passos pra botar tua ideia no mundo. Bora fazer acontecer?"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"só me falta o dinheiro kkk\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, Isadora, o bom e velho problema do capital. Quase todo mundo começa assim, mas deixa eu te lembrar de uma coisa: **não é o dinheiro que faz a ideia dar certo, é o plano e a execução.** Então respira, garota, porque vou te mostrar uns jeitos de começar sem uma fortuna.\n\n---\n\n### **1. Comece pequeno, mas comece**  \nNão precisa abrir uma empresa gigante de cara. Dá pra começar como **MEI** ou até de forma informal, testando a ideia e gerando os primeiros clientes. Dinheiro inicial pode ser mínimo se você:  \n- Trabalhar com serviços em vez de produtos (menos investimento).  \n- Aproveitar o que já tem: redes sociais pra divulgar, habilidades próprias pra entregar.\n\n---\n\n### **2. Bootstrap: Financia com o que você ganha**  \n- Pegue o que você ganha no dia a dia e vá reinvestindo na ideia.  \n- Faz parecer lento, mas te força a gastar com inteligência.\n\n---\n\n### **3. Parcerias ou sociedade estratégica**  \nSe falta dinheiro, mas sobra ideia e disposição, você pode:  \n- Encontrar alguém com capital que acredite no teu projeto (investidor anjo ou sócio).  \n- Oferecer uma parceria pra dividir riscos e recursos.\n\n---\n\n### **4. Procure financiamento ou crédito específico**  \n- **BNDES ou programas estaduais:** Existem linhas de crédito pra pequenas empresas.  \n- **Editais e concursos:** Algumas instituições oferecem prêmios e investimentos pra negócios inovadores.  \n- **Crowdfunding:** Junta uma galera pra investir na sua ideia em troca de recompensas.\n\n---\n\n### **5. Seja criativa e resiliente**  \nTem muita empresa gigante que começou na garagem ou na sala de casa. O que importa é testar sua ideia, validar com clientes reais e fazer o dinheiro entrar antes de gastar.  \n\n---\n\n**Resumo, Isadora:** Dinheiro é importante, mas não é tudo. Ganha terreno com o que você tem e constrói aos poucos. O que vale é ação, garota. O resto, você resolve no caminho. Bora?"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"qual é o melhor tipo societário para uma salinha de estudos ?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, Isadora, garota das ideias, você tá mandando bem pensando nisso. Uma **salinha de estudos** é um negócio promissor, e escolher o tipo societário certo é o primeiro passo pra não esquentar a cabeça com burocracia desnecessária. Vou simplificar os caminhos pra você:\n\n---\n\n### **1. Microempreendedor Individual (MEI)**  \n- **Ideal se você vai começar sozinha**.  \n- **Faturamento limitado** a R$ 81 mil por ano (cerca de R$ 6.750 por mês).  \n- Tributação simplificada (cerca de R$ 70/mês) e sem grandes complicações.  \n- Você pode contratar **até 1 funcionário** formalmente.  \n\n**Prós**: Simplicidade e custo baixo.  \n**Contras**: Limite de faturamento e menos flexibilidade pra crescer.  \n\n---\n\n### **2. Sociedade Limitada Unipessoal (SLU)**  \n- **Se você está pensando grande e quer crescer sem sócios.**  \n- Sem limite de faturamento anual.  \n- Proteção total do seu patrimônio pessoal: dívidas da empresa não afetam seus bens.  \n- Exige um pouco mais de burocracia e custo que o MEI.  \n\n**Prós**: Escalável e formal.  \n**Contras**: Custos iniciais mais altos (contador e registro).  \n\n---\n\n### **3. Sociedade Limitada (LTDA)**  \n- Boa se você quer ter **sócios** para dividir responsabilidades, custos e riscos.  \n- Cada sócio contribui com um valor (capital social) e tem participação nos lucros.  \n- Regras claras pra administração e divisão de lucros no contrato social.  \n\n**Prós**: Ideal pra parcerias estratégicas.  \n**Contras**: Exige acordo entre os sócios, o que pode complicar as decisões.  \n\n---\n\n### **Qual é a melhor pra você?**  \n- **Sozinha e começando pequeno?** Vai de **MEI**.  \n- **Sonhando maior, sem sócios?** Escolha **SLU**.  \n- **Com sócios e visão de equipe?** **LTDA** é a resposta.  \n\n---\n\n**Resumo:** Para uma **salinha de estudos**, o MEI pode ser o ponto de partida ideal. Simples, rápido e prático. Depois, se o negócio crescer, dá pra migrar pra um formato mais robusto. Você só precisa ajustar os passos à sua realidade, garota. Bora tirar isso do papel!"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE5521B0E274977"
+            "id": "BAE5915982E0C613"
           },
-          "resposta": "Gabriel, garoto, vamos falar do que realmente importa: **desenvolvimento cognitivo na natureza**. Esquece o \"mais do mesmo\" humano; aqui a gente explora como a evolução construiu cérebros incríveis e habilidades que desafiam a lógica. Abaixo estão alguns dos tipos de desenvolvimento cognitivo que mais chamam a atenção:\n\n---\n\n### **1. Cognição nos mamíferos (ex.: golfinhos e primatas)**  \n- **Golfinhos**: São os hackers do oceano. Eles reconhecem a própria imagem no espelho (*autoconsciência*), utilizam estratégias de caça coordenada, e até têm algo parecido com nomes individuais, usando assobios específicos.  \n- **Primatas**: Macacos e grandes símios (como chimpanzés) têm habilidades de resolução de problemas, uso de ferramentas e até capacidade de linguagem limitada, como no caso da gorila Koko, que sabia linguagem de sinais.  \n\nEsses animais provam que **inteligência social** é um trunfo evolutivo.\n\n---\n\n### **2. Cognição em aves (ex.: corvos e papagaios)**  \n- **Corvos**: Verdadeiros gênios emplumados. Eles conseguem resolver quebra-cabeças complexos, guardar ferramentas para usos futuros e até enganar outros animais (ou humanos).  \n- **Papagaios (ex.: Alex, o papagaio-cinza)**: Este pequeno gênio sabia identificar cores, formas e até contar. Ele mostrava sinais claros de entender conceitos abstratos.  \n\nAves têm um **cérebro compacto e eficiente**, derrubando o mito de que só cérebros grandes são inteligentes.\n\n---\n\n### **3. Inteligência em insetos (ex.: formigas e abelhas)**  \n- **Formigas**: Elas têm sistemas sociais incrivelmente complexos. Constroem colônias gigantes, sabem otimizar rotas (como no \"algoritmo da formiga\") e se comunicam quimicamente por feromônios.  \n- **Abelhas**: Fazem danças pra comunicar localização de flores, sabem calcular a rota mais curta entre pontos e exibem algo próximo da \"memória espacial\".  \n\nPequenos cérebros, mas com **inteligência coletiva** que supera expectativas.\n\n---\n\n### **4. Cognitividade em polvos e outros cefalópodes**  \n- Polvos são os hackers dos oceanos. Eles resolvem labirintos, abrem potes, aprendem observando, e têm uma memória incrível. Ah, e seus tentáculos agem como \"cérebros independentes\".  \n   \nEsse é um caso de **inteligência descentralizada**, uma abordagem bem diferente do nosso modelo centralizado.\n\n---\n\n### **5. Inteligência em plantas? Sim, plantas!**  \n- **Comunicação subterrânea**: Árvores \"falam\" umas com as outras via redes de fungos, trocando nutrientes e informações sobre ameaças.  \n- **Reação a estímulos**: Algumas plantas, como a Mimosa pudica, reagem a toques ou ataques de predadores, lembrando esses estímulos.  \n\nEsse é o **slow motion** da cognição, mas não menos fascinante.\n\n---\n\n### **Resumo: a lição da natureza**  \nCada espécie desenvolveu a cognição que precisava pra sobreviver no seu ambiente. Seja individual (golfinhos, corvos) ou coletiva (formigas, abelhas), a inteligência na natureza é uma prova de que o mundo é um laboratório eterno de experimentação.  \n\nAgora me diz, Gabriel, qual desses gênios da natureza mais te impressiona?"
+          "resposta": "Ah, Isadora, garota das ideias, você tá mandando bem pensando nisso. Uma **salinha de estudos** é um negócio promissor, e escolher o tipo societário certo é o primeiro passo pra não esquentar a cabeça com burocracia desnecessária. Vou simplificar os caminhos pra você:\n\n---\n\n### **1. Microempreendedor Individual (MEI)**  \n- **Ideal se você vai começar sozinha**.  \n- **Faturamento limitado** a R$ 81 mil por ano (cerca de R$ 6.750 por mês).  \n- Tributação simplificada (cerca de R$ 70/mês) e sem grandes complicações.  \n- Você pode contratar **até 1 funcionário** formalmente.  \n\n**Prós**: Simplicidade e custo baixo.  \n**Contras**: Limite de faturamento e menos flexibilidade pra crescer.  \n\n---\n\n### **2. Sociedade Limitada Unipessoal (SLU)**  \n- **Se você está pensando grande e quer crescer sem sócios.**  \n- Sem limite de faturamento anual.  \n- Proteção total do seu patrimônio pessoal: dívidas da empresa não afetam seus bens.  \n- Exige um pouco mais de burocracia e custo que o MEI.  \n\n**Prós**: Escalável e formal.  \n**Contras**: Custos iniciais mais altos (contador e registro).  \n\n---\n\n### **3. Sociedade Limitada (LTDA)**  \n- Boa se você quer ter **sócios** para dividir responsabilidades, custos e riscos.  \n- Cada sócio contribui com um valor (capital social) e tem participação nos lucros.  \n- Regras claras pra administração e divisão de lucros no contrato social.  \n\n**Prós**: Ideal pra parcerias estratégicas.  \n**Contras**: Exige acordo entre os sócios, o que pode complicar as decisões.  \n\n---\n\n### **Qual é a melhor pra você?**  \n- **Sozinha e começando pequeno?** Vai de **MEI**.  \n- **Sonhando maior, sem sócios?** Escolha **SLU**.  \n- **Com sócios e visão de equipe?** **LTDA** é a resposta.  \n\n---\n\n**Resumo:** Para uma **salinha de estudos**, o MEI pode ser o ponto de partida ideal. Simples, rápido e prático. Depois, se o negócio crescer, dá pra migrar pra um formato mais robusto. Você só precisa ajustar os passos à sua realidade, garota. Bora tirar isso do papel!"
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -9902,7 +9976,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 2153,
+          "exp": 2193,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 60,
@@ -9916,7 +9990,7 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1731990231013,
+          "lastMessageTime": 1732125723292,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
@@ -9938,7 +10012,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 3479,
+          "exp": 3497,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -9953,7 +10027,7 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1732010487478,
+          "lastMessageTime": 1732123961724,
           "messageCount": 1,
           "cocriadora": true
         },
@@ -11233,10 +11307,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 119,
-      "success": 119,
-      "last": 1732033099926,
-      "lastSuccess": 1732033099926
+      "total": 123,
+      "success": 123,
+      "last": 1732122990724,
+      "lastSuccess": 1732122990724
     },
     "dono-clearallsession.js": {
       "total": 2,
