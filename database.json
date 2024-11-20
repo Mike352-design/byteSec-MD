@@ -3860,6 +3860,64 @@
           "afkReason": ""
         }
       }
+    },
+    "38874017493030@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Annie Larcher",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "38874017493030@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "239384800547029@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "239384800547029@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -5777,6 +5835,42 @@
           "cocriador": false,
           "lastMessageTime": 1732056994942,
           "messageCount": 2,
+          "pontos": 0
+        },
+        "38874017493030@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732065236241,
+          "messageCount": 4,
+          "pontos": 0
+        },
+        "239384800547029@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732065974120,
+          "messageCount": null,
           "pontos": 0
         }
       },
@@ -8239,7 +8333,9 @@
         "161783012696198@lid": [],
         "70360221405258@lid": [],
         "101644729618535@lid": [],
-        "198556371677299@lid": []
+        "198556371677299@lid": [],
+        "38874017493030@lid": [],
+        "239384800547029@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -8732,7 +8828,7 @@
       ],
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
-      "totalMembros": 25,
+      "totalMembros": 24,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -8783,10 +8879,6 @@
           "admin": "admin"
         },
         {
-          "id": "555194556035@s.whatsapp.net",
-          "admin": null
-        },
-        {
           "id": "555391229279@s.whatsapp.net",
           "admin": null
         },
@@ -8835,7 +8927,7 @@
           "admin": "admin"
         }
       ],
-      "boleto": 25,
+      "boleto": 20,
       "forca": {
         "palavra": "elucidar",
         "isGame": true,
