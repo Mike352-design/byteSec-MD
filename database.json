@@ -2031,7 +2031,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "є𝕍єгՇ๏ภ ŦєɭՇгเภ",
+      "name": "Everton Feltrin 🫵🏻",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -4715,7 +4715,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732360262388,
+          "lastMessageTime": 1732368665901,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4769,8 +4769,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732315019932,
-          "messageCount": 1,
+          "lastMessageTime": 1732366903835,
+          "messageCount": 5,
           "pontos": 0
         },
         "554599015152@s.whatsapp.net": {
@@ -4823,7 +4823,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732314447193,
+          "lastMessageTime": 1732368272092,
           "messageCount": 1,
           "pontos": 0
         },
@@ -5345,7 +5345,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731934696865,
+          "lastMessageTime": 1732368365716,
           "messageCount": 3,
           "pontos": 0
         },
@@ -5471,7 +5471,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732366243594,
+          "lastMessageTime": 1732368842332,
           "messageCount": 1,
           "pontos": 0
         },
@@ -13101,17 +13101,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9722790753290633,
-    "cotacaoOntem": 0.9737492261446357,
+    "cotacao": 0.9806507681174862,
+    "cotacaoOntem": 0.9722790753290633,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024306976883226584
+      "rendimento": 0.000024516269202937157
     },
-    "cotacaoPercentual": -0.15097838089105364,
-    "ultimaAtualizacao": "2024-11-22T15:21:19.618Z"
+    "cotacaoPercentual": 0.8610380497584511,
+    "ultimaAtualizacao": "2024-11-23T15:00:11.530Z"
   }
 }
