@@ -6447,8 +6447,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732065236241,
-          "messageCount": 4,
+          "lastMessageTime": 1732358827935,
+          "messageCount": 5,
           "pontos": 0
         },
         "239384800547029@lid": {
@@ -12903,10 +12903,10 @@
       "lastSuccess": 1731532795906
     },
     "dl-ig.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1732144997250,
-      "lastSuccess": 1732144997250
+      "total": 7,
+      "success": 7,
+      "last": 1732352362351,
+      "lastSuccess": 1732352362351
     },
     "buscador-lyrics.js": {
       "total": 5,
