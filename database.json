@@ -257,7 +257,8 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "warn": 0
+      "warn": 0,
+      "lastmiming": 1732381675430
     },
     "553191334309@s.whatsapp.net": {
       "exp": 0,
@@ -12984,10 +12985,10 @@
       "lastSuccess": 1732134744175
     },
     "dl-yt_play.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1732079696314,
-      "lastSuccess": 1732079696314
+      "total": 15,
+      "success": 15,
+      "last": 1732385473153,
+      "lastSuccess": 1732385473153
     },
     "dono-reporte.js": {
       "total": 3,
@@ -13026,10 +13027,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1731694339647,
-      "lastSuccess": 1731694339647
+      "total": 15,
+      "success": 15,
+      "last": 1732381675430,
+      "lastSuccess": 1732381675430
     },
     "conversor-totext.js": {
       "total": 2,
