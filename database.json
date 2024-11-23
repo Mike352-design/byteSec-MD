@@ -4547,6 +4547,64 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "83734799892684@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Estêvão",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "83734799892684@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "154739283079268@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "154739283079268@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -4608,7 +4666,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732234360101,
+          "lastMessageTime": 1732403228204,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4770,7 +4828,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732366903835,
+          "lastMessageTime": 1732402082867,
           "messageCount": 5,
           "pontos": 0
         },
@@ -4824,7 +4882,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732368272092,
+          "lastMessageTime": 1732397174041,
           "messageCount": 1,
           "pontos": 0
         },
@@ -4932,8 +4990,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732378973833,
-          "messageCount": 1,
+          "lastMessageTime": 1732401462393,
+          "messageCount": 5,
           "pontos": 0
         },
         "146978277163151@lid": {
@@ -5472,7 +5530,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732368842332,
+          "lastMessageTime": 1732403700403,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6896,6 +6954,42 @@
           "cocriador": false,
           "lastMessageTime": 1732366252681,
           "messageCount": 4,
+          "pontos": 0
+        },
+        "83734799892684@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732399774674,
+          "messageCount": 2,
+          "pontos": 0
+        },
+        "154739283079268@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732403791090,
+          "messageCount": null,
           "pontos": 0
         }
       },
@@ -9322,7 +9416,9 @@
         "116591316476031@lid": [],
         "256495530852404@lid": [],
         "553496426551@s.whatsapp.net": [],
-        "174779952832699@lid": []
+        "174779952832699@lid": [],
+        "83734799892684@lid": [],
+        "154739283079268@lid": []
       }
     },
     "120363202217134158@g.us": {
