@@ -181,7 +181,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1731694339645
+      "lastmiming": 1732416750498
     },
     "558488916581@s.whatsapp.net": {
       "exp": 0,
@@ -4775,7 +4775,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732379344020,
+          "lastMessageTime": 1732418274023,
           "messageCount": 1,
           "pontos": 0
         },
@@ -5603,8 +5603,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732224003897,
-          "messageCount": 3,
+          "lastMessageTime": 1732416010799,
+          "messageCount": 4,
           "pontos": 0
         },
         "94519697612827@lid": {
@@ -11237,7 +11237,7 @@
       },
       "users": {
         "554796646044@s.whatsapp.net": {
-          "exp": 2381,
+          "exp": 2570,
           "limit": 0,
           "role": "𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬",
           "money": 60,
@@ -11251,11 +11251,11 @@
           "maxlevel": false,
           "cocriador": false,
           "pontos": 0,
-          "lastMessageTime": 1732374699202,
+          "lastMessageTime": 1732417022663,
           "messageCount": 1
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 411,
+          "exp": 412,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -11273,7 +11273,7 @@
           "pontos": 0
         },
         "554598527531@s.whatsapp.net": {
-          "exp": 4563,
+          "exp": 4767,
           "limit": 5000,
           "role": "༒︎ 𝑷𝒍𝒖𝒕ã𝒐 𝑵𝒆𝒈𝒓𝒐",
           "money": 5000,
@@ -11288,8 +11288,8 @@
           "cocriador": false,
           "pontos": 0,
           "tempBan": false,
-          "lastMessageTime": 1732375089110,
-          "messageCount": 3,
+          "lastMessageTime": 1732416989993,
+          "messageCount": 1,
           "cocriadora": true
         },
         "351927285125@s.whatsapp.net": {
@@ -13120,10 +13120,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 15,
-      "success": 15,
-      "last": 1732381675430,
-      "lastSuccess": 1732381675430
+      "total": 16,
+      "success": 16,
+      "last": 1732416750498,
+      "lastSuccess": 1732416750498
     },
     "conversor-totext.js": {
       "total": 2,
