@@ -5212,7 +5212,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732491561288,
+          "lastMessageTime": 1732540261402,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10095,7 +10095,7 @@
           "legendary": false,
           "banned": false,
           "adv": 0,
-          "tentativasRoubo": 1,
+          "tentativasRoubo": 0,
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
@@ -10103,10 +10103,10 @@
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
-          "acaoTimer": "2024-11-19T10:34:23.273Z",
+          "acaoTimer": "2024-11-25T12:33:55.734Z",
           "almas": 0,
           "usuariosRoubados": [],
-          "rouboTimestamp": "2024-11-19T10:34:23.274Z",
+          "rouboTimestamp": "2024-11-25T12:33:55.736Z",
           "mortoDemonio": false
         },
         "558488916581@s.whatsapp.net": {
@@ -10195,7 +10195,7 @@
           "legendary": false,
           "banned": false,
           "adv": 0,
-          "tentativasRoubo": 5,
+          "tentativasRoubo": 4,
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
@@ -10203,7 +10203,11 @@
           "messageCount": 1,
           "pontos": 0,
           "usuariosRoubados": [],
-          "shields": 0
+          "shields": 0,
+          "acaoTimer": "2024-11-25T12:34:36.942Z",
+          "almas": 0,
+          "rouboTimestamp": "2024-11-25T12:34:36.947Z",
+          "mortoDemonio": false
         },
         "5518996556848@s.whatsapp.net": {
           "exp": 71,
@@ -13590,10 +13594,10 @@
       "lastSuccess": 1732473745563
     },
     "funAcoes7.js": {
-      "total": 15,
-      "success": 15,
-      "last": 1732012463275,
-      "lastSuccess": 1732012463275
+      "total": 17,
+      "success": 17,
+      "last": 1732538076948,
+      "lastSuccess": 1732538076948
     },
     "grupo-perfil.js": {
       "total": 4,
