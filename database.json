@@ -4935,6 +4935,32 @@
           "afkReason": ""
         }
       }
+    },
+    "204239217373357@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "204239217373357@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -7537,6 +7563,24 @@
           "lastMessageTime": 1732507913231,
           "messageCount": null,
           "pontos": 0
+        },
+        "204239217373357@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732545861564,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -9936,7 +9980,8 @@
         "96959088091321@lid": [],
         "23756034601125@lid": [],
         "59927913619606@lid": [],
-        "57853595402316@lid": []
+        "57853595402316@lid": [],
+        "204239217373357@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -13777,17 +13822,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9859253306970303,
-    "cotacaoOntem": 0.9806507681174862,
+    "cotacao": 0.9883630901759811,
+    "cotacaoOntem": 0.9859253306970303,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.00002464813326742576
+      "rendimento": 0.00002470907725439953
     },
-    "cotacaoPercentual": 0.5378635036068361,
-    "ultimaAtualizacao": "2024-11-24T15:02:21.048Z"
+    "cotacaoPercentual": 0.24725599424729391,
+    "ultimaAtualizacao": "2024-11-25T16:05:58.045Z"
   }
 }
