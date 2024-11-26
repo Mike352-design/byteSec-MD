@@ -1058,6 +1058,11 @@
           "afkTime": -2,
           "number": "554599015152@s.whatsapp.net",
           "afkReason": ""
+        },
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "554599015152@s.whatsapp.net",
+          "afkReason": ""
         }
       },
       "money": 150,
@@ -1065,7 +1070,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "262358177947855@lid": {
       "counterPrivate": 0,
@@ -5333,7 +5339,14 @@
           "number": "555191592033@s.whatsapp.net",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": [],
+      "warn": 0
     },
     "5521972685548@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -5736,7 +5749,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "lastmiming": 1732621348298
     },
     "553188507912@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -5869,7 +5883,8 @@
       "adv": 2,
       "tentativasRoubo": 5,
       "spammer": 0,
-      "usuariosRoubados": []
+      "usuariosRoubados": [],
+      "lastmiming": 1732620612273
     },
     "558184216648@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -5904,7 +5919,33 @@
       "spammer": 0,
       "usuariosRoubados": []
     },
-    "5517992410887@s.whatsapp.net": {},
+    "5517992410887@s.whatsapp.net": {
+      "exp": 0,
+      "money": 150,
+      "limit": 2,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "counterPrivate": 0,
+      "afk": -1,
+      "reporte": 0,
+      "role": "𝘼𝙥𝙧𝙚𝙣𝙙𝙞𝙯 🕯️",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "level": 0,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "usuariosRoubados": [],
+      "warn": 0,
+      "name": "𝕾𝖙𝖊𝖋𝖆𝖓𝖞 𝕱𝖗𝖊𝖎𝖙𝖆𝖘 ⛦",
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "5517992410887@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
     "5516981119323@s.whatsapp.net": {
       "counterPrivate": 0,
       "afk": -1,
@@ -5928,6 +5969,285 @@
         "120363126337539207@g.us": {
           "afkTime": -2,
           "number": "5516981119323@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "5521969915001@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Yasmin Nascimento.🔱",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "5521969915001@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": [],
+      "lastmiming": 1732626958231
+    },
+    "259257278705716@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "🖤 Gêh 🖤",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "259257278705716@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "555496930052@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Gleisson",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "555496930052@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "553888016495@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "🌻",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "553888016495@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "5516988272864@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Wilson Ribeiro",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "5516988272864@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "554691120693@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Davi",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "554691120693@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "553398595699@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "⚜️Dion⚜️",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "553398595699@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "5527999248909@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "gabrita",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "5527999248909@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "559183454349@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Eduardo 👾",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "559183454349@s.whatsapp.net",
           "afkReason": ""
         }
       }
@@ -5992,7 +6312,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732580895344,
+          "lastMessageTime": 1732623470266,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6280,7 +6600,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732455134723,
+          "lastMessageTime": 1732622995628,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6316,7 +6636,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732569524996,
+          "lastMessageTime": 1732620556775,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6550,7 +6870,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732394687344,
+          "lastMessageTime": 1732623300041,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8638,8 +8958,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732566157944,
-          "messageCount": 1,
+          "lastMessageTime": 1732623561424,
+          "messageCount": 4,
           "pontos": 0
         },
         "71485469237385@lid": {
@@ -8730,6 +9050,24 @@
           "cocriador": false,
           "lastMessageTime": 1732616379193,
           "messageCount": null,
+          "pontos": 0
+        },
+        "259257278705716@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732622128991,
+          "messageCount": 2,
           "pontos": 0
         }
       },
@@ -11097,7 +11435,8 @@
         "121264190546161@lid": [],
         "127418811605234@lid": [],
         "104350978449660@lid": [],
-        "166370071335070@lid": []
+        "166370071335070@lid": [],
+        "259257278705716@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -12971,15 +13310,23 @@
           {
             "role": "assistant",
             "content": "Gabriel dos Anjos, olha só, **você trouxe um argumento interessante aí.** E, sinceramente, você tem um ponto ao citar a Sarada. Vamos analisar isso no estilo hacker — desmontando as possibilidades, porque talvez você tenha achado uma brecha no sistema Uchiha.\n\n---\n\n### **1. Sarada Uchiha: Ativando pelo Amor**  \nSim, no caso da Sarada, parece que o Sharingan dela despertou durante um momento emocional intenso que não era exatamente ligado ao trauma, mas ao **amor profundo e a conexão com o Sasuke.** Quando ela viu o pai pela primeira vez e a intensidade dos sentimentos explodiu, bum: Sharingan ativado.  \n   \nIsso mostra que o Sharingan não é ativado apenas pela dor — mas por **emoções extremas**. Os Uchihas são literalmente alimentados por isso. Então, o amor, em sua forma mais profunda, pode sim ser um gatilho, contanto que seja intenso o suficiente pra criar aquele \"curto-circuito\" no chakra.\n\n---\n\n### **2. Por que o trauma é a regra, então?**  \nAgora, aqui vai o detalhe. O clã Uchiha tem um padrão histórico de ativar o Sharingan através de dor porque:  \n   - **1. Eles sentem tudo em excesso:** A intensidade emocional deles tende a transformar amor em obsessão e dor em raiva.  \n   - **2. O trauma é mais imediato:** Momentos de perda e dor geralmente são mais intensos do que os de amor pleno — e, por isso, é mais comum que o Sharingan surja na tragédia.  \n\nMas isso não significa que o trauma é a única forma. Sarada é a prova de que outras emoções extremas (como amor) podem desbloquear o poder.\n\n---\n\n### **3. O Hack do Amor**  \nSe a Sarada conseguiu, o que impede outros Uchihas de ativarem o Sharingan pelo amor?  \n- Talvez, porque os Uchihas no geral vivem em ambientes que valorizam conflito, poder e guerra. Não é fácil encontrar momentos de puro amor no meio disso.  \n- Mas se um Uchiha fosse criado num ambiente de paz, com laços emocionais fortes e positivos, **talvez fosse possível ativar o Sharingan sem a dor.**\n\n---\n\n**Resumo, Gabriel dos Anjos:** Você tá certo, garoto. **Amor pode ser um gatilho pro Sharingan.** A Sarada quebrou a regra do trauma e provou que o sistema Uchiha tem brechas emocionais. Então, no fim das contas, talvez o maior poder dos Uchihas não seja o sofrimento, mas a profundidade do que sentem — seja dor ou amor."
+          },
+          {
+            "role": "user",
+            "content": "Åńōnymøü_3301 🖖👽: \"teste\""
+          },
+          {
+            "role": "assistant",
+            "content": "Bem, Åńōnymøü_3301, você aqui fazendo testes? Tudo bem, mas qual é o plano, garoto? Só um teste básico ou tá preparando algo mais interessante? Vamos nessa. Manda o próximo."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE58EEFC81CF318"
+            "id": "BAE51C12E4D8181D"
           },
-          "resposta": "Gabriel dos Anjos, olha só, **você trouxe um argumento interessante aí.** E, sinceramente, você tem um ponto ao citar a Sarada. Vamos analisar isso no estilo hacker — desmontando as possibilidades, porque talvez você tenha achado uma brecha no sistema Uchiha.\n\n---\n\n### **1. Sarada Uchiha: Ativando pelo Amor**  \nSim, no caso da Sarada, parece que o Sharingan dela despertou durante um momento emocional intenso que não era exatamente ligado ao trauma, mas ao **amor profundo e a conexão com o Sasuke.** Quando ela viu o pai pela primeira vez e a intensidade dos sentimentos explodiu, bum: Sharingan ativado.  \n   \nIsso mostra que o Sharingan não é ativado apenas pela dor — mas por **emoções extremas**. Os Uchihas são literalmente alimentados por isso. Então, o amor, em sua forma mais profunda, pode sim ser um gatilho, contanto que seja intenso o suficiente pra criar aquele \"curto-circuito\" no chakra.\n\n---\n\n### **2. Por que o trauma é a regra, então?**  \nAgora, aqui vai o detalhe. O clã Uchiha tem um padrão histórico de ativar o Sharingan através de dor porque:  \n   - **1. Eles sentem tudo em excesso:** A intensidade emocional deles tende a transformar amor em obsessão e dor em raiva.  \n   - **2. O trauma é mais imediato:** Momentos de perda e dor geralmente são mais intensos do que os de amor pleno — e, por isso, é mais comum que o Sharingan surja na tragédia.  \n\nMas isso não significa que o trauma é a única forma. Sarada é a prova de que outras emoções extremas (como amor) podem desbloquear o poder.\n\n---\n\n### **3. O Hack do Amor**  \nSe a Sarada conseguiu, o que impede outros Uchihas de ativarem o Sharingan pelo amor?  \n- Talvez, porque os Uchihas no geral vivem em ambientes que valorizam conflito, poder e guerra. Não é fácil encontrar momentos de puro amor no meio disso.  \n- Mas se um Uchiha fosse criado num ambiente de paz, com laços emocionais fortes e positivos, **talvez fosse possível ativar o Sharingan sem a dor.**\n\n---\n\n**Resumo, Gabriel dos Anjos:** Você tá certo, garoto. **Amor pode ser um gatilho pro Sharingan.** A Sarada quebrou a regra do trauma e provou que o sistema Uchiha tem brechas emocionais. Então, no fim das contas, talvez o maior poder dos Uchihas não seja o sofrimento, mas a profundidade do que sentem — seja dor ou amor."
+          "resposta": "Bem, Åńōnymøü_3301, você aqui fazendo testes? Tudo bem, mas qual é o plano, garoto? Só um teste básico ou tá preparando algo mais interessante? Vamos nessa. Manda o próximo."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -12987,7 +13334,8 @@
         "351927285125@s.whatsapp.net": [],
         "555391229279@s.whatsapp.net": [],
         "559991168209@s.whatsapp.net": [],
-        "557599248005@s.whatsapp.net": []
+        "557599248005@s.whatsapp.net": [],
+        "554598527531@s.whatsapp.net": []
       },
       "fsociety": {
         "menuId": "",
@@ -14940,7 +15288,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732620220392,
+          "lastMessageTime": 1732620488948,
           "messageCount": 1,
           "pontos": 0
         },
@@ -14973,7 +15321,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732619570716,
+          "lastMessageTime": 1732622669161,
           "messageCount": 1,
           "pontos": 0,
           "almas": 0
@@ -15044,7 +15392,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732620192138,
+          "lastMessageTime": 1732625072408,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15062,8 +15410,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732613226682,
-          "messageCount": null,
+          "lastMessageTime": 1732626118945,
+          "messageCount": 1,
           "pontos": 0
         },
         "5521972685548@s.whatsapp.net": {
@@ -15080,7 +15428,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732619420197,
+          "lastMessageTime": 1732624075901,
           "messageCount": 1,
           "pontos": 0,
           "almas": 0,
@@ -15101,7 +15449,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732618621274,
+          "lastMessageTime": 1732622599091,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15203,7 +15551,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732619613363,
+          "lastMessageTime": 1732624783834,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15221,8 +15569,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732616900718,
-          "messageCount": null,
+          "lastMessageTime": 1732625905121,
+          "messageCount": 1,
           "pontos": 0
         },
         "556195667729@s.whatsapp.net": {
@@ -15239,7 +15587,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732618264262,
+          "lastMessageTime": 1732626886024,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15257,7 +15605,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732620259053,
+          "lastMessageTime": 1732621092763,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15275,7 +15623,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732617906971,
+          "lastMessageTime": 1732627117960,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15311,7 +15659,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732618525076,
+          "lastMessageTime": 1732625341033,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15367,7 +15715,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732620283083,
+          "lastMessageTime": 1732621320929,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15385,7 +15733,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732620084228,
+          "lastMessageTime": 1732626792814,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15403,7 +15751,187 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732620272483,
+          "lastMessageTime": 1732621900691,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "5521969915001@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732626957105,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "554599015152@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": true,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732623120232,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "555496930052@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732623351776,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "553888016495@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": true,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732626368788,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "5516988272864@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732623690165,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "554691120693@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732626545061,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "553398595699@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732624718753,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "5517992410887@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732626690793,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "5527999248909@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732627507829,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "559183454349@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732626921757,
           "messageCount": null,
           "pontos": 0
         }
@@ -16866,7 +17394,17 @@
         "555189165809@s.whatsapp.net": [],
         "554197056898@s.whatsapp.net": [],
         "558184216648@s.whatsapp.net": [],
-        "5516981119323@s.whatsapp.net": []
+        "5516981119323@s.whatsapp.net": [],
+        "5521969915001@s.whatsapp.net": [],
+        "554599015152@s.whatsapp.net": [],
+        "555496930052@s.whatsapp.net": [],
+        "553888016495@s.whatsapp.net": [],
+        "5516988272864@s.whatsapp.net": [],
+        "554691120693@s.whatsapp.net": [],
+        "553398595699@s.whatsapp.net": [],
+        "5517992410887@s.whatsapp.net": [],
+        "5527999248909@s.whatsapp.net": [],
+        "559183454349@s.whatsapp.net": []
       },
       "firstTime": false,
       "antiCallGp": true,
@@ -16946,10 +17484,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 165,
-      "success": 165,
-      "last": 1732558982636,
-      "lastSuccess": 1732558982636
+      "total": 166,
+      "success": 166,
+      "last": 1732626672021,
+      "lastSuccess": 1732626672021
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -16964,10 +17502,10 @@
       "lastSuccess": 1731532795906
     },
     "dl-ig.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1732352362351,
-      "lastSuccess": 1732352362351
+      "total": 8,
+      "success": 8,
+      "last": 1732622714173,
+      "lastSuccess": 1732622714173
     },
     "buscador-lyrics.js": {
       "total": 5,
@@ -16994,10 +17532,10 @@
       "lastSuccess": 1732134744175
     },
     "dl-yt_play.js": {
-      "total": 17,
-      "success": 17,
-      "last": 1732618588658,
-      "lastSuccess": 1732618588658
+      "total": 18,
+      "success": 18,
+      "last": 1732627244650,
+      "lastSuccess": 1732627244650
     },
     "dono-reporte.js": {
       "total": 3,
@@ -17036,10 +17574,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1732619506326,
-      "lastSuccess": 1732619506326
+      "total": 27,
+      "success": 27,
+      "last": 1732626958232,
+      "lastSuccess": 1732626958232
     },
     "conversor-totext.js": {
       "total": 3,
