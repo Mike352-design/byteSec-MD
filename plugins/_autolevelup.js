@@ -136,12 +136,12 @@ export function before(m, { conn , isOwner, nivel, participants}) {
     
     
         ctx.font = '24px "DutchbrigadeRegular-8M7VJ"';
-        ctx.fillText(`+${coins} 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜`, 815, 635);
+        ctx.fillText(`+${coins} ʙʏᴛᴇᴄᴏɪɴꜱ`, 815, 635);
         
         if(funcoes.length>0){
           
           ctx.font = '24px "DutchbrigadeRegular-8M7VJ"';
-        ctx.fillText(`+${bugs} 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜`, 815, 675);
+        ctx.fillText(`+${bugs} ᴇᴛʜᴇʀᴇᴜᴍ`, 815, 675);
         }
     
     
@@ -788,8 +788,8 @@ user.role = levels[3]
  𝙽𝚒𝚟𝚎𝚕 𝙰𝚝𝚞𝚊𝚕 : ${user.level}
  𝙿𝚘𝚜𝚒𝚌𝚊𝚘 : ${user.role}\n
  ━━⬣ 𝑹𝒆𝒄𝒆𝒃𝒆𝒓𝒂𝒔
- 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 ⏦ _*+100*_
- 𓆣 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜 ⏦ _*+3*_
+ 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ ⏦ _*+100*_
+ 𓆣 ᴇᴛʜᴇʀᴇᴜᴍ ⏦ _*+3*_
 
 *╰─┅──┅❖ ⸸ ❖─┅──┅*
 

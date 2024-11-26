@@ -517,9 +517,9 @@ if(!global.db.data.chats[m.chat].jogadores[m.sender]){
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃ 𝙑𝙤𝙘𝙚 𝙜𝙖𝙣𝙝𝙤𝙪:
 ┃ ${parseInt(global.db.data.chats[m.chat].quiz.pergunta.Pontos)} pontos
-┃ _*${global.db.data.chats[m.chat].quiz.pergunta.Money}*_ 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
+┃ _*${global.db.data.chats[m.chat].quiz.pergunta.Money}*_ 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ
 ┃ _*${parseInt(global.db.data.chats[m.chat].quiz.pergunta.XP)}*_ 𝑥𝑝
-┃ _*1*_ 𓆣 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜
+┃ _*1*_ 𓆣 ᴇᴛʜᴇʀᴇᴜᴍ
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃ 𝙼𝚘𝚍𝚘 𝙲𝚘𝚖𝚙𝚎𝚝𝚒𝚝𝚒𝚟𝚘 🌒
 ╰━━━━━━━━━━━━━━━━━━⬣
@@ -1059,7 +1059,7 @@ console.log("👍")
 ┃ @${player2.split("@")[0]}: ${global.db.data.chats[m.chat].truco.stats[player2].pontos}
 ┃────────────────────
 ┃ @${user.split("@")[0]}  𝔯𝔢𝔠𝔢𝔟𝔢𝔯𝔞:
-┃ ${ global.db.data.chats[m.chat].truco.coins} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 ${isTruco ? `\n┃ ${ global.db.data.chats[m.chat].truco.bugs} 𓆣 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜` : ''}
+┃ ${ global.db.data.chats[m.chat].truco.coins} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ ${isTruco ? `\n┃ ${ global.db.data.chats[m.chat].truco.bugs} 𓆣 ᴇᴛʜᴇʀᴇᴜᴍ` : ''}
 ┃ ${ global.db.data.chats[m.chat].truco.xp} 𝑥𝑝
 ┃ 
 ╰─...⌬────────────────────╯`, m, { mentions:[player1,player2] });
@@ -1180,7 +1180,7 @@ console.log(global.db.data.chats[m.chat].truco.table)
 ┃ @${player2.split("@")[0]}: ${global.db.data.chats[m.chat].truco.stats[player2].pontos}
 ┃────────────────────
 ┃ @${user.split("@")[0]}  𝔯𝔢𝔠𝔢𝔟𝔢𝔯𝔞:
-┃ ${ global.db.data.chats[m.chat].truco.coins} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 ${global.db.data.chats[m.chat].truco.isTruco ? `\n┃ ${ global.db.data.chats[m.chat].truco.bugs} 𓆣 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜` : ''}
+┃ ${ global.db.data.chats[m.chat].truco.coins} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ ${global.db.data.chats[m.chat].truco.isTruco ? `\n┃ ${ global.db.data.chats[m.chat].truco.bugs} 𓆣 ᴇᴛʜᴇʀᴇᴜᴍ` : ''}
 ┃ ${ global.db.data.chats[m.chat].truco.xp} 𝑥𝑝
 ┃ 
 ╰─...⌬────────────────────╯`, m, { mentions:[player1,player2] });
@@ -1213,7 +1213,7 @@ global.db.data.chats[m.chat].users[user].limit +=  global.db.data.chats[m.chat].
 ┃ @${player2.split("@")[0]}: ${global.db.data.chats[m.chat].truco.stats[player2].pontos}
 ┃────────────────────
 ┃ @${user.split("@")[0]}  𝔯𝔢𝔠𝔢𝔟𝔢𝔯𝔞:
-┃ ${ global.db.data.chats[m.chat].truco.coins} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 ${global.db.data.chats[m.chat].truco.isTruco ? `\n┃ ${ global.db.data.chats[m.chat].truco.bugs} 𓆣 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜` : ''}
+┃ ${ global.db.data.chats[m.chat].truco.coins} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ ${global.db.data.chats[m.chat].truco.isTruco ? `\n┃ ${ global.db.data.chats[m.chat].truco.bugs} 𓆣 ᴇᴛʜᴇʀᴇᴜᴍ` : ''}
 ┃ ${ global.db.data.chats[m.chat].truco.xp} 𝑥𝑝
 ┃ 
 ╰─...⌬────────────────────╯`, m, { mentions:[player1,player2] });
@@ -2480,7 +2480,7 @@ let tipo14 = `┏━━❬❂❭━━━━━╼
 ╰╾╼╾╼╾╼╾╼╾╼╾
 > ‎ 
 > ☛ 𝙏𝙤𝙩𝙖𝙡 𝙖𝙥𝙤𝙨𝙩𝙖𝙙𝙤:
-> ${jogador.apostas.reduce((acc, { amount }) => acc + (amount || 0), 0)} 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
+> ${jogador.apostas.reduce((acc, { amount }) => acc + (amount || 0), 0)} ʙʏᴛᴇᴄᴏɪɴꜱ
 > ‎
 ┗━━━━━━━━━━━━━━━━`
   
@@ -2601,7 +2601,7 @@ let tipo14 = `┏━━❬❂❭━━━━━╼
 ╰╾╼╾╼╾╼╾╼╾╼╾
 > ‎ 
 > ☛ 𝙏𝙤𝙩𝙖𝙡 𝙖𝙥𝙤𝙨𝙩𝙖𝙙𝙤:
-> ${jogador.apostas.reduce((acc, { amount }) => acc + (amount || 0), 0)} 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
+> ${jogador.apostas.reduce((acc, { amount }) => acc + (amount || 0), 0)} ʙʏᴛᴇᴄᴏɪɴꜱ
 > ‎
 ┗━━━━━━━━━━━━━━━━`
   
@@ -2747,7 +2747,7 @@ console.log(mshg)
   
   
 let txtA = `┏━━❬ *𖤐* ❭━━┓
-*┃* - ${m.text} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 𝚌𝚘𝚕𝚘𝚌𝚊𝚍𝚊𝚜 𝚎𝚖 𝚓𝚘𝚐𝚘
+*┃* - ${m.text} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ 𝚌𝚘𝚕𝚘𝚌𝚊𝚍𝚊𝚜 𝚎𝚖 𝚓𝚘𝚐𝚘
 ┗━━━━━━━━━━━━━━━━`
 await conn.sendMessage(m.chat, {text: txtA, edit:  global.db.data.chats[m.chat].bicho.players[m.sender].keyMsg}  ,{ mentions: conn.parseMention(txtA) });
 
@@ -2860,7 +2860,7 @@ console.log(console.log('abc:  ' + global.db.data.chats[m.chat].forca.currentSta
   
 @${m.sender.split('@')[0]}
 | ━━⬣ 𝑹𝒆𝒄𝒆𝒃𝒆𝒓𝒂𝒔
-| 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜  _*+${coins}*_
+| 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ  _*+${coins}*_
 | 𓂀 𝑥𝑝  _*+${xp}*_
   `
   
@@ -2912,7 +2912,7 @@ if(userGuess == palavra){
   𝑫𝒆𝒔𝒗𝒆𝒏𝒅𝒂𝒔𝒕𝒆 𝒅𝒆 𝒇𝒐𝒓𝒎𝒂 𝒔𝒊𝒏𝒈𝒆𝒍𝒂 𝒎𝒆𝒖 𝒆𝒏𝒊𝒈𝒎𝒂
   @${m.sender.split('@')[0]}
 | ━━⬣ 𝑹𝒆𝒄𝒆𝒃𝒆𝒓𝒂𝒔
-| 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜  _*+${coins}*_
+| 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ  _*+${coins}*_
 | 𓂀 𝑥𝑝  _*+${xp}*_ `
     let message = await conn.reply(m.chat,textwioplv, m, { mentions: [m.sender] })
      return !0
@@ -3131,9 +3131,9 @@ _𝐁𝐞𝐦 𝐯𝐢𝐧𝐝𝐨 𝐚 𝐥𝐨𝐣𝐚 𝐝𝐨 𝐆𝐚𝐭�
 
     𝘗𝘰𝘳 𝘧𝘢𝘷𝘰𝘳... 𝘴𝘦𝘭𝘦𝘤𝘪𝘰𝘯𝘦 𝘶𝘮𝘢 𝘤𝘢𝘵𝘦𝘨𝘰𝘳𝘪𝘢
 
-⦗1⦘ _𝑪𝒂𝒎𝒃𝒊𝒐 𝒅𝒆 𝙴𝚜𝚌𝚊𝚛𝚊𝚟𝚎𝚕𝚑𝚘𝚜 𝒆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
+⦗1⦘ _𝑪𝒂𝒎𝒃𝒊𝒐 𝒅𝒆 ᴇᴛʜᴇʀᴇᴜᴍ 𝒆 ʙʏᴛᴇᴄᴏɪɴꜱ
 
-⦗2⦘ _𝐂𝐨𝐦𝐩𝐫𝐚𝐫 𝐱𝐩 𝐜𝐨𝐦 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜_
+⦗2⦘ _𝐂𝐨𝐦𝐩𝐫𝐚𝐫 𝐱𝐩 𝐜𝐨𝐦 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ_
 
 ⦗3⦘ _𝐂𝐨𝐦𝐩𝐫𝐚𝐫 𝐭𝐨𝐤𝐞𝐧𝐬_    
 
@@ -3174,21 +3174,21 @@ let message = await  conn.sendFile(m.chat, bugStore.getRandom(), 'loja.jpg', `�
 
 _〘 𓆣 𝑽𝒆𝒏𝒅𝒂 𝒅𝒆 𝒆𝒔𝒄𝒂𝒓𝒂𝒗𝒆𝒍𝒉𝒐𝒔 〙_
 
-⦗1⦘ _Vender 1 escaravelho por 550 Darkcoins_
-⦗2⦘ _Vender 2 escaravelhos por 1100 Darkcoins_
-⦗3⦘ _Vender 4 escaravelhos por 2200 Darkcoins_
-⦗4⦘ _Vender 5 escaravelhos por 2750 Darkcoins_
-⦗5⦘ _Vender 7 escaravelhos por 3850 Darkcoins_
-⦗6⦘ _Vender 8 escaravelhos por 4400 Darkcoins_
+⦗1⦘ _Vender 1 escaravelho por 550 ʙʏᴛᴇᴄᴏɪɴꜱ_
+⦗2⦘ _Vender 2 escaravelhos por 1100 ʙʏᴛᴇᴄᴏɪɴꜱ_
+⦗3⦘ _Vender 4 escaravelhos por 2200 ʙʏᴛᴇᴄᴏɪɴꜱ_
+⦗4⦘ _Vender 5 escaravelhos por 2750 ʙʏᴛᴇᴄᴏɪɴꜱ_
+⦗5⦘ _Vender 7 escaravelhos por 3850 ʙʏᴛᴇᴄᴏɪɴꜱ_
+⦗6⦘ _Vender 8 escaravelhos por 4400 ʙʏᴛᴇᴄᴏɪɴꜱ_
 
 _〘 𒄆 𝑽𝒆𝒏𝒅𝒂 𝒅𝒆 𝑫𝒂𝒓𝒌𝒄𝒐𝒊𝒏𝒔 〙_
 
-⦗7⦘ _Vender 550 Darkcoins por 1 escaravelho_
-⦗8⦘ _Vender 1100 Darkcoins por 2 escaravelhos_
-⦗9⦘ _Vender 1650 Darkcoins por 3 escaravelhos_
-⦗10⦘ _Vender 2200 Darkcoins por 4 escaravelhos_
-⦗11⦘ _Vender 2750 Darkcoins por 5 escaravelhos_
-⦗12⦘ _Vender 3300 Darkcoins por 6 escaravelhos_
+⦗7⦘ _Vender 550 ʙʏᴛᴇᴄᴏɪɴꜱ por 1 escaravelho_
+⦗8⦘ _Vender 1100 ʙʏᴛᴇᴄᴏɪɴꜱ por 2 escaravelhos_
+⦗9⦘ _Vender 1650 ʙʏᴛᴇᴄᴏɪɴꜱ por 3 escaravelhos_
+⦗10⦘ _Vender 2200 ʙʏᴛᴇᴄᴏɪɴꜱ por 4 escaravelhos_
+⦗11⦘ _Vender 2750 ʙʏᴛᴇᴄᴏɪɴꜱ por 5 escaravelhos_
+⦗12⦘ _Vender 3300 ʙʏᴛᴇᴄᴏɪɴꜱ por 6 escaravelhos_
 
 ⦗0⦘ _𝑽𝒐𝒍𝒕𝒂𝒓_
 
@@ -3225,12 +3225,12 @@ let message = await  conn.sendFile(m.chat, xpStore.getRandom(), 'loja.jpg', `╔
 ╭⋟────────────────────────╮
     𝘗𝘰𝘳 𝘧𝘢𝘷𝘰𝘳... 𝘴𝘦𝘭𝘦𝘤𝘪𝘰𝘯𝘦 𝘶𝘮𝘢 𝘰𝘱𝘤𝘢𝘰
     
-⦗1⦘ Comprar 100 XP por 500 Darkcoins
-⦗2⦘ Comprar 250 XP por 1200 Darkcoins
-⦗3⦘ Comprar 750 XP por 3600 Darkcoins
-⦗4⦘ Comprar 1500 XP por 7000 Darkcoins
-⦗5⦘ Comprar 3000 XP por 13800 Darkcoins
-⦗6⦘ Comprar 5000 XP por 20700 Darkcoins
+⦗1⦘ Comprar 100 XP por 500 ʙʏᴛᴇᴄᴏɪɴꜱ
+⦗2⦘ Comprar 250 XP por 1200 ʙʏᴛᴇᴄᴏɪɴꜱ
+⦗3⦘ Comprar 750 XP por 3600 ʙʏᴛᴇᴄᴏɪɴꜱ
+⦗4⦘ Comprar 1500 XP por 7000 ʙʏᴛᴇᴄᴏɪɴꜱ
+⦗5⦘ Comprar 3000 XP por 13800 ʙʏᴛᴇᴄᴏɪɴꜱ
+⦗6⦘ Comprar 5000 XP por 20700 ʙʏᴛᴇᴄᴏɪɴꜱ
 
 ⦗0⦘ _𝑽𝒐𝒍𝒕𝒂𝒓_
 
@@ -3339,18 +3339,18 @@ global.db.data.chats[m.chat].loja.page='almas'
   global.db.data.chats[m.chat].loja.page=='coins' && m.text >= 0 && m.text <=
   12) {
     let options = {
-        1: { escaravelhos: -1, darkcoins: 550, type: 'Transacao de cambio: Venda de 1 escaravelho por 550 Darkcoins' },
-        2: { escaravelhos: -2, darkcoins: 1100, type: 'Transacao de cambio: Venda de 2 escaravelhos por 1100 Darkcoins' },
-        3: { escaravelhos: -4, darkcoins: 2200, type: 'Transacao de cambio: Venda de 4 escaravelhos por 2200 Darkcoins' },
-        4: { escaravelhos: -5, darkcoins: 2750, type: 'Transacao de cambio: Venda de 5 escaravelhos por 2750 Darkcoins' },
-        5: { escaravelhos: -7, darkcoins: 3850, type: 'Transacao de cambio: Venda de 7 escaravelhos por 3850 Darkcoins' },
-        6: { escaravelhos: -8, darkcoins: 4400, type: 'Transacao de cambio: Venda de 8 escaravelhos por 4400 Darkcoins' },
-        7: { escaravelhos: 1, darkcoins: -550, type: 'Transacao de cambio: Venda de 550 Darkcoins por 1 escaravelho' },
-        8: { escaravelhos: 2, darkcoins: -1100, type: 'Transacao de cambio: Venda de 1100 Darkcoins por 2 escaravelhos' },
-        9: { escaravelhos: 3, darkcoins: -1650, type: 'Transacao de cambio: Venda de 1650 Darkcoins por 3 escaravelhos' },
-        10: { escaravelhos: 4, darkcoins: -2200, type: 'Transacao de cambio: Venda de 2200 Darkcoins por 4 escaravelhos' },
-        11: { escaravelhos: 5, darkcoins: -2750, type: 'Transacao de cambio: Venda de 2750 Darkcoins por 5 escaravelhos' },
-        12: { escaravelhos: 6, darkcoins: -3300, type: 'Transacao de cambio: Venda de 3300 Darkcoins por 6 escaravelhos' }
+        1: { escaravelhos: -1, ʙʏᴛᴇᴄᴏɪɴꜱ: 550, type: 'Transacao de cambio: Venda de 1 escaravelho por 550 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        2: { escaravelhos: -2, ʙʏᴛᴇᴄᴏɪɴꜱ: 1100, type: 'Transacao de cambio: Venda de 2 escaravelhos por 1100 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        3: { escaravelhos: -4, ʙʏᴛᴇᴄᴏɪɴꜱ: 2200, type: 'Transacao de cambio: Venda de 4 escaravelhos por 2200 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        4: { escaravelhos: -5, ʙʏᴛᴇᴄᴏɪɴꜱ: 2750, type: 'Transacao de cambio: Venda de 5 escaravelhos por 2750 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        5: { escaravelhos: -7, ʙʏᴛᴇᴄᴏɪɴꜱ: 3850, type: 'Transacao de cambio: Venda de 7 escaravelhos por 3850 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        6: { escaravelhos: -8, ʙʏᴛᴇᴄᴏɪɴꜱ: 4400, type: 'Transacao de cambio: Venda de 8 escaravelhos por 4400 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        7: { escaravelhos: 1, ʙʏᴛᴇᴄᴏɪɴꜱ: -550, type: 'Transacao de cambio: Venda de 550 ʙʏᴛᴇᴄᴏɪɴꜱ por 1 escaravelho' },
+        8: { escaravelhos: 2, ʙʏᴛᴇᴄᴏɪɴꜱ: -1100, type: 'Transacao de cambio: Venda de 1100 ʙʏᴛᴇᴄᴏɪɴꜱ por 2 escaravelhos' },
+        9: { escaravelhos: 3, ʙʏᴛᴇᴄᴏɪɴꜱ: -1650, type: 'Transacao de cambio: Venda de 1650 ʙʏᴛᴇᴄᴏɪɴꜱ por 3 escaravelhos' },
+        10: { escaravelhos: 4, ʙʏᴛᴇᴄᴏɪɴꜱ: -2200, type: 'Transacao de cambio: Venda de 2200 ʙʏᴛᴇᴄᴏɪɴꜱ por 4 escaravelhos' },
+        11: { escaravelhos: 5, ʙʏᴛᴇᴄᴏɪɴꜱ: -2750, type: 'Transacao de cambio: Venda de 2750 ʙʏᴛᴇᴄᴏɪɴꜱ por 5 escaravelhos' },
+        12: { escaravelhos: 6, ʙʏᴛᴇᴄᴏɪɴꜱ: -3300, type: 'Transacao de cambio: Venda de 3300 ʙʏᴛᴇᴄᴏɪɴꜱ por 6 escaravelhos' }
     };
 
     let choice = options[m.text];
@@ -3360,7 +3360,7 @@ if(user.limit<0) user.limit=0
 if(user.money<0) user.money=0
     // Check if user has enough resources
     if ((choice.escaravelhos < 0 && user.limit < -choice.escaravelhos) ||
-        (choice.darkcoins < 0 && user.money < -choice.darkcoins)) {
+        (choice.ʙʏᴛᴇᴄᴏɪɴꜱ < 0 && user.money < -choice.ʙʏᴛᴇᴄᴏɪɴꜱ)) {
            m.reply(`⎔⎓──────────────
 ┃  ✞︎ 𝑬𝑹𝑹𝑶 𝑨𝑶 𝑬𝑭𝑬𝑻𝑼𝑨𝑹 𝑪𝑶𝑴𝑷𝑹𝑨!
 ┃ 
@@ -3372,7 +3372,7 @@ if(user.money<0) user.money=0
 
     // Process the transaction
     user.limit += choice.escaravelhos;
-    user.money += choice.darkcoins;
+    user.money += choice.ʙʏᴛᴇᴄᴏɪɴꜱ;
 
     // Create a protocol ID and log the purchase
     let protocolId = Math.random().toString(36).substr(2, 9).toUpperCase();
@@ -3385,7 +3385,7 @@ if(user.money<0) user.money=0
         number: m.sender.split('@')[0],
         type: choice.type,
         escaravelhos: choice.escaravelhos,
-        darkcoins: choice.darkcoins
+        ʙʏᴛᴇᴄᴏɪɴꜱ: choice.ʙʏᴛᴇᴄᴏɪɴꜱ
     };
 
     
@@ -3415,12 +3415,12 @@ if(user.money<0) user.money=0
  global.db.data.chats[m.chat].loja.page == 'xp' && m.text >= 0 && m.text <= 6)
  {
     let options = {
-        1: { xp: 100, darkcoins: -500, type: 'Compra de 100 XP por 500 Darkcoins' },
-        2: { xp: 250, darkcoins: -1200, type: 'Compra de 250 XP por 1200 Darkcoins' },
-        3: { xp: 750, darkcoins: -3600, type: 'Compra de 750 XP por 3600 Darkcoins' },
-        4: { xp: 1500, darkcoins: -7000, type: 'Compra de 1500 XP por 7000 Darkcoins' },
-        5: { xp: 3000, darkcoins: -13800, type: 'Compra de 3000 XP por 13800 Darkcoins' },
-        6:{ xp: 5000, darkcoins: -20700, type: 'Compra de 5000 XP por 20700 Darkcoins' }
+        1: { xp: 100, ʙʏᴛᴇᴄᴏɪɴꜱ: -500, type: 'Compra de 100 XP por 500 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        2: { xp: 250, ʙʏᴛᴇᴄᴏɪɴꜱ: -1200, type: 'Compra de 250 XP por 1200 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        3: { xp: 750, ʙʏᴛᴇᴄᴏɪɴꜱ: -3600, type: 'Compra de 750 XP por 3600 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        4: { xp: 1500, ʙʏᴛᴇᴄᴏɪɴꜱ: -7000, type: 'Compra de 1500 XP por 7000 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        5: { xp: 3000, ʙʏᴛᴇᴄᴏɪɴꜱ: -13800, type: 'Compra de 3000 XP por 13800 ʙʏᴛᴇᴄᴏɪɴꜱ' },
+        6:{ xp: 5000, ʙʏᴛᴇᴄᴏɪɴꜱ: -20700, type: 'Compra de 5000 XP por 20700 ʙʏᴛᴇᴄᴏɪɴꜱ' }
     
       };
 
@@ -3429,8 +3429,8 @@ if(user.money<0) user.money=0
     let user = global.db.data.chats[m.chat].users[m.sender];
 if(user.limit<0) user.limit=0
 if(user.money<0) user.money=0
-    // Check if user has enough Darkcoins
-    if (user.money < -choice.darkcoins) {
+    // Check if user has enough ʙʏᴛᴇᴄᴏɪɴꜱ
+    if (user.money < -choice.ʙʏᴛᴇᴄᴏɪɴꜱ) {
         m.reply(`⎔⎓──────────────
 ┃  ✞︎ 𝑬𝑹𝑹𝑶 𝑨𝑶 𝑬𝑭𝑬𝑻𝑼𝑨𝑹 𝑪𝑶𝑴𝑷𝑹𝑨!
 ┃ 
@@ -3442,7 +3442,7 @@ if(user.money<0) user.money=0
 
     // Process the transaction
     user.exp += choice.xp;
-    user.money += choice.darkcoins;
+    user.money += choice.ʙʏᴛᴇᴄᴏɪɴꜱ;
 
     // Create a protocol ID and log the purchase
     let protocolId = Math.random().toString(36).substr(2, 9).toUpperCase();
@@ -3455,7 +3455,7 @@ if(user.money<0) user.money=0
         number: m.sender.split('@')[0],
         type: choice.type,
         xp: choice.xp,
-        darkcoins: choice.darkcoins
+        ʙʏᴛᴇᴄᴏɪɴꜱ: choice.ʙʏᴛᴇᴄᴏɪɴꜱ
     };
 
     if (!loja.historico) {
@@ -3498,7 +3498,7 @@ if(user.money<0) user.money=0
 
 if(user.limit<0) user.limit=0
 if(user.money<0) user.money=0
-    // Check if user has enough Darkcoins
+    // Check if user has enough ʙʏᴛᴇᴄᴏɪɴꜱ
     if (user.limit < -choice.cost) {
         m.reply(`⎔⎓──────────────
 ┃  ✞︎ 𝑬𝑹𝑹𝑶 𝑨𝑶 𝑬𝑭𝑬𝑻𝑼𝑨𝑹 𝑪𝑶𝑴𝑷𝑹𝑨!
@@ -3537,7 +3537,7 @@ global.db.data.chats[m.chat].users[m.sender][att] =
         number: m.sender.split('@')[0],
         type: choice.type,
         xp: choice.xp,
-        darkcoins: choice.darkcoins
+        ʙʏᴛᴇᴄᴏɪɴꜱ: choice.ʙʏᴛᴇᴄᴏɪɴꜱ
     };
 
     if (!loja.historico) {
@@ -3577,12 +3577,12 @@ global.db.data.chats[m.chat].users[m.sender][att] =
    let loja = global.db.data.chats[m.chat].loja
     let user = global.db.data.chats[m.chat].users[m.sender];
 if(user.almas<0)user.almas = 0
-    // Check if user has enough Darkcoins
+    // Check if user has enough ʙʏᴛᴇᴄᴏɪɴꜱ
     if (user.almas < -choice.cost) {
         m.reply(`⎔⎓──────────────
 ┃  ✞︎ 𝑬𝑹𝑹𝑶 𝑨𝑶 𝑬𝑭𝑬𝑻𝑼𝑨𝑹 𝑪𝑶𝑴𝑷𝑹𝑨!
 ┃ 
-┃ 𝔑𝔞̃𝔬 𝔱𝔢𝔪 𝔞𝔩𝔪𝔞𝔰 𝔰𝔲𝔣𝔦𝔠𝔦𝔢𝔫𝔱𝔢́𝔰. . . 
+┃ 𝔑𝔞̃𝔬 𝔱𝔢𝔪 𝐑𝐂𝐄'𝐬 𝔰𝔲𝔣𝔦𝔠𝔦𝔢𝔫𝔱𝔢́𝔰. . . 
 ┃
 ╰─...⎔⎓──────────`);
         return;
@@ -3614,7 +3614,7 @@ global.db.data.chats[m.chat].users[m.sender][att] =
         number: m.sender.split('@')[0],
         type: choice.type,
         xp: choice.xp,
-        darkcoins: choice.darkcoins
+        ʙʏᴛᴇᴄᴏɪɴꜱ: choice.ʙʏᴛᴇᴄᴏɪɴꜱ
     };
 
     if (!loja.historico) {
@@ -3692,7 +3692,7 @@ if (["sim", "claro", "aceito", "óbvio", "obvio", "claro que sim", "s", "ss"].in
  
  𝑵𝒐 𝒐𝒃𝒔𝒄𝒖𝒓𝒐 𝒓𝒆𝒄𝒊𝒏𝒕𝒐 𝒅𝒐 𝒄𝒂𝒓𝒕𝒐𝒓𝒊𝒐, 𝒐𝒔 𝒑𝒆𝒓𝒈𝒂𝒎𝒊𝒏𝒉𝒐𝒔 𝒇𝒐𝒓𝒂𝒎 𝒂𝒔𝒔𝒊𝒏𝒂𝒅𝒐𝒔 𝒆 𝒓𝒆𝒄𝒐𝒏𝒉𝒆𝒄𝒊𝒅𝒐𝒔 𝒆 𝒗𝒐𝒔𝒔𝒐𝒔 𝒅𝒆𝒔𝒕𝒊𝒏𝒐𝒔 𝒅𝒆𝒔𝒗𝒊𝒏𝒄𝒖𝒍𝒂𝒅𝒐𝒔. 𝑨𝒈𝒐𝒓𝒂, 𝒗𝒐𝒔𝒔𝒂𝒔 𝒂𝒍𝒎𝒂𝒔 𝒆𝒔𝒕𝒂𝒐 𝒍𝒆𝒈𝒂𝒍𝒎𝒆𝒏𝒕𝒆 𝒔𝒆𝒑𝒂𝒓𝒂𝒅𝒂𝒔. 
  
- 𝑼𝒎𝒂 𝒕𝒂𝒙𝒂 𝒅𝒆 415 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 𝒇𝒐𝒊 𝒆𝒙𝒂𝒖𝒓𝒊𝒅𝒂 𝒅𝒆 𝒗𝒐𝒔𝒔𝒂 𝒄𝒐𝒏𝒕𝒂 𝒂 𝒐𝒓𝒅𝒆𝒎 𝒑𝒂𝒓𝒂 𝒄𝒐𝒏𝒄𝒓𝒆𝒕𝒊𝒛𝒂𝒓 𝒆𝒔𝒕𝒆 𝒑𝒓𝒐𝒄𝒆𝒔𝒔𝒐 𝒅𝒆 𝒅𝒊𝒔𝒔𝒐𝒍𝒖𝒄𝒂𝒐 𝒎𝒂𝒕𝒓𝒊𝒎𝒐𝒏𝒊𝒂𝒍.
+ 𝑼𝒎𝒂 𝒕𝒂𝒙𝒂 𝒅𝒆 415 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ 𝒇𝒐𝒊 𝒆𝒙𝒂𝒖𝒓𝒊𝒅𝒂 𝒅𝒆 𝒗𝒐𝒔𝒔𝒂 𝒄𝒐𝒏𝒕𝒂 𝒂 𝒐𝒓𝒅𝒆𝒎 𝒑𝒂𝒓𝒂 𝒄𝒐𝒏𝒄𝒓𝒆𝒕𝒊𝒛𝒂𝒓 𝒆𝒔𝒕𝒆 𝒑𝒓𝒐𝒄𝒆𝒔𝒔𝒐 𝒅𝒆 𝒅𝒊𝒔𝒔𝒐𝒍𝒖𝒄𝒂𝒐 𝒎𝒂𝒕𝒓𝒊𝒎𝒐𝒏𝒊𝒂𝒍.
 
 ┗━── `, // Replace with the desired caption
             contextInfo: {
@@ -4510,7 +4510,7 @@ const statusString = global.db.data.chats[m.chat].sudoku.gameData.status.join(''
  global.db.data.chats[m.chat].users[m.sender].money += conns5
  let textts = `╭──────────────────── ⛦...─╮
                    ༒︎ 𝑭𝑰𝑴 𝑫𝑬 𝑱𝑶𝑮𝑶 ༒︎            
- 𝒈𝒂𝒏𝒉𝒐𝒖 ${conns5} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜
+ 𝒈𝒂𝒏𝒉𝒐𝒖 ${conns5} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ
 ${global.db.data.chats[m.chat].sudoku.singleplayer ? `` : `─┅❖ 𝑱𝒐𝒈𝒂𝒅𝒐𝒓𝒆𝒔\n`}
 ${global.db.data.chats[m.chat].sudoku.jogadores.map(player => '@' + player.split('@')[0] + '  𝒈𝒂𝒏𝒉𝒐𝒖 ' + (6 * global.db.data.chats[m.chat].sudoku.jogadas[player]) + ' 𝑥𝑝').join('\n')}
 
@@ -4613,7 +4613,7 @@ if(!global.db.data.chats[m.chat].sudoku.jogadas[m.sender]){
       global.db.data.chats[m.chat].users[m.sender].pontos++
     let msgh = await conn.sendFile(m.chat, filePath, 'sudoku.png', `╭──────────────────── ⛦...─╮
                         ⸸ 𝑵𝒖𝒎𝒆𝒓𝒐 𝒄𝒐𝒓𝒓𝒆𝒕𝒐 
-     𝒈𝒂𝒏𝒉𝒐𝒖 ${conns} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 𝒆 +1 𝒑𝒐𝒏𝒕𝒐
+     𝒈𝒂𝒏𝒉𝒐𝒖 ${conns} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ 𝒆 +1 𝒑𝒐𝒏𝒕𝒐
 ╰─...𖤐────────────────────╯`, m,{mentions:[m.sender]});
     
   global.db.data.chats[m.chat].sudoku.regMsg = msgh.key.id
@@ -4636,14 +4636,14 @@ handleCorrectGuess(rowIndex, colIndex, number); // Row index for 'C' is 2, colum
  let mmn = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
     m.reply(  `╭────────────⌬─╮
 |            𝑬𝒓𝒓𝒂𝒅𝒐 ❌             
-| 𝒑𝒆𝒓𝒅𝒆𝒔 ${mmn} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 
+| 𝒑𝒆𝒓𝒅𝒆𝒔 ${mmn} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ 
 ╰─⌬────────────╯`)
  global.db.data.chats[m.chat].users[m.sender].money -= mmn
   } else {
   let mmhn = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
     m.reply(  `╭────────────⌬─╮
 |            𝑬𝒓𝒓𝒂𝒅𝒐 ❌             
-| 𝒑𝒆𝒓𝒅𝒆𝒔 ${mmhn} 𒄆 𝙳𝚊𝚛𝚔𝙲𝚘𝚒𝚗𝚜 
+| 𝒑𝒆𝒓𝒅𝒆𝒔 ${mmhn} 𒄆 ʙʏᴛᴇᴄᴏɪɴꜱ 
 ╰─⌬────────────╯`)
  global.db.data.chats[m.chat].users[m.sender].money -= mmhn
   }

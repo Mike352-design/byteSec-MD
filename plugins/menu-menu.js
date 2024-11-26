@@ -1230,7 +1230,7 @@ let menucassino = `\`${horarioFecha}\`
 *| .roleta*
 *|* † _Jogo de azar com roda numerada_
 *| .slot*
-*|* † _apostar darkcoins_
+*|* † _apostar ʙʏᴛᴇᴄᴏɪɴꜱ_
 *| .slotxp*
 *|* † _apostar pontos xp_
 *| .truco*
