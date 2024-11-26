@@ -15,6 +15,30 @@
 
 let WAMessageStubType = (await import(global.baileys)).default
 export async function before(m, { conn, participants}) {
+
+    let newAdmin
+
+if (global.db.data.chats[m.chat].language === 'pt') {
+    newAdmin = `
+> robot@bytesec: #~/groups/ usermod -aG sudo user
+> ---------------------------------------
+>>> [!] ᴀᴅɪᴄɪᴏɴᴀɴᴅᴏ ᴜꜱᴜᴀʀɪᴏ ᴀᴏ ꜱᴜᴅᴏᴇʀꜱ
+────────────────────────────────
+> [+] @${m.messageStubParameters[0].split`@`[0]} ᴠɪʀᴏᴜ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴅᴏʀ ɴᴏ ꜱɪꜱᴛᴇᴍᴀ
+────────────────────────────────
+    `;
+}
+else if (global.db.data.chats[m.chat].language === 'en') {
+  newAdmin = `
+> robot@bytesec: #~/groups/ usermod -aG sudo user
+> ---------------------------------------
+>>> [!] ᴀᴅᴅɪɴɢ ᴜꜱᴇʀ ᴛᴏ ꜱᴜᴅᴏᴇʀꜱ ꜰɪʟᴇ 
+────────────────────────────────
+> [+] @${m.messageStubParameters[0].split`@`[0]} ʙᴇᴄᴀᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ꜱʏꜱᴛᴇᴍ
+────────────────────────────────
+  `;
+}
+
 if (!m.messageStubType || !m.isGroup) return
 let usuario = `@${m.sender.split`@`[0]}`
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
@@ -31,7 +55,7 @@ await this.sendMessage(m.chat, { text: `🔒 𝗔𝗚𝗢𝗥𝗔 *${m.messageSt
 } else if (m.messageStubType == 26) {
 return 0
 } else if (m.messageStubType == 29) {
-await this.sendMessage(m.chat, { text: `@${m.messageStubParameters[0].split`@`[0]} 𝔱𝔬𝔯𝔫𝔬𝔲-𝔰𝔢 𝔲𝔪𝔞 𝔢𝔫𝔱𝔦𝔡𝔞𝔡𝔢 𝔞𝔡𝔪𝔦𝔫𝔦𝔰𝔱𝔯𝔞𝔱𝔦𝔳𝔞 𝔫𝔢𝔰𝔱𝔢 𝔯𝔢𝔠𝔦𝔫𝔱𝔬 🪶 `, mentions: [`${m.sender}`,`${m.messageStubParameters[0]}`]/*, mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id)*/ }, { quoted: fkontak })
+await this.sendMessage(m.chat, { text: newAdmin, mentions: [`${m.sender}`,`${m.messageStubParameters[0]}`]/*, mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id)*/ }, { quoted: fkontak })
 } else if (m.messageStubType == 30) {
 } else if (m.messageStubType == 72) {
 await this.sendMessage(m.chat, { text: `@${m.messageStubParameters[0].split`@`[0]} 𝔭𝔢𝔯𝔡𝔢𝔲 𝔭𝔬𝔡𝔢𝔯 𝔫𝔢𝔰𝔱𝔞 𝔠𝔬𝔪𝔲𝔫𝔦𝔡𝔞𝔡𝔢 💀`, mentions: [`${m.sender}`,`${m.messageStubParameters[0]}`]/*, mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id)*/ }, { quoted: fkontak })

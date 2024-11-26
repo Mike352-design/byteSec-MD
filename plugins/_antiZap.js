@@ -27,13 +27,42 @@ if (m.text.includes(linkThisGroup)) {
   }
   if(global.db.data.chats[m.chat].users[m.sender].advZap == 1) 
   {
-      
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐀𝐓𝐄𝐍𝐂̧𝐀̃𝐎*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑁𝑎̃𝑜 𝑚𝑎𝑛𝑑𝑒 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜, 𝑒́ 𝑖𝑛𝑒𝑥𝑜𝑟𝑎𝑣𝑒𝑙𝑚𝑒𝑛𝑡𝑒 𝑝𝑟𝑜𝑖𝑏𝑖𝑑𝑜 𝑝𝑒𝑙𝑎𝑠 𝑟𝑒𝑔𝑟𝑎𝑠 𝑑𝑒𝑓𝑖𝑛𝑖𝑑𝑎𝑠.
-> 𝑂𝑢𝑠𝑒 𝑑𝑒𝑠𝑎𝑓𝑖𝑎𝑟 𝑚𝑖𝑛ℎ𝑎 𝑜𝑟𝑑𝑒𝑚 𝑛𝑜𝑣𝑎𝑚𝑒𝑛𝑡𝑒 𝑒 𝑠𝑜𝑓𝑟𝑒𝑟𝑎́ 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒̂𝑛𝑐𝑖𝑎𝑠 𝑖𝑚𝑒𝑑𝑖𝑎𝑡𝑎𝑠.
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+    let warnLinks;
+
+    if (global.db.data.chats[m.chat].language === 'pt') {
+      warnLinks = `
+  > robot@bytesec: #~ journalctl
+  > ---------------------------------------
+  
+  [!] 0x8007000E: Violação de Regras
+  ────────────────────────────────
+  > Não mande links do Whatsapp neste grupo. 
+  > Isso é estritamente proibido pelas regras.
+  > Qualquer desafio a esta ordem resultará em 
+  > consequências imediatas.
+  > ‎ 
+  > # Monitoração ativa por ByteSec.
+  ────────────────────────────────
+      `;
+  } else if (global.db.data.chats[m.chat].language === 'en') {
+      warnLinks = `
+  > robot@bytesec: #~ journalctl
+  > ---------------------------------------
+  
+  [!] WARNING: Rule Violation
+  ────────────────────────────────
+  > Do not send Whatsapp links in this group.
+  > It is strictly banned by defined rules.
+  > Any challenge to this order will result in 
+  > immediate consequences.
+  > ‎ 
+  > # Active monitoring by ByteSec.
+  ────────────────────────────────
+      `;
+  }
+
+
+ await conn.sendMessage(m.chat, {text: warnLinks, mentions: [m.sender]}, {quoted: m})
  global.db.data.chats[m.chat].users[m.sender].advZap++ 
  
  return !0
@@ -42,12 +71,44 @@ if (m.text.includes(linkThisGroup)) {
   
   else if(global.db.data.chats[m.chat].users[m.sender].advZap==2) {
     
- await conn.sendMessage(m.chat, {text: `╭━━[ *𝓔𝓭𝓰𝓪𝓻 v${vs} 𓄿* ]━━⬣
-┃ *𝐕𝐨𝐜𝐞̂ 𝐬𝐞𝐫𝐚́ 𝐫𝐞𝐦𝐨𝐯𝐢𝐝𝐨.*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-> 𝑇𝑒 𝑎𝑑𝑣𝑒𝑟𝑡𝑖 𝑝𝑟𝑒𝑣𝑖𝑎𝑚𝑒𝑛𝑡𝑒 𝑝𝑎𝑟𝑎 𝑛𝑎̃𝑜 𝑝𝑟𝑜𝑙𝑖𝑓𝑒𝑟𝑎𝑟 𝑙𝑖𝑛𝑘𝑠 𝑑𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝑛𝑒𝑠𝑡𝑒 𝑔𝑟𝑢𝑝𝑜. 𝐷𝑒𝑐𝑖𝑑𝑖𝑠𝑡𝑒 𝑖𝑔𝑛𝑜𝑟𝑎𝑟 𝑚𝑒𝑢 𝑎𝑣𝑖𝑠𝑜 𝑒 𝑎𝑔𝑜𝑟𝑎 𝑠𝑒𝑟𝑎́ 𝑒𝑥𝑝𝑢𝑟𝑔𝑎𝑑𝑜 𝑑𝑎𝑞𝑢𝑖. 
-> 𝐴𝑑𝑒𝑢𝑠, ${global.db.data.users[m.sender].name}
-╰━━━[⚠︎]━━⬣`, mentions: [m.sender]}, {quoted: m})
+    let linksBAN; 
+
+if (global.db.data.chats[m.chat].language === 'pt') {
+    linksBAN = `
+> robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+> ---------------------------------------
+
+>>> [!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ 
+────────────────────────────────
+> [+] Você achou que poderia ignorar minhas instruções?
+> [+] Links do whatsapp não são permitidos aqui.
+> [+] Agora, você decidiu se arriscar. A consequência? 
+> [+] Você será removido do sistema. 
+
+> Adeus, ${global.db.data.users[m.sender].name}. 
+> # Monitoração ativa por ByteSec. 
+────────────────────────────────
+    `;
+}
+else if (global.db.data.chats[m.chat].language === 'en') {
+  linksBAN = `
+> robot@bytesec: #~/groups/ uafw && ./remove -l || grep -r '@${m.sender.split('@')[0]}'
+> ---------------------------------------
+
+[!] ʀᴇᴍᴏᴠɪɴɢ ᴘɪᴅ
+────────────────────────────────
+> [+] You thought you could just ignore my orders?
+> [+] Whatsapp Links are strictly forbidden here.
+> [+] You chose to take a risk. The consequence? 
+> [+] You’re getting erased from the system. 
+
+> Goodbye, ${global.db.data.users[m.sender].name}. 
+> # Active monitoring by ByteSec. 
+────────────────────────────────
+  `;
+}
+
+ await conn.sendMessage(m.chat, {text: linksBAN, mentions: [m.sender]}, {quoted: m})
  
 //No longer available
 let DELETEMESSAGE = await conn.sendMessage(m.chat, { delete: m.key })
@@ -73,11 +134,13 @@ return !0
 }
 }    
 //await conn.sendButton(m.chat, `${lenguajeGB['smsEnlaceWatt']()} ${await this.getName(m.sender)} ${isBotAdmin ? '' : `\n\n${lenguajeGB['smsAvisoFG']()}${lenguajeGB['smsAllAdmin']()}`}`, wm, [`${lenguajeGB['smsApagar']()}`, '/disable antilink'], m)    
-if (!isBotAdmin) {return conn.sendMessage(m.chat, {text: `*⛔
-${lenguajeGB.smsAddB4()} ⛔*\n${listAdmin}\n\n${lenguajeGB['smsAllAdmin']()}`,
-mentions: [...groupAdmins.map(v => v.id)] }, {quoted: m})}
 
-else if (!bot.restrict) return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
+
+if (!isBotAdmin) {
+  return m.reply(global.notAdmin)
+  } else if (!bot.restrict) {
+  return m.reply(global.notOwner)
+  }
 }
 return !0
 }
