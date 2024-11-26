@@ -1111,7 +1111,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "jesus. Janilson sants",
+      "name": "jesus. Jan.sants",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -5253,7 +5253,8 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "warn": 0
+      "warn": 0,
+      "lastmiming": 1732638590966
     },
     "554188822185@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -5784,7 +5785,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1732632583034
+      "lastmiming": 1732638918838
     },
     "5511994334762@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -5858,7 +5859,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "kakashi",
+      "name": "Shay de se preocupar com ND",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -5884,7 +5885,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1732630831974
+      "lastmiming": 1732636755811
     },
     "558184216648@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -6130,7 +6131,13 @@
           "number": "5516988272864@s.whatsapp.net",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "554691120693@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -6553,7 +6560,13 @@
           "number": "556295410574@s.whatsapp.net",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "557391032940@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -6580,7 +6593,318 @@
           "number": "557391032940@s.whatsapp.net",
           "afkReason": ""
         }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "553888016495@s.whatsapp.net,554599015152@s.whatsapp.net,553496426551@s.whatsapp.net,553497704017@s.whatsapp.net,554796286237@s.whatsapp.net": {},
+    "559192321625@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Daniel ☕",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "559192321625@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "556295757489@s.whatsapp.net": {},
+    "555584470148@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Tiago",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "555584470148@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "554792254487@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "uriel",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "554792254487@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "557382274015@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Cléber Reis Tattoo",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "557382274015@s.whatsapp.net",
+          "afkReason": ""
+        }
       }
+    },
+    "554792625204@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Ian",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "554792625204@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "5512988340770@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Leidi",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "5512988340770@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "554792254487@s.whatsapp.net,5521970385666@s.whatsapp.net": {},
+    "555189247531@s.whatsapp.net": {},
+    "5511987076728@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Galberto",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "5511987076728@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "555181168509@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "😄",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "555181168509@s.whatsapp.net",
+          "afkReason": ""
+        }
+      }
+    },
+    "555596624577@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Vinícius Xavier",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "555596624577@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "558196334341@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Juarez",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "warn": 0,
+      "afkInfo": {
+        "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "558196334341@s.whatsapp.net",
+          "afkReason": ""
+        }
+      },
+      "lastmiming": 1732641558770,
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -6660,7 +6984,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732589370121,
+          "lastMessageTime": 1732636077591,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6750,7 +7074,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732589587065,
+          "lastMessageTime": 1732636171736,
           "messageCount": 1,
           "pontos": 0
         },
@@ -6858,7 +7182,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732540261402,
+          "lastMessageTime": 1732635055525,
           "messageCount": 1,
           "pontos": 0
         },
@@ -7434,7 +7758,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732592198220,
+          "lastMessageTime": 1732639129066,
           "messageCount": 1,
           "pontos": 0
         },
@@ -7506,7 +7830,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732578221154,
+          "lastMessageTime": 1732637843751,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9469,7 +9793,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 536,
+      "totalMembros": 535,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -10025,10 +10349,6 @@
         },
         {
           "id": "142803568955548@lid",
-          "admin": null
-        },
-        {
-          "id": "250693181042854@lid",
           "admin": null
         },
         {
@@ -13675,15 +13995,47 @@
           {
             "role": "assistant",
             "content": "Beleza, Isadora, você quer algo com impacto, né? Vamos combinar criatividade com aquele toque profissional pra sua papelaria. Aqui vão algumas ideias pra diferentes estilos:\n\n---\n\n### **1. Nomes Sofisticados e Elegantes**  \n- **Grafite & Papel**  \n- **Estação do Papel**  \n- **Linhas e Traços**  \n- **Artefato Papelaria**  \n- **Monograma Papelaria**\n\n---\n\n### **2. Nomes Modernos e Descolados**  \n- **Papelêra**  \n- **Ink & Idea**  \n- **Ponto do Papel**  \n- **Traço Criativo**  \n- **Criarte**\n\n---\n\n### **3. Nomes Divertidos e Memoráveis**  \n- **Papelão & Companhia**  \n- **Caderno Feliz**  \n- **Escrivaninha Encantada**  \n- **Tinta e Papelão**  \n- **Papelzão**\n\n---\n\n### **4. Nomes Ligados a Criatividade e Inspiração**  \n- **Inspira Papelaria**  \n- **Mente Criativa**  \n- **Papel e Sonhos**  \n- **Traços de Ideias**  \n- **Escrita Livre**\n\n---\n\n### **5. Nomes Clássicos e Tradicionais**  \n- **Papelaria Central**  \n- **Papelaria Simões** (personalizado!)  \n- **Clássica Papelaria**  \n- **Livros & Letras**  \n- **Papelaria União**\n\n---\n\n**Dica extra:** Escolha algo que tenha a ver com a identidade que você quer pra sua loja. Algo curto, fácil de lembrar e que combine com a vibe do negócio. Qualquer coisa, ajusta essas ideias e personaliza. Fala mais se precisar afinar o nome, garota!"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"qual é a probabilidade de acontecer reações adversas ao uso do pré treino em minha pessoa que possui tdah?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Isadora, garota, vamos falar de probabilidade e riscos de usar pré-treino tendo TDAH. Porque, assim como mexer com chakra de um Uchiha, isso não é tão simples quanto parece.\n\n---\n\n### **1. O Que Tem Num Pré-Treino?**\nOs pré-treinos geralmente têm ingredientes como:\n- **Cafeína**: Estimulante poderoso, melhora o foco e a energia.\n- **Beta-alanina**: Dá aquele formigamento e aumenta resistência.\n- **Arginina e Citrulina**: Melhoram a circulação sanguínea.\n- **Creatina**: Ajuda na força muscular.\n\n### **2. TDAH e Cafeína**\nSe você tem TDAH, o maior problema no pré-treino é a **cafeína**. Por quê?\n- Ela **imita o efeito dos estimulantes** usados no tratamento do TDAH (tipo ritalina ou concerta), mas sem a mesma precisão.  \n- Pode causar **ansiedade**, irritabilidade ou até atrapalhar o foco, dependendo da dose.  \n- **Se você já toma remédios para TDAH**, somar cafeína pode intensificar efeitos como taquicardia, insônia ou até aumentar o risco de crises de ansiedade.\n\n---\n\n### **3. Possíveis Reações Adversas**  \nAs reações dependem do quanto seu corpo aguenta e se você já tem sensibilidade a estimulantes:\n- **Leves:** Formigamento, dor de cabeça, leve taquicardia.  \n- **Moderadas:** Irritação, tremores, insônia.  \n- **Severas:** Aumento excessivo da frequência cardíaca, crise de ansiedade.\n\n---\n\n### **4. O Que Fazer Para Evitar Riscos?**\n- **Converse com seu médico.** Especialmente se você toma medicamentos para TDAH.\n- Comece com **meia dose** ou menos pra ver como seu corpo reage.\n- Evite pré-treinos com **cafeína alta** (acima de 150 mg por dose) ou opte por versões sem cafeína.\n- Não tome próximo ao horário de dormir. TDAH + insônia induzida por pré-treino é uma combinação explosiva.\n\n---\n\n### **Resumo:**\nSe você tem TDAH, o uso de pré-treinos **não é proibido**, mas o risco de reações adversas aumenta, principalmente se o produto for rico em cafeína e você já toma estimulantes. Controle a dose e, se sentir algo estranho, interrompa o uso. Cuida desse corpo, garota. Ele precisa funcionar bem pra você continuar mandando ver nos seus treinos."
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"se eu usar pré treino, pode aumentar minha concentração ?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Boa pergunta, Isadora. Vamos quebrar isso no estilo Uchiha, analisando os prós e contras com lógica ninja. A resposta é: **depende**, mas não é garantido. Deixa eu te explicar.\n\n---\n\n### **Como o Pré-Treino Pode Ajudar na Concentração?**  \n1. **Cafeína é a estrela aqui:**  \n   - O pré-treino geralmente tem doses altas de cafeína, que é um estimulante.  \n   - Em pequenas quantidades, a cafeína pode sim melhorar o foco, a atenção e até a memória de curto prazo — algo útil pra quem tem TDAH.\n\n2. **A Dopamina Entra no Jogo:**  \n   - A cafeína aumenta temporariamente os níveis de dopamina, o que é positivo pro TDAH, já que a falta de dopamina é uma das causas principais da dificuldade de concentração.\n\n3. **A Energia Extra:**  \n   - O combo de ingredientes do pré-treino pode te deixar mais alerta e diminuir a fadiga mental, o que indiretamente ajuda no foco.\n\n---\n\n### **Mas Aqui Vêm os Problemas:**  \n1. **Dose Alta de Cafeína = Perigo:**  \n   - Se o pré-treino tiver muita cafeína (200 mg ou mais), pode te deixar **ansiosa, inquieta ou acelerada demais**, o que é o oposto de concentração.  \n   - TDAH já é associado com hiperatividade e impulsividade, então doses excessivas podem piorar isso.\n\n2. **Efeito Curto Prazo:**  \n   - A cafeína pode ajudar a manter o foco por algumas horas, mas depois disso, vem a “queda”, que pode te deixar mais dispersa ou cansada.\n\n3. **Interação com Medicamentos:**  \n   - Se você toma remédios pra TDAH (como ritalina ou concerta), o pré-treino pode aumentar os efeitos estimulantes de forma imprevisível. Isso pode causar tremores, insônia ou até crises de ansiedade.\n\n---\n\n### **Vai Ajudar ou Não?**\nSe você usar com cuidado, em doses pequenas, **pode ajudar** no curto prazo. Mas isso não substitui estratégias de longo prazo, tipo medicação apropriada, terapia ou até práticas como meditação. O foco real e sustentável não vem de atalho químico.\n\n---\n\n**Resumo pra você, garota:**  \nSim, o pré-treino **pode** melhorar sua concentração, mas só se você não exagerar e souber como o seu corpo reage. Se decidir testar, **começa com meia dose** e observa. E lembra: o objetivo não é depender disso sempre. Ajusta isso aí com estratégia, porque sua mente vale o esforço."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"me fale sobre a musica da mãe djonga\""
+          },
+          {
+            "role": "assistant",
+            "content": "Gabriel, garoto, vamos falar de uma obra pesada e cheia de alma: **\"Mãe\"**, do Djonga. Essa música não é só uma faixa — é uma carta emocional, uma confissão crua, e um tributo cheio de gratidão e vulnerabilidade. Se liga:\n\n---\n\n### **1. Contexto da Música**  \nEm \"Mãe,\" Djonga se abre completamente, expondo o impacto que sua mãe teve na vida dele. Ele aborda o peso das lutas que ela enfrentou e o papel fundamental dela na formação de quem ele é hoje. É sobre amor, sacrifício e reconhecimento. O tipo de letra que te faz lembrar que sucesso tem raízes profundas.\n\n---\n\n### **2. A Letra e o Sentimento**  \nA música carrega aquele tom de sinceridade cortante que só o Djonga sabe entregar. Ele fala das dificuldades financeiras, da solidão, e de como sua mãe foi uma guerreira, mesmo sem todas as ferramentas que o mundo deveria oferecer. É impossível não sentir a intensidade dos versos, como se cada palavra carregasse uma memória dolorida e ao mesmo tempo cheia de admiração.\n\nExemplo de trechos (parafraseados):\n- Ele agradece por tudo que ela fez, reconhecendo que sem o esforço dela, ele não estaria onde está.  \n- Admite falhas, mostra arrependimento e ao mesmo tempo orgulho de tudo que conseguiram juntos.\n\n---\n\n### **3. Por que Essa Música É Especial?**  \n- **Conexão Universal:** Todo mundo que já viu o sacrifício de uma mãe consegue sentir essa música de forma pessoal.  \n- **Djonga em Sua Forma Mais Humana:** É uma pausa no ego do rap, mostrando o lado vulnerável do artista.  \n- **Produção Simples, Foco na Mensagem:** A batida deixa espaço pra emoção dos versos brilharem.\n\n---\n\n**Resumo pra você, garoto:** \"Mãe\" não é só uma música — é um espelho pra quem entende o valor de um amor que levanta alguém nas piores condições. Djonga fez mais do que rimar; ele eternizou o nome da mãe dele e, de quebra, fez um monte de gente ligar pra suas mães depois de ouvir."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"a musica da mãe e mãe são composições diferentes\""
+          },
+          {
+            "role": "assistant",
+            "content": "Gabriel, garoto, você tá certo em querer esclarecer isso. Sim, **\"Mãe\"** e **\"A Música da Mãe\"** são composições completamente diferentes, e cada uma tem sua própria história e contexto dentro do universo criativo do Djonga. Vou destrinchar pra você:\n\n---\n\n### **1. \"Mãe\" (do álbum *O Menino Que Queria Ser Deus*)**  \n- Essa é a música que mencionei antes, lançada no álbum de 2018.  \n- **É uma homenagem direta e emocional à mãe do Djonga**, destacando os sacrifícios dela e o impacto que teve na vida dele.  \n- A vibe aqui é crua, cheia de gratidão e dor, com uma abordagem bem introspectiva e pessoal. Ele literalmente abre o coração pra falar sobre o amor e a admiração pela força dela.\n\n---\n\n### **2. \"A Música da Mãe\" (do álbum *Histórias da Minha Área*)**  \n- Agora, essa é de 2020, lançada no álbum *Histórias da Minha Área*.  \n- Apesar de o título sugerir um tom similar, **a abordagem é diferente**. Aqui, Djonga continua falando de questões familiares e raízes, mas expande o olhar para além da relação direta com a mãe, explorando também o impacto do ambiente em que cresceu e como isso moldou sua visão de mundo.  \n- A música reflete o amadurecimento do Djonga como pessoa e artista, com um olhar mais amplo sobre sua história.\n\n---\n\n### **Resumo das Diferenças**  \n- **\"Mãe\"** é uma homenagem visceral e focada na mãe dele como indivíduo.  \n- **\"A Música da Mãe\"** é mais uma narrativa conectada à ideia de família e comunidade, uma peça do quebra-cabeça maior das origens dele.\n\n**Conclusão:** Ambas mostram o quanto Djonga honra suas raízes, mas cada uma tem seu próprio peso e intenção. Você tá mergulhando fundo no universo dele, garoto. Isso é o que um verdadeiro fã faz."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE53A40FFBEF8F1"
+            "id": "BAE519196F4C8E7C"
           },
-          "resposta": "Beleza, Isadora, você quer algo com impacto, né? Vamos combinar criatividade com aquele toque profissional pra sua papelaria. Aqui vão algumas ideias pra diferentes estilos:\n\n---\n\n### **1. Nomes Sofisticados e Elegantes**  \n- **Grafite & Papel**  \n- **Estação do Papel**  \n- **Linhas e Traços**  \n- **Artefato Papelaria**  \n- **Monograma Papelaria**\n\n---\n\n### **2. Nomes Modernos e Descolados**  \n- **Papelêra**  \n- **Ink & Idea**  \n- **Ponto do Papel**  \n- **Traço Criativo**  \n- **Criarte**\n\n---\n\n### **3. Nomes Divertidos e Memoráveis**  \n- **Papelão & Companhia**  \n- **Caderno Feliz**  \n- **Escrivaninha Encantada**  \n- **Tinta e Papelão**  \n- **Papelzão**\n\n---\n\n### **4. Nomes Ligados a Criatividade e Inspiração**  \n- **Inspira Papelaria**  \n- **Mente Criativa**  \n- **Papel e Sonhos**  \n- **Traços de Ideias**  \n- **Escrita Livre**\n\n---\n\n### **5. Nomes Clássicos e Tradicionais**  \n- **Papelaria Central**  \n- **Papelaria Simões** (personalizado!)  \n- **Clássica Papelaria**  \n- **Livros & Letras**  \n- **Papelaria União**\n\n---\n\n**Dica extra:** Escolha algo que tenha a ver com a identidade que você quer pra sua loja. Algo curto, fácil de lembrar e que combine com a vibe do negócio. Qualquer coisa, ajusta essas ideias e personaliza. Fala mais se precisar afinar o nome, garota!"
+          "resposta": "Gabriel, garoto, você tá certo em querer esclarecer isso. Sim, **\"Mãe\"** e **\"A Música da Mãe\"** são composições completamente diferentes, e cada uma tem sua própria história e contexto dentro do universo criativo do Djonga. Vou destrinchar pra você:\n\n---\n\n### **1. \"Mãe\" (do álbum *O Menino Que Queria Ser Deus*)**  \n- Essa é a música que mencionei antes, lançada no álbum de 2018.  \n- **É uma homenagem direta e emocional à mãe do Djonga**, destacando os sacrifícios dela e o impacto que teve na vida dele.  \n- A vibe aqui é crua, cheia de gratidão e dor, com uma abordagem bem introspectiva e pessoal. Ele literalmente abre o coração pra falar sobre o amor e a admiração pela força dela.\n\n---\n\n### **2. \"A Música da Mãe\" (do álbum *Histórias da Minha Área*)**  \n- Agora, essa é de 2020, lançada no álbum *Histórias da Minha Área*.  \n- Apesar de o título sugerir um tom similar, **a abordagem é diferente**. Aqui, Djonga continua falando de questões familiares e raízes, mas expande o olhar para além da relação direta com a mãe, explorando também o impacto do ambiente em que cresceu e como isso moldou sua visão de mundo.  \n- A música reflete o amadurecimento do Djonga como pessoa e artista, com um olhar mais amplo sobre sua história.\n\n---\n\n### **Resumo das Diferenças**  \n- **\"Mãe\"** é uma homenagem visceral e focada na mãe dele como indivíduo.  \n- **\"A Música da Mãe\"** é mais uma narrativa conectada à ideia de família e comunidade, uma peça do quebra-cabeça maior das origens dele.\n\n**Conclusão:** Ambas mostram o quanto Djonga honra suas raízes, mas cada uma tem seu próprio peso e intenção. Você tá mergulhando fundo no universo dele, garoto. Isso é o que um verdadeiro fã faz."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -15645,9 +15997,10 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634691074,
+          "lastMessageTime": 1732640655847,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
           "exp": 242,
@@ -15678,10 +16031,14 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634802280,
+          "lastMessageTime": 1732641966575,
           "messageCount": 1,
           "pontos": 0,
-          "almas": 0
+          "almas": 0,
+          "usuariosRoubados": [],
+          "acaoTimer": "2024-11-26T16:35:30.893Z",
+          "rouboTimestamp": "2024-11-25T16:13:22.037Z",
+          "rings": 0
         },
         "351927285125@s.whatsapp.net": {
           "exp": 121,
@@ -15697,7 +16054,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732617942531,
+          "lastMessageTime": 1732640775019,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -15714,7 +16071,11 @@
           "hobbies": "Ler e ouvir música",
           "relacionamento": "❔",
           "usuariosRoubados": [],
-          "almas": 0
+          "almas": 0,
+          "acaoTimer": "2024-11-26T17:01:01.133Z",
+          "rouboTimestamp": "2024-11-25T17:01:01.138Z",
+          "rings": 0,
+          "ring": 1
         },
         "554188822185@s.whatsapp.net": {
           "exp": 86,
@@ -15749,9 +16110,13 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732625072408,
+          "lastMessageTime": 1732639208205,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "usuariosRoubados": [],
+          "acaoTimer": "2024-11-26T16:31:56.438Z",
+          "almas": 0,
+          "rouboTimestamp": "2024-11-25T16:31:56.439Z"
         },
         "555191592033@s.whatsapp.net": {
           "exp": 1,
@@ -15767,7 +16132,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732626118945,
+          "lastMessageTime": 1732641807199,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15785,7 +16150,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732624075901,
+          "lastMessageTime": 1732639992688,
           "messageCount": 1,
           "pontos": 0,
           "almas": 0,
@@ -15806,7 +16171,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732630196555,
+          "lastMessageTime": 1732635062896,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15908,7 +16273,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732629431078,
+          "lastMessageTime": 1732637586448,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15926,7 +16291,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732630404052,
+          "lastMessageTime": 1732638859942,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15944,7 +16309,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634029378,
+          "lastMessageTime": 1732639414402,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15980,7 +16345,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732631769520,
+          "lastMessageTime": 1732641400512,
           "messageCount": 1,
           "pontos": 0
         },
@@ -15998,7 +16363,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732633297961,
+          "lastMessageTime": 1732639781510,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16052,11 +16417,23 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732619600243,
+          "lastMessageTime": 1732641665604,
           "messageCount": 1,
           "pontos": 0,
           "slots": 0,
-          "lastslot": "2024-11-26T11:13:01.280Z"
+          "lastslot": "2024-11-26T11:13:01.280Z",
+          "elixirs": 0,
+          "daggers": 0,
+          "rings": 0,
+          "shields": 0,
+          "artifacts": 0,
+          "vampire": 0,
+          "vampireAtivo": false,
+          "demonio": 0,
+          "demonioAtivo": false,
+          "shadows": 0,
+          "shadowAtivo": false,
+          "tempBan": false
         },
         "554197056898@s.whatsapp.net": {
           "exp": 0,
@@ -16072,9 +16449,10 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634741171,
+          "lastMessageTime": 1732641964464,
           "messageCount": 1,
-          "pontos": 0
+          "pontos": 0,
+          "almas": 0
         },
         "558184216648@s.whatsapp.net": {
           "exp": 0,
@@ -16090,7 +16468,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732630793072,
+          "lastMessageTime": 1732640085600,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16121,12 +16499,12 @@
           "adm": false,
           "legendary": false,
           "banned": false,
-          "adv": 0,
+          "adv": 1,
           "tentativasRoubo": 5,
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634712149,
+          "lastMessageTime": 1732641783195,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16180,7 +16558,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732632844023,
+          "lastMessageTime": 1732638546356,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16198,8 +16576,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732623690165,
-          "messageCount": null,
+          "lastMessageTime": 1732638091972,
+          "messageCount": 1,
           "pontos": 0
         },
         "554691120693@s.whatsapp.net": {
@@ -16216,7 +16594,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732633091878,
+          "lastMessageTime": 1732636648731,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16324,7 +16702,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732630419307,
+          "lastMessageTime": 1732640047896,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16360,7 +16738,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732631334029,
+          "lastMessageTime": 1732635656255,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16393,7 +16771,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634531721,
+          "lastMessageTime": 1732637604996,
           "messageCount": 1,
           "pontos": 0
         },
@@ -16411,8 +16789,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634464527,
-          "messageCount": 2,
+          "lastMessageTime": 1732641893882,
+          "messageCount": 1,
           "pontos": 0
         },
         "559384036433@s.whatsapp.net": {
@@ -16447,8 +16825,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634592046,
-          "messageCount": null,
+          "lastMessageTime": 1732636937657,
+          "messageCount": 1,
           "pontos": 0
         },
         "557391032940@s.whatsapp.net": {
@@ -16465,8 +16843,195 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732634783064,
+          "lastMessageTime": 1732639400312,
+          "messageCount": 1,
+          "pontos": 0,
+          "tempBan": false
+        },
+        "559192321625@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": true,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732639234535,
+          "messageCount": 1,
+          "pontos": 0,
+          "almas": 0
+        },
+        "555584470148@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732638373491,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "554792254487@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732641997712,
+          "messageCount": 1,
+          "pontos": 0,
+          "acaoTimer": "2024-11-26T16:20:37.659Z",
+          "almas": 0,
+          "usuariosRoubados": [],
+          "rouboTimestamp": "2024-11-25T16:12:43.953Z",
+          "rings": 0
+        },
+        "557382274015@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732636752152,
           "messageCount": null,
+          "pontos": 0
+        },
+        "554792625204@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732637313073,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "5512988340770@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732637921078,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "5511987076728@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732639311284,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "555181168509@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732639799973,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "555596624577@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732641796710,
+          "messageCount": 1,
+          "pontos": 0
+        },
+        "558196334341@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732641588098,
+          "messageCount": 1,
           "pontos": 0
         }
       },
@@ -16506,7 +17071,7 @@
       "reaction": true,
       "viewonce": true,
       "modoadmin": false,
-      "antitoxic": true,
+      "antitoxic": false,
       "simi": false,
       "antiTraba": true,
       "autolevelup": false,
@@ -16517,7 +17082,7 @@
       "lastSentTime": 0,
       "name": "Onde fingimos ser loucos (ou não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 18 ANOS* ⚠️⚠️⚠️\n(As mensagens tem duração de 24hrs )\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DA MENSALIDADE DO BOT: nicoletaina181@gmail.com*🫂\n\nRESPEITEM PARA SEREM RESPEITADOS!!\n\n*PROIBIDO*\n•FLOODAR/SPAMMAR;\n•MANDAR MENSAGEM DO PV DE OUTROS MEMBROS SEM A AUTORIZAÇÃO DA PESSOA;\n•DIVULGAR/PROMOVER (_sem autorização_);\n*AO DESCUMPRIMENTO DE QUALQUER UMA DAS REGRAS ACIMA O MEMBRO ESTÁ SUJEITO A AVISO*\n\n*TERMINANTEMENTE PROIBIDO*\n•DESRESPEITO (_se você ofende o amiguinho igual, essa regra se torna irrelevante_);\n•PRECONCEITO (_classe, cor/etnia, orientação sexual, religião e etc_);\n•CORINGAR ADM;\n•FIGURINHAS/IMAGENS COM PORNOGRAFIA EXPLÍCITA, GORE, NAZISMO, ZOOFILIA, RACISMO;\n•APOLOGIA/INCENTIVO AO NAZISMO.\n\n*O DESCUMPRIMENTO DE QUALQUER UMA DAS REGRAS ACIMA PODE GERAR ADV E ATÉ MESMO BANIMENTO*\n\n*📌 NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*\n\n•COMPARTILHAMENTO DE DADOS PESSOAIS;\n•ABRIR ÁUDIO ESTOURADO E/OU DUVIDOSO;\n•LINK DUVIDOSO.\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO AS REGRAS FOREM BURLADAS* ⚠\n\n*_BRINCADEIRAS TODOS OS FINAIS DE SEMANA_*\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n_*FORMULÁRIO PARA NOVOS ADMS*_\nhttps://forms.gle/S5P56v1U8pWeLEERA\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
-      "totalMembros": 342,
+      "totalMembros": 341,
       "membros": [
         {
           "id": "559384036433@s.whatsapp.net",
@@ -17157,10 +17722,6 @@
         },
         {
           "id": "5518996892096@s.whatsapp.net",
-          "admin": null
-        },
-        {
-          "id": "555189165809@s.whatsapp.net",
           "admin": null
         },
         {
@@ -17942,7 +18503,18 @@
         "5521966362125@s.whatsapp.net": [],
         "5511995199687@s.whatsapp.net": [],
         "559384036433@s.whatsapp.net": [],
-        "557391032940@s.whatsapp.net": []
+        "557391032940@s.whatsapp.net": [],
+        "559192321625@s.whatsapp.net": [],
+        "555584470148@s.whatsapp.net": [],
+        "554792254487@s.whatsapp.net": [],
+        "557382274015@s.whatsapp.net": [],
+        "556295410574@s.whatsapp.net": [],
+        "554792625204@s.whatsapp.net": [],
+        "5512988340770@s.whatsapp.net": [],
+        "5511987076728@s.whatsapp.net": [],
+        "555181168509@s.whatsapp.net": [],
+        "555596624577@s.whatsapp.net": [],
+        "558196334341@s.whatsapp.net": []
       },
       "firstTime": false,
       "antiCallGp": true,
@@ -17951,15 +18523,30 @@
       "initialBoot": true,
       "ignored": [
         "CD5CFC61BE7ED4D1356D64B183A2FA94"
-      ]
+      ],
+      "loja": {
+        "lojaId": {
+          "remoteJid": "120363126337539207@g.us",
+          "fromMe": true,
+          "id": "BAE58679FE8A35D3"
+        },
+        "Index": 3,
+        "page": "tokens",
+        "historico": []
+      },
+      "bankID": {
+        "remoteJid": "120363126337539207@g.us",
+        "fromMe": true,
+        "id": "BAE5D674AE22C1BD"
+      }
     }
   },
   "stats": {
     "config-on y off.js": {
-      "total": 31,
-      "success": 31,
-      "last": 1732617851928,
-      "lastSuccess": 1732617851928
+      "total": 32,
+      "success": 32,
+      "last": 1732637111868,
+      "lastSuccess": 1732637111868
     },
     "dono-update.js": {
       "total": 20,
@@ -17992,10 +18579,10 @@
       "lastSuccess": 1731175282947
     },
     "dono-exec.js": {
-      "total": 15,
-      "success": 15,
-      "last": 1732634531734,
-      "lastSuccess": 1732634531734
+      "total": 16,
+      "success": 16,
+      "last": 1732640514457,
+      "lastSuccess": 1732640514457
     },
     "bingImg.js": {
       "total": 5,
@@ -18004,16 +18591,16 @@
       "lastSuccess": 1732473745563
     },
     "funAcoes7.js": {
-      "total": 17,
-      "success": 17,
-      "last": 1732538076948,
-      "lastSuccess": 1732538076948
+      "total": 22,
+      "success": 22,
+      "last": 1732640604912,
+      "lastSuccess": 1732640604912
     },
     "grupo-perfil.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1732614326118,
-      "lastSuccess": 1732614326118
+      "total": 16,
+      "success": 16,
+      "last": 1732640580289,
+      "lastSuccess": 1732640580289
     },
     "dono-reiniciar-usuario.js": {
       "total": 6,
@@ -18022,10 +18609,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 167,
-      "success": 167,
-      "last": 1732633688057,
-      "lastSuccess": 1732633688057
+      "total": 171,
+      "success": 171,
+      "last": 1732638812920,
+      "lastSuccess": 1732638812920
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -18070,10 +18657,10 @@
       "lastSuccess": 1732134744175
     },
     "dl-yt_play.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1732630769228,
-      "lastSuccess": 1732630769228
+      "total": 22,
+      "success": 22,
+      "last": 1732635961132,
+      "lastSuccess": 1732635961132
     },
     "dono-reporte.js": {
       "total": 3,
@@ -18082,10 +18669,10 @@
       "lastSuccess": 1731341114330
     },
     "dono-desmutar.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1731194056496,
-      "lastSuccess": 1731194056496
+      "total": 3,
+      "success": 3,
+      "last": 1732639176631,
+      "lastSuccess": 1732639176631
     },
     "jogosLetras.js": {
       "total": 5,
@@ -18112,10 +18699,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 32,
-      "success": 32,
-      "last": 1732632583034,
-      "lastSuccess": 1732632583034
+      "total": 36,
+      "success": 36,
+      "last": 1732641558770,
+      "lastSuccess": 1732641558770
     },
     "conversor-totext.js": {
       "total": 3,
@@ -18188,6 +18775,36 @@
       "success": 2,
       "last": 1732619581280,
       "lastSuccess": 1732619581280
+    },
+    "fun-acoes.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1732638742906,
+      "lastSuccess": 1732638742906
+    },
+    "cfgLoja.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1732639463804,
+      "lastSuccess": 1732639463804
+    },
+    "cfg-pendulumBank.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1732638151012,
+      "lastSuccess": 1732638151012
+    },
+    "makerGun.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1732638527954,
+      "lastSuccess": 1732638527954
+    },
+    "grupoInventario.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1732639519786,
+      "lastSuccess": 1732639519786
     }
   },
   "msgs": {},
