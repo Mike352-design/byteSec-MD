@@ -2316,7 +2316,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Yago 🙈",
+      "name": "",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -8319,8 +8319,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731436598544,
-          "messageCount": 4,
+          "lastMessageTime": 1732680996131,
+          "messageCount": 1,
           "pontos": 0
         },
         "22926535446541@lid": {
