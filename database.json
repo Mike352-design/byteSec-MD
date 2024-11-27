@@ -6,7 +6,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "",
+      "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -7505,6 +7505,32 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "148593168121997@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "~Torres",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "148593168121997@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -10485,6 +10511,24 @@
           "lastMessageTime": 1732709542462,
           "messageCount": null,
           "pontos": 0
+        },
+        "148593168121997@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732721157259,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -10537,7 +10581,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 533,
+      "totalMembros": 532,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -11237,10 +11281,6 @@
         },
         {
           "id": "208100191682628@lid",
-          "admin": null
-        },
-        {
-          "id": "13542602334278@lid",
           "admin": null
         },
         {
@@ -12849,7 +12889,8 @@
         "69956494446644@lid": [],
         "181544392110325@lid": [],
         "220641479364748@lid": [],
-        "13542602334278@lid": []
+        "13542602334278@lid": [],
+        "148593168121997@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -14773,15 +14814,23 @@
           {
             "role": "assistant",
             "content": "Gabriel, garoto, você tá certo em querer esclarecer isso. Sim, **\"Mãe\"** e **\"A Música da Mãe\"** são composições completamente diferentes, e cada uma tem sua própria história e contexto dentro do universo criativo do Djonga. Vou destrinchar pra você:\n\n---\n\n### **1. \"Mãe\" (do álbum *O Menino Que Queria Ser Deus*)**  \n- Essa é a música que mencionei antes, lançada no álbum de 2018.  \n- **É uma homenagem direta e emocional à mãe do Djonga**, destacando os sacrifícios dela e o impacto que teve na vida dele.  \n- A vibe aqui é crua, cheia de gratidão e dor, com uma abordagem bem introspectiva e pessoal. Ele literalmente abre o coração pra falar sobre o amor e a admiração pela força dela.\n\n---\n\n### **2. \"A Música da Mãe\" (do álbum *Histórias da Minha Área*)**  \n- Agora, essa é de 2020, lançada no álbum *Histórias da Minha Área*.  \n- Apesar de o título sugerir um tom similar, **a abordagem é diferente**. Aqui, Djonga continua falando de questões familiares e raízes, mas expande o olhar para além da relação direta com a mãe, explorando também o impacto do ambiente em que cresceu e como isso moldou sua visão de mundo.  \n- A música reflete o amadurecimento do Djonga como pessoa e artista, com um olhar mais amplo sobre sua história.\n\n---\n\n### **Resumo das Diferenças**  \n- **\"Mãe\"** é uma homenagem visceral e focada na mãe dele como indivíduo.  \n- **\"A Música da Mãe\"** é mais uma narrativa conectada à ideia de família e comunidade, uma peça do quebra-cabeça maior das origens dele.\n\n**Conclusão:** Ambas mostram o quanto Djonga honra suas raízes, mas cada uma tem seu próprio peso e intenção. Você tá mergulhando fundo no universo dele, garoto. Isso é o que um verdadeiro fã faz."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"me fale sobre o mazel tov\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, Gabriel, você quer entender o **\"Mazel Tov\"?** Beleza, vamos destrinchar. Esse termo tem raízes culturais e religiosas profundas, mas também transcendeu pra cultura popular. Bora lá:\n\n---\n\n### **1. Origem do Mazel Tov**  \n- **Língua:** Vem do hebraico/ídiche.  \n- **Significado literal:** “Boa sorte” (mas pera aí, porque o uso é mais específico).  \n- **Contexto:** É uma expressão judaica tradicional usada para parabenizar alguém por uma conquista ou evento feliz.\n\n---\n\n### **2. O Que Realmente Significa?**  \nApesar de \"boa sorte\" ser a tradução literal, o uso do *Mazel Tov* não é sobre desejar sorte futura. Na verdade, é mais como um **\"parabéns\"** ou **\"congratulações\"** por algo que já aconteceu.  \nExemplo:  \n- Alguém se casa? *Mazel Tov!*  \n- Você teve um filho? *Mazel Tov!*  \n- Passou naquela prova impossível? *Mazel Tov!*  \n\nBasicamente, é uma maneira de celebrar uma conquista ou momento especial.\n\n---\n\n### **3. Por Que É Usado?**  \n- **Cultural:** O judaísmo tem tradições que reforçam a importância de reconhecer marcos e momentos de alegria.  \n- **Social:** É uma forma de compartilhar felicidade e mostrar apoio.  \n\n*Mazel Tov* também virou uma espécie de expressão internacional pra felicitações. Mesmo quem não é judeu pode usá-la, especialmente em situações festivas.\n\n---\n\n### **4. Cultura Pop e Mazel Tov**  \nSe você já ouviu em músicas, filmes ou séries, é porque o termo ficou popular. Alguns exemplos:  \n- **Músicas:** Kanye West usa “Mazel Tov” em *Runaway*, numa vibe mais irônica.  \n- **Filmes:** Sempre que aparece um casamento judaico em Hollywood, alguém grita *Mazel Tov!* antes de quebrar o copo.  \n- **Memes:** É usado online como uma forma divertida e descolada de dizer “boa, parabéns!”\n\n---\n\n### **Resumo Pra Você, Garoto**  \n*Mazel Tov* é um \"parabéns\" com estilo e peso histórico. Seja um casamento, uma conquista, ou até algo trivial que mereça reconhecimento, é a forma judaica de dar aquele toque de celebração. Você agora sabe usar, então manda um *Mazel Tov* da próxima vez que alguém merecer!"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE519196F4C8E7C"
+            "id": "BAE559580BEB1501"
           },
-          "resposta": "Gabriel, garoto, você tá certo em querer esclarecer isso. Sim, **\"Mãe\"** e **\"A Música da Mãe\"** são composições completamente diferentes, e cada uma tem sua própria história e contexto dentro do universo criativo do Djonga. Vou destrinchar pra você:\n\n---\n\n### **1. \"Mãe\" (do álbum *O Menino Que Queria Ser Deus*)**  \n- Essa é a música que mencionei antes, lançada no álbum de 2018.  \n- **É uma homenagem direta e emocional à mãe do Djonga**, destacando os sacrifícios dela e o impacto que teve na vida dele.  \n- A vibe aqui é crua, cheia de gratidão e dor, com uma abordagem bem introspectiva e pessoal. Ele literalmente abre o coração pra falar sobre o amor e a admiração pela força dela.\n\n---\n\n### **2. \"A Música da Mãe\" (do álbum *Histórias da Minha Área*)**  \n- Agora, essa é de 2020, lançada no álbum *Histórias da Minha Área*.  \n- Apesar de o título sugerir um tom similar, **a abordagem é diferente**. Aqui, Djonga continua falando de questões familiares e raízes, mas expande o olhar para além da relação direta com a mãe, explorando também o impacto do ambiente em que cresceu e como isso moldou sua visão de mundo.  \n- A música reflete o amadurecimento do Djonga como pessoa e artista, com um olhar mais amplo sobre sua história.\n\n---\n\n### **Resumo das Diferenças**  \n- **\"Mãe\"** é uma homenagem visceral e focada na mãe dele como indivíduo.  \n- **\"A Música da Mãe\"** é mais uma narrativa conectada à ideia de família e comunidade, uma peça do quebra-cabeça maior das origens dele.\n\n**Conclusão:** Ambas mostram o quanto Djonga honra suas raízes, mas cada uma tem seu próprio peso e intenção. Você tá mergulhando fundo no universo dele, garoto. Isso é o que um verdadeiro fã faz."
+          "resposta": "Ah, Gabriel, você quer entender o **\"Mazel Tov\"?** Beleza, vamos destrinchar. Esse termo tem raízes culturais e religiosas profundas, mas também transcendeu pra cultura popular. Bora lá:\n\n---\n\n### **1. Origem do Mazel Tov**  \n- **Língua:** Vem do hebraico/ídiche.  \n- **Significado literal:** “Boa sorte” (mas pera aí, porque o uso é mais específico).  \n- **Contexto:** É uma expressão judaica tradicional usada para parabenizar alguém por uma conquista ou evento feliz.\n\n---\n\n### **2. O Que Realmente Significa?**  \nApesar de \"boa sorte\" ser a tradução literal, o uso do *Mazel Tov* não é sobre desejar sorte futura. Na verdade, é mais como um **\"parabéns\"** ou **\"congratulações\"** por algo que já aconteceu.  \nExemplo:  \n- Alguém se casa? *Mazel Tov!*  \n- Você teve um filho? *Mazel Tov!*  \n- Passou naquela prova impossível? *Mazel Tov!*  \n\nBasicamente, é uma maneira de celebrar uma conquista ou momento especial.\n\n---\n\n### **3. Por Que É Usado?**  \n- **Cultural:** O judaísmo tem tradições que reforçam a importância de reconhecer marcos e momentos de alegria.  \n- **Social:** É uma forma de compartilhar felicidade e mostrar apoio.  \n\n*Mazel Tov* também virou uma espécie de expressão internacional pra felicitações. Mesmo quem não é judeu pode usá-la, especialmente em situações festivas.\n\n---\n\n### **4. Cultura Pop e Mazel Tov**  \nSe você já ouviu em músicas, filmes ou séries, é porque o termo ficou popular. Alguns exemplos:  \n- **Músicas:** Kanye West usa “Mazel Tov” em *Runaway*, numa vibe mais irônica.  \n- **Filmes:** Sempre que aparece um casamento judaico em Hollywood, alguém grita *Mazel Tov!* antes de quebrar o copo.  \n- **Memes:** É usado online como uma forma divertida e descolada de dizer “boa, parabéns!”\n\n---\n\n### **Resumo Pra Você, Garoto**  \n*Mazel Tov* é um \"parabéns\" com estilo e peso histórico. Seja um casamento, uma conquista, ou até algo trivial que mereça reconhecimento, é a forma judaica de dar aquele toque de celebração. Você agora sabe usar, então manda um *Mazel Tov* da próxima vez que alguém merecer!"
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -19686,10 +19735,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 173,
-      "success": 173,
-      "last": 1732666014099,
-      "lastSuccess": 1732666014099
+      "total": 174,
+      "success": 174,
+      "last": 1732720402491,
+      "lastSuccess": 1732720402491
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -19923,17 +19972,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9911310087449305,
-    "cotacaoOntem": 0.9883630901759811,
+    "cotacao": 0.9821619197987465,
+    "cotacaoOntem": 0.9911310087449305,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024778275218623264
+      "rendimento": 0.000024554047994968662
     },
-    "cotacaoPercentual": 0.28005078259818333,
-    "ultimaAtualizacao": "2024-11-26T15:00:02.455Z"
+    "cotacaoPercentual": -0.9049347530294355,
+    "ultimaAtualizacao": "2024-11-27T15:13:22.459Z"
   }
 }
