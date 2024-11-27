@@ -196,7 +196,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1732416750498
+      "lastmiming": 1732742553909
     },
     "558488916581@s.whatsapp.net": {
       "exp": 0,
@@ -2219,7 +2219,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Wilson Ribeiro",
+      "name": "",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -7532,7 +7532,39 @@
         }
       }
     },
-    "5521983793257@s.whatsapp.net,558175001504@s.whatsapp.net": {}
+    "5521983793257@s.whatsapp.net,558175001504@s.whatsapp.net": {},
+    "61851874394333@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Jo 🦊",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "61851874394333@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    }
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -8403,7 +8435,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732493709490,
+          "lastMessageTime": 1732746677699,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8457,7 +8489,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732699298040,
+          "lastMessageTime": 1732745095300,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10529,6 +10561,24 @@
           "cocriador": false,
           "lastMessageTime": 1732721157259,
           "messageCount": null,
+          "pontos": 0
+        },
+        "61851874394333@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732744538566,
+          "messageCount": 1,
           "pontos": 0
         }
       },
@@ -12891,7 +12941,8 @@
         "181544392110325@lid": [],
         "220641479364748@lid": [],
         "13542602334278@lid": [],
-        "148593168121997@lid": []
+        "148593168121997@lid": [],
+        "61851874394333@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -15098,7 +15149,7 @@
           "silenced": true,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732736313934,
+          "lastMessageTime": 1732741189443,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -15117,7 +15168,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 946,
+          "exp": 987,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -19714,10 +19765,10 @@
       "lastSuccess": 1732652186371
     },
     "dono-exec.js": {
-      "total": 22,
-      "success": 22,
-      "last": 1732655019007,
-      "lastSuccess": 1732655019007
+      "total": 24,
+      "success": 24,
+      "last": 1732741189466,
+      "lastSuccess": 1732741189466
     },
     "bingImg.js": {
       "total": 5,
@@ -19834,10 +19885,10 @@
       "lastSuccess": 1731198696580
     },
     "sticker-sticker.js": {
-      "total": 68,
-      "success": 68,
-      "last": 1732736315611,
-      "lastSuccess": 1732736315611
+      "total": 69,
+      "success": 69,
+      "last": 1732742553909,
+      "lastSuccess": 1732742553909
     },
     "conversor-totext.js": {
       "total": 3,
