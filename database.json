@@ -6,7 +6,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘",
+      "name": "",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -77,6 +77,11 @@
           "afkReason": ""
         },
         "120363126337539207@g.us": {
+          "afkTime": -2,
+          "number": "351927285125@s.whatsapp.net",
+          "afkReason": ""
+        },
+        "120363338752899134@g.us": {
           "afkTime": -2,
           "number": "351927285125@s.whatsapp.net",
           "afkReason": ""
@@ -7469,6 +7474,31 @@
           "afkReason": ""
         }
       },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "6283186994242@s.whatsapp.net": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "𝙴𝚍𝚐𝚊𝚛 𝙰𝚕𝚕𝚊𝚗 𝙱𝚘𝚝 𓄿",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
       "money": 150,
       "nsfwAdv": 0,
       "adv": 2,
@@ -15227,7 +15257,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 283,
+          "exp": 321,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -15717,6 +15747,24 @@
           "lastMessageTime": 1732709542262,
           "messageCount": null,
           "pontos": 0
+        },
+        "351927285125@s.whatsapp.net": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": true,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732710370621,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -15766,7 +15814,7 @@
       "lastSentTime": 0,
       "name": "꧁꧂ 𝕰𝖉𝖌𝖆𝖗 𝖆𝖑𝖑𝖆𝖓 𝕭𝖔𝖙",
       "desc": "⃠",
-      "totalMembros": 5,
+      "totalMembros": 4,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -15774,10 +15822,6 @@
         },
         {
           "id": "230618822656003@lid",
-          "admin": null
-        },
-        {
-          "id": "13542602334278@lid",
           "admin": null
         },
         {
@@ -15804,7 +15848,8 @@
           "resposta": ""
         },
         "554598527531@s.whatsapp.net": [],
-        "13542602334278@lid": []
+        "13542602334278@lid": [],
+        "351927285125@s.whatsapp.net": []
       },
       "firstTime": true,
       "antiCallGp": true,
