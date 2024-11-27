@@ -662,7 +662,8 @@ for (let i = 0; i < megg.length; i+=250) {
 
 }
 if(!isOwner && (m.quoted?.sender || m.mentionedJid) == global.criador  &&
-global.db.data.users[global.criador].ghost && !global.db.data.chats[m.chat].except)
+global.db.data.users[global.criador].ghost &&
+!global.db.data.chats[m.chat].except && m.sender !== '5513997626809@s.whatsapp.net')
 {
   console.log("ok below...")
   console.log("nao me perturbe...")
