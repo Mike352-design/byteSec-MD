@@ -7438,6 +7438,43 @@
           "afkReason": ""
         }
       }
+    },
+    "13542602334278@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363338752899134@g.us": {
+          "afkTime": -2,
+          "number": "13542602334278@lid",
+          "afkReason": ""
+        },
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "13542602334278@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -10400,6 +10437,24 @@
           "lastMessageTime": 1732692927851,
           "messageCount": null,
           "pontos": 0
+        },
+        "13542602334278@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732709542462,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -12763,7 +12818,8 @@
         "259257396101238@lid": [],
         "69956494446644@lid": [],
         "181544392110325@lid": [],
-        "220641479364748@lid": []
+        "220641479364748@lid": [],
+        "13542602334278@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -15643,6 +15699,24 @@
           "silenced": false,
           "maxlevel": true,
           "cocriador": false
+        },
+        "13542602334278@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732709542262,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -15692,7 +15766,7 @@
       "lastSentTime": 0,
       "name": "꧁꧂ 𝕰𝖉𝖌𝖆𝖗 𝖆𝖑𝖑𝖆𝖓 𝕭𝖔𝖙",
       "desc": "⃠",
-      "totalMembros": 6,
+      "totalMembros": 5,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -15701,10 +15775,6 @@
         {
           "id": "230618822656003@lid",
           "admin": null
-        },
-        {
-          "id": "554598527531@s.whatsapp.net",
-          "admin": "admin"
         },
         {
           "id": "13542602334278@lid",
@@ -15719,7 +15789,7 @@
           "admin": null
         }
       ],
-      "boleto": null,
+      "boleto": 20,
       "forca": {
         "isGame": false,
         "forcaID": "",
@@ -15733,8 +15803,12 @@
           "lastQuestion": "",
           "resposta": ""
         },
-        "554598527531@s.whatsapp.net": []
-      }
+        "554598527531@s.whatsapp.net": [],
+        "13542602334278@lid": []
+      },
+      "firstTime": true,
+      "antiCallGp": true,
+      "nsfw": true
     },
     "120363218430350898@g.us": {
       "quiz": {
