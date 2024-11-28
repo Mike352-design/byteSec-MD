@@ -7747,7 +7747,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732672146986,
+          "lastMessageTime": 1732801630721,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8053,7 +8053,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732794926198,
+          "lastMessageTime": 1732807831711,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8593,7 +8593,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732777143547,
+          "lastMessageTime": 1732801868638,
           "messageCount": 1,
           "pontos": 0
         },
@@ -20230,17 +20230,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9821619197987465,
-    "cotacaoOntem": 0.9911310087449305,
+    "cotacao": 0.9755982759398633,
+    "cotacaoOntem": 0.9821619197987465,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024554047994968662
+      "rendimento": 0.000024389956898496584
     },
-    "cotacaoPercentual": -0.9049347530294355,
-    "ultimaAtualizacao": "2024-11-27T15:13:22.459Z"
+    "cotacaoPercentual": -0.6682853128970977,
+    "ultimaAtualizacao": "2024-11-28T15:12:05.898Z"
   }
 }
