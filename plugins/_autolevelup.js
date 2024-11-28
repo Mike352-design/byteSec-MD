@@ -65,7 +65,7 @@ export function before(m, { conn , isOwner, nivel, participants}) {
       return `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()} UTC ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
   }
   
-  function upgradeMessage(username, previousLevel, currentLevel) {
+  function upgradeMessage(username, previousLevel, currentLeve,coins,ethl) {
       const now = new Date();
       const formattedDate = formatDate(now);
   
@@ -80,7 +80,8 @@ export function before(m, { conn , isOwner, nivel, participants}) {
               level: `[ LEVEL: ${previousLevel}.1 ❱❱❱ v${currentLevel}.0 ]`,
               systemLog: '[+] SYSTEM LOG: [${formattedDate}]',
               protocolInitiated: '[*] Level Up Protocol Initiated... [LOADING]',
-              authenticationSuccess: '[*] Authenticating User Credentials... [SUCCESS]',
+              authenticationSuccess: '[*] Transaction received of ${coins} ʙʏᴛᴇᴄᴏɪɴꜱ [SUCCESS]',
+              ethereum: '[*] Stake of ${eth} ᴇᴛʜᴇʀᴇᴜᴍ earned on cryptowallet [SUCCESS]',
               newCommandsUnlocked: '[!] NEW COMMANDS UNLOCKED:',
               commandsList: '┏──────────────\n',
               commandsEnd: '┗──────────────\n',
@@ -94,7 +95,8 @@ export function before(m, { conn , isOwner, nivel, participants}) {
               level: `[ NÍVEL: ${previousLevel}.1 ❱❱❱ v${currentLevel}.0 ]`,
               systemLog: '[+] REGISTRO DO SISTEMA: [${formattedDate}]',
               protocolInitiated: '[*] Protocolo de Ranking Iniciado... [CARREGANDO]',
-              authenticationSuccess: '[*] Autenticando Credenciais do Usuário... [SUCESSO]',
+              authenticationSuccess: '[*] Transferência recebida de ${coins} ʙʏᴛᴇᴄᴏɪɴꜱ [SUCESSO]',
+            ethereum: '[*] Stake de ${eth} ᴇᴛʜᴇʀᴇᴜᴍ disponível na cryptowallet [SUCCESSO]',
               newCommandsUnlocked: '[!] NOVOS COMANDOS DESBLOQUEADOS:',
               commandsList: '┏──────────────\n',
               commandsEnd: '┗──────────────\n',
@@ -116,6 +118,7 @@ export function before(m, { conn , isOwner, nivel, participants}) {
             availableCommands.map(command => `> ⦦ ${command} \n`).join('') +
             `${messages[userLanguage].commandsEnd}`
           : ''; // Empty string if no commands
+      const ethereumMessage = eth ? `${messages[userLanguage].ethereum}\n` : '';
   
       return `
   $ ./upgrade
@@ -129,7 +132,7 @@ export function before(m, { conn , isOwner, nivel, participants}) {
   ${messages[userLanguage].systemLog.replace('${formattedDate}', formattedDate)}
   ${messages[userLanguage].protocolInitiated}
   ${messages[userLanguage].authenticationSuccess}
-  
+  ${ethereumMessage} 
   ${commandsSection} 
   ${messages[userLanguage].eof}
   ${messages[userLanguage].separator}
@@ -170,7 +173,7 @@ if(!global.db.data.chats[m.chat].users){
 if(!global.db.data.chats[m.chat].users[m.sender]){
   global.db.data.chats[m.chat].users[m.sender]={exp: 0,
         limit:0,
-        role:'Ｓｃｒｉｐｔ　Ｋｉｄｄｉｅ',
+        role:'🪶 𝐍𝐨𝐯𝐢𝐜𝐨 𝐄𝐧𝐢𝐠𝐦𝐚𝐭𝐢𝐜𝐨',
         money:0,
         level:0,
         adm: admcheck,
