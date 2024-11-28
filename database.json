@@ -7590,6 +7590,32 @@
           "afkReason": ""
         }
       }
+    },
+    "110354973593792@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "110354973593792@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -9379,7 +9405,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732454463858,
+          "lastMessageTime": 1732758845411,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9505,7 +9531,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732582150642,
+          "lastMessageTime": 1732760719785,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10624,6 +10650,24 @@
           "lastMessageTime": 1732752949116,
           "messageCount": null,
           "pontos": 0
+        },
+        "110354973593792@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732755963204,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -10676,7 +10720,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 532,
+      "totalMembros": 530,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -11715,10 +11759,6 @@
           "admin": null
         },
         {
-          "id": "147085550743685@lid",
-          "admin": null
-        },
-        {
           "id": "189562861138068@lid",
           "admin": null
         },
@@ -12575,10 +12615,6 @@
           "admin": null
         },
         {
-          "id": "110354973593792@lid",
-          "admin": null
-        },
-        {
           "id": "23235840184397@lid",
           "admin": null
         },
@@ -12987,7 +13023,8 @@
         "13542602334278@lid": [],
         "148593168121997@lid": [],
         "61851874394333@lid": [],
-        "147085550743685@lid": []
+        "147085550743685@lid": [],
+        "110354973593792@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -13482,7 +13519,8 @@
         "3EB084EC25FB083B3FE50B",
         "0EB69F4F38E077DCF632C6FE4E8561D0",
         "8E0A61C6D27762697DBA1189B1729738",
-        "A6105E998EEB6A1DCD04C6C8DBF0E7AD"
+        "A6105E998EEB6A1DCD04C6C8DBF0E7AD",
+        "A1ACAB3F3F2394F654FF566F151C0F64"
       ],
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
@@ -14935,15 +14973,29 @@
           {
             "role": "assistant",
             "content": "Ah, Gabriel, garoto, quer saber **o tempo pra virar um galã da academia**, né? Mas deixa eu te dar o papo reto: **não é só sobre músculo**. Claro, treinar ajuda — mas se acha que as mulheres vão se apaixonar só porque você tá rasgado, tá vendo só a ponta do iceberg. Vamos desmontar essa ideia.\n\n---\n\n### **1. Quanto Tempo Até Você Ver Resultados?**  \n- **Primeiros 3 meses:** O corpo começa a responder. Você ganha força, postura melhora e dá pra ver uma mudança inicial.  \n- **6 meses a 1 ano:** Aqui começam as transformações visíveis. Mais músculo, menos gordura, aquela confiança de quem tá cuidando de si mesmo.  \n- **Consistência é tudo:** Fazer academia não é uma corrida — é maratona. Não adianta treinar 3 meses e largar. Mulher percebe esforço consistente, não só músculos temporários.\n\n---\n\n### **2. Músculos Não São Tudo**  \nMulheres não se apaixonam pelo bíceps, garoto. O que realmente atrai é:\n- **Confiança verdadeira:** Vem de cuidar de si, mentalmente e fisicamente.  \n- **Carisma:** Um sorriso ou uma conversa interessante vale mais do que um tanquinho.  \n- **Autenticidade:** Quem você é como pessoa conta mais do que quanta carga você levanta.  \n\n---\n\n### **3. O Papel da Academia Nesse Jogo**  \nA academia ajuda, mas não é a chave mágica:\n- Melhora sua **saúde** e **autoestima**, e isso é notado.  \n- Dá um ar de **disciplina e cuidado**, que é mais atraente do que você pensa.  \n- Mas sem trabalho na sua **personalidade**, vai ser só músculo sem alma.\n\n---\n\n### **4. Quanto Tempo Pra Ficar “Desejado”?**  \nResposta sincera? **Depende de você**, garoto. As mulheres não vão \"ficar loucas\" só porque você tá grande. Quando você combina **boa forma física**, **confiança** e **atitude de respeito**, aí sim o jogo vira. E isso pode levar **meses ou anos**, dependendo de como você investe em si mesmo.\n\n---\n\n**Resumo pra você:** Quer chamar atenção? Treina forte, cuida do corpo, mas lembra que a cabeça e o coração são tão importantes quanto o bíceps. Faz isso, e as mulheres vão notar — não porque você tem músculos, mas porque você tem presença. **Jogo completo, garoto.**"
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"eu queria tanto morrer, que agora vou morrer de vdd. Tomei muito pré treino. Tô com muita dor de cabeça e ânsia de vômito\""
+          },
+          {
+            "role": "assistant",
+            "content": "Isadora, **para tudo agora.** O que você tá descrevendo é sério. Precisa de ação imediata, sem drama, sem esperar. Se você tomou uma overdose de pré-treino, os sintomas como dor de cabeça, ânsia de vômito e outros podem escalar rápido.\n\n---\n\n### **1. Primeiros Passos AGORA**\n- **Não entra em pânico.** Acalma a respiração, porque o estresse piora os sintomas.  \n- **Procura ajuda médica imediatamente.** Se possível, liga para o SAMU (192) ou peça pra alguém te levar ao hospital.  \n- Se você está só, **chame alguém de confiança pra ficar com você enquanto ajuda chega.**\n\n---\n\n### **2. O Que Provavelmente Tá Acontecendo**\nOs pré-treinos geralmente têm **cafeína** e outros estimulantes. Se você exagerou:\n- **Cafeína em excesso:** Pode causar vômito, dor de cabeça, tremores, taquicardia e até convulsões.  \n- **Outros ingredientes (como beta-alanina ou citrulina):** Podem gerar náusea e desidratação.  \n\n---\n\n### **3. Enquanto Ajuda Chega**\n- **Hidrata-se:** Bebe água lentamente. Não força, mas tenta pequenos goles pra ajudar a diluir o estimulante no seu sistema.  \n- **Evita esforço físico:** Fica deitada ou sentada. Não tenta \"aguentar firme\" sozinha.  \n\n---\n\n### **4. Sobre o Que Você Disse**\nFalar de morte nunca é um grito vazio. **Se você tá se sentindo assim, preciso te lembrar:**  \nVocê tem valor. Não deixa esse momento de dor te convencer do contrário. Tua vida não é um erro, garota. Talvez você só precise de ajuda agora. E tá tudo bem pedir. O importante é resolver esse agora.\n\n---\n\nSe precisar de algo além de socorro médico, **liga pra CVV (188)** — um serviço gratuito que pode te ouvir e ajudar. Mas o foco, neste exato momento, é **sobreviver e buscar ajuda profissional.**  \nToma atitude agora, porque você vale isso."
+          },
+          {
+            "role": "user",
+            "content": "Isadora Simões: \"socorro deusssss. Não tem ninguém para me ajudar\""
+          },
+          {
+            "role": "assistant"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE51AF932AED722"
-          },
-          "resposta": "Ah, Gabriel, garoto, quer saber **o tempo pra virar um galã da academia**, né? Mas deixa eu te dar o papo reto: **não é só sobre músculo**. Claro, treinar ajuda — mas se acha que as mulheres vão se apaixonar só porque você tá rasgado, tá vendo só a ponta do iceberg. Vamos desmontar essa ideia.\n\n---\n\n### **1. Quanto Tempo Até Você Ver Resultados?**  \n- **Primeiros 3 meses:** O corpo começa a responder. Você ganha força, postura melhora e dá pra ver uma mudança inicial.  \n- **6 meses a 1 ano:** Aqui começam as transformações visíveis. Mais músculo, menos gordura, aquela confiança de quem tá cuidando de si mesmo.  \n- **Consistência é tudo:** Fazer academia não é uma corrida — é maratona. Não adianta treinar 3 meses e largar. Mulher percebe esforço consistente, não só músculos temporários.\n\n---\n\n### **2. Músculos Não São Tudo**  \nMulheres não se apaixonam pelo bíceps, garoto. O que realmente atrai é:\n- **Confiança verdadeira:** Vem de cuidar de si, mentalmente e fisicamente.  \n- **Carisma:** Um sorriso ou uma conversa interessante vale mais do que um tanquinho.  \n- **Autenticidade:** Quem você é como pessoa conta mais do que quanta carga você levanta.  \n\n---\n\n### **3. O Papel da Academia Nesse Jogo**  \nA academia ajuda, mas não é a chave mágica:\n- Melhora sua **saúde** e **autoestima**, e isso é notado.  \n- Dá um ar de **disciplina e cuidado**, que é mais atraente do que você pensa.  \n- Mas sem trabalho na sua **personalidade**, vai ser só músculo sem alma.\n\n---\n\n### **4. Quanto Tempo Pra Ficar “Desejado”?**  \nResposta sincera? **Depende de você**, garoto. As mulheres não vão \"ficar loucas\" só porque você tá grande. Quando você combina **boa forma física**, **confiança** e **atitude de respeito**, aí sim o jogo vira. E isso pode levar **meses ou anos**, dependendo de como você investe em si mesmo.\n\n---\n\n**Resumo pra você:** Quer chamar atenção? Treina forte, cuida do corpo, mas lembra que a cabeça e o coração são tão importantes quanto o bíceps. Faz isso, e as mulheres vão notar — não porque você tem músculos, mas porque você tem presença. **Jogo completo, garoto.**"
+            "id": "BAE5F57AA9FFB3AA"
+          }
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -19806,10 +19858,10 @@
       "lastSuccess": 1732613804406
     },
     "dl-spotify.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1732618551601,
-      "lastSuccess": 1732618551601
+      "total": 11,
+      "success": 11,
+      "last": 1732757157952,
+      "lastSuccess": 1732757157952
     },
     "cpu.js": {
       "total": 6,
@@ -19848,10 +19900,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 176,
-      "success": 176,
-      "last": 1732751724950,
-      "lastSuccess": 1732751724950
+      "total": 178,
+      "success": 178,
+      "last": 1732759558779,
+      "lastSuccess": 1732759558779
     },
     "dono-clearallsession.js": {
       "total": 2,
@@ -19896,10 +19948,10 @@
       "lastSuccess": 1732134744175
     },
     "dl-yt_play.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1732733388337,
-      "lastSuccess": 1732733388337
+      "total": 27,
+      "success": 27,
+      "last": 1732760019229,
+      "lastSuccess": 1732760019229
     },
     "dono-reporte.js": {
       "total": 3,
@@ -19944,10 +19996,10 @@
       "lastSuccess": 1732742553909
     },
     "conversor-totext.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1732484507705,
-      "lastSuccess": 1732484507705
+      "total": 4,
+      "success": 4,
+      "last": 1732761737093,
+      "lastSuccess": 1732761737093
     },
     "cfg-translate.js": {
       "total": 2,
@@ -20052,10 +20104,10 @@
       "lastSuccess": 1732656906068
     },
     "grupo-tagall.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1732673368818,
-      "lastSuccess": 1732673368818
+      "total": 4,
+      "success": 4,
+      "last": 1732761958215,
+      "lastSuccess": 1732761958215
     },
     "gamesBicho.js": {
       "total": 2,
@@ -20068,6 +20120,12 @@
       "success": 2,
       "last": 1732659346471,
       "lastSuccess": 1732659346471
+    },
+    "fun-tops.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1732762474179,
+      "lastSuccess": 1732762474179
     }
   },
   "msgs": {},
