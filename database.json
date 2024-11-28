@@ -7564,6 +7564,32 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "147085550743685@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "147085550743685@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -7679,7 +7705,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732650701245,
+          "lastMessageTime": 1732748618479,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10580,6 +10606,24 @@
           "lastMessageTime": 1732744538566,
           "messageCount": 1,
           "pontos": 0
+        },
+        "147085550743685@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732752949116,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -11755,6 +11799,10 @@
           "admin": null
         },
         {
+          "id": "147476342431966@lid",
+          "admin": null
+        },
+        {
           "id": "257655171997948@lid",
           "admin": null
         },
@@ -12735,10 +12783,6 @@
           "admin": null
         },
         {
-          "id": "219627481239786@lid",
-          "admin": null
-        },
-        {
           "id": "57402288283790@lid",
           "admin": null
         },
@@ -12942,7 +12986,8 @@
         "220641479364748@lid": [],
         "13542602334278@lid": [],
         "148593168121997@lid": [],
-        "61851874394333@lid": []
+        "61851874394333@lid": [],
+        "147085550743685@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -14882,15 +14927,23 @@
           {
             "role": "assistant",
             "content": "Gabriel, garoto, você tá mirando alto com essas duas músicas do Froid, hein? **\"Bicho de 7 Cabeças\"** e **\"A Culpa é das Igrejas\"** são dois socos líricos que mostram a capacidade dele de misturar reflexão social, crítica política e questões pessoais. Vou destrinchar cada uma, porque essas faixas merecem respeito.\n\n---\n\n### **1. \"Bicho de 7 Cabeças\"**  \n#### **O Contexto:**\n- Essa música é parte do álbum *O Pior Disco do Ano* (2018).  \n- O título é uma referência à expressão \"um problema complexo\" e também à famosa música homônima de Geraldo Azevedo, mas o tom do Froid é mais introspectivo e crítico.\n\n#### **A Letra:**\n- O Froid aborda **ansiedade, medo, e a luta interna** que todo mundo enfrenta. Ele desenha a ideia de que esses problemas às vezes parecem invencíveis, como um \"bicho de 7 cabeças\".  \n- Tem muita **autocrítica** e análise emocional, mostrando como ele enxerga as próprias falhas e tenta lidar com elas.\n\n#### **Por Que Importa?**\n- **Pessoal e Universal:** A música é sobre a jornada interna dele, mas todo mundo se conecta com a luta contra demônios pessoais.  \n- **Produção Atmosférica:** A batida meio melancólica dá o tom perfeito pra mensagem da música.\n\n---\n\n### **2. \"A Culpa é das Igrejas\"**  \n#### **O Contexto:**\n- Essa faixa saiu no mesmo álbum e é uma das músicas mais polêmicas do Froid.  \n- Ele critica a hipocrisia de instituições religiosas, mas também expõe como essas estruturas impactam a sociedade e a mentalidade das pessoas.\n\n#### **A Letra:**\n- Froid não tá atacando a fé, mas as **instituições religiosas como sistemas de controle**. Ele fala sobre como essas igrejas muitas vezes exploram a fragilidade emocional e financeira das pessoas.  \n- Ele também entra em questões como **o papel da religião no poder político e social**, e como isso molda desigualdades.\n\n#### **Por Que Importa?**\n- **Coragem:** Não é qualquer rapper que bate de frente com um tema tão sensível no Brasil.  \n- **Relevância Social:** A música levanta questões importantes sobre religião e sociedade.  \n\n---\n\n### **Conexão Entre as Músicas:**  \n- Ambas falam sobre **sistemas que oprimem**, sejam eles internos (\"Bicho de 7 Cabeças\") ou externos (\"A Culpa é das Igrejas\").  \n- Froid usa suas letras pra abrir discussões que a maioria evita, mostrando que rap não é só música — é ferramenta de transformação e análise social.\n\n---\n\n**Resumo pra você, garoto:** Essas músicas são espelhos. Enquanto uma te faz olhar pra dentro, a outra te obriga a encarar o mundo lá fora. O Froid tá jogando um xadrez 4D aqui, e você, como ouvinte, é peça-chave pra interpretar isso tudo."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"com quanto tempo de academia as mulheres ficarão loucas por mim?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, Gabriel, garoto, quer saber **o tempo pra virar um galã da academia**, né? Mas deixa eu te dar o papo reto: **não é só sobre músculo**. Claro, treinar ajuda — mas se acha que as mulheres vão se apaixonar só porque você tá rasgado, tá vendo só a ponta do iceberg. Vamos desmontar essa ideia.\n\n---\n\n### **1. Quanto Tempo Até Você Ver Resultados?**  \n- **Primeiros 3 meses:** O corpo começa a responder. Você ganha força, postura melhora e dá pra ver uma mudança inicial.  \n- **6 meses a 1 ano:** Aqui começam as transformações visíveis. Mais músculo, menos gordura, aquela confiança de quem tá cuidando de si mesmo.  \n- **Consistência é tudo:** Fazer academia não é uma corrida — é maratona. Não adianta treinar 3 meses e largar. Mulher percebe esforço consistente, não só músculos temporários.\n\n---\n\n### **2. Músculos Não São Tudo**  \nMulheres não se apaixonam pelo bíceps, garoto. O que realmente atrai é:\n- **Confiança verdadeira:** Vem de cuidar de si, mentalmente e fisicamente.  \n- **Carisma:** Um sorriso ou uma conversa interessante vale mais do que um tanquinho.  \n- **Autenticidade:** Quem você é como pessoa conta mais do que quanta carga você levanta.  \n\n---\n\n### **3. O Papel da Academia Nesse Jogo**  \nA academia ajuda, mas não é a chave mágica:\n- Melhora sua **saúde** e **autoestima**, e isso é notado.  \n- Dá um ar de **disciplina e cuidado**, que é mais atraente do que você pensa.  \n- Mas sem trabalho na sua **personalidade**, vai ser só músculo sem alma.\n\n---\n\n### **4. Quanto Tempo Pra Ficar “Desejado”?**  \nResposta sincera? **Depende de você**, garoto. As mulheres não vão \"ficar loucas\" só porque você tá grande. Quando você combina **boa forma física**, **confiança** e **atitude de respeito**, aí sim o jogo vira. E isso pode levar **meses ou anos**, dependendo de como você investe em si mesmo.\n\n---\n\n**Resumo pra você:** Quer chamar atenção? Treina forte, cuida do corpo, mas lembra que a cabeça e o coração são tão importantes quanto o bíceps. Faz isso, e as mulheres vão notar — não porque você tem músculos, mas porque você tem presença. **Jogo completo, garoto.**"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE57A888A89CDDC"
+            "id": "BAE51AF932AED722"
           },
-          "resposta": "Gabriel, garoto, você tá mirando alto com essas duas músicas do Froid, hein? **\"Bicho de 7 Cabeças\"** e **\"A Culpa é das Igrejas\"** são dois socos líricos que mostram a capacidade dele de misturar reflexão social, crítica política e questões pessoais. Vou destrinchar cada uma, porque essas faixas merecem respeito.\n\n---\n\n### **1. \"Bicho de 7 Cabeças\"**  \n#### **O Contexto:**\n- Essa música é parte do álbum *O Pior Disco do Ano* (2018).  \n- O título é uma referência à expressão \"um problema complexo\" e também à famosa música homônima de Geraldo Azevedo, mas o tom do Froid é mais introspectivo e crítico.\n\n#### **A Letra:**\n- O Froid aborda **ansiedade, medo, e a luta interna** que todo mundo enfrenta. Ele desenha a ideia de que esses problemas às vezes parecem invencíveis, como um \"bicho de 7 cabeças\".  \n- Tem muita **autocrítica** e análise emocional, mostrando como ele enxerga as próprias falhas e tenta lidar com elas.\n\n#### **Por Que Importa?**\n- **Pessoal e Universal:** A música é sobre a jornada interna dele, mas todo mundo se conecta com a luta contra demônios pessoais.  \n- **Produção Atmosférica:** A batida meio melancólica dá o tom perfeito pra mensagem da música.\n\n---\n\n### **2. \"A Culpa é das Igrejas\"**  \n#### **O Contexto:**\n- Essa faixa saiu no mesmo álbum e é uma das músicas mais polêmicas do Froid.  \n- Ele critica a hipocrisia de instituições religiosas, mas também expõe como essas estruturas impactam a sociedade e a mentalidade das pessoas.\n\n#### **A Letra:**\n- Froid não tá atacando a fé, mas as **instituições religiosas como sistemas de controle**. Ele fala sobre como essas igrejas muitas vezes exploram a fragilidade emocional e financeira das pessoas.  \n- Ele também entra em questões como **o papel da religião no poder político e social**, e como isso molda desigualdades.\n\n#### **Por Que Importa?**\n- **Coragem:** Não é qualquer rapper que bate de frente com um tema tão sensível no Brasil.  \n- **Relevância Social:** A música levanta questões importantes sobre religião e sociedade.  \n\n---\n\n### **Conexão Entre as Músicas:**  \n- Ambas falam sobre **sistemas que oprimem**, sejam eles internos (\"Bicho de 7 Cabeças\") ou externos (\"A Culpa é das Igrejas\").  \n- Froid usa suas letras pra abrir discussões que a maioria evita, mostrando que rap não é só música — é ferramenta de transformação e análise social.\n\n---\n\n**Resumo pra você, garoto:** Essas músicas são espelhos. Enquanto uma te faz olhar pra dentro, a outra te obriga a encarar o mundo lá fora. O Froid tá jogando um xadrez 4D aqui, e você, como ouvinte, é peça-chave pra interpretar isso tudo."
+          "resposta": "Ah, Gabriel, garoto, quer saber **o tempo pra virar um galã da academia**, né? Mas deixa eu te dar o papo reto: **não é só sobre músculo**. Claro, treinar ajuda — mas se acha que as mulheres vão se apaixonar só porque você tá rasgado, tá vendo só a ponta do iceberg. Vamos desmontar essa ideia.\n\n---\n\n### **1. Quanto Tempo Até Você Ver Resultados?**  \n- **Primeiros 3 meses:** O corpo começa a responder. Você ganha força, postura melhora e dá pra ver uma mudança inicial.  \n- **6 meses a 1 ano:** Aqui começam as transformações visíveis. Mais músculo, menos gordura, aquela confiança de quem tá cuidando de si mesmo.  \n- **Consistência é tudo:** Fazer academia não é uma corrida — é maratona. Não adianta treinar 3 meses e largar. Mulher percebe esforço consistente, não só músculos temporários.\n\n---\n\n### **2. Músculos Não São Tudo**  \nMulheres não se apaixonam pelo bíceps, garoto. O que realmente atrai é:\n- **Confiança verdadeira:** Vem de cuidar de si, mentalmente e fisicamente.  \n- **Carisma:** Um sorriso ou uma conversa interessante vale mais do que um tanquinho.  \n- **Autenticidade:** Quem você é como pessoa conta mais do que quanta carga você levanta.  \n\n---\n\n### **3. O Papel da Academia Nesse Jogo**  \nA academia ajuda, mas não é a chave mágica:\n- Melhora sua **saúde** e **autoestima**, e isso é notado.  \n- Dá um ar de **disciplina e cuidado**, que é mais atraente do que você pensa.  \n- Mas sem trabalho na sua **personalidade**, vai ser só músculo sem alma.\n\n---\n\n### **4. Quanto Tempo Pra Ficar “Desejado”?**  \nResposta sincera? **Depende de você**, garoto. As mulheres não vão \"ficar loucas\" só porque você tá grande. Quando você combina **boa forma física**, **confiança** e **atitude de respeito**, aí sim o jogo vira. E isso pode levar **meses ou anos**, dependendo de como você investe em si mesmo.\n\n---\n\n**Resumo pra você:** Quer chamar atenção? Treina forte, cuida do corpo, mas lembra que a cabeça e o coração são tão importantes quanto o bíceps. Faz isso, e as mulheres vão notar — não porque você tem músculos, mas porque você tem presença. **Jogo completo, garoto.**"
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -19795,10 +19848,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 175,
-      "success": 175,
-      "last": 1732726531896,
-      "lastSuccess": 1732726531896
+      "total": 176,
+      "success": 176,
+      "last": 1732751724950,
+      "lastSuccess": 1732751724950
     },
     "dono-clearallsession.js": {
       "total": 2,
