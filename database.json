@@ -7616,6 +7616,58 @@
           "afkReason": ""
         }
       }
+    },
+    "43293756907586@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "43293756907586@lid",
+          "afkReason": ""
+        }
+      }
+    },
+    "147476342431966@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "147476342431966@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -10668,6 +10720,42 @@
           "lastMessageTime": 1732755963204,
           "messageCount": null,
           "pontos": 0
+        },
+        "43293756907586@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732763733911,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "147476342431966@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1732766456167,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -10720,7 +10808,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 530,
+      "totalMembros": 529,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -11488,10 +11576,6 @@
         },
         {
           "id": "258797683638516@lid",
-          "admin": null
-        },
-        {
-          "id": "43293756907586@lid",
           "admin": null
         },
         {
@@ -13024,7 +13108,9 @@
         "148593168121997@lid": [],
         "61851874394333@lid": [],
         "147085550743685@lid": [],
-        "110354973593792@lid": []
+        "110354973593792@lid": [],
+        "43293756907586@lid": [],
+        "147476342431966@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -14988,14 +15074,23 @@
           },
           {
             "role": "assistant"
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"ficar sem comer pode ocasionar diabetes?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Gabriel, garoto, deixa eu te explicar: **ficar sem comer não causa diretamente diabetes**, mas pode bagunçar o metabolismo e contribuir para problemas relacionados à glicose. Vou te explicar com calma, porque esse tema é cheio de nuances.\n\n---\n\n### **1. Como a Diabetes Funciona?**  \nExistem dois tipos principais:\n- **Diabetes Tipo 1:** Autoimune. O corpo para de produzir insulina. Geralmente não tem ligação com hábitos alimentares.  \n- **Diabetes Tipo 2:** Relacionada a fatores como obesidade, sedentarismo e má alimentação. É aqui que jejum ou falta de comida podem afetar indiretamente.\n\n---\n\n### **2. Ficar Sem Comer e Seus Efeitos no Corpo**  \n- Quando você fica muito tempo sem comer, o corpo entra em **modo de sobrevivência**, liberando glicose armazenada no fígado pra manter energia.  \n- Isso força o **pâncreas** a trabalhar mais pra regular os níveis de açúcar no sangue.  \n- Se você faz isso constantemente, pode causar **resistência à insulina**, que é um dos primeiros passos para desenvolver diabetes tipo 2.\n\n---\n\n### **3. Ficar Sem Comer Pode Piorar Outros Fatores:**  \n- **Comer compulsivamente depois:** Quando você jejua por muito tempo, pode acabar compensando comendo alimentos ricos em açúcar e carboidratos. Isso aumenta os picos de glicose.  \n- **Metabolismo desregulado:** Dietas muito restritivas ou períodos longos sem comer bagunçam o equilíbrio hormonal, especialmente o da insulina.\n\n---\n\n### **4. Quem Já Tem Tendência Está Mais em Risco**  \nSe você tem histórico familiar ou fatores de risco pra diabetes, **ficar sem comer frequentemente pode acelerar o problema**. Mesmo sem comida, o corpo às vezes mantém níveis altos de glicose no sangue por causa do estresse metabólico.\n\n---\n\n### **Resumo Pra Você, Garoto**  \nFicar sem comer não vai te dar diabetes da noite pro dia, mas pode **bagunçar seu metabolismo** e aumentar os riscos, especialmente se combinado com outros fatores, como má alimentação, sedentarismo ou histórico genético. Cuida desse corpo aí com mais equilíbrio: comer nas horas certas, evitar exageros, e manter atividade física. A vida é um sistema — tudo tá conectado."
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE5F57AA9FFB3AA"
-          }
+            "id": "BAE513046385C675"
+          },
+          "resposta": "Gabriel, garoto, deixa eu te explicar: **ficar sem comer não causa diretamente diabetes**, mas pode bagunçar o metabolismo e contribuir para problemas relacionados à glicose. Vou te explicar com calma, porque esse tema é cheio de nuances.\n\n---\n\n### **1. Como a Diabetes Funciona?**  \nExistem dois tipos principais:\n- **Diabetes Tipo 1:** Autoimune. O corpo para de produzir insulina. Geralmente não tem ligação com hábitos alimentares.  \n- **Diabetes Tipo 2:** Relacionada a fatores como obesidade, sedentarismo e má alimentação. É aqui que jejum ou falta de comida podem afetar indiretamente.\n\n---\n\n### **2. Ficar Sem Comer e Seus Efeitos no Corpo**  \n- Quando você fica muito tempo sem comer, o corpo entra em **modo de sobrevivência**, liberando glicose armazenada no fígado pra manter energia.  \n- Isso força o **pâncreas** a trabalhar mais pra regular os níveis de açúcar no sangue.  \n- Se você faz isso constantemente, pode causar **resistência à insulina**, que é um dos primeiros passos para desenvolver diabetes tipo 2.\n\n---\n\n### **3. Ficar Sem Comer Pode Piorar Outros Fatores:**  \n- **Comer compulsivamente depois:** Quando você jejua por muito tempo, pode acabar compensando comendo alimentos ricos em açúcar e carboidratos. Isso aumenta os picos de glicose.  \n- **Metabolismo desregulado:** Dietas muito restritivas ou períodos longos sem comer bagunçam o equilíbrio hormonal, especialmente o da insulina.\n\n---\n\n### **4. Quem Já Tem Tendência Está Mais em Risco**  \nSe você tem histórico familiar ou fatores de risco pra diabetes, **ficar sem comer frequentemente pode acelerar o problema**. Mesmo sem comida, o corpo às vezes mantém níveis altos de glicose no sangue por causa do estresse metabólico.\n\n---\n\n### **Resumo Pra Você, Garoto**  \nFicar sem comer não vai te dar diabetes da noite pro dia, mas pode **bagunçar seu metabolismo** e aumentar os riscos, especialmente se combinado com outros fatores, como má alimentação, sedentarismo ou histórico genético. Cuida desse corpo aí com mais equilíbrio: comer nas horas certas, evitar exageros, e manter atividade física. A vida é um sistema — tudo tá conectado."
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -19900,10 +19995,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 178,
-      "success": 178,
-      "last": 1732759558779,
-      "lastSuccess": 1732759558779
+      "total": 179,
+      "success": 179,
+      "last": 1732764493138,
+      "lastSuccess": 1732764493138
     },
     "dono-clearallsession.js": {
       "total": 2,
