@@ -42,83 +42,11 @@ export function before(m, { conn , isOwner, nivel, participants}) {
 }
 
   let userLevel = global.db.data.chats[m.chat].users[m.sender].level
-  async function drawRank(isNewRank,coins,bugs, funcoes,nivel, texto,rank){
-    const profileImagePath = await conn.profilePictureUrl(m.sender, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-    
-    console.log('ok 1')
-    // Registrar a fonte
-    registerFont('fonts/AngelWishRegular-1G9wM.ttf', { family: 'AngelWishRegular-1G9wM' });
-    registerFont('fonts/MedusaGothic-VAEV.ttf', { family: 'MedusaGothic-VAEV' });
-    registerFont('fonts/DutchbrigadeRegular-8M7VJ.otf', { family: 'DutchbrigadeRegular-8M7VJ' });
-    registerFont('fonts/WoodgodRegular-3zpjG.ttf', { family: 'WoodgodRegular-3zpjG' });
-    
-    const canvas = createCanvas(1024, 1024);
-    const ctx = canvas.getContext('2d');
-    let pathss = join(global.dirname, '../media/overlays/rank.png');
-    
-       let outt = getRandom('.png'); 
-        
-        let outp = join(global.dirname, '../tmp/' + outt);
-        console.log('ok 2')
 
-    // Carregar a imagem de fundo
-    loadImage(pathss).then( async (image) => {
-        ctx.drawImage(image, 0, 0, 1024, 1024);
-        
-        
-        const profileImage = await loadImage(profileImagePath);
-        const profileSize = 140;
-        const profileX = 100;
-        const profileY = 564.6;
-    
-        ctx.save();
-        ctx.beginPath();
-        ctx.arc(profileX + profileSize / 2, profileY + profileSize / 2, profileSize / 2, 0, Math.PI * 2, true);
-        ctx.closePath();
-        ctx.clip();
-    
-        ctx.drawImage(profileImage, profileX, profileY, profileSize, profileSize);
-        ctx.restore();
-        
-        
-    let title = isNewRank ? 'Novo rank obtido ⸸' : 'Você subiu de nível ✞︎'
-    console.log('ok 3')
 
-    let heightNumb = isNewRank ? 585 : 615
-    let sizeNumb = isNewRank ? 40 : 56
-        // Texto "VOCÊ SUBIU DE NÍVEL!!"
-        ctx.font = '56px "AngelWishRegular-1G9wM"';
-        ctx.fillStyle = '#eeeeee';
-        ctx.textAlign = 'center';
-        ctx.fillText(title, 512, 505);
-    
-        // Níveis anteriores e atuais
-        ctx.font = `${sizeNumb}px "AngelWishRegular-1G9wM"`
-        ctx.fillText(`${nivel-1} -> `, 471, heightNumb); // Nível anterior
-        ctx.font = `${sizeNumb+14}px "AngelWishRegular-1G9wM"`
-       ctx.fillStyle = '#f78888';
-           ctx.shadowColor = '#ff0000';
-    ctx.shadowBlur = 8;
-        ctx.fillText(nivel, 536, heightNumb+3); // Nível atual
-    
-     if(isNewRank){
-        ctx.font = '40px "DutchbrigadeRegular-8M7VJ"';
-        ctx.fillText(rank, 520, 650); // Nível anterior
-    }
-    
-    
-    
-    
-    
-        // Preenchimento da barra
-        ctx.fillStyle = '#f78888';
-           ctx.shadowColor = '#f78888';
-    ctx.shadowBlur = 12;
-        let progress = (nivel / 100) * 380; // Progresso baseado no nível atual
-        ctx.fillRect(362, 701, progress, 30);
-        
-        console.log('ok4')
 
+<<<<<<< HEAD
+=======
         // Barra de progresso gótica
         ctx.strokeStyle = '#f78888';
         ctx.shadowColor = '#ff0000';
@@ -164,81 +92,7 @@ export function before(m, { conn , isOwner, nivel, participants}) {
         ctx.fillStyle = '#f78888';
     let fontSize = 38;
     console.log('ok 5')
-
-    
-    const maxWidth = 1024 - 40;
-    const maxHeight = 1024 - 40;
-    const lineHeight = fontSize;
-    console.log('funcoes   :   ' +funcoes)
-    let lines = [];
-    let currentLine = '';
-    let startY = 924;
-    
-    for (let word of funcoes) {
-      console.log(word)
-        let testLine = currentLine ? currentLine + '  ' + word : word;
-        let metrics = ctx.measureText(testLine);
-        let testWidth = metrics.width;
-    
-        if (testWidth > 800) {
-          
-            lines.push(currentLine);
-            console.log('Linhaaa:'+ currentLine)
-            currentLine = word;
-            fontSize -= 8;
-            startY += 26.5;
-            
-        } else {
-            currentLine = testLine;
-        }
-    }
-    console.log('ok 6')
-
-    if (currentLine) {
-        lines.push(currentLine);
-    }
-    
-    let textHeight = lines.length * lineHeight;
-    
-    ctx.shadowColor = '#ff0000';
-    ctx.shadowBlur = 12;
-    
-    let startX = 520;
-    ctx.font = `${fontSize}px "WoodgodRegular-3zpjG"`;
-    for (let i = 0; i < lines.length; i++) {
-        ctx.fillText(lines[i], startX, startY - (i * lineHeight));
-    }
-    
-    
-    
-    
-    console.log('ok 7')
-
-    }
-    else {   ctx.textAlign = 'center';
-    ctx.font = '34px "DutchbrigadeRegular-8M7VJ"';
-        ctx.fillText('✞︎', 522, 830);
-        ctx.font = '54px "DutchbrigadeRegular-8M7VJ"';
-        ctx.fillText('Suba mais níveis para desbloquear funções', 522, 910);
-      
-    }
-    console.log('ok 8')
-
-        // Salvar a imagem
-        const out = fs.createWriteStream(outp);
-        const stream = canvas.createPNGStream();
-        stream.pipe(out);
-        out.on('finish', () => conn.sendFile(m.chat, outp,'rank.png',texto,m))
-        console.log(outp)
-
-        console.log('okkkkk')
-
-        
-    })
-    }
-
-
-
+>>>>>>> 74f1cc850296544d57d8d4ffcde43ac14a94ab25
 
 
     function getPluginsByLevel(plugins, userLevel) {
@@ -304,31 +158,62 @@ if(!global.db.data.chats[m.chat].users[m.sender]){
        
   }
 }
-  let levels = 
+
+let levels 
+if (global.db.data.chats[m.chat].language === 'pt') { 
+
+  levels = 
 [
-'𝐈𝐧𝐢𝐜𝐢𝐚𝐧𝐭𝐞 𝐝𝐚𝐬 𝐬𝐨𝐦𝐛𝐫𝐚𝐬',
-'𝐃𝐢𝐬𝐜𝐢𝐩𝐮𝐥𝐨 𝐝𝐨 𝐂𝐨𝐫𝐯𝐨',
-'𝐀𝐩𝐫𝐞𝐧𝐝𝐢𝐳 𝐝𝐨 𝐏𝐥𝐮𝐭𝐨',
-'𝐃𝐞𝐯𝐨𝐭𝐨 𝐝𝐨 𝐃𝐞𝐬𝐞𝐬𝐩𝐞𝐫𝐨',
-'𝐌𝐞𝐬𝐭𝐫𝐞 𝐒𝐨𝐦𝐛𝐫𝐢𝐨',
-'𝐃𝐢𝐬𝐜𝐢𝐩𝐮𝐥𝐨 𝐝𝐨 𝐂𝐫𝐞𝐩ú𝐬𝐜𝐮𝐥𝐨',
-'𝐄𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐬𝐭𝐚 𝐝𝐨 𝐃𝐞𝐬𝐚𝐥𝐞𝐧𝐭𝐨',
-'𝐂𝐨𝐧𝐡𝐞𝐜𝐞𝐝𝐨𝐫 𝐝𝐨 𝐇𝐨𝐫𝐫𝐨𝐫',
-'𝐀𝐫𝐭𝐢𝐟𝐢𝐜𝐞 𝐝𝐨 𝐌𝐞𝐝𝐨',
-'𝐄𝐫𝐞𝐦𝐢𝐭𝐚 𝐝𝐚 𝐄𝐬𝐜𝐮𝐫𝐢𝐝ã𝐨',
-'𝐀𝐥𝐪𝐮𝐢𝐦𝐢𝐬𝐭𝐚 ',
-'𝐕𝐢𝐝𝐞𝐧𝐭𝐞 𝐝𝐨 𝐃𝐞𝐬𝐞𝐬𝐩𝐞𝐫𝐨',
-'𝐏𝐨𝐫𝐭𝐚𝐝𝐨𝐫 𝐝𝐚 𝐀𝐧𝐠ú𝐬𝐭𝐢𝐚',
-'𝐀𝐫𝐪𝐮𝐢𝐭𝐞𝐭𝐨 𝐝𝐨 𝐏𝐞𝐬𝐚𝐝𝐞𝐥𝐨',
-'𝐒𝐨𝐦𝐛𝐫𝐚𝐬 𝐀𝐥é𝐦 𝐝𝐚 𝐌𝐨𝐫𝐭𝐞',
-'𝐌𝐞𝐬𝐭𝐫𝐞 𝐝𝐨𝐬 𝐂𝐨𝐫𝐯𝐨𝐬',
-'𝐏𝐥𝐮𝐭𝐨𝐧',
-'𝐒𝐢𝐧𝐟𝐨𝐧𝐢𝐚 𝐒𝐨𝐦𝐛𝐫𝐢𝐚',
-'𝐒𝐮𝐬𝐬𝐮𝐫𝐫𝐨𝐬 𝐝𝐨 𝐃𝐞𝐬𝐜𝐨𝐧𝐡𝐞𝐜𝐢𝐝𝐨',
-'𝐀𝐯𝐚𝐭𝐚𝐫 𝐝𝐨 𝐓𝐨𝐫𝐦𝐞𝐧𝐭𝐨',
-'𝑶 𝒄𝒐𝒓𝒗𝒐 𝒏𝒆𝒈𝒓𝒐'
+  "Ｓｃｒｉｐｔ　Ｋｉｄｄｉｅ",              // Ｌｅｖｅｌ　１
+  "Ｉｎｉｃｉａｄｏｒ　ｄａ　Ｆｓｏｃｉｅｔｙ", // Ｌｅｖｅｌ　２
+  "Ｆａｎｔａｓｍａ　Ｄｉｇｉｔａｌ",        // Ｌｅｖｅｌ　３
+  "Ｓａｂｏｔｅｕｒ　Ｅ－Ｃｏｒｐ",          // Ｌｅｖｅｌ　４
+  "Ｅｘｐｌｏｉｔ　Ｆａｎｔａｓｍａ",       // Ｌｅｖｅｌ　５
+  "Ｏｐｅｒａｔｉｖｏ　ｄｏ　Ｅｘéｒｃｉｔｏ　Ｓｏｍｂｒｉｏ", // Ｌｅｖｅｌ　６
+  "Ｅｎｇｅｎｈｅｉｒｏ　Ｓｏｃｉａｌ",     // Ｌｅｖｅｌ　７
+  "Ｍｅｍｂｒｏ　ｄｏ　ＬｕｌｚＳｅｃ",      // Ｌｅｖｅｌ　８
+  "Ｃａｃａｄｏｒ　ｄｅ　Ｚｅｒｏ－Ｄａｙ",  // Ｌｅｖｅｌ　９
+  "Ａｒｑｕｉｔｅｔｏ　ｄｅ　Ｍａｌｗａｒｅ", // Ｌｅｖｅｌ　１０
+  "Ｌｉｂｅｒａｄｏｒ　ｄｅ　Ｄａｄｏｓ",   // Ｌｅｖｅｌ　１１
+  "Ｄｉｓｒｕｐｔｏｒ　ｄｅ　Ｓｉｓｔｅｍａｓ", // Ｌｅｖｅｌ　１２
+  "Ｄｅｆｅｎｓｏｒ　ｄｅ　Ｒｅｄｅｓ",     // Ｌｅｖｅｌ　１３
+  "Ａｎａｌｉｓｔａ　ｄｅ　Ｃｉｂｅｒｓｅｇｕｒａｎçａ", // Ｌｅｖｅｌ　１４
+  "Ｄｅｓｅｎｖｏｌｖｅｄｏｒ　ｄｅ　Ｅｘｐｌｏｉｔｓ", // Ｌｅｖｅｌ　１５
+  "Ｂｌａｃｋ　Ｈａｔ",                      // Ｌｅｖｅｌ　１６
+  "４０４",                                  // Ｌｅｖｅｌ　１７
+  "Ｅｘｐｌｏｒａｄｏｒ　ｄｅ　Ｓｉｓｔｅｍａｓ", // Ｌｅｖｅｌ　１８
+  "Ａｐｒｅｎｄｉｚ　ｄｅ　Ｓｎｏｗｄｅｎ", // Ｌｅｖｅｌ　１９
+  "Ａｎｏｎｙｍｏｕｓ",                      // Ｌｅｖｅｌ　２０
+  "Ｅｌｌｉｏｔ　Ａｌｄｅｒｓｏｎ"          // Ｌｅｖｅｌ　２１
+]
+} 
+else {
+levels = 
+[
+  "Ｓｃｒｉｐｔ　Ｋｉｄｄｉｅ",              // Ｌｅｖｅｌ　１
+  "Ｆｓｏｃｉｅｔｙ　Ｉｎｉｔｉａｔｅ",       // Ｌｅｖｅｌ　２
+  "Ｄｉｇｉｔａｌ　Ｇｈｏｓｔ",              // Ｌｅｖｅｌ　３
+  "Ｅ－Ｃｏｒｐ　Ｓａｂｏｔｅｕｒ",          // Ｌｅｖｅｌ　４
+  "Ｐｈａｎｔｏｍ　Ｅｘｐｌｏｉｔ",         // Ｌｅｖｅｌ　５
+  "Ｄａｒｋ　Ａｒｍｙ　Ｏｐｅｒａｔｉｖｅ", // Ｌｅｖｅｌ　６
+  "Ｓｏｃｉａｌ　Ｅｎｇｉｎｅｅｒ",         // Ｌｅｖｅｌ　７
+  "ＬｕｌｚＳｅｃ　Ｍｅｍｂｅｒ",            // Ｌｅｖｅｌ　８
+  "Ｚｅｒｏ－Ｄａｙ　Ｈｕｎｔｅｒ",         // Ｌｅｖｅｌ　９
+  "Ｍａｌｗａｒｅ　Ａｒｃｈｉｔｅｃｔ",     // Ｌｅｖｅｌ　１０
+  "Ｄａｔａ　Ｌｉｂｅｒａｔｉｏｎｉｓｔ",   // Ｌｅｖｅｌ　１１
+  "Ｓｙｓｔｅｍ　Ｄｉｓｒｕｐｔｏｒ",       // Ｌｅｖｅｌ　１２
+  "Ｎｅｔｗｏｒｋ　Ｄｅｆｅｎｄｅｒ",       // Ｌｅｖｅｌ　１３
+  "Ｃｙｂｅｒｓｅｃｕｒｉｔｙ　Ａｎａｌｙｓｔ", // Ｌｅｖｅｌ　１４
+  "Ｅｘｐｌｏｉｔ　Ｄｅｖｅｌｏｐｅｒ",     // Ｌｅｖｅｌ　１５
+  "Ｂｌａｃｋ　Ｈａｔ",                      // Ｌｅｖｅｌ　１６
+  "４０４",                                  // Ｌｅｖｅｌ　１７
+  "Ｓｙｓｔｅｍ　Ｅｘｐｌｏｉｔｅｒ",       // Ｌｅｖｅｌ　１８
+  "Ｓｎｏｗｄｅｎ　Ａｐｐｒｅｎｔｉｃｅ",   // Ｌｅｖｅｌ　１９
+  "Ａｎｏｎｙｍｏｕｓ",                      // Ｌｅｖｅｌ　２０
+  "Ｅｌｌｉｏｔ　Ａｌｄｅｒｓｏｎ"            // Ｌｅｖｅｌ　２１
 ]
 
+}
 
 	
 let user = global.db.data.chats[m.chat].users[m.sender]

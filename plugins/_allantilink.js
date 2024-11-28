@@ -87,30 +87,30 @@ let destino = global.db.data.chats[m.chat].reportchat || adminAleatorio
 
   let teks;
 
-if (global.db.data.chats[m.chat].language === 'pt') {
-    teks = `
-> robot@bytesec: #/users/ cat ${generateRandomCode()}.log
-> ---------------------------------------
+  if (global.db.data.chats[m.chat].language === 'pt') {
+          teks = `
+      > robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+      > ---------------------------------------
 
-[!] ALERTA: Usuário Banido
-────────────────────────────────
-> Protocolo: ${generateRandomCode()}
-> Data: ${getDataAtual()}
+      [!] ALERTA: Usuário Banido
+      ────────────────────────────────
+      > Protocolo: ${generateRandomCode()}
+      > Data: ${getDataAtual()}
 
->>> DETALHES DO USUÁRIO
-────────────────────────────────
-> [+] Nome: ${m.name}
-> [+] Contato: @${m.sender.split`@`[0]}
-> [+] Grupo: ${groupMetadata.subject}
+      >>> DETALHES DO USUÁRIO
+      ────────────────────────────────
+      > [+] Nome: ${m.name}
+      > [+] Contato: @${m.sender.split`@`[0]}
+      > [+] Grupo: ${groupMetadata.subject}
 
->>> MOTIVO DO EXÍLIO
-────────────────────────────────
-> ${motivo}
+      >>> MOTIVO DO EXÍLIO
+      ────────────────────────────────
+      > ${motivo}
 
-> # Operação realizada pela ByteSec. 
-> # Monitoramento constante.
-────────────────────────────────
-    `;
+      > # Operação realizada pela ByteSec. 
+      > # Monitoramento constante.
+      ────────────────────────────────
+          `;
 } else if (global.db.data.chats[m.chat].language === 'en') {
     teks = `
 > robot@bytesec: #/users/ cat ${generateRandomCode()}.log

@@ -43,45 +43,98 @@ function generateRandomCode() {
 
 
 let tempBanimento = async (motivo) => {
-   global.db.data.chats[m.chat].users[m.sender].tempBan = true
-   
-   console.log('1🌙')
-     const groupAdms = participants.filter(p => p.admin)
- 
-  let adms =[]
-  const listaAdmin = groupAdms.map((v, i) =>
-  adms.push(v.id))
+  global.db.data.chats[m.chat].users[m.sender].tempBan = true
   
-   console.log('2🌙')
-  console.log(adms)
+  console.log('1🌙')
+    const groupAdms = participants.filter(p => p.admin)
+
+ let adms =[]
+ const listaAdmin = groupAdms.map((v, i) =>
+ adms.push(v.id))
+ 
+  console.log('2🌙')
+ console.log(adms)
 // Example usage:
 adms = adms.filter(adm => adm !== conn.user.jid);
 const adminAleatorio = adms.getRandom()
 let destino = global.db.data.chats[m.chat].reportchat || adminAleatorio
 
-   console.log('3🌙')
+  console.log('3🌙')
 
+ let teks;
+
+ if (global.db.data.chats[m.chat].language === 'pt') {
+         teks = `
+     > robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+     > ---------------------------------------
+
+     [!] ALERTA: Usuário Banido
+     ────────────────────────────────
+     > Protocolo: ${generateRandomCode()}
+     > Data: ${getDataAtual()}
+
+     >>> DETALHES DO USUÁRIO
+     ────────────────────────────────
+     > [+] Nome: ${m.name}
+     > [+] Contato: @${m.sender.split`@`[0]}
+     > [+] Grupo: ${groupMetadata.subject}
+
+     >>> MOTIVO DO EXÍLIO
+     ────────────────────────────────
+     > ${motivo}
+
+     > # Operação realizada pela ByteSec. 
+     > # Monitoramento constante.
+     ────────────────────────────────
+         `;
+} else if (global.db.data.chats[m.chat].language === 'en') {
+   teks = `
+> robot@bytesec: #/users/ cat ${generateRandomCode()}.log
+> ---------------------------------------
+
+[!] ALERT: User Banned
+────────────────────────────────
+> Protocol: ${generateRandomCode()}
+> Date: ${getDataAtual()}
+
+>>> USER DETAILS
+────────────────────────────────
+> [+] Name: ${m.name}
+> [+] Contact: @${m.sender.split`@`[0]}
+> [+] Group: ${groupMetadata.subject}
+
+>>> REASON FOR EXILE
+────────────────────────────────
+> ${motivo}
+> ‎ 
+> # Operation conducted by ByteSec.
+> # Under continuous surveillance.
+────────────────────────────────
+   `;
+}
   
-let teks = `─┅──┅❖𓌜❖─┅──┅
-𝖀𝖘𝖚á𝖗𝖎𝖔 𝕭𝖆𝖓𝖎𝖉𝖔!
+  m.reply(teks,destino)
 
-*№ Protocolo: ${generateRandomCode()}*
-*Data: ${getDataAtual()}*
 
-_*Usuário:*_
-Nome: ${m.name}
-Contato: @${m.sender.split`@`[0]}
-
-*Grupo:* ${groupMetadata.subject}
-⎔⎓──────────────
-_*Motivo do exílio:*_
-${motivo}
-
-─┅──┅❖ ❖─┅──┅`
+//No longer available
+let DELETEMESSAGE = await conn.sendMessage(m.chat, { delete: m.key })
    
-   m.reply(teks,destino)
-   
- }
+  
+console.log(DELETEMESSAGE.message.protocolMessage.key.id)
+
+if(!global.db.data.chats[m.chat].ignored)
+{
+ global.db.data.chats[m.chat].ignored =[]
+}
+global.db.data.chats[m.chat].ignored.push(DELETEMESSAGE.message.protocolMessage.key.id)
+
+
+await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+
+return !0
+}
+
+
 if (m.isBaileys && m.fromMe)
 return !0
 if (!m.isGroup)
@@ -117,8 +170,28 @@ if (global.db.data.chats[m.chat].users[m.sender].adv >= 3) {
 global.db.data.chats[m.chat].users[m.sender].adv  = 0
 await m.reply(`*${lenguajeGB['smsToxic6']()}*\n*@${m.sender.split`@`[0]} ${lenguajeGB['smsToxic7']()}*`, false, { mentions: [m.sender] })
 
+
+const banExplanationsEN = [
+  "Just banned him for dropping some offensive nonsense in the group. Not on my watch.",
+  "Gave him three strikes for disrespecting our laws on discrimination. Guess he didn’t get the memo.",
+  "That’s right, kiddo. Banned him for being a total jerk to everyone here.",
+  "Banned for spreading toxicity like it’s his job. Not happening in this space.",
+  "Told him the third strike would be his last. He clearly didn’t take me seriously."
+];
+
+// Phrases in Portuguese
+const banExplanationsPT = [
+  "Acabei de banir ele por jogar algumas ofensas no grupo. Não sob minha vigilância.",
+  "Dei a ele três chances por desrespeitar nossas regras sobre discriminação. Parece que ele não pegou o recado.",
+  "Isso mesmo, meu chapa. Banido por ser um completo idiota com todos aqui.",
+  "Banido por espalhar toxicidade como se fosse seu trabalho. Não vai rolar neste espaço.",
+  "Avisei que a terceira chance seria a última. Ele claramente não levou a sério."
+];
+
+let explanations = global.db.data.chats[m.chat].language === 'pt' ? banExplanationsPT : banExplanationsEN;
+
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-  await tempBanimento('Foi detectado atividades tóxicas, ofensivas e/ou discriminatórias')
+  await tempBanimento(explanations.getRandom())
 //await this.updateBlockStatus(m.sender, 'block')
 }
 return !1
