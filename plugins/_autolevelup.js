@@ -65,10 +65,10 @@ export function before(m, { conn , isOwner, nivel, participants}) {
       return `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()} UTC ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
   }
   
-  function upgradeMessage(username, previousLevel, currentLeve,coins,ethl) {
+  function upgradeMessage(username, currentLevel,coins,ethl) {
       const now = new Date();
       const formattedDate = formatDate(now);
-  
+      let previousLevel = currentLevel - 1
       // Determine the user's language
       const userLanguage = global.db.data.chats[m.chat]?.language || 'en';
   
@@ -120,7 +120,7 @@ export function before(m, { conn , isOwner, nivel, participants}) {
           : ''; // Empty string if no commands
       const ethereumMessage = eth ? `${messages[userLanguage].ethereum}\n` : '';
   
-      return `
+    let textin = `
   $ ./upgrade
   ${messages[userLanguage].separator}
   ${messages[userLanguage].levelUpDetected}
@@ -138,6 +138,9 @@ export function before(m, { conn , isOwner, nivel, participants}) {
   ${messages[userLanguage].separator}
   $ _ 
       `;
+
+
+      return m.reply(textin)
   }
   
 
@@ -289,12 +292,7 @@ if(userxp>1000 && userxp<2000 ){
 user.role = levels[0]
   user.money += 30
 
-
-  drawRank(false,30,0,global.pluginsAtUserLevel.flat(),user.level, `╭─┅──┅❖ ༒︎ ❖─┅──┅ \n\n ﷽  @${m.sender.split('@')[0]}
- ᶜᵉˡᵉᵇʳᵒ ᵗᵘᵃ ᵃˢᶜᵉⁿˢᵃᵒ
- ᵒⁿᵈᵉ ᵃˢ ᵗʳᵉᵛᵃˢ ᵃᵖˡᵃᵘᵈᵉᵐ ᵗᵉᵘ ᶠᵉⁱᵗᵒ ᵉ ᵒ ᵈᵉˢᶜᵒⁿʰᵉᶜⁱᵈᵒ
- ᵐᵘʳᵐᵘʳᵃ ᵉˡᵒᵍⁱᵒˢ ᵉᵐ ᵘᵐ ᶜᵒʳᵒ ˢᵒᵐᵇʳⁱᵒ.
-*╰─┅──┅❖ ⸸ ❖─┅──┅*`)
+  upgradeMessage(m.pushName, user.level, 30)
 
 		  	 
   }
