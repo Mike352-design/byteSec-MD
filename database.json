@@ -224,7 +224,7 @@
         }
       },
       "warn": 0,
-      "lastmiming": 1732823703146
+      "lastmiming": 1732921483291
     },
     "554598527531@s.whatsapp.net": {
       "counterPrivate": 0,
@@ -7881,7 +7881,8 @@
         }
       }
     },
-    "554299228842@s.whatsapp.net,553191334309@s.whatsapp.net": {}
+    "554299228842@s.whatsapp.net,553191334309@s.whatsapp.net": {},
+    "556296397081@s.whatsapp.net,554598527531@s.whatsapp.net": {}
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -20475,10 +20476,10 @@
       "lastSuccess": 1732652186371
     },
     "dono-exec.js": {
-      "total": 24,
-      "success": 24,
-      "last": 1732741189466,
-      "lastSuccess": 1732741189466
+      "total": 25,
+      "success": 25,
+      "last": 1732919552947,
+      "lastSuccess": 1732919552947
     },
     "bingImg.js": {
       "total": 5,
@@ -20595,10 +20596,10 @@
       "lastSuccess": 1732829915557
     },
     "sticker-sticker.js": {
-      "total": 77,
-      "success": 77,
-      "last": 1732918708057,
-      "lastSuccess": 1732918708057
+      "total": 86,
+      "success": 86,
+      "last": 1732921483292,
+      "lastSuccess": 1732921483292
     },
     "conversor-totext.js": {
       "total": 4,
