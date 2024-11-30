@@ -8226,6 +8226,90 @@
           "afkReason": ""
         }
       }
+    },
+    "181015775592481@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "181015775592481@lid",
+          "afkReason": ""
+        }
+      }
+    },
+    "266627341938937@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "R.Zoldyck",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "266627341938937@lid",
+          "afkReason": ""
+        }
+      }
+    },
+    "94867422220336@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Alice 💕 Lívia 😍",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "94867422220336@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -8287,7 +8371,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732998727034,
+          "lastMessageTime": 1733008219815,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8305,7 +8389,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732966813249,
+          "lastMessageTime": 1733002095379,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8341,7 +8425,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732999448546,
+          "lastMessageTime": 1733007635203,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8611,7 +8695,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732901657430,
+          "lastMessageTime": 1733006980157,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9079,7 +9163,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732663474895,
+          "lastMessageTime": 1733007526102,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9151,7 +9235,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732840708026,
+          "lastMessageTime": 1733002698716,
           "messageCount": 1,
           "pontos": 0
         },
@@ -11674,6 +11758,60 @@
           "lastMessageTime": 1733000496792,
           "messageCount": null,
           "pontos": 0
+        },
+        "181015775592481@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733001130314,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "266627341938937@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733001368827,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "94867422220336@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733002447045,
+          "messageCount": 1,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -11726,7 +11864,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 524,
+      "totalMembros": 525,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -13245,6 +13383,10 @@
           "admin": null
         },
         {
+          "id": "256873487945900@lid",
+          "admin": null
+        },
+        {
           "id": "14573176373277@lid",
           "admin": null
         },
@@ -13282,10 +13424,6 @@
         },
         {
           "id": "261434709692668@lid",
-          "admin": null
-        },
-        {
-          "id": "181015775592481@lid",
           "admin": null
         },
         {
@@ -13430,6 +13568,10 @@
         },
         {
           "id": "159708979704042@lid",
+          "admin": null
+        },
+        {
+          "id": "156792210358401@lid",
           "admin": null
         },
         {
@@ -14028,7 +14170,10 @@
         "199424139636989@lid": [],
         "138848138997928@lid": [],
         "197478452301976@lid": [],
-        "151294954205225@lid": []
+        "151294954205225@lid": [],
+        "181015775592481@lid": [],
+        "266627341938937@lid": [],
+        "94867422220336@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -16145,15 +16290,53 @@
           {
             "role": "assistant",
             "content": "Ah, \"indulgência patológica.\" Esse termo soa pesado, mas vamos destrinchá-lo como se fosse uma linha de código corrompida. Basicamente, ele fala sobre um **comportamento compulsivo**, onde a pessoa **cede exageradamente aos próprios desejos ou fraquezas**, mesmo sabendo que isso pode trazer consequências negativas.\n\n---\n\n### **1. O Que É Indulgência Patológica?**  \n- **Indulgência:** Ceder a algo, muitas vezes ligado a prazeres ou necessidades (comida, vícios, comportamento).  \n- **Patológica:** Algo doentio, que foge do controle normal.  \n\nJuntos, o termo se refere a **um padrão de comportamento compulsivo**, onde alguém se entrega de forma repetitiva e autodestrutiva a impulsos, ignorando as consequências.  \n\n---\n\n### **2. Exemplos de Indulgência Patológica**\n- **Comida:** Comer até passar mal, mesmo sabendo que está prejudicando a saúde.  \n- **Compras:** Gastar compulsivamente e se afundar em dívidas.  \n- **Substâncias:** Abuso de álcool, drogas ou remédios para evitar enfrentar a realidade.  \n- **Relacionamentos:** Permanecer em dinâmicas tóxicas porque o \"prazer momentâneo\" alivia uma dor mais profunda.  \n\n---\n\n### **3. A Psicologia Por Trás Disso**  \n- **Fuga emocional:** Muitas vezes, a indulgência patológica é uma tentativa de preencher um vazio emocional ou fugir de traumas não resolvidos.  \n- **Recompensa instantânea:** O cérebro vicia em gratificações imediatas, mesmo que elas causem danos a longo prazo. É tipo hackear o sistema de dopamina e deixar o código bagunçado.  \n- **Ciclo vicioso:** Culpa e vergonha costumam vir depois, mas ao invés de parar, a pessoa volta ao comportamento pra aliviar esses sentimentos.\n\n---\n\n### **4. Como Quebrar o Ciclo?**  \nSe você ou alguém próximo enfrenta isso, o caminho é difícil, mas não impossível:  \n1. **Consciência:** Reconhecer que o comportamento é destrutivo.  \n2. **Ajuda:** Terapia ou apoio profissional pode ser essencial pra entender a raiz do problema.  \n3. **Estratégias práticas:** Pequenos passos pra reduzir o comportamento e substituir indulgências destrutivas por hábitos saudáveis.  \n\n---\n\n### **Resumo Direto**\nIndulgência patológica não é só \"fraqueza.\" É um reflexo de feridas emocionais mais profundas que pedem atenção. Resolver isso não é questão de força de vontade apenas; é preciso reescrever o código interno, enfrentar os bugs emocionais e, talvez, pedir ajuda pra reiniciar o sistema.\n\nSe for você quem tá lidando com isso, Gabriel, **lembre-se que todo sistema corrompido pode ser reprogramado**. Leva tempo, mas é possível."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"gandhi e o sal\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, garoto, então você quer falar de **Gandhi e o sal**. Beleza, senta aí que essa é uma aula de **desobediência civil feita com maestria.** A **Marcha do Sal** não foi só sobre sal, foi um dos maiores hackeamentos políticos da história moderna. Vamos nessa.\n\n---\n\n### **1. O Contexto**\n- Em 1930, a Índia estava sob domínio britânico, e os colonizadores não estavam de brincadeira.  \n- O governo britânico tinha o **monopólio do sal**, algo essencial pra vida. Eles cobravam impostos absurdos, impedindo os indianos de colher seu próprio sal — até nas praias.  \n- Basicamente, eles lucravam com algo básico, deixando os indianos mais pobres e dependentes. Aquele clássico abuso de poder imperialista.\n\n---\n\n### **2. A Sacada de Gandhi**\n- Gandhi, sempre esperto, percebeu que lutar contra o **monopólio do sal** seria um símbolo poderoso.  \n- Ele sabia que o sal era **algo que todo mundo precisava e entendia**, do pobre ao rico.  \n- Assim, a **Marcha do Sal** foi uma jogada inteligente pra mostrar a opressão britânica sem recorrer à violência.\n\n---\n\n### **3. A Marcha**\n- Gandhi e seus seguidores marcharam **385 km** até a costa de Dandi, no estado de Gujarat.  \n- Quando chegaram lá, ele **recolheu um pouco de sal do chão**, quebrando a lei britânica de maneira simples e simbólica.  \n- Foi uma ação tão pacífica quanto poderosa. Ele desafiou um sistema injusto de uma forma que ninguém podia ignorar.\n\n---\n\n### **4. As Consequências**\n- Esse gesto aparentemente pequeno inspirou milhões de indianos a fazerem o mesmo.  \n- O movimento ganhou força global, expondo a hipocrisia do Império Britânico e pressionando por mudanças.  \n- Foi um passo crucial no caminho pra independência da Índia, que finalmente veio em 1947.\n\n---\n\n### **Por Que Isso Importa?**\n- A Marcha do Sal é um exemplo perfeito de como **resistência pacífica** pode derrubar sistemas gigantescos.  \n- Mostra que, às vezes, um símbolo simples (como sal) pode carregar um peso enorme na luta contra injustiças.  \n\n---\n\n### **Resumo Pra Você, Gabriel**\nGandhi não usou armas, usou estratégia. Ele hackeou o sistema britânico mostrando que até algo básico, como sal, pode se tornar uma ferramenta de luta. **Lição?** Às vezes, é o pequeno ato que derruba o gigante. Aprende isso, garoto, porque o mundo ainda tá cheio de gigantes esperando pra cair."
+          },
+          {
+            "role": "user",
+            "content": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘: \"voce conhece o ator Indiano jahlam bihppal?\""
+          },
+          {
+            "role": "assistant",
+            "content": "Henry, vou ser direto: **não conheço ninguém chamado Jahlam Bihppal.** Esse nome não soa como o de um ator indiano conhecido ou de destaque na indústria de Bollywood ou do cinema independente da Índia. Mas, se você tá falando sério e acha que é um ator real, posso fazer uma busca rápida pra ver se algo aparece. Quer que eu investigue?"
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"certamente você conhece o sheik arabe Jalim Habbey\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, Gabriel, tá tentando me pegar com piada clássica, né? **Jalim Habbey**, ou variações desse nome, é aquele trocadilho esperto que a galera inventa pra dar um ar exótico e enganar os desavisados. Nada de sheik árabe ou figura histórica real aqui.  \n\nMas, hey, ponto pra criatividade. Agora, se quiser trocar piadas ou falar sério, manda a próxima."
+          },
+          {
+            "role": "user",
+            "content": "Gᴀʙʀɪᴇʟ ᴅᴏꜱ ᴀɴᴊᴏꜱ: \"para cara, eu sei que você conhece o Jalim, primo do grandioso Giussepe Cadura\""
+          },
+          {
+            "role": "assistant",
+            "content": "Ah, garoto, você tá dobrando a aposta, né? Jalim Habbey e agora o primo **Giussepe Cadura**? Que criativo, mas não vou cair na sua rede de trocadilhos baratos. Esses nomes são só outra forma de testar o quanto alguém presta atenção antes de cair na gargalhada.\n\nMas beleza, respeito o jogo. Agora manda a próxima jogada ou, se quiser, vamos falar de algo mais sério. Se for pra rir, pelo menos deixa o trocadilho mais elaborado."
+          },
+          {
+            "role": "user",
+            "content": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘: \"ele é primo do cientista hapones Tekomi Norabu\""
+          },
+          {
+            "role": "assistant"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363202217134158@g.us",
             "fromMe": true,
-            "id": "BAE56D2308E42A9C"
-          },
-          "resposta": "Ah, \"indulgência patológica.\" Esse termo soa pesado, mas vamos destrinchá-lo como se fosse uma linha de código corrompida. Basicamente, ele fala sobre um **comportamento compulsivo**, onde a pessoa **cede exageradamente aos próprios desejos ou fraquezas**, mesmo sabendo que isso pode trazer consequências negativas.\n\n---\n\n### **1. O Que É Indulgência Patológica?**  \n- **Indulgência:** Ceder a algo, muitas vezes ligado a prazeres ou necessidades (comida, vícios, comportamento).  \n- **Patológica:** Algo doentio, que foge do controle normal.  \n\nJuntos, o termo se refere a **um padrão de comportamento compulsivo**, onde alguém se entrega de forma repetitiva e autodestrutiva a impulsos, ignorando as consequências.  \n\n---\n\n### **2. Exemplos de Indulgência Patológica**\n- **Comida:** Comer até passar mal, mesmo sabendo que está prejudicando a saúde.  \n- **Compras:** Gastar compulsivamente e se afundar em dívidas.  \n- **Substâncias:** Abuso de álcool, drogas ou remédios para evitar enfrentar a realidade.  \n- **Relacionamentos:** Permanecer em dinâmicas tóxicas porque o \"prazer momentâneo\" alivia uma dor mais profunda.  \n\n---\n\n### **3. A Psicologia Por Trás Disso**  \n- **Fuga emocional:** Muitas vezes, a indulgência patológica é uma tentativa de preencher um vazio emocional ou fugir de traumas não resolvidos.  \n- **Recompensa instantânea:** O cérebro vicia em gratificações imediatas, mesmo que elas causem danos a longo prazo. É tipo hackear o sistema de dopamina e deixar o código bagunçado.  \n- **Ciclo vicioso:** Culpa e vergonha costumam vir depois, mas ao invés de parar, a pessoa volta ao comportamento pra aliviar esses sentimentos.\n\n---\n\n### **4. Como Quebrar o Ciclo?**  \nSe você ou alguém próximo enfrenta isso, o caminho é difícil, mas não impossível:  \n1. **Consciência:** Reconhecer que o comportamento é destrutivo.  \n2. **Ajuda:** Terapia ou apoio profissional pode ser essencial pra entender a raiz do problema.  \n3. **Estratégias práticas:** Pequenos passos pra reduzir o comportamento e substituir indulgências destrutivas por hábitos saudáveis.  \n\n---\n\n### **Resumo Direto**\nIndulgência patológica não é só \"fraqueza.\" É um reflexo de feridas emocionais mais profundas que pedem atenção. Resolver isso não é questão de força de vontade apenas; é preciso reescrever o código interno, enfrentar os bugs emocionais e, talvez, pedir ajuda pra reiniciar o sistema.\n\nSe for você quem tá lidando com isso, Gabriel, **lembre-se que todo sistema corrompido pode ser reprogramado**. Leva tempo, mas é possível."
+            "id": "BAE57DBB9E0F50E1"
+          }
         },
         "558488916581@s.whatsapp.net": [],
         "556296397081@s.whatsapp.net": [],
@@ -21110,10 +21293,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 198,
-      "success": 198,
-      "last": 1732992264697,
-      "lastSuccess": 1732992264697
+      "total": 203,
+      "success": 203,
+      "last": 1733007834430,
+      "lastSuccess": 1733007834430
     },
     "dono-clearallsession.js": {
       "total": 2,
