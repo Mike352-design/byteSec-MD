@@ -8336,6 +8336,32 @@
           "afkReason": ""
         }
       }
+    },
+    "60838312415419@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "60838312415419@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -8451,7 +8477,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733010927751,
+          "lastMessageTime": 1733022729714,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8721,7 +8747,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733006980157,
+          "lastMessageTime": 1733017432717,
           "messageCount": 1,
           "pontos": 0
         },
@@ -11856,6 +11882,24 @@
           "lastMessageTime": 1733011060722,
           "messageCount": null,
           "pontos": 0
+        },
+        "60838312415419@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733018164786,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -12971,10 +13015,6 @@
           "admin": null
         },
         {
-          "id": "28389817749533@lid",
-          "admin": null
-        },
-        {
           "id": "243911360557184@lid",
           "admin": null
         },
@@ -13156,6 +13196,10 @@
         },
         {
           "id": "96959088091321@lid",
+          "admin": null
+        },
+        {
+          "id": "218339007815847@lid",
           "admin": null
         },
         {
@@ -14226,7 +14270,8 @@
         "181015775592481@lid": [],
         "266627341938937@lid": [],
         "94867422220336@lid": [],
-        "28389817749533@lid": []
+        "28389817749533@lid": [],
+        "60838312415419@lid": []
       }
     },
     "120363202217134158@g.us": {
