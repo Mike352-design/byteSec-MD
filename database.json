@@ -8579,7 +8579,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732739683601,
+          "lastMessageTime": 1733083880531,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8630,7 +8630,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733002095379,
+          "lastMessageTime": 1733086663713,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8666,7 +8666,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733070238193,
+          "lastMessageTime": 1733084965102,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8846,7 +8846,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733000368045,
+          "lastMessageTime": 1733084403133,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8864,7 +8864,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732994630241,
+          "lastMessageTime": 1733083502544,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8954,7 +8954,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732404577622,
+          "lastMessageTime": 1733087746401,
           "messageCount": 1,
           "pontos": 0
         },
@@ -12310,6 +12310,10 @@
           "admin": null
         },
         {
+          "id": "125851316277420@lid",
+          "admin": null
+        },
+        {
           "id": "163105996841183@lid",
           "admin": null
         },
@@ -14087,10 +14091,6 @@
         },
         {
           "id": "276986752675890@lid",
-          "admin": null
-        },
-        {
-          "id": "221478628892867@lid",
           "admin": null
         },
         {
@@ -17234,7 +17234,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1731533472723,
+          "lastMessageTime": 1733086351271,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -17253,7 +17253,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 385,
+          "exp": 447,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -17349,18 +17349,14 @@
       "lastSentTime": 0,
       "name": "𒈒 𝐑𝐄𝐏𝐎𝐑𝐓𝐒",
       "desc": "─┅──┅❖ ❖─┅──┅\n*FORMULÁRIO DO POE:* https://docs.google.com/forms/d/1BkJZrFOqD3WgYOK7nSk-QCthVmzBnvwOcT2QfvqbSgI/edit?ts=664500d6\n\n─┅──┅❖ ❖─┅──┅",
-      "totalMembros": 4,
+      "totalMembros": 3,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
           "admin": "superadmin"
         },
         {
-          "id": "46769352642@s.whatsapp.net",
-          "admin": "admin"
-        },
-        {
-          "id": "554598527531@s.whatsapp.net",
+          "id": "6283186994242@s.whatsapp.net",
           "admin": "admin"
         },
         {
@@ -21849,10 +21845,10 @@
       "lastSuccess": 1732223589579
     },
     "conversor-toanime.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1732228739369,
-      "lastSuccess": 1732228739369
+      "total": 7,
+      "success": 7,
+      "last": 1733088446141,
+      "lastSuccess": 1733088446141
     },
     "registrar.js": {
       "total": 3,
@@ -21931,6 +21927,12 @@
       "success": 2,
       "last": 1732762474179,
       "lastSuccess": 1732762474179
+    },
+    "info-donar.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1733086353172,
+      "lastSuccess": 1733086353172
     }
   },
   "msgs": {},
