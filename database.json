@@ -196,7 +196,7 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": [],
-      "lastmiming": 1732742553909
+      "lastmiming": 1733059428768
     },
     "558488916581@s.whatsapp.net": {
       "exp": 0,
@@ -8498,7 +8498,8 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
-    }
+    },
+    "554598527531@s.whatsapp.net,555391229279@s.whatsapp.net": {}
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -21662,10 +21663,10 @@
       "lastSuccess": 1732134744175
     },
     "dl-yt_play.js": {
-      "total": 38,
-      "success": 37,
-      "last": 1732935957519,
-      "lastSuccess": 1732935957519
+      "total": 40,
+      "success": 39,
+      "last": 1733062326279,
+      "lastSuccess": 1733062326279
     },
     "dono-reporte.js": {
       "total": 7,
@@ -21704,10 +21705,10 @@
       "lastSuccess": 1732829915557
     },
     "sticker-sticker.js": {
-      "total": 90,
-      "success": 90,
-      "last": 1732988946955,
-      "lastSuccess": 1732988946955
+      "total": 91,
+      "success": 91,
+      "last": 1733059428768,
+      "lastSuccess": 1733059428768
     },
     "conversor-totext.js": {
       "total": 4,
@@ -21857,17 +21858,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9731724816614241,
-    "cotacaoOntem": 0.9765363936550936,
+    "cotacao": 0.9691780272343223,
+    "cotacaoOntem": 0.9731724816614241,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024329312041535606
+      "rendimento": 0.000024229450680858062
     },
-    "cotacaoPercentual": -0.34447379693435054,
-    "ultimaAtualizacao": "2024-11-30T15:06:41.776Z"
+    "cotacaoPercentual": -0.4104569850025298,
+    "ultimaAtualizacao": "2024-12-01T15:07:07.225Z"
   }
 }
