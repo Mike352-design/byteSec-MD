@@ -87,7 +87,8 @@
           "afkReason": ""
         }
       },
-      "lastmiming": 1732736315610
+      "lastmiming": 1732736315610,
+      "ghost": false
     },
     "": {},
     "79001643752@s.whatsapp.net": {
@@ -4163,7 +4164,13 @@
           "number": "265188527886420@lid",
           "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "73633305211020@lid": {
       "counterPrivate": 0,
@@ -8551,7 +8558,8 @@
           "afkReason": ""
         }
       }
-    }
+    },
+    "558698443464@s.whatsapp.net,555391229279@s.whatsapp.net": {}
   },
   "chats": {
     "120363312968709293@g.us": {
@@ -8828,7 +8836,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733000505524,
+          "lastMessageTime": 1733091487174,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10610,8 +10618,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732192644368,
-          "messageCount": null,
+          "lastMessageTime": 1733094033371,
+          "messageCount": 1,
           "pontos": 0
         },
         "73633305211020@lid": {
@@ -15086,7 +15094,7 @@
       ],
       "name": "Rebosteio",
       "desc": "༒︎ Caros entusiastas do intelecto,\nSejam calorosamente bem-vindos a este grupo, onde mentes ávidas e intelectuais buscam refúgio na imensidão dos jogos e entretenimento. Aqui, convergimos para nos desafiar e encontrar satisfação nos prazeres do xadrez, quiz, sudoku e muitos outros jogos que nos estimulam cognitivamente.\n\n𝐑𝐄𝐆𝐑𝐀𝐒 『⚠』\n┅❖ Para adentrar neste grupo, é necessario ser um *MEMBRO PARTICIPATIVO* do grupo dos _Cabeçudos_ portanto aqueles que se unem as sombras do desconhecido nao terão lugar aqui!\n┅❖ *RESPEITO ACIMA DE TUDO* Qualquer tipo de discriminação, preconceito ou humilhação não será tolerada 👁️\n┅❖ As interações e jogos estarão liberadas para serem invocadas neste chat, no entanto atentem-se ao spam. não sobrecarreguem o bot com varios comandos seguidos um do outro\n\n𝙊 *não* 𝙘𝙪𝙢𝙥𝙧𝙞𝙢𝙚𝙣𝙩𝙤 𝙙𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨 𝙖𝙘𝙖𝙧𝙧𝙚𝙩𝙖𝙧á 𝙚𝙢 𝙘𝙤𝙣𝙨𝙚𝙦𝙪𝙚𝙣𝙘𝙞𝙖𝙨 𝙜𝙧𝙖𝙫𝙚𝙨! 🫵\n\nAtenciosamente,\n𝓔𝓭𝓰𝓪𝓻 𝓐𝓵𝓵𝓪𝓷 𝓑𝓸𝓽 𓄿",
-      "totalMembros": 23,
+      "totalMembros": 24,
       "membros": [
         {
           "id": "351927285125@s.whatsapp.net",
@@ -15174,6 +15182,10 @@
         },
         {
           "id": "559991168209@s.whatsapp.net",
+          "admin": null
+        },
+        {
+          "id": "6283186994242@s.whatsapp.net",
           "admin": null
         },
         {
@@ -16765,7 +16777,8 @@
         "index": 0,
         "command": "",
         "isSelected": false
-      }
+      },
+      "semrestricao": false
     },
     "120363202611492303@g.us": {
       "quiz": {
@@ -21635,10 +21648,10 @@
   },
   "stats": {
     "config-on y off.js": {
-      "total": 34,
-      "success": 34,
-      "last": 1732656931764,
-      "lastSuccess": 1732656931764
+      "total": 37,
+      "success": 37,
+      "last": 1733095634966,
+      "lastSuccess": 1733095634966
     },
     "dono-update.js": {
       "total": 21,
@@ -21749,10 +21762,10 @@
       "lastSuccess": 1732134744175
     },
     "dl-yt_play.js": {
-      "total": 40,
-      "success": 39,
-      "last": 1733062326279,
-      "lastSuccess": 1733062326279
+      "total": 41,
+      "success": 40,
+      "last": 1733094601195,
+      "lastSuccess": 1733094601195
     },
     "dono-reporte.js": {
       "total": 7,
