@@ -8836,6 +8836,32 @@
           "afkReason": ""
         }
       }
+    },
+    "188806879793345@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "188806879793345@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -8897,7 +8923,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733152011633,
+          "lastMessageTime": 1733227856805,
           "messageCount": 1,
           "pontos": 0
         },
@@ -8951,7 +8977,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733194923783,
+          "lastMessageTime": 1733225621422,
           "messageCount": 1,
           "pontos": 0
         },
@@ -12680,6 +12706,24 @@
           "lastMessageTime": 1733184860800,
           "messageCount": null,
           "pontos": 0
+        },
+        "188806879793345@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733228011264,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -12732,7 +12776,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 525,
+      "totalMembros": 529,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -12836,6 +12880,10 @@
         },
         {
           "id": "113614920896759@lid",
+          "admin": null
+        },
+        {
+          "id": "13786945724541@lid",
           "admin": null
         },
         {
@@ -14267,6 +14315,10 @@
           "admin": null
         },
         {
+          "id": "54546621538479@lid",
+          "admin": null
+        },
+        {
           "id": "215220978999432@lid",
           "admin": null
         },
@@ -14276,6 +14328,10 @@
         },
         {
           "id": "196250007773392@lid",
+          "admin": null
+        },
+        {
+          "id": "237404636078281@lid",
           "admin": null
         },
         {
@@ -14332,6 +14388,10 @@
         },
         {
           "id": "270183960686594@lid",
+          "admin": null
+        },
+        {
+          "id": "94111323410474@lid",
           "admin": null
         },
         {
@@ -15060,7 +15120,8 @@
         "69960739119125@lid": [],
         "252655880376517@lid": [],
         "257281425977456@lid": [],
-        "18708894380245@lid": []
+        "18708894380245@lid": [],
+        "188806879793345@lid": []
       }
     },
     "120363202217134158@g.us": {
