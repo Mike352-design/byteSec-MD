@@ -17585,7 +17585,7 @@
           "silenced": true,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732961663620,
+          "lastMessageTime": 1733249613730,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -17767,15 +17767,28 @@
           {
             "role": "assistant",
             "content": "Olha, Henry, você quer dar um `rm -rf` nos traumas? Vai com calma, garoto. Se fosse tão fácil quanto deletar uma pasta do sistema, todo mundo estaria rodando uma versão de si mesmo livre de bugs emocionais. Mas vamos falar sério, porque biohacking mental é possível—só que não é tão simples como rodar um script.\n\nPrimeiro de tudo, biohacking do cérebro é como reprogramar uma máquina biológica que foi condicionada por anos. Você quer apagar traumas? Então, aqui vão alguns comandos mentais que você pode tentar “rodar”:\n\n1. **Mindfulness: `top` do seu sistema mental**\n   Ficar presente no momento é o `top` do cérebro, tipo um monitoramento constante de processos. Começa a observar os pensamentos que rodam e quais estão consumindo mais processamento mental. Com a prática, você pode reduzir o uso de recursos para essas memórias que estão sempre puxando CPU emocional.\n\n2. **Reframe: um `sed` nos traumas**\n   Pensa nos traumas como linhas de código erradas. Você não pode deletá-las, mas pode reescrevê-las. Em vez de tentar ignorar o que aconteceu, tenta reescrever essas memórias com uma nova perspectiva. “Substituir” a carga emocional. Afinal, todo trauma pode ser tratado como uma variável que só precisa de um novo valor.\n\n3. **Neuroplasticidade: seu `chmod +x`**\n   O cérebro é altamente adaptável, só que você precisa praticar pra ele mudar, tipo rodar `chmod +x` pra ativar novas rotinas. Crie novos hábitos mentais, formas de pensar diferentes, e faça isso constantemente. Repetição é o segredo aqui—assim você começa a “recompilar” sua forma de reagir.\n\n4. **Meditação Guiada e Terapia: seu `fsck` do sistema**\n   Nem toda corrupção de dados pode ser corrigida sozinho. Às vezes, você precisa de uma verificação de sistema mais profunda, e é aí que a terapia entra. Pense nisso como um `fsck`—detecta e corrige falhas. Traumas graves exigem esse tipo de manutenção.\n\n5. **Suplementos e Estímulos Neurais: `boost` temporário de performance**\n   Alguns biohackers juram pelos nootrópicos, LSD em microdose e estimulação transcraniana. Pode te dar uma ajuda temporária em foco, criatividade, ou redução de ansiedade. Mas isso é como um overclock: tem que saber o que está fazendo, ou você pode acabar fritando o hardware.\n\n6. **Consciência e Autossabotagem: seu `root` escondido**\n   No fim das contas, você é o root desse sistema. Mas não adianta nada ser root e estar rodando scripts de autossabotagem. Preste atenção no que o seu sistema rodou por tanto tempo sem questionar. E lembre-se, sempre existe um `sudo` para questionar tudo e recuperar o controle.\n\nA moral da história? Não existe um `rm -rf traumas/*`, garoto. Mas com esses passos, você pode ir se libertando do lixo mental que não te serve mais."
+          },
+          {
+            "role": "user",
+            "content": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘: \"explique oq e o flipper zero\""
+          },
+          {
+            "role": "assistant"
+          },
+          {
+            "role": "user",
+            "content": "⌥ 𝙷𝚎𝚗𝚛𝚢 𝙰𝚛𝚌𝚊𝚗𝚐𝚎𝚕𝚘: \"explique oq e o flipper zero\""
+          },
+          {
+            "role": "assistant"
           }
         ],
         "config": {
           "lastQuestion": {
             "remoteJid": "120363360114833087@g.us",
             "fromMe": true,
-            "id": "BAE5A13E9B7B57BB"
-          },
-          "resposta": "Olha, Henry, você quer dar um `rm -rf` nos traumas? Vai com calma, garoto. Se fosse tão fácil quanto deletar uma pasta do sistema, todo mundo estaria rodando uma versão de si mesmo livre de bugs emocionais. Mas vamos falar sério, porque biohacking mental é possível—só que não é tão simples como rodar um script.\n\nPrimeiro de tudo, biohacking do cérebro é como reprogramar uma máquina biológica que foi condicionada por anos. Você quer apagar traumas? Então, aqui vão alguns comandos mentais que você pode tentar “rodar”:\n\n1. **Mindfulness: `top` do seu sistema mental**\n   Ficar presente no momento é o `top` do cérebro, tipo um monitoramento constante de processos. Começa a observar os pensamentos que rodam e quais estão consumindo mais processamento mental. Com a prática, você pode reduzir o uso de recursos para essas memórias que estão sempre puxando CPU emocional.\n\n2. **Reframe: um `sed` nos traumas**\n   Pensa nos traumas como linhas de código erradas. Você não pode deletá-las, mas pode reescrevê-las. Em vez de tentar ignorar o que aconteceu, tenta reescrever essas memórias com uma nova perspectiva. “Substituir” a carga emocional. Afinal, todo trauma pode ser tratado como uma variável que só precisa de um novo valor.\n\n3. **Neuroplasticidade: seu `chmod +x`**\n   O cérebro é altamente adaptável, só que você precisa praticar pra ele mudar, tipo rodar `chmod +x` pra ativar novas rotinas. Crie novos hábitos mentais, formas de pensar diferentes, e faça isso constantemente. Repetição é o segredo aqui—assim você começa a “recompilar” sua forma de reagir.\n\n4. **Meditação Guiada e Terapia: seu `fsck` do sistema**\n   Nem toda corrupção de dados pode ser corrigida sozinho. Às vezes, você precisa de uma verificação de sistema mais profunda, e é aí que a terapia entra. Pense nisso como um `fsck`—detecta e corrige falhas. Traumas graves exigem esse tipo de manutenção.\n\n5. **Suplementos e Estímulos Neurais: `boost` temporário de performance**\n   Alguns biohackers juram pelos nootrópicos, LSD em microdose e estimulação transcraniana. Pode te dar uma ajuda temporária em foco, criatividade, ou redução de ansiedade. Mas isso é como um overclock: tem que saber o que está fazendo, ou você pode acabar fritando o hardware.\n\n6. **Consciência e Autossabotagem: seu `root` escondido**\n   No fim das contas, você é o root desse sistema. Mas não adianta nada ser root e estar rodando scripts de autossabotagem. Preste atenção no que o seu sistema rodou por tanto tempo sem questionar. E lembre-se, sempre existe um `sudo` para questionar tudo e recuperar o controle.\n\nA moral da história? Não existe um `rm -rf traumas/*`, garoto. Mas com esses passos, você pode ir se libertando do lixo mental que não te serve mais."
+            "id": "BAE53E94065819F7"
+          }
         },
         "351927285125@s.whatsapp.net": []
       },
@@ -22316,10 +22329,10 @@
       "lastSuccess": 1731429934683
     },
     "cfg-chatGPT.js": {
-      "total": 203,
-      "success": 203,
-      "last": 1733007834430,
-      "lastSuccess": 1733007834430
+      "total": 205,
+      "success": 205,
+      "last": 1733249613746,
+      "lastSuccess": 1733249613746
     },
     "dono-clearallsession.js": {
       "total": 2,
