@@ -3722,7 +3722,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "𝘒𝘰𝘬𝘰𝘳𝘰",
+      "name": "𝘐𝘨𝘶",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -8940,6 +8940,64 @@
           "afkReason": ""
         }
       }
+    },
+    "94111323410474@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "94111323410474@lid",
+          "afkReason": ""
+        }
+      }
+    },
+    "186277211197561@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "~Pedro",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "186277211197561@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -9685,7 +9743,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733130228805,
+          "lastMessageTime": 1733421054503,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9739,7 +9797,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732531418279,
+          "lastMessageTime": 1733421082244,
           "messageCount": 3,
           "pontos": 0
         },
@@ -10729,7 +10787,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1732758845411,
+          "lastMessageTime": 1733421173430,
           "messageCount": 1,
           "pontos": 0
         },
@@ -12838,6 +12896,42 @@
           "lastMessageTime": 1733293866397,
           "messageCount": null,
           "pontos": 0
+        },
+        "94111323410474@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733421398554,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "186277211197561@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733421480003,
+          "messageCount": 4,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -14509,10 +14603,6 @@
           "admin": null
         },
         {
-          "id": "94111323410474@lid",
-          "admin": null
-        },
-        {
           "id": "110213206134959@lid",
           "admin": null
         },
@@ -14965,6 +15055,10 @@
           "admin": null
         },
         {
+          "id": "58094029651975@lid",
+          "admin": null
+        },
+        {
           "id": "271678223441927@lid",
           "admin": null
         },
@@ -15245,7 +15339,9 @@
         "18708894380245@lid": [],
         "188806879793345@lid": [],
         "13786945724541@lid": [],
-        "256873487945900@lid": []
+        "256873487945900@lid": [],
+        "94111323410474@lid": [],
+        "186277211197561@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -17662,7 +17758,7 @@
           "exp": 108,
           "limit": 6666,
           "role": "𝑵𝒆𝒗𝒆𝒓𝒎𝒐𝒓𝒆 ༒︎\n𝙼𝚎𝚜𝚝𝚛𝚎 𝚍𝚘𝚜 𝚌𝚘𝚛𝚟𝚘𝚜",
-          "money": 66486,
+          "money": 66666,
           "level": 666,
           "adm": true,
           "legendary": true,
@@ -17672,7 +17768,7 @@
           "silenced": true,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733272342769,
+          "lastMessageTime": 1733414345301,
           "messageCount": 1,
           "pontos": 0,
           "tempBan": false,
@@ -17691,7 +17787,7 @@
           "usuariosRoubados": []
         },
         "79001643752@s.whatsapp.net": {
-          "exp": 1702,
+          "exp": 1704,
           "limit": 0,
           "role": "",
           "money": 0,
@@ -22457,10 +22553,10 @@
       "lastSuccess": 1731532795906
     },
     "dl-ig.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1732657457755,
-      "lastSuccess": 1732657457755
+      "total": 13,
+      "success": 13,
+      "last": 1733414352542,
+      "lastSuccess": 1733414352542
     },
     "buscador-lyrics.js": {
       "total": 7,
