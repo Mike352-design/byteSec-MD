@@ -8914,6 +8914,32 @@
           "afkReason": ""
         }
       }
+    },
+    "88626935410882@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363218430350898@g.us": {
+          "afkTime": -2,
+          "number": "88626935410882@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -18630,6 +18656,24 @@
           "lastMessageTime": 1732670643775,
           "messageCount": 1,
           "pontos": 0
+        },
+        "88626935410882@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733361359452,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -18678,7 +18722,7 @@
       "except": false,
       "lastSentTime": 0,
       "name": "Cabeçudos 🫱🏻‍🫲🏿",
-      "totalMembros": 39,
+      "totalMembros": 40,
       "membros": [
         {
           "id": "554796646044@s.whatsapp.net",
@@ -18690,6 +18734,10 @@
         },
         {
           "id": "26968133234833@lid",
+          "admin": null
+        },
+        {
+          "id": "111055523082398@lid",
           "admin": null
         },
         {
@@ -18853,7 +18901,8 @@
         },
         "195399704965241@lid": [],
         "23756034601125@lid": [],
-        "554598527531@s.whatsapp.net": []
+        "554598527531@s.whatsapp.net": [],
+        "88626935410882@lid": []
       },
       "firstTime": true,
       "antiCallGp": true,
