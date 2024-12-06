@@ -7389,8 +7389,19 @@
           "afkTime": -2,
           "number": "259257396101238@lid",
           "afkReason": ""
+        },
+        "120363218430350898@g.us": {
+          "afkTime": -2,
+          "number": "259257396101238@lid",
+          "afkReason": ""
         }
-      }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     },
     "69956494446644@lid": {
       "counterPrivate": 0,
@@ -8998,6 +9009,64 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "248494526849268@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "248494526849268@lid",
+          "afkReason": ""
+        }
+      }
+    },
+    "54546621538479@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Benê",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "54546621538479@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -9113,7 +9182,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733400865151,
+          "lastMessageTime": 1733446322155,
           "messageCount": 1,
           "pontos": 0
         },
@@ -12932,6 +13001,42 @@
           "lastMessageTime": 1733421480003,
           "messageCount": 4,
           "pontos": 0
+        },
+        "248494526849268@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733446704328,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "54546621538479@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733446880067,
+          "messageCount": 4,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -15341,7 +15446,9 @@
         "13786945724541@lid": [],
         "256873487945900@lid": [],
         "94111323410474@lid": [],
-        "186277211197561@lid": []
+        "186277211197561@lid": [],
+        "248494526849268@lid": [],
+        "54546621538479@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -18778,6 +18885,24 @@
           "lastMessageTime": 1733361359452,
           "messageCount": null,
           "pontos": 0
+        },
+        "259257396101238@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733446335369,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -18826,7 +18951,7 @@
       "except": false,
       "lastSentTime": 0,
       "name": "Cabeçudos 🫱🏻‍🫲🏿",
-      "totalMembros": 40,
+      "totalMembros": 39,
       "membros": [
         {
           "id": "554796646044@s.whatsapp.net",
@@ -18981,10 +19106,6 @@
           "admin": null
         },
         {
-          "id": "88626935410882@lid",
-          "admin": null
-        },
-        {
           "id": "58429137801334@lid",
           "admin": null
         }
@@ -19006,7 +19127,8 @@
         "195399704965241@lid": [],
         "23756034601125@lid": [],
         "554598527531@s.whatsapp.net": [],
-        "88626935410882@lid": []
+        "88626935410882@lid": [],
+        "259257396101238@lid": []
       },
       "firstTime": true,
       "antiCallGp": true,
