@@ -9545,6 +9545,64 @@
           "afkReason": ""
         }
       }
+    },
+    "273237598576667@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "Alan frerix",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "273237598576667@lid",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
+    },
+    "194106835865604@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "194106835865604@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -9624,7 +9682,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733629579225,
+          "lastMessageTime": 1733678685598,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9696,7 +9754,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733667412582,
+          "lastMessageTime": 1733676916186,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9948,7 +10006,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733530667135,
+          "lastMessageTime": 1733676868897,
           "messageCount": 1,
           "pontos": 0
         },
@@ -13602,8 +13660,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733515064269,
-          "messageCount": 5,
+          "lastMessageTime": 1733678702350,
+          "messageCount": 4,
           "pontos": 0
         },
         "68384821612733@lid": {
@@ -13819,6 +13877,42 @@
           "maxlevel": false,
           "cocriador": false,
           "lastMessageTime": 1733660256055,
+          "messageCount": null,
+          "pontos": 0
+        },
+        "273237598576667@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733675946354,
+          "messageCount": 5,
+          "pontos": 0
+        },
+        "194106835865604@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733679579453,
           "messageCount": null,
           "pontos": 0
         }
@@ -16205,7 +16299,9 @@
         "135545007149065@lid": [],
         "113383143649406@lid": [],
         "274689280704516@lid": [],
-        "190898981879837@lid": []
+        "190898981879837@lid": [],
+        "273237598576667@lid": [],
+        "194106835865604@lid": []
       }
     },
     "120363202217134158@g.us": {
