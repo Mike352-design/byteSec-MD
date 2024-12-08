@@ -9519,6 +9519,32 @@
       "tentativasRoubo": 5,
       "spammer": 0,
       "usuariosRoubados": []
+    },
+    "190898981879837@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363312968709293@g.us": {
+          "afkTime": -2,
+          "number": "190898981879837@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -9904,7 +9930,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733621258891,
+          "lastMessageTime": 1733658374779,
           "messageCount": 1,
           "pontos": 0
         },
@@ -13777,6 +13803,24 @@
           "lastMessageTime": 1733650472096,
           "messageCount": 1,
           "pontos": 0
+        },
+        "190898981879837@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1733660256055,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -16164,7 +16208,8 @@
         "13872828252300@lid": [],
         "135545007149065@lid": [],
         "113383143649406@lid": [],
-        "274689280704516@lid": []
+        "274689280704516@lid": [],
+        "190898981879837@lid": []
       }
     },
     "120363202217134158@g.us": {
@@ -23622,17 +23667,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9923834997495434,
-    "cotacaoOntem": 0.9852878581969426,
+    "cotacao": 0.9865643269417067,
+    "cotacaoOntem": 0.9923834997495434,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.00002480958749373859
+      "rendimento": 0.00002466410817354267
     },
-    "cotacaoPercentual": 0.7201592401215284,
-    "ultimaAtualizacao": "2024-12-06T13:30:40.266Z"
+    "cotacaoPercentual": -0.5863834706346248,
+    "ultimaAtualizacao": "2024-12-08T12:17:36.063Z"
   }
 }
