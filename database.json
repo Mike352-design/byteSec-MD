@@ -1097,7 +1097,7 @@
       "afkReason": "",
       "role": "",
       "reporte": 0,
-      "name": "Otis",
+      "name": "",
       "antispam": 0,
       "antispamlastclaim": 0,
       "silenced": false,
@@ -9796,7 +9796,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733597131553,
+          "lastMessageTime": 1733752964818,
           "messageCount": 1,
           "pontos": 0
         },
@@ -9940,7 +9940,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733423556449,
+          "lastMessageTime": 1733753496963,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10966,8 +10966,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733491847874,
-          "messageCount": 3,
+          "lastMessageTime": 1733758220094,
+          "messageCount": 1,
           "pontos": 0
         },
         "205334316605640@lid": {
@@ -14150,6 +14150,10 @@
           "admin": null
         },
         {
+          "id": "81978527367368@lid",
+          "admin": null
+        },
+        {
           "id": "69110855672013@lid",
           "admin": null
         },
@@ -14287,10 +14291,6 @@
         },
         {
           "id": "76618122952871@lid",
-          "admin": null
-        },
-        {
-          "id": "262358177947855@lid",
           "admin": null
         },
         {
