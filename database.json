@@ -10114,7 +10114,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733881431105,
+          "lastMessageTime": 1733921144156,
           "messageCount": 1,
           "pontos": 0
         },
@@ -10294,7 +10294,7 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733668584996,
+          "lastMessageTime": 1733923400786,
           "messageCount": 1,
           "pontos": 0
         },
@@ -11127,7 +11127,7 @@
           "pontos": 0
         },
         "557999793522@s.whatsapp.net": {
-          "exp": 67,
+          "exp": 70,
           "limit": 0,
           "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
           "money": 0,
@@ -11140,8 +11140,8 @@
           "silenced": false,
           "maxlevel": false,
           "cocriador": false,
-          "lastMessageTime": 1733842067901,
-          "messageCount": 1,
+          "lastMessageTime": 1733922322472,
+          "messageCount": 2,
           "pontos": 0
         },
         "245526167580895@lid": {
@@ -14633,7 +14633,7 @@
       "name": "Grupo Onde Fingimos Ser Loucos (Ou Não)",
       "desc": "⚠️⚠️⚠️ *PROIBIDO MENORES DE 16* ⚠️⚠️⚠️\n\n🫂 *CHAVE PIX PARA CONTRIBUIÇÃO DE PAGAMENTO DO BOOT: 4399186-9327* *!!!!!!*🫂\n\nRESPEITEM A SI MESMOS MALAFRARIAS!!! \n\n⚠️ *TERMINAMENTE PROIBIDO* 🤚🏻\n\n*DISCUTIR SOBRE POLÍTICA*\n• - *DESRESPEITO*\n• - *FICAR PEDINDO ADM*\n• - *FLOODAR / SPAMMAR* \n• - *IMPORTUNAÇÃO NO PV*\n• - *IMPLICÂNCIA COM MEMBROS*\n• - *DIVULGAR/PROMOVER* _(SEM AUTORIZAÇÃO)_\n• - *SÓ FALAR PUTARIA*_(AQUI É HOSPÍCIO, NÃO PUTEIRO)_\n• - *PRECONCEITO* _(GORDOFOBIA, XENOFOBIA, RACISMO, MACHISMO, HOMOFOBIA, ANTISEMITISMO ETC)_ \n• - *GORE / NAZISMO/ANTISEMITISMO / ISLAMOFOBIA / HENTAI / CP / ZOOFILIA / PORNOGRAFIA /XENOFOBIA*  _(DISCUSSÃO / INCENTIVO / APOLOGIA / MÍDIAS)_\n\n🔊 *NÃO NOS RESPONSABILIZAMOS POR PROBLEMAS ASSOCIADOS À:*❗\n\n• - COMPARTILHAMENTO DE DADOS PESSOAIS\n• - ABRIR ÁUDIO DUVIDOSO E/OU ESTOURADO\n• - LINK DESCONFIÁVEL\n\n⚠️ *MARCAR ADMINISTRADORES QUANDO REGRAS FOREM BURLADAS* ⚠\n\n_\"Já é difícil ter que lidar com as coisas, não vamos destruir o cantinho que a gente tem por favor\"_\n_~Carlos Chazin, 2023_︎\n\n▪️ *BOT interativo entre 00:00 - 12:00* ▪️\n\n🔷 *REDES SOCIAIS DO GRUPO*🔷\n\n🔹 *FACEBOOK:*\n\nGrupo (oficial): https://www.facebook.com/groups/4573794466077903/?ref=share\n\nGrupo (reserva):\nhttps://www.facebook.com/groups/3360052507549701/?ref=share&mibextid=NSMWBT\n\nPágina (oficial): https://www.facebook.com/profile.php?id=100091738707923&mibextid=LQQJ4d\n\n🔹 *INSTAGRAM:*\n\nInstagram.com/onde_fingimos_ser_loucos_ou_n",
       "lastSentTime": 0,
-      "totalMembros": 523,
+      "totalMembros": 525,
       "membros": [
         {
           "id": "64330154430718@lid",
@@ -14933,6 +14933,10 @@
         },
         {
           "id": "200016794788033@lid",
+          "admin": null
+        },
+        {
+          "id": "61732236095561@lid",
           "admin": null
         },
         {
@@ -15241,6 +15245,10 @@
         },
         {
           "id": "37563901436047@lid",
+          "admin": null
+        },
+        {
+          "id": "145444856402151@lid",
           "admin": null
         },
         {
@@ -24452,17 +24460,17 @@
       "modoia": true,
       "jadibotmd": true
     },
-    "cotacao": 0.9973101888458177,
-    "cotacaoOntem": 0.9937358693339738,
+    "cotacao": 0.9880336118147478,
+    "cotacaoOntem": 0.9973101888458177,
     "banco": {
       "clientes": {
         "351927285125@s.whatsapp.net": {
           "saldo": 9.993929299484747e+44
         }
       },
-      "rendimento": 0.000024932754721145444
+      "rendimento": 0.000024700840295368698
     },
-    "cotacaoPercentual": 0.35968506543287343,
-    "ultimaAtualizacao": "2024-12-10T12:48:57.415Z"
+    "cotacaoPercentual": -0.9301596569273614,
+    "ultimaAtualizacao": "2024-12-11T12:45:44.164Z"
   }
 }
