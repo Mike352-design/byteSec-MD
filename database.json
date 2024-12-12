@@ -10103,6 +10103,38 @@
           "afkReason": ""
         }
       }
+    },
+    "120363218430350898@g.us": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363218430350898@g.us": {
+          "afkTime": -2,
+          "number": "120363218430350898@g.us",
+          "afkReason": ""
+        }
+      },
+      "money": 150,
+      "nsfwAdv": 0,
+      "adv": 2,
+      "tentativasRoubo": 5,
+      "spammer": 0,
+      "usuariosRoubados": []
     }
   },
   "chats": {
@@ -20641,6 +20673,24 @@
           "lastMessageTime": 1733446335369,
           "messageCount": null,
           "pontos": 0
+        },
+        "120363218430350898@g.us": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1734001060515,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -20689,7 +20739,7 @@
       "except": false,
       "lastSentTime": 0,
       "name": "Cabeçudos 🫱🏻‍🫲🏿",
-      "totalMembros": 39,
+      "totalMembros": 41,
       "membros": [
         {
           "id": "554796646044@s.whatsapp.net",
@@ -20709,6 +20759,10 @@
         },
         {
           "id": "58514785435703@lid",
+          "admin": null
+        },
+        {
+          "id": "210685325787194@lid",
           "admin": null
         },
         {
@@ -20844,6 +20898,10 @@
           "admin": null
         },
         {
+          "id": "114066278342659@lid",
+          "admin": null
+        },
+        {
           "id": "58429137801334@lid",
           "admin": null
         }
@@ -20866,7 +20924,8 @@
         "23756034601125@lid": [],
         "554598527531@s.whatsapp.net": [],
         "88626935410882@lid": [],
-        "259257396101238@lid": []
+        "259257396101238@lid": [],
+        "120363218430350898@g.us": []
       },
       "firstTime": true,
       "antiCallGp": true,
