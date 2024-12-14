@@ -28,20 +28,20 @@ dotenv.config();
 //⊱ ━━━━━.Owners .⋅.━━━━ ⊰  
 
 global.owner = [
-["351927285125", '𝙊𝙬𝙣𝙚𝙧 ', true], 
+["254104916091", '𝙊𝙬𝙣𝙚𝙧 ', true], 
 ["351927285125"]
 ]
 
 
 global.permitido = [
 ["351927285125"],
-["554598527531"],
+["254104916091"],
 ["351927232470"],
 ["447598848203"],
 ]
 
 global.allowed = [
-["351927285125"],
+["254104916091"],
 ["554598527531"],
 ["351927232470"],
 ["447598848203"],
@@ -54,7 +54,7 @@ global.criadora = [
 
 
 
-global.criador = "351927285125@s.whatsapp.net"
+global.criador = "254104916091@s.whatsapp.net"
 global.cocriador = "554598527531@s.whatsapp.net"
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⌬
 
@@ -63,7 +63,7 @@ global.botNumberCode = "+7 900 164-37-52" //example: +59309090909
 global.confirmCode = "+7 900 164-37-52"
 
 global.mods = []
-global.prems = ["528451003894"]
+global.prems = ["254104916091"]
 //key de violetics
 global.Key360 = ["964f-0c75-7afc"]
    
@@ -138,11 +138,11 @@ global.moment = moment
 global.official = [ // SET BOT OWNER
 ["351927285125", 'Henry 💻', 1]
 ]
-global.mail = 'henry.arcangello@gmail.com' //SET YOUR EMAIL
+global.mail = 'alvinmwangi2018@gmail.com' //SET YOUR EMAIL
 global.desc = '' //description 
 global.desc2 = '' // Longer description 
 global.country = 'PT' //Your country 
-global.author = "ΒYƬΣSΞC-MĐ 𖠑" // sticker description
+global.author = "Alvin𖠑" // sticker description
 global.packname = "👓 MЯ.ЯӨBӨƬ "
 
 //⊱ ━━━━━.⋅ Version | Name | Links ⋅.━━━━ ⊰
