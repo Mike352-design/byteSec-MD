@@ -10297,6 +10297,32 @@
           "afkReason": ""
         }
       }
+    },
+    "154095138656344@lid": {
+      "counterPrivate": 0,
+      "afk": -1,
+      "afkReason": "",
+      "role": "",
+      "reporte": 0,
+      "name": "",
+      "antispam": 0,
+      "antispamlastclaim": 0,
+      "silenced": false,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "lbars": "[▒▒▒▒▒▒▒▒▒]",
+      "legendary": 0,
+      "level": 0,
+      "limit": 0,
+      "exp": 0,
+      "afkInfo": {
+        "120363218430350898@g.us": {
+          "afkTime": -2,
+          "number": "154095138656344@lid",
+          "afkReason": ""
+        }
+      }
     }
   },
   "chats": {
@@ -20943,6 +20969,24 @@
           "lastMessageTime": 1734001060515,
           "messageCount": null,
           "pontos": 0
+        },
+        "154095138656344@lid": {
+          "exp": 0,
+          "limit": 0,
+          "role": "⌥ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚔𝚒𝚍𝚍𝚒𝚎",
+          "money": 0,
+          "level": 0,
+          "adm": false,
+          "legendary": false,
+          "banned": false,
+          "adv": 0,
+          "tentativasRoubo": 5,
+          "silenced": false,
+          "maxlevel": false,
+          "cocriador": false,
+          "lastMessageTime": 1734140045350,
+          "messageCount": null,
+          "pontos": 0
         }
       },
       "isBanned": true,
@@ -20991,7 +21035,7 @@
       "except": false,
       "lastSentTime": 0,
       "name": "Cabeçudos 🫱🏻‍🫲🏿",
-      "totalMembros": 41,
+      "totalMembros": 42,
       "membros": [
         {
           "id": "554796646044@s.whatsapp.net",
@@ -21043,6 +21087,10 @@
         },
         {
           "id": "85573431734416@lid",
+          "admin": null
+        },
+        {
+          "id": "62972944711826@lid",
           "admin": null
         },
         {
@@ -21177,7 +21225,8 @@
         "554598527531@s.whatsapp.net": [],
         "88626935410882@lid": [],
         "259257396101238@lid": [],
-        "120363218430350898@g.us": []
+        "120363218430350898@g.us": [],
+        "154095138656344@lid": []
       },
       "firstTime": true,
       "antiCallGp": true,
